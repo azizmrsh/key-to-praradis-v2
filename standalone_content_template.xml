@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<standalone_content>
+  <!-- Metadata Section -->
+  <metadata>
+    <page_key><!-- e.g., general_diagnosis, educational_objectives --></page_key>
+    <page_type><!-- standalone, overview, educational --></page_type>
+    <title>
+      <english><!-- English title --></english>
+      <arabic><!-- Arabic title --></arabic>
+      <french><!-- French title --></french>
+    </title>
+    <description>
+      <english><!-- Brief description in English --></english>
+      <arabic><!-- وصف موجز باللغة العربية --></arabic>
+      <french><!-- Brève description en français --></french>
+    </description>
+    <author><!-- Staff member name --></author>
+    <date_created><!-- YYYY-MM-DD --></date_created>
+    <last_modified><!-- YYYY-MM-DD --></last_modified>
+    <status><!-- draft, review, approved, published --></status>
+    <menu_order><!-- Order in navigation menu --></menu_order>
+  </metadata>
+
+  <!-- Main Content Section -->
+  <content>
+    <english>
+      <introduction>
+        <![CDATA[
+        <!-- Introduction paragraph(s) in English -->
+        ]]>
+      </introduction>
+      
+      <main_sections>
+        <section id="1">
+          <title><!-- Section title --></title>
+          <content>
+            <![CDATA[
+            <!-- Main content of this section -->
+            ]]>
+          </content>
+          <subsections>
+            <subsection id="1.1">
+              <title><!-- Subsection title --></title>
+              <content>
+                <![CDATA[
+                <!-- Subsection content -->
+                ]]>
+              </content>
+            </subsection>
+            <!-- Add more subsections as needed -->
+          </subsections>
+        </section>
+        
+        <section id="2">
+          <title><!-- Another section title --></title>
+          <content>
+            <![CDATA[
+            <!-- Section content -->
+            ]]>
+          </content>
+        </section>
+        
+        <!-- Add more sections as needed -->
+      </main_sections>
+      
+      <conclusion>
+        <![CDATA[
+        <!-- Concluding thoughts/summary in English -->
+        ]]>
+      </conclusion>
+    </english>
+    
+    <arabic>
+      <introduction>
+        <![CDATA[
+        <!-- فقرة (فقرات) المقدمة باللغة العربية -->
+        ]]>
+      </introduction>
+      
+      <main_sections>
+        <section id="1">
+          <title><!-- عنوان القسم --></title>
+          <content>
+            <![CDATA[
+            <!-- المحتوى الرئيسي لهذا القسم -->
+            ]]>
+          </content>
+          <subsections>
+            <subsection id="1.1">
+              <title><!-- عنوان القسم الفرعي --></title>
+              <content>
+                <![CDATA[
+                <!-- محتوى القسم الفرعي -->
+                ]]>
+              </content>
+            </subsection>
+          </subsections>
+        </section>
+        
+        <section id="2">
+          <title><!-- عنوان قسم آخر --></title>
+          <content>
+            <![CDATA[
+            <!-- محتوى القسم -->
+            ]]>
+          </content>
+        </section>
+      </main_sections>
+      
+      <conclusion>
+        <![CDATA[
+        <!-- الأفكار الختامية/الملخص باللغة العربية -->
+        ]]>
+      </conclusion>
+    </arabic>
+    
+    <french>
+      <introduction>
+        <![CDATA[
+        <!-- Paragraphe(s) d'introduction en français -->
+        ]]>
+      </introduction>
+      
+      <main_sections>
+        <section id="1">
+          <title><!-- Titre de la section --></title>
+          <content>
+            <![CDATA[
+            <!-- Contenu principal de cette section -->
+            ]]>
+          </content>
+          <subsections>
+            <subsection id="1.1">
+              <title><!-- Titre de la sous-section --></title>
+              <content>
+                <![CDATA[
+                <!-- Contenu de la sous-section -->
+                ]]>
+              </content>
+            </subsection>
+          </subsections>
+        </section>
+        
+        <section id="2">
+          <title><!-- Titre d'une autre section --></title>
+          <content>
+            <![CDATA[
+            <!-- Contenu de la section -->
+            ]]>
+          </content>
+        </section>
+      </main_sections>
+      
+      <conclusion>
+        <![CDATA[
+        <!-- Réflexions finales/résumé en français -->
+        ]]>
+      </conclusion>
+    </french>
+  </content>
+
+  <!-- Supporting References Section -->
+  <references>
+    <quran_references>
+      <verse id="1">
+        <arabic_text>
+          <![CDATA[
+          <!-- Arabic verse -->
+          ]]>
+        </arabic_text>
+        <translation>
+          <english>
+            <![CDATA[
+            <!-- English translation -->
+            ]]>
+          </english>
+          <french>
+            <![CDATA[
+            <!-- French translation -->
+            ]]>
+          </french>
+        </translation>
+        <reference><!-- e.g., Quran 2:185 --></reference>
+        <context>
+          <![CDATA[
+          <!-- Why this verse is relevant to the page content -->
+          ]]>
+        </context>
+      </verse>
+    </quran_references>
+    
+    <hadith_references>
+      <hadith id="1">
+        <arabic_text>
+          <![CDATA[
+          <!-- Arabic hadith -->
+          ]]>
+        </arabic_text>
+        <translation>
+          <english>
+            <![CDATA[
+            <!-- English translation -->
+            ]]>
+          </english>
+          <french>
+            <![CDATA[
+            <!-- French translation -->
+            ]]>
+          </french>
+        </translation>
+        <reference><!-- e.g., Sahih Bukhari 1:2:8 --></reference>
+        <relevance>
+          <![CDATA[
+          <!-- How this hadith supports the page content -->
+          ]]>
+        </relevance>
+      </hadith>
+    </hadith_references>
+    
+    <scholar_references>
+      <reference id="1">
+        <scholar><!-- e.g., Imam Al-Ghazali --></scholar>
+        <work><!-- e.g., Ihya Ulum al-Din --></work>
+        <quote>
+          <original>
+            <![CDATA[
+            <!-- Original text in Arabic if available -->
+            ]]>
+          </original>
+          <translation>
+            <english>
+              <![CDATA[
+              <!-- English translation -->
+              ]]>
+            </english>
+            <french>
+              <![CDATA[
+              <!-- French translation -->
+              ]]>
+            </french>
+          </translation>
+        </quote>
+        <relevance>
+          <![CDATA[
+          <!-- Why this reference is important for this page -->
+          ]]>
+        </relevance>
+      </reference>
+    </scholar_references>
+  </references>
+
+  <!-- Navigation and Related Content -->
+  <navigation>
+    <previous_page>
+      <page_key><!-- Key of previous page in sequence --></page_key>
+      <title>
+        <english><!-- Previous page title --></english>
+        <arabic><!-- عنوان الصفحة السابقة --></arabic>
+        <french><!-- Titre de la page précédente --></french>
+      </title>
+    </previous_page>
+    
+    <next_page>
+      <page_key><!-- Key of next page in sequence --></page_key>
+      <title>
+        <english><!-- Next page title --></english>
+        <arabic><!-- عنوان الصفحة التالية --></arabic>
+        <french><!-- Titre de la page suivante --></french>
+      </title>
+    </next_page>
+    
+    <related_content>
+      <related_item id="1">
+        <type><!-- sin_category, subcategory, standalone_page --></type>
+        <key><!-- Reference key --></key>
+        <title>
+          <english><!-- Related content title --></english>
+          <arabic><!-- عنوان المحتوى ذي الصلة --></arabic>
+          <french><!-- Titre du contenu connexe --></french>
+        </title>
+        <relationship>
+          <![CDATA[
+          <!-- How this content relates to the current page -->
+          ]]>
+        </relationship>
+      </related_item>
+    </related_content>
+  </navigation>
+
+  <!-- Content Review Section -->
+  <review_notes>
+    <reviewer_comments>
+      <![CDATA[
+      <!-- Comments from content reviewers -->
+      ]]>
+    </reviewer_comments>
+    <approval_status><!-- draft, under_review, approved, needs_revision --></approval_status>
+    <approved_by><!-- Name of approver --></approved_by>
+    <approval_date><!-- YYYY-MM-DD --></approval_date>
+  </review_notes>
+</standalone_content>

@@ -1,0 +1,611 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sin_content>
+  <!-- Metadata Section -->
+  <metadata>
+    <category_key><!-- e.g., tongue, eyes, ears, pride, stomach, zina, heart --></category_key>
+    <subcategory_key><!-- e.g., tongue_lying, eyes_social_media, etc. --></subcategory_key>
+    <title>
+      <english><!-- English title --></english>
+      <arabic><!-- Arabic title --></arabic>
+      <french><!-- French title --></french>
+    </title>
+    <author><!-- Staff member name --></author>
+    <date_created><!-- YYYY-MM-DD --></date_created>
+    <last_modified><!-- YYYY-MM-DD --></last_modified>
+    <status><!-- draft, review, approved, published --></status>
+  </metadata>
+
+  <!-- 1. Definition Section -->
+  <definition>
+    <english>
+      <![CDATA[
+      <!-- Comprehensive definition of the sin in English -->
+      ]]>
+    </english>
+    <arabic>
+      <![CDATA[
+      <!-- تعريف شامل للخطيئة باللغة العربية -->
+      ]]>
+    </arabic>
+    <french>
+      <![CDATA[
+      <!-- Définition complète du péché en français -->
+      ]]>
+    </french>
+  </definition>
+
+  <!-- 2. Sharīʿah Evidence Section -->
+  <shariah_evidence>
+    <!-- 2.1 Quran Quotes -->
+    <quran_quotes>
+      <quote id="1">
+        <arabic_text>
+          <![CDATA[
+          <!-- Original Arabic verse -->
+          ]]>
+        </arabic_text>
+        <transliteration>
+          <![CDATA[
+          <!-- Romanized transliteration -->
+          ]]>
+        </transliteration>
+        <translations>
+          <english>
+            <![CDATA[
+            <!-- English translation -->
+            ]]>
+          </english>
+          <french>
+            <![CDATA[
+            <!-- French translation -->
+            ]]>
+          </french>
+        </translations>
+        <reference>
+          <surah_name><!-- e.g., Al-Baqarah --></surah_name>
+          <surah_number><!-- e.g., 2 --></surah_number>
+          <verse_number><!-- e.g., 188 --></verse_number>
+          <full_reference><!-- e.g., Quran 2:188 --></full_reference>
+        </reference>
+        <context>
+          <english>
+            <![CDATA[
+            <!-- Brief context explanation in English -->
+            ]]>
+          </english>
+          <arabic>
+            <![CDATA[
+            <!-- شرح موجز للسياق باللغة العربية -->
+            ]]>
+          </arabic>
+          <french>
+            <![CDATA[
+            <!-- Brève explication du contexte en français -->
+            ]]>
+          </french>
+        </context>
+      </quote>
+      
+      <!-- Additional Quran quotes can be added by copying the quote block -->
+      <quote id="2">
+        <!-- Second Quran quote following same structure -->
+      </quote>
+    </quran_quotes>
+
+    <!-- 2.2 Hadith Quotes -->
+    <hadith_quotes>
+      <hadith id="1">
+        <arabic_text>
+          <![CDATA[
+          <!-- Original Arabic hadith text -->
+          ]]>
+        </arabic_text>
+        <transliteration>
+          <![CDATA[
+          <!-- Romanized transliteration -->
+          ]]>
+        </transliteration>
+        <translations>
+          <english>
+            <![CDATA[
+            <!-- English translation -->
+            ]]>
+          </english>
+          <french>
+            <![CDATA[
+            <!-- French translation -->
+            ]]>
+          </french>
+        </translations>
+        <reference>
+          <collection><!-- e.g., Sahih Bukhari, Sahih Muslim, Tirmidhi, etc. --></collection>
+          <book><!-- e.g., Book of Faith, Book of Prayer --></book>
+          <chapter><!-- Chapter name if applicable --></chapter>
+          <hadith_number><!-- Hadith number --></hadith_number>
+          <full_reference><!-- e.g., Sahih Bukhari 1:2:8 --></full_reference>
+          <authenticity><!-- Sahih, Hasan, Da'if --></authenticity>
+        </reference>
+        <narrator><!-- Primary narrator/chain --></narrator>
+        <context>
+          <english>
+            <![CDATA[
+            <!-- Brief context explanation in English -->
+            ]]>
+          </english>
+          <arabic>
+            <![CDATA[
+            <!-- شرح موجز للسياق باللغة العربية -->
+            ]]>
+          </arabic>
+          <french>
+            <![CDATA[
+            <!-- Brève explication du contexte en français -->
+            ]]>
+          </french>
+        </context>
+      </hadith>
+      
+      <!-- Additional hadith can be added by copying the hadith block -->
+      <hadith id="2">
+        <!-- Second hadith following same structure -->
+      </hadith>
+    </hadith_quotes>
+  </shariah_evidence>
+
+  <!-- 3. Psychological / Behavioural Insights Section -->
+  <psychological_insights>
+    <english>
+      <insights>
+        <![CDATA[
+        <!-- Psychological analysis of the sin's impact on behavior, mindset, and spiritual state -->
+        <!-- Include modern psychological perspectives that align with Islamic understanding -->
+        <!-- Discuss triggers, patterns, and underlying causes -->
+        ]]>
+      </insights>
+      <behavioral_patterns>
+        <![CDATA[
+        <!-- Common behavioral patterns associated with this sin -->
+        <!-- How it manifests in daily life -->
+        <!-- Warning signs and escalation patterns -->
+        ]]>
+      </behavioral_patterns>
+      <spiritual_impact>
+        <![CDATA[
+        <!-- Impact on spiritual development and relationship with Allah -->
+        <!-- Effects on other aspects of faith and worship -->
+        ]]>
+      </spiritual_impact>
+    </english>
+    
+    <arabic>
+      <insights>
+        <![CDATA[
+        <!-- تحليل نفسي لتأثير الخطيئة على السلوك والعقلية والحالة الروحية -->
+        <!-- تشمل وجهات النظر النفسية الحديثة المتوافقة مع الفهم الإسلامي -->
+        <!-- مناقشة المحفزات والأنماط والأسباب الجذرية -->
+        ]]>
+      </insights>
+      <behavioral_patterns>
+        <![CDATA[
+        <!-- الأنماط السلوكية الشائعة المرتبطة بهذه الخطيئة -->
+        <!-- كيف تظهر في الحياة اليومية -->
+        <!-- علامات التحذير وأنماط التصعيد -->
+        ]]>
+      </behavioral_patterns>
+      <spiritual_impact>
+        <![CDATA[
+        <!-- التأثير على التطوير الروحي والعلاقة مع الله -->
+        <!-- التأثيرات على جوانب أخرى من الإيمان والعبادة -->
+        ]]>
+      </spiritual_impact>
+    </arabic>
+    
+    <french>
+      <insights>
+        <![CDATA[
+        <!-- Analyse psychologique de l'impact du péché sur le comportement, l'état d'esprit et l'état spirituel -->
+        <!-- Inclure les perspectives psychologiques modernes qui s'alignent avec la compréhension islamique -->
+        <!-- Discuter des déclencheurs, des modèles et des causes sous-jacentes -->
+        ]]>
+      </insights>
+      <behavioral_patterns>
+        <![CDATA[
+        <!-- Modèles comportementaux communs associés à ce péché -->
+        <!-- Comment cela se manifeste dans la vie quotidienne -->
+        <!-- Signes d'alerte et modèles d'escalade -->
+        ]]>
+      </behavioral_patterns>
+      <spiritual_impact>
+        <![CDATA[
+        <!-- Impact sur le développement spirituel et la relation avec Allah -->
+        <!-- Effets sur d'autres aspects de la foi et du culte -->
+        ]]>
+      </spiritual_impact>
+    </french>
+  </psychological_insights>
+
+  <!-- 4. Practical Steps to Control the Sin -->
+  <practical_steps>
+    <english>
+      <immediate_actions>
+        <step number="1">
+          <title><!-- Action title --></title>
+          <description>
+            <![CDATA[
+            <!-- Detailed description of immediate action to take -->
+            ]]>
+          </description>
+          <implementation>
+            <![CDATA[
+            <!-- How to implement this step practically -->
+            ]]>
+          </implementation>
+        </step>
+        
+        <step number="2">
+          <title><!-- Action title --></title>
+          <description>
+            <![CDATA[
+            <!-- Detailed description -->
+            ]]>
+          </description>
+          <implementation>
+            <![CDATA[
+            <!-- Implementation details -->
+            ]]>
+          </implementation>
+        </step>
+        
+        <!-- Add more steps as needed -->
+      </immediate_actions>
+      
+      <long_term_strategies>
+        <strategy number="1">
+          <title><!-- Strategy title --></title>
+          <description>
+            <![CDATA[
+            <!-- Long-term approach description -->
+            ]]>
+          </description>
+          <timeline><!-- e.g., 1-3 months, ongoing --></timeline>
+          <milestones>
+            <![CDATA[
+            <!-- Key milestones to track progress -->
+            ]]>
+          </milestones>
+        </strategy>
+        
+        <!-- Add more strategies as needed -->
+      </long_term_strategies>
+      
+      <environmental_changes>
+        <![CDATA[
+        <!-- Changes to environment, habits, social circles, etc. -->
+        ]]>
+      </environmental_changes>
+      
+      <accountability_measures>
+        <![CDATA[
+        <!-- Ways to maintain accountability and track progress -->
+        ]]>
+      </accountability_measures>
+    </english>
+    
+    <arabic>
+      <immediate_actions>
+        <step number="1">
+          <title><!-- عنوان الإجراء --></title>
+          <description>
+            <![CDATA[
+            <!-- وصف مفصل للإجراء الفوري المطلوب اتخاذه -->
+            ]]>
+          </description>
+          <implementation>
+            <![CDATA[
+            <!-- كيفية تنفيذ هذه الخطوة عمليًا -->
+            ]]>
+          </implementation>
+        </step>
+        
+        <!-- إضافة المزيد من الخطوات حسب الحاجة -->
+      </immediate_actions>
+      
+      <long_term_strategies>
+        <strategy number="1">
+          <title><!-- عنوان الاستراتيجية --></title>
+          <description>
+            <![CDATA[
+            <!-- وصف النهج طويل المدى -->
+            ]]>
+          </description>
+          <timeline><!-- مثل: 1-3 أشهر، مستمر --></timeline>
+          <milestones>
+            <![CDATA[
+            <!-- المعالم الرئيسية لتتبع التقدم -->
+            ]]>
+          </milestones>
+        </strategy>
+      </long_term_strategies>
+      
+      <environmental_changes>
+        <![CDATA[
+        <!-- تغييرات في البيئة والعادات والدوائر الاجتماعية، إلخ -->
+        ]]>
+      </environmental_changes>
+      
+      <accountability_measures>
+        <![CDATA[
+        <!-- طرق الحفاظ على المساءلة وتتبع التقدم -->
+        ]]>
+      </accountability_measures>
+    </arabic>
+    
+    <french>
+      <immediate_actions>
+        <step number="1">
+          <title><!-- Titre de l'action --></title>
+          <description>
+            <![CDATA[
+            <!-- Description détaillée de l'action immédiate à prendre -->
+            ]]>
+          </description>
+          <implementation>
+            <![CDATA[
+            <!-- Comment mettre en œuvre cette étape pratiquement -->
+            ]]>
+          </implementation>
+        </step>
+        
+        <!-- Ajouter plus d'étapes selon les besoins -->
+      </immediate_actions>
+      
+      <long_term_strategies>
+        <strategy number="1">
+          <title><!-- Titre de la stratégie --></title>
+          <description>
+            <![CDATA[
+            <!-- Description de l'approche à long terme -->
+            ]]>
+          </description>
+          <timeline><!-- par exemple : 1-3 mois, en cours --></timeline>
+          <milestones>
+            <![CDATA[
+            <!-- Jalons clés pour suivre les progrès -->
+            ]]>
+          </milestones>
+        </strategy>
+      </long_term_strategies>
+      
+      <environmental_changes>
+        <![CDATA[
+        <!-- Changements d'environnement, d'habitudes, de cercles sociaux, etc. -->
+        ]]>
+      </environmental_changes>
+      
+      <accountability_measures>
+        <![CDATA[
+        <!-- Moyens de maintenir la responsabilité et de suivre les progrès -->
+        ]]>
+      </accountability_measures>
+    </french>
+  </practical_steps>
+
+  <!-- 5. Supplication and Remembrance Section -->
+  <supplications>
+    <duas>
+      <dua id="1">
+        <arabic_text>
+          <![CDATA[
+          <!-- Original Arabic du'a text -->
+          ]]>
+        </arabic_text>
+        <transliteration>
+          <![CDATA[
+          <!-- Romanized transliteration -->
+          ]]>
+        </transliteration>
+        <translations>
+          <english>
+            <![CDATA[
+            <!-- English translation -->
+            ]]>
+          </english>
+          <french>
+            <![CDATA[
+            <!-- French translation -->
+            ]]>
+          </french>
+        </translations>
+        <source>
+          <![CDATA[
+          <!-- Source: Quran, Hadith, or authentic Islamic literature -->
+          ]]>
+        </source>
+        <occasion>
+          <![CDATA[
+          <!-- When to recite this du'a (e.g., when tempted, after committing sin, daily) -->
+          ]]>
+        </occasion>
+        <benefits>
+          <english>
+            <![CDATA[
+            <!-- Spiritual benefits and effects of this du'a -->
+            ]]>
+          </english>
+          <arabic>
+            <![CDATA[
+            <!-- الفوائد الروحية وآثار هذا الدعاء -->
+            ]]>
+          </arabic>
+          <french>
+            <![CDATA[
+            <!-- Avantages spirituels et effets de cette du'a -->
+            ]]>
+          </french>
+        </benefits>
+      </dua>
+      
+      <!-- Additional du'as can be added -->
+      <dua id="2">
+        <!-- Second du'a following same structure -->
+      </dua>
+    </duas>
+    
+    <dhikr>
+      <remembrance id="1">
+        <arabic_text>
+          <![CDATA[
+          <!-- Arabic dhikr text -->
+          ]]>
+        </arabic_text>
+        <transliteration>
+          <![CDATA[
+          <!-- Romanized transliteration -->
+          ]]>
+        </transliteration>
+        <translations>
+          <english>
+            <![CDATA[
+            <!-- English meaning -->
+            ]]>
+          </english>
+          <french>
+            <![CDATA[
+            <!-- French meaning -->
+            ]]>
+          </french>
+        </translations>
+        <repetitions><!-- Number of times to repeat --></repetitions>
+        <timing>
+          <![CDATA[
+          <!-- Best times to perform this dhikr -->
+          ]]>
+        </timing>
+        <spiritual_benefit>
+          <english>
+            <![CDATA[
+            <!-- Spiritual benefits in English -->
+            ]]>
+          </english>
+          <arabic>
+            <![CDATA[
+            <!-- الفوائد الروحية باللغة العربية -->
+            ]]>
+          </arabic>
+          <french>
+            <![CDATA[
+            <!-- Avantages spirituels en français -->
+            ]]>
+          </french>
+        </spiritual_benefit>
+      </remembrance>
+      
+      <!-- Additional dhikr can be added -->
+    </dhikr>
+    
+    <protective_verses>
+      <verse id="1">
+        <name>
+          <english><!-- e.g., Ayat al-Kursi --></english>
+          <arabic><!-- e.g., آية الكرسي --></arabic>
+          <french><!-- e.g., Verset du Trône --></french>
+        </name>
+        <arabic_text>
+          <![CDATA[
+          <!-- Complete Arabic verse -->
+          ]]>
+        </arabic_text>
+        <reference>
+          <![CDATA[
+          <!-- Quran reference -->
+          ]]>
+        </reference>
+        <protection_against>
+          <english>
+            <![CDATA[
+            <!-- What this verse protects against -->
+            ]]>
+          </english>
+          <arabic>
+            <![CDATA[
+            <!-- ما تحمي منه هذه الآية -->
+            ]]>
+          </arabic>
+          <french>
+            <![CDATA[
+            <!-- Ce contre quoi ce verset protège -->
+            ]]>
+          </french>
+        </protection_against>
+      </verse>
+    </protective_verses>
+  </supplications>
+
+  <!-- Additional Resources Section -->
+  <additional_resources>
+    <recommended_reading>
+      <book id="1">
+        <title><!-- Book title --></title>
+        <author><!-- Author name --></author>
+        <relevance>
+          <![CDATA[
+          <!-- How this book relates to the specific sin -->
+          ]]>
+        </relevance>
+        <language><!-- English, Arabic, French --></language>
+      </book>
+      
+      <!-- Add more books as needed -->
+    </recommended_reading>
+    
+    <related_sins>
+      <sin><!-- Reference to related sin subcategory key --></sin>
+      <sin><!-- Another related sin --></sin>
+    </related_sins>
+    
+    <scholar_quotes>
+      <quote id="1">
+        <scholar_name><!-- e.g., Imam Al-Ghazali, Ibn Qayyim --></scholar_name>
+        <arabic_text>
+          <![CDATA[
+          <!-- Original Arabic quote if available -->
+          ]]>
+        </arabic_text>
+        <translation>
+          <english>
+            <![CDATA[
+            <!-- English translation -->
+            ]]>
+          </english>
+          <french>
+            <![CDATA[
+            <!-- French translation -->
+            ]]>
+          </french>
+        </translation>
+        <source>
+          <![CDATA[
+          <!-- Book/work source -->
+          ]]>
+        </source>
+        <relevance>
+          <![CDATA[
+          <!-- Why this quote is relevant to this sin -->
+          ]]>
+        </relevance>
+      </quote>
+    </scholar_quotes>
+  </additional_resources>
+
+  <!-- Content Review Section -->
+  <review_notes>
+    <reviewer_comments>
+      <![CDATA[
+      <!-- Comments from content reviewers -->
+      ]]>
+    </reviewer_comments>
+    <approval_status><!-- draft, under_review, approved, needs_revision --></approval_status>
+    <approved_by><!-- Name of approver --></approved_by>
+    <approval_date><!-- YYYY-MM-DD --></approval_date>
+  </review_notes>
+</sin_content>

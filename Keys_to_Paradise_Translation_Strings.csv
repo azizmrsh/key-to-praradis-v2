@@ -1,0 +1,221 @@
+Category,Key,English,Arabic,French,Context/Description
+Common,loading,Loading...,جارٍ التحميل...,Chargement...,General loading message
+Common,error,Error,خطأ,Erreur,Generic error message
+Common,success,Success,نجح,Succès,Success confirmation
+Common,save,Save,حفظ,Enregistrer,Save button
+Common,cancel,Cancel,إلغاء,Annuler,Cancel button
+Common,delete,Delete,حذف,Supprimer,Delete button
+Common,edit,Edit,تعديل,Modifier,Edit button
+Common,add,Add,إضافة,Ajouter,Add button
+Common,back,Back,رجوع,Retour,Back navigation
+Common,next,Next,التالي,Suivant,Next button
+Common,previous,Previous,السابق,Précédent,Previous button
+Common,continue,Continue,متابعة,Continuer,Continue button
+Common,finish,Finish,إنهاء,Terminer,Finish button
+Common,close,Close,إغلاق,Fermer,Close button
+Common,yes,Yes,نعم,Oui,Confirmation yes
+Common,no,No,لا,Non,Confirmation no
+Common,confirm,Confirm,تأكيد,Confirmer,Confirm action
+Navigation,dashboard,Dashboard,لوحة التحكم,Tableau de bord,Main dashboard tab
+Navigation,assessment,Assessment,التقييم,Évaluation,Self-assessment tab
+Navigation,challenges,Challenges,التحديات,Défis,Challenges tab
+Navigation,content,Content,المحتوى,Contenu,Content tab
+Navigation,profile,Profile,الملف الشخصي,Profil,Profile tab
+Navigation,settings,Settings,الإعدادات,Paramètres,Settings tab
+Navigation,sos,SOS,SOS,SOS,Emergency support tab
+Navigation,goals,Goals,الأهداف,Objectifs,Goals tab
+Dashboard,title,Spiritual Journey Dashboard,لوحة الرحلة الروحية,Tableau de bord du voyage spirituel,Main dashboard title
+Dashboard,welcomeBack,Welcome back,أهلاً بعودتك,Bon retour,Welcome message
+Dashboard,todaysProgress,Today's Progress,تقدم اليوم,Progrès d'aujourd'hui,Today's progress section
+Dashboard,activeChallenges,Active Challenges,التحديات النشطة,Défis actifs,Active challenges section
+Dashboard,recentLessons,Recent Lessons,الدروس الأخيرة,Leçons récentes,Recent lessons section
+Dashboard,spiritualGoals,Spiritual Goals,الأهداف الروحية,Objectifs spirituels,Spiritual goals section
+Dashboard,quickActions,Quick Actions,الإجراءات السريعة,Actions rapides,Quick actions section
+Dashboard,emergencySupport,Emergency Support,الدعم الطارئ,Support d'urgence,Emergency support section
+Assessment,title,Self Assessment,التقييم الذاتي,Auto-évaluation,Self-assessment page title
+Assessment,welcome,Welcome to Your Spiritual Assessment,مرحباً بك في تقييمك الروحي,Bienvenue à votre évaluation spirituelle,Assessment welcome message
+Assessment,description,This assessment will help identify areas for spiritual growth,سيساعدك هذا التقييم في تحديد مجالات النمو الروحي,Cette évaluation aidera à identifier les domaines de croissance spirituelle,Assessment description
+Assessment,startAssessment,Start Assessment,بدء التقييم,Commencer l'évaluation,Start assessment button
+Assessment,takeFullAssessment,Take Full Assessment,أخذ التقييم الكامل,Passer l'évaluation complète,Full assessment option
+Assessment,selectSpecificArea,Select Specific Area,اختيار مجال محدد,Sélectionner un domaine spécifique,Specific area selection
+Assessment,question,Question {{number}} of {{total}},السؤال {{number}} من {{total}},Question {{number}} sur {{total}},Question counter format
+Assessment,never,Never,أبداً,Jamais,Scale option: never
+Assessment,rarely,Rarely,نادراً,Rarement,Scale option: rarely
+Assessment,sometimes,Sometimes,أحياناً,Parfois,Scale option: sometimes
+Assessment,often,Often,غالباً,Souvent,Scale option: often
+Assessment,always,Always,دائماً,Toujours,Scale option: always
+Assessment,resultsTitle,Your Assessment Results,نتائج تقييمك,Vos résultats d'évaluation,Results page title
+Assessment,primaryArea,Primary Area for Focus,المجال الأساسي للتركيز,Domaine principal de concentration,Primary focus area
+Assessment,secondaryArea,Secondary Area for Focus,المجال الثانوي للتركيز,Domaine secondaire de concentration,Secondary focus area
+Assessment,setGoals,Set Your Goals,حدد أهدافك,Définir vos objectifs,Set goals button
+Assessment,startJourney,Start Your Journey,ابدأ رحلتك,Commencer votre voyage,Start journey button
+Challenges,title,Challenges,التحديات,Défis,Challenges page title
+Challenges,description,"Challenges are time-bound spiritual tasks designed to help you build discipline and overcome specific sins. Choose from daily, 7-day, or 40-day challenges, and track your consistency as you grow.",التحديات هي مهام روحية محددة بوقت مصممة لمساعدتك في بناء الانضباط والتغلب على ذنوب محددة. اختر من التحديات اليومية أو 7 أيام أو 40 يوماً وتتبع ثباتك أثناء نموك.,"Les défis sont des tâches spirituelles limitées dans le temps conçues pour vous aider à développer la discipline et à surmonter des péchés spécifiques. Choisissez parmi les défis quotidiens, de 7 jours ou de 40 jours, et suivez votre constance au fur et à mesure que vous grandissez.",Challenges page description
+Challenges,active,Active Challenges,التحديات النشطة,Défis actifs,Active challenges tab
+Challenges,completed,Completed,مكتملة,Terminés,Completed challenges tab
+Challenges,abandoned,Abandoned,متروكة,Abandonnés,Abandoned challenges tab
+Challenges,history,Challenge History,تاريخ التحديات,Historique des défis,Challenge history section
+Challenges,selectNew,Select New Challenge,اختيار تحدي جديد,Sélectionner un nouveau défi,Select new challenge button
+Challenges,logSuccess,Log Success,تسجيل نجاح,Enregistrer le succès,Log success button
+Challenges,logIssue,Log Issue,تسجيل مشكلة,Enregistrer un problème,Log issue button
+Challenges,abandon,Abandon,ترك,Abandonner,Abandon challenge button
+Challenges,viewDetails,View Details,عرض التفاصيل,Voir les détails,View details button
+Challenges,progress,Progress,التقدم,Progrès,Progress label
+Challenges,streak,Streak,الشريط,Série,Streak label
+Challenges,microType,Micro Challenge (1 Day),تحدي صغير (يوم واحد),Micro défi (1 jour),Micro challenge type
+Challenges,habitType,Habit Challenge (7-40 Days),تحدي عادة (7-40 يوم),Défi d'habitude (7-40 jours),Habit challenge type
+Challenges,seasonalType,Seasonal Challenge,تحدي موسمي,Défi saisonnier,Seasonal challenge type
+Challenges,activeStatus,Active,نشط,Actif,Active status
+Challenges,completedStatus,Completed,مكتمل,Terminé,Completed status
+Challenges,abandonedStatus,Abandoned,متروك,Abandonné,Abandoned status
+Challenges,failedStatus,Failed,فاشل,Échoué,Failed status
+Challenges,successLogged,Success recorded!,تم تسجيل النجاح!,Succès enregistré !,Success logged message
+Challenges,issueLogged,Issue logged,تم تسجيل المشكلة,Problème enregistré,Issue logged message
+Challenges,challengeCompleted,🎉 Challenge Completed!,🎉 تم إكمال التحدي!,🎉 Défi terminé !,Challenge completion message
+Challenges,oneDayCompleted,🎉 1-Day Challenge Completed!,🎉 تم إكمال تحدي يوم واحد!,🎉 Défi d'un jour terminé !,One day challenge completion
+Challenges,challengeAbandoned,Challenge abandoned,تم ترك التحدي,Défi abandonné,Challenge abandoned message
+Challenges,progressMessage,Great progress! Keep up the momentum on your spiritual journey.,تقدم رائع! حافظ على الزخم في رحلتك الروحية.,Excellent progrès ! Continuez cet élan dans votre voyage spirituel.,Progress encouragement message
+Challenges,growthMessage,"Remember, every challenge is a chance to grow stronger. Keep going!","تذكر، كل تحدي هو فرصة لتصبح أقوى. استمر!","Rappelez-vous, chaque défi est une chance de devenir plus fort. Continuez !",Growth encouragement message
+Goals,title,Spiritual Goals,الأهداف الروحية,Objectifs spirituels,Goals page title
+Goals,description,"Goals are personalised commitments linked to your selected sin focus. Set targets for reflection, behaviour, or growth and track your spiritual journey at your own pace.",الأهداف هي التزامات شخصية مرتبطة بتركيزك على الذنب المختار. ضع أهدافاً للتأمل أو السلوك أو النمو وتتبع رحلتك الروحية وفق وتيرتك الخاصة.,"Les objectifs sont des engagements personnalisés liés à votre concentration sur le péché sélectionné. Définissez des cibles pour la réflexion, le comportement ou la croissance et suivez votre voyage spirituel à votre propre rythme.",Goals page description
+Goals,set,Set Goal,تحديد هدف,Définir un objectif,Set goal button
+Goals,edit,Edit Goal,تعديل الهدف,Modifier l'objectif,Edit goal button
+Goals,delete,Delete Goal,حذف الهدف,Supprimer l'objectif,Delete goal button
+Goals,complete,Complete Goal,إكمال الهدف,Terminer l'objectif,Complete goal button
+Goals,progress,Goal Progress,تقدم الهدف,Progrès de l'objectif,Goal progress label
+Goals,contentType,Content Reflection,تأمل المحتوى,Réflexion sur le contenu,Content reflection goal type
+Goals,behavioralType,Behavioral Streak,شريط سلوكي,Série comportementale,Behavioral streak goal type
+Goals,reflectionType,Reflection,تأمل,Réflexion,Reflection goal type
+Goals,spiritualType,Spiritual Growth,النمو الروحي,Croissance spirituelle,Spiritual growth goal type
+Content,title,Spiritual Content,المحتوى الروحي,Contenu spirituel,Content page title
+Content,lessons,Lessons,الدروس,Leçons,Lessons section
+Content,videos,Videos,الفيديوهات,Vidéos,Videos section
+Content,audio,Audio,الصوتيات,Audio,Audio section
+Content,articles,Articles,المقالات,Articles,Articles section
+Content,categories,Categories,الفئات,Catégories,Categories section
+Content,progress,Progress,التقدم,Progrès,Progress label
+Content,continue,Continue Learning,متابعة التعلم,Continuer l'apprentissage,Continue learning button
+Content,startLesson,Start Lesson,بدء الدرس,Commencer la leçon,Start lesson button
+Content,completeLesson,Complete Lesson,إكمال الدرس,Terminer la leçon,Complete lesson button
+Content,reflection,Reflection,التأمل,Réflexion,Reflection section
+Content,keyPoints,Key Points,النقاط الرئيسية,Points clés,Key points section
+Content,practicalSteps,Practical Steps,الخطوات العملية,Étapes pratiques,Practical steps section
+Profile,title,Profile,الملف الشخصي,Profil,Profile page title
+Profile,userInfo,User Information,معلومات المستخدم,Informations utilisateur,User information section
+Profile,preferences,Preferences,التفضيلات,Préférences,Preferences section
+Profile,language,Language,اللغة,Langue,Language setting
+Profile,theme,Theme,السمة,Thème,Theme setting
+Profile,notifications,Notifications,الإشعارات,Notifications,Notifications setting
+Profile,progress,Progress Overview,نظرة عامة على التقدم,Aperçu des progrès,Progress overview section
+Profile,achievements,Achievements,الإنجازات,Réalisations,Achievements section
+Profile,statistics,Statistics,الإحصائيات,Statistiques,Statistics section
+Profile,streak,Current Streak,الشريط الحالي,Série actuelle,Current streak label
+Profile,totalDays,Total Active Days,إجمالي الأيام النشطة,Total des jours actifs,Total active days label
+Profile,completedLessons,Completed Lessons,الدروس المكتملة,Leçons terminées,Completed lessons label
+Profile,activeChallenges,Active Challenges,التحديات النشطة,Défis actifs,Active challenges label
+SinCategories,tongue,Tongue,اللسان,Langue,Tongue/speech category
+SinCategories,tongueDesc,Speech and communication sins,ذنوب الكلام والتواصل,Péchés de parole et de communication,Tongue category description
+SinCategories,eyes,Eyes,العيون,Yeux,Eyes/vision category
+SinCategories,eyesDesc,Vision and gaze related sins,الذنوب المتعلقة بالرؤية والنظر,Péchés liés à la vision et au regard,Eyes category description
+SinCategories,ears,Ears,الأذنان,Oreilles,Ears/hearing category
+SinCategories,earsDesc,Listening and hearing related sins,الذنوب المتعلقة بالاستماع والسمع,Péchés liés à l'écoute et à l'ouïe,Ears category description
+SinCategories,heart,Heart,القلب,Cœur,Heart/internal state category
+SinCategories,heartDesc,Internal spiritual state and intentions,الحالة الروحية الداخلية والنوايا,État spirituel interne et intentions,Heart category description
+SinCategories,pride,Pride,الكبرياء,Orgueil,Pride/arrogance category
+SinCategories,prideDesc,Arrogance and ego-related sins,ذنوب الغطرسة والأنا,Péchés liés à l'arrogance et à l'ego,Pride category description
+SinCategories,stomach,Stomach,المعدة,Estomac,Stomach/consumption category
+SinCategories,stomachDesc,Food and consumption related sins,ذنوب الطعام والاستهلاك,Péchés liés à la nourriture et à la consommation,Stomach category description
+SinCategories,zina,Zina,الزنا,Zina,Zina/chastity category
+SinCategories,zinaDesc,Chastity and purity related matters,أمور العفة والطهارة,Questions liées à la chasteté et à la pureté,Zina category description
+SOS,title,SOS - Emergency Support,SOS - الدعم الطارئ,SOS - Support d'urgence,SOS page title
+SOS,description,When you need immediate spiritual support,عندما تحتاج دعماً روحياً فورياً,Quand vous avez besoin d'un soutien spirituel immédiat,SOS page description
+SOS,dhikr,Dhikr,الذكر,Dhikr,Dhikr option
+SOS,prayers,Emergency Prayers,صلوات الطوارئ,Prières d'urgence,Emergency prayers option
+SOS,reminders,Spiritual Reminders,التذكيرات الروحية,Rappels spirituels,Spiritual reminders option
+SOS,contact,Contact Support,الاتصال بالدعم,Contacter le support,Contact support option
+SOS,breathing,Breathing Exercise,تمرين التنفس,Exercice de respiration,Breathing exercise option
+SOS,guidance,Immediate Guidance,الإرشاد الفوري,Guidance immédiate,Immediate guidance option
+Settings,title,Settings,الإعدادات,Paramètres,Settings page title
+Settings,language,Language,اللغة,Langue,Language setting
+Settings,theme,Theme,السمة,Thème,Theme setting
+Settings,notifications,Notifications,الإشعارات,Notifications,Notifications setting
+Settings,privacy,Privacy,الخصوصية,Confidentialité,Privacy setting
+Settings,about,About,حول,À propos,About section
+Settings,help,Help,المساعدة,Aide,Help section
+Settings,resetData,Reset Data,إعادة تعيين البيانات,Réinitialiser les données,Reset data option
+Settings,exportData,Export Data,تصدير البيانات,Exporter les données,Export data option
+Notifications,prayerTime,Prayer time reminder,تذكير وقت الصلاة,Rappel de l'heure de prière,Prayer time notification
+Notifications,challengeReminder,Challenge reminder,تذكير التحدي,Rappel de défi,Challenge reminder notification
+Notifications,goalReminder,Goal reminder,تذكير الهدف,Rappel d'objectif,Goal reminder notification
+Notifications,lessonAvailable,New lesson available,درس جديد متاح,Nouvelle leçon disponible,New lesson notification
+Notifications,streakMaintenance,Maintain your streak,حافظ على شريطك,Maintenez votre série,Streak maintenance notification
+Prayers,fajr,Fajr,الفجر,Fajr,Fajr prayer
+Prayers,sunrise,Sunrise,الشروق,Lever du soleil,Sunrise time
+Prayers,dhuhr,Dhuhr,الظهر,Dhuhr,Dhuhr prayer
+Prayers,asr,Asr,العصر,Asr,Asr prayer
+Prayers,maghrib,Maghrib,المغرب,Maghrib,Maghrib prayer
+Prayers,isha,Isha,العشاء,Isha,Isha prayer
+Prayers,prayerTimes,Prayer Times,أوقات الصلاة,Heures de prière,Prayer times widget title
+Prayers,currentPrayer,Current Prayer,الصلاة الحالية,Prière actuelle,Current prayer label
+Prayers,nextPrayer,Next Prayer,الصلاة التالية,Prochaine prière,Next prayer label
+Prayers,markPrayed,Mark as Prayed,تمييز كمصلّى,Marquer comme prié,Mark as prayed button
+Prayers,onTime,On Time,في الوقت,À l'heure,On time status
+Prayers,late,Late,متأخر,En retard,Late status
+Prayers,missed,Missed,فائت,Manqué,Missed status
+Prayer,dailyStreak,Daily Prayer Streak,شريط الصلاة اليومي,Série de prières quotidiennes,Daily prayer streak label
+Prayer,weeklyStreak,Weekly Prayer Streak,شريط الصلاة الأسبوعي,Série de prières hebdomadaires,Weekly prayer streak label
+Prayer,monthlyStreak,Monthly Prayer Streak,شريط الصلاة الشهري,Série de prières mensuelles,Monthly prayer streak label
+Prayer,totalPrayers,Total Prayers,إجمالي الصلوات,Total des prières,Total prayers count
+Prayer,onTimePrayers,On-Time Prayers,الصلوات في الوقت,Prières à l'heure,On-time prayers count
+Prayer,prayerStats,Prayer Statistics,إحصائيات الصلاة,Statistiques de prière,Prayer statistics title
+Prayer,consistency,Prayer Consistency,ثبات الصلاة,Constance de prière,Prayer consistency label
+Gamification,badge,Badge,شارة,Badge,Badge label
+Gamification,achievement,Achievement,إنجاز,Réalisation,Achievement label
+Gamification,level,Level,مستوى,Niveau,Level label
+Gamification,points,Points,نقاط,Points,Points label
+Gamification,unlock,Unlock,فتح,Débloquer,Unlock action
+Gamification,earned,Earned,مكتسب,Gagné,Earned status
+Gamification,progress,Progress,التقدم,Progrès,Progress label
+Gamification,milestone,Milestone,إنجاز مهم,Jalon,Milestone label
+Gamification,reward,Reward,مكافأة,Récompense,Reward label
+Gamification,congratulations,Congratulations!,تهانينا!,Félicitations !,Congratulations message
+Time,today,Today,اليوم,Aujourd'hui,Today label
+Time,yesterday,Yesterday,أمس,Hier,Yesterday label
+Time,tomorrow,Tomorrow,غداً,Demain,Tomorrow label
+Time,thisWeek,This Week,هذا الأسبوع,Cette semaine,This week label
+Time,thisMonth,This Month,هذا الشهر,Ce mois,This month label
+Time,days,Days,أيام,Jours,Days plural
+Time,hours,Hours,ساعات,Heures,Hours plural
+Time,minutes,Minutes,دقائق,Minutes,Minutes plural
+Time,seconds,Seconds,ثوانٍ,Secondes,Seconds plural
+Status,active,Active,نشط,Actif,Active status
+Status,inactive,Inactive,غير نشط,Inactif,Inactive status
+Status,pending,Pending,معلق,En attente,Pending status
+Status,completed,Completed,مكتمل,Terminé,Completed status
+Status,inProgress,In Progress,قيد التنفيذ,En cours,In progress status
+Status,failed,Failed,فاشل,Échoué,Failed status
+Status,paused,Paused,متوقف,En pause,Paused status
+Actions,start,Start,بدء,Commencer,Start action
+Actions,stop,Stop,توقف,Arrêter,Stop action
+Actions,pause,Pause,إيقاف مؤقت,Pause,Pause action
+Actions,resume,Resume,استئناف,Reprendre,Resume action
+Actions,restart,Restart,إعادة تشغيل,Redémarrer,Restart action
+Actions,reset,Reset,إعادة تعيين,Réinitialiser,Reset action
+Actions,update,Update,تحديث,Mettre à jour,Update action
+Actions,refresh,Refresh,تحديث,Actualiser,Refresh action
+Actions,sync,Sync,مزامنة,Synchroniser,Sync action
+Actions,share,Share,مشاركة,Partager,Share action
+Actions,export,Export,تصدير,Exporter,Export action
+Actions,import,Import,استيراد,Importer,Import action
+Messages,welcome,Welcome to Keys to Paradise,مرحباً بك في مفاتيح الجنة,Bienvenue aux Clés du Paradis,Welcome message
+Messages,thankYou,Thank you for your dedication to spiritual growth,شكراً لك على تفانيك في النمو الروحي,Merci pour votre dévouement à la croissance spirituelle,Thank you message
+Messages,keepGoing,Keep going on your spiritual journey,استمر في رحلتك الروحية,Continuez votre voyage spirituel,Encouragement message
+Messages,wellDone,Well done!,أحسنت!,Bien joué !,Well done message
+Messages,almostThere,You're almost there!,أنت على وشك الوصول!,Vous y êtes presque !,Almost there message
+Messages,goalReached,Goal reached!,تم الوصول للهدف!,Objectif atteint !,Goal reached message
+Messages,newRecord,New record!,رقم قياسي جديد!,Nouveau record !,New record message
+Messages,streakBroken,Streak broken,انقطع الشريط,Série brisée,Streak broken message
+Messages,streakContinues,Streak continues,الشريط مستمر,La série continue,Streak continues message
+Messages,dailyGoalMet,Daily goal met,تم تحقيق الهدف اليومي,Objectif quotidien atteint,Daily goal met message
+Messages,weeklyGoalMet,Weekly goal met,تم تحقيق الهدف الأسبوعي,Objectif hebdomadaire atteint,Weekly goal met message
+Messages,monthlyGoalMet,Monthly goal met,تم تحقيق الهدف الشهري,Objectif mensuel atteint,Monthly goal met message

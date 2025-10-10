@@ -1,0 +1,76 @@
+Category,Category_ID,Category_Description,Subcategory,Subcategory_ID,Content_Type,Status
+Tongue,tongue,"Speech & Communication - Words that harm others through lying, backbiting, slander, mockery, or inappropriate speech",Lying,tongue_lying,Assessment,Active
+Tongue,tongue,"Speech & Communication - Words that harm others through lying, backbiting, slander, mockery, or inappropriate speech",Backbiting,tongue_backbiting,Assessment,Active
+Tongue,tongue,"Speech & Communication - Words that harm others through lying, backbiting, slander, mockery, or inappropriate speech",Mockery,tongue_mockery,Assessment,Active
+Tongue,tongue,"Speech & Communication - Words that harm others through lying, backbiting, slander, mockery, or inappropriate speech",Arguments,tongue_arguments,Assessment,Active
+Tongue,tongue,"Speech & Communication - Words that harm others through lying, backbiting, slander, mockery, or inappropriate speech",Negative Speech,tongue_negative_speech,Assessment,Active
+Tongue,tongue,"Speech & Communication - Words that harm others through lying, backbiting, slander, mockery, or inappropriate speech",Insincerity,tongue_insincerity,Assessment,Active
+Tongue,tongue,"Speech & Communication - Words that harm others through lying, backbiting, slander, mockery, or inappropriate speech",Betraying Confidence,tongue_betraying_confidence,Assessment,Active
+Tongue,tongue,"Speech & Communication - Words that harm others through lying, backbiting, slander, mockery, or inappropriate speech",Excessive Speech,tongue_excessive_speech,Assessment,Active
+Tongue,tongue,"Speech & Communication - Words that harm others through lying, backbiting, slander, mockery, or inappropriate speech",Inappropriate Humor,tongue_inappropriate_humor,Assessment,Active
+Tongue,tongue,"Speech & Communication - Words that harm others through lying, backbiting, slander, mockery, or inappropriate speech",Dominating Speech,tongue_dominating_speech,Assessment,Active
+Tongue,tongue,"Speech & Communication - Words that harm others through lying, backbiting, slander, mockery, or inappropriate speech",Habitual Lying,tongue_habitual_lying,Assessment,Active
+Tongue,tongue,"Speech & Communication - Words that harm others through lying, backbiting, slander, mockery, or inappropriate speech",Impulsive Speech,tongue_impulsive_speech,Assessment,Active
+Tongue,tongue,"Speech & Communication - Words that harm others through lying, backbiting, slander, mockery, or inappropriate speech",Harsh Speech,tongue_harsh_speech,Assessment,Active
+Tongue,tongue,"Speech & Communication - Words that harm others through lying, backbiting, slander, mockery, or inappropriate speech",Thoughtless Speech,tongue_thoughtless_speech,Assessment,Active
+Tongue,tongue,"Speech & Communication - Words that harm others through lying, backbiting, slander, mockery, or inappropriate speech",Manipulative Speech,tongue_manipulative_speech,Assessment,Active
+Eyes,eyes,"Visual Conduct - Looking at what is forbidden, inappropriate visual content, and the envy that can develop through sight",Forbidden Content,eyes_forbidden_content,Assessment,Active
+Eyes,eyes,"Visual Conduct - Looking at what is forbidden, inappropriate visual content, and the envy that can develop through sight",Inappropriate Visual Material,eyes_inappropriate_visual,Assessment,Active
+Eyes,eyes,"Visual Conduct - Looking at what is forbidden, inappropriate visual content, and the envy that can develop through sight",Envy Through Sight,eyes_envy_sight,Assessment,Active
+Eyes,eyes,"Visual Conduct - Looking at what is forbidden, inappropriate visual content, and the envy that can develop through sight",Social Media Misuse,eyes_social_media,Assessment,Active
+Eyes,eyes,"Visual Conduct - Looking at what is forbidden, inappropriate visual content, and the envy that can develop through sight",Entertainment Choices,eyes_entertainment,Assessment,Active
+Eyes,eyes,"Visual Conduct - Looking at what is forbidden, inappropriate visual content, and the envy that can develop through sight",Lustful Gazing,eyes_lustful_gazing,Assessment,Active
+Eyes,eyes,"Visual Conduct - Looking at what is forbidden, inappropriate visual content, and the envy that can develop through sight",Voyeuristic Behavior,eyes_voyeuristic,Assessment,Active
+Eyes,eyes,"Visual Conduct - Looking at what is forbidden, inappropriate visual content, and the envy that can develop through sight",Comparing Through Sight,eyes_comparing,Assessment,Active
+Eyes,eyes,"Visual Conduct - Looking at what is forbidden, inappropriate visual content, and the envy that can develop through sight",Staring Inappropriately,eyes_staring,Assessment,Active
+Eyes,eyes,"Visual Conduct - Looking at what is forbidden, inappropriate visual content, and the envy that can develop through sight",Visual Temptation,eyes_temptation,Assessment,Active
+Ears,ears,"Listening & Audio - Listening to backbiting, slander, inappropriate content, and other harmful speech",Listening to Backbiting,ears_backbiting,Assessment,Active
+Ears,ears,"Listening & Audio - Listening to backbiting, slander, inappropriate content, and other harmful speech",Harmful Audio Content,ears_harmful_audio,Assessment,Active
+Ears,ears,"Listening & Audio - Listening to backbiting, slander, inappropriate content, and other harmful speech",Gossip Participation,ears_gossip,Assessment,Active
+Ears,ears,"Listening & Audio - Listening to backbiting, slander, inappropriate content, and other harmful speech",Inappropriate Music,ears_inappropriate_music,Assessment,Active
+Ears,ears,"Listening & Audio - Listening to backbiting, slander, inappropriate content, and other harmful speech",Eavesdropping,ears_eavesdropping,Assessment,Active
+Ears,ears,"Listening & Audio - Listening to backbiting, slander, inappropriate content, and other harmful speech",Encouraging Negative Talk,ears_encouraging_negative,Assessment,Active
+Ears,ears,"Listening & Audio - Listening to backbiting, slander, inappropriate content, and other harmful speech",Seeking Harmful Information,ears_seeking_harmful,Assessment,Active
+Ears,ears,"Listening & Audio - Listening to backbiting, slander, inappropriate content, and other harmful speech",Listening to Slander,ears_slander,Assessment,Active
+Ears,ears,"Listening & Audio - Listening to backbiting, slander, inappropriate content, and other harmful speech",Consuming Negative Media,ears_negative_media,Assessment,Active
+Ears,ears,"Listening & Audio - Listening to backbiting, slander, inappropriate content, and other harmful speech",Inappropriate Conversations,ears_inappropriate_conversations,Assessment,Active
+Heart,heart,"Inner Character - Internal spiritual diseases such as envy, malice, hypocrisy, and attachments to the worldly life",Envy and Jealousy,heart_envy,Assessment,Active
+Heart,heart,"Inner Character - Internal spiritual diseases such as envy, malice, hypocrisy, and attachments to the worldly life",Hatred and Resentment,heart_hatred,Assessment,Active
+Heart,heart,"Inner Character - Internal spiritual diseases such as envy, malice, hypocrisy, and attachments to the worldly life",Spiritual Pride,heart_spiritual_pride,Assessment,Active
+Heart,heart,"Inner Character - Internal spiritual diseases such as envy, malice, hypocrisy, and attachments to the worldly life",Hypocrisy,heart_hypocrisy,Assessment,Active
+Heart,heart,"Inner Character - Internal spiritual diseases such as envy, malice, hypocrisy, and attachments to the worldly life",Worldly Attachments,heart_worldly_attachments,Assessment,Active
+Heart,heart,"Inner Character - Internal spiritual diseases such as envy, malice, hypocrisy, and attachments to the worldly life",Malice,heart_malice,Assessment,Active
+Heart,heart,"Inner Character - Internal spiritual diseases such as envy, malice, hypocrisy, and attachments to the worldly life",Showing Off,heart_showing_off,Assessment,Active
+Heart,heart,"Inner Character - Internal spiritual diseases such as envy, malice, hypocrisy, and attachments to the worldly life",Spiritual Arrogance,heart_spiritual_arrogance,Assessment,Active
+Heart,heart,"Inner Character - Internal spiritual diseases such as envy, malice, hypocrisy, and attachments to the worldly life",Hard Heart,heart_hardness,Assessment,Active
+Heart,heart,"Inner Character - Internal spiritual diseases such as envy, malice, hypocrisy, and attachments to the worldly life",Love of Status,heart_love_status,Assessment,Active
+Pride,pride,"Pride & Arrogance - Feelings of superiority, arrogance, vanity, and difficulty with humility",Feelings of Superiority,pride_superiority,Assessment,Active
+Pride,pride,"Pride & Arrogance - Feelings of superiority, arrogance, vanity, and difficulty with humility",Vanity,pride_vanity,Assessment,Active
+Pride,pride,"Pride & Arrogance - Feelings of superiority, arrogance, vanity, and difficulty with humility",Difficulty with Humility,pride_humility_difficulty,Assessment,Active
+Pride,pride,"Pride & Arrogance - Feelings of superiority, arrogance, vanity, and difficulty with humility",Intellectual Pride,pride_intellectual,Assessment,Active
+Pride,pride,"Pride & Arrogance - Feelings of superiority, arrogance, vanity, and difficulty with humility",Status Consciousness,pride_status_consciousness,Assessment,Active
+Pride,pride,"Pride & Arrogance - Feelings of superiority, arrogance, vanity, and difficulty with humility",Condescension,pride_condescension,Assessment,Active
+Pride,pride,"Pride & Arrogance - Feelings of superiority, arrogance, vanity, and difficulty with humility",Refusing Help,pride_refusing_help,Assessment,Active
+Pride,pride,"Pride & Arrogance - Feelings of superiority, arrogance, vanity, and difficulty with humility",Competitive Pride,pride_competitive,Assessment,Active
+Pride,pride,"Pride & Arrogance - Feelings of superiority, arrogance, vanity, and difficulty with humility",Self-Importance,pride_self_importance,Assessment,Active
+Pride,pride,"Pride & Arrogance - Feelings of superiority, arrogance, vanity, and difficulty with humility",Boasting,pride_boasting,Assessment,Active
+Stomach,stomach,"Consumption - Overeating, consuming what is unlawful, and excessive material appetite",Overeating,stomach_overeating,Assessment,Active
+Stomach,stomach,"Consumption - Overeating, consuming what is unlawful, and excessive material appetite",Unlawful Food,stomach_unlawful_food,Assessment,Active
+Stomach,stomach,"Consumption - Overeating, consuming what is unlawful, and excessive material appetite",Excessive Material Appetite,stomach_excessive_appetite,Assessment,Active
+Stomach,stomach,"Consumption - Overeating, consuming what is unlawful, and excessive material appetite",Gluttony,stomach_gluttony,Assessment,Active
+Stomach,stomach,"Consumption - Overeating, consuming what is unlawful, and excessive material appetite",Food Waste,stomach_food_waste,Assessment,Active
+Stomach,stomach,"Consumption - Overeating, consuming what is unlawful, and excessive material appetite",Inappropriate Consumption,stomach_inappropriate_consumption,Assessment,Active
+Stomach,stomach,"Consumption - Overeating, consuming what is unlawful, and excessive material appetite",Eating While Angry,stomach_eating_angry,Assessment,Active
+Stomach,stomach,"Consumption - Overeating, consuming what is unlawful, and excessive material appetite",Mindless Eating,stomach_mindless_eating,Assessment,Active
+Stomach,stomach,"Consumption - Overeating, consuming what is unlawful, and excessive material appetite",Eating for Status,stomach_eating_status,Assessment,Active
+Stomach,stomach,"Consumption - Overeating, consuming what is unlawful, and excessive material appetite",Compulsive Eating,stomach_compulsive_eating,Assessment,Active
+Zina,zina,"Chastity & Modesty - Unlawful physical relations and actions that may lead to them",Unlawful Physical Relations,zina_unlawful_relations,Assessment,Active
+Zina,zina,"Chastity & Modesty - Unlawful physical relations and actions that may lead to them",Actions Leading to Zina,zina_leading_actions,Assessment,Active
+Zina,zina,"Chastity & Modesty - Unlawful physical relations and actions that may lead to them",Inappropriate Relationships,zina_inappropriate_relationships,Assessment,Active
+Zina,zina,"Chastity & Modesty - Unlawful physical relations and actions that may lead to them",Boundary Violations,zina_boundary_violations,Assessment,Active
+Zina,zina,"Chastity & Modesty - Unlawful physical relations and actions that may lead to them",Modesty Issues,zina_modesty_issues,Assessment,Active
+Zina,zina,"Chastity & Modesty - Unlawful physical relations and actions that may lead to them",Inappropriate Touching,zina_inappropriate_touching,Assessment,Active
+Zina,zina,"Chastity & Modesty - Unlawful physical relations and actions that may lead to them",Seeking Temptation,zina_seeking_temptation,Assessment,Active
+Zina,zina,"Chastity & Modesty - Unlawful physical relations and actions that may lead to them",Flirting,zina_flirting,Assessment,Active
+Zina,zina,"Chastity & Modesty - Unlawful physical relations and actions that may lead to them",Emotional Affairs,zina_emotional_affairs,Assessment,Active
+Zina,zina,"Chastity & Modesty - Unlawful physical relations and actions that may lead to them",Inappropriate Communication,zina_inappropriate_communication,Assessment,Active
