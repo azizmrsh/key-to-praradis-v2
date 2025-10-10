@@ -1,0 +1,1094 @@
+[
+  {
+    "goal_id": "pride-hidden-deeds",
+    "category": "pride",
+    "translations": {
+      "en": {
+        "title": "Hidden Deeds",
+        "description": "Do good deeds in secret, seeking Allah's pleasure only.",
+        "islamic_guidance": "The Prophet (ﷺ) said: 'Seven types of people will be shaded by Allah under His shade on the Day when there will be no shade except His. Among them is a person who gives charity and hides it so much that his left hand does not know what his right hand has given.' (Bukhari)",
+        "benefits": [
+          "Purifies intentions from showing off",
+          "Increases sincerity in worship",
+          "Protects from spiritual pride"
+        ],
+        "daily_actions": [
+          "Perform acts of charity without telling anyone",
+          "Make du'a and dhikr privately",
+          "Help others without seeking recognition"
+        ]
+      },
+      "ar": {
+        "title": "الأعمال الخفية",
+        "description": "قم بالأعمال الصالحة في السر طلباً لرضا الله وحده.",
+        "islamic_guidance": "قال النبي ﷺ: 'سبعة يظلهم الله في ظله يوم لا ظل إلا ظله، منهم رجل تصدق بصدقة فأخفاها حتى لا تعلم شماله ما تنفق يمينه' (البخاري)",
+        "benefits": [
+          "يطهر النية من الرياء",
+          "يزيد الإخلاص في العبادة",
+          "يحمي من الكبر الروحي"
+        ],
+        "daily_actions": [
+          "اعمل أعمال خير دون إخبار أحد",
+          "ادع واذكر الله سراً",
+          "ساعد الآخرين دون طلب التقدير"
+        ]
+      },
+      "fr": {
+        "title": "Les actes cachés",
+        "description": "Faites de bonnes actions en secret, cherchant uniquement la satisfaction d'Allah.",
+        "islamic_guidance": "Le Prophète (ﷺ) a dit: 'Sept personnes seront à l'ombre d'Allah le jour où il n'y aura d'ombre que la sienne. Parmi eux, celui qui fait la charité et la cache si bien que sa main gauche ne sait pas ce que donne sa main droite.' (Bukhari)",
+        "benefits": [
+          "Purifie les intentions de l'ostentation",
+          "Augmente la sincérité dans l'adoration",
+          "Protège de l'orgueil spirituel"
+        ],
+        "daily_actions": [
+          "Accomplissez des actes de charité sans le dire à personne",
+          "Faites du'a et du dhikr en privé",
+          "Aidez les autres sans chercher la reconnaissance"
+        ]
+      }
+    },
+    "duration_options": [7, 14, 21, 40]
+  },
+  {
+    "goal_id": "pride-focus-personal-flaws",
+    "category": "pride",
+    "translations": {
+      "en": {
+        "title": "Focus on Personal Flaws",
+        "description": "Reflect on your shortcomings instead of judging others' religious practice.",
+        "islamic_guidance": "Allah says: 'O you who believe! Let not a people ridicule [another] people; perhaps they are better than them.' (49:11)",
+        "benefits": [
+          "Develops self-awareness and humility",
+          "Prevents judgmental attitudes",
+          "Encourages personal growth"
+        ],
+        "daily_actions": [
+          "Spend time in self-reflection each day",
+          "When noticing others' faults, turn attention to your own",
+          "Make istighfar for your shortcomings"
+        ]
+      },
+      "ar": {
+        "title": "التركيز على عيوب النفس",
+        "description": "تأمل في عيوبك بدلاً من الحكم على تدين الآخرين.",
+        "islamic_guidance": "يقول الله: 'يَا أَيُّهَا الَّذِينَ آمَنُوا لَا يَسْخَرْ قَوْمٌ مِّن قَوْمٍ عَسَىٰ أَن يَكُونُوا خَيْرًا مِّنْهُمْ' (49:11)",
+        "benefits": [
+          "ينمي الوعي الذاتي والتواضع",
+          "يمنع المواقف القضائية",
+          "يشجع على النمو الشخصي"
+        ],
+        "daily_actions": [
+          "اقض وقتاً في التأمل الذاتي كل يوم",
+          "عند ملاحظة عيوب الآخرين، وجه انتباهك لعيوبك",
+          "استغفر لتقصيرك"
+        ]
+      },
+      "fr": {
+        "title": "Se concentrer sur ses propres défauts",
+        "description": "Réfléchissez à vos propres défauts au lieu de juger la pratique religieuse des autres.",
+        "islamic_guidance": "Allah dit: 'Ô vous qui croyez! Qu'un peuple ne se moque pas d'un autre peuple: ceux-ci sont peut-être meilleurs qu'eux.' (49:11)",
+        "benefits": [
+          "Développe la conscience de soi et l'humilité",
+          "Prévient les attitudes de jugement",
+          "Encourage la croissance personnelle"
+        ],
+        "daily_actions": [
+          "Consacrez du temps à l'auto-réflexion chaque jour",
+          "Quand vous remarquez les défauts des autres, tournez l'attention vers les vôtres",
+          "Faites istighfar pour vos manquements"
+        ]
+      }
+    },
+    "duration_options": [7, 14, 21, 40]
+  },
+  {
+    "goal_id": "pride-humility-worship",
+    "category": "pride",
+    "translations": {
+      "en": {
+        "title": "Humility in Worship",
+        "description": "Remind yourself that your worship is only by Allah's guidance and mercy.",
+        "islamic_guidance": "Allah says: 'And it is Allah who created you and what you do.' (37:96)",
+        "benefits": [
+          "Prevents spiritual arrogance",
+          "Increases gratitude to Allah",
+          "Maintains proper perspective on achievements"
+        ],
+        "daily_actions": [
+          "Before each prayer, thank Allah for the ability to worship",
+          "Acknowledge that all good comes from Allah",
+          "Remember your dependence on Allah's guidance"
+        ]
+      },
+      "ar": {
+        "title": "التواضع في العبادة",
+        "description": "ذكر نفسك أن عبادتك ليست إلا بتوفيق ورحمة من الله.",
+        "islamic_guidance": "يقول الله: 'وَاللَّهُ خَلَقَكُمْ وَمَا تَعْمَلُونَ' (37:96)",
+        "benefits": [
+          "يمنع الغرور الروحي",
+          "يزيد الشكر لله",
+          "يحافظ على المنظور الصحيح للإنجازات"
+        ],
+        "daily_actions": [
+          "قبل كل صلاة، احمد الله على القدرة على العبادة",
+          "اعترف أن كل خير من عند الله",
+          "تذكر اعتمادك على هداية الله"
+        ]
+      },
+      "fr": {
+        "title": "Humilité dans l'adoration",
+        "description": "Rappelez-vous que votre adoration n'est possible que grâce à la guidance et à la miséricorde d'Allah.",
+        "islamic_guidance": "Allah dit: 'Et Allah vous a créés, vous et ce que vous faites.' (37:96)",
+        "benefits": [
+          "Prévient l'arrogance spirituelle",
+          "Augmente la gratitude envers Allah",
+          "Maintient une perspective appropriée sur les réalisations"
+        ],
+        "daily_actions": [
+          "Avant chaque prière, remerciez Allah pour la capacité d'adorer",
+          "Reconnaissez que tout bien vient d'Allah",
+          "Rappelez-vous votre dépendance à la guidance d'Allah"
+        ]
+      }
+    },
+    "duration_options": [7, 14, 21, 40]
+  },
+  {
+    "goal_id": "pride-honour-everyone",
+    "category": "pride",
+    "translations": {
+      "en": {
+        "title": "Honour Everyone",
+        "description": "Treat people of every background with equal respect.",
+        "islamic_guidance": "The Prophet (ﷺ) said: 'An Arab has no superiority over a non-Arab, nor does a non-Arab have any superiority over an Arab; a white has no superiority over a black, nor does a black have any superiority over a white; none have superiority over another except by piety and good action.' (Ahmad)",
+        "benefits": [
+          "Breaks down social barriers",
+          "Reflects true Islamic values",
+          "Creates inclusive communities"
+        ],
+        "daily_actions": [
+          "Greet people warmly regardless of their status",
+          "Show equal courtesy to service workers and executives",
+          "Challenge your unconscious biases"
+        ]
+      },
+      "ar": {
+        "title": "أكرم الجميع",
+        "description": "عامل الناس من جميع الخلفيات باحترام متساوٍ.",
+        "islamic_guidance": "قال النبي ﷺ: 'لا فضل لعربي على عجمي ولا لعجمي على عربي ولا لأحمر على أسود ولا أسود على أحمر إلا بالتقوى' (أحمد)",
+        "benefits": [
+          "يكسر الحواجز الاجتماعية",
+          "يعكس القيم الإسلامية الحقيقية",
+          "يخلق مجتمعات شاملة"
+        ],
+        "daily_actions": [
+          "سلم على الناس بحرارة بغض النظر عن مكانتهم",
+          "أظهر مجاملة متساوية لعمال الخدمة والمديرين",
+          "تحدى تحيزاتك اللاواعية"
+        ]
+      },
+      "fr": {
+        "title": "Honorez tout le monde",
+        "description": "Traitez les personnes de tous horizons avec un respect égal.",
+        "islamic_guidance": "Le Prophète (ﷺ) a dit: 'Un Arabe n'a aucune supériorité sur un non-Arabe, ni un non-Arabe sur un Arabe; un blanc n'a aucune supériorité sur un noir, ni un noir sur un blanc; aucun n'a de supériorité sur l'autre excepté par la piété et les bonnes actions.' (Ahmad)",
+        "benefits": [
+          "Brise les barrières sociales",
+          "Reflète les vraies valeurs islamiques",
+          "Crée des communautés inclusives"
+        ],
+        "daily_actions": [
+          "Saluez chaleureusement les gens quel que soit leur statut",
+          "Montrez une courtoisie égale aux employés de service et aux cadres",
+          "Remettez en question vos biais inconscients"
+        ]
+      }
+    },
+    "duration_options": [7, 14, 21, 40]
+  },
+  {
+    "goal_id": "pride-break-social-barriers",
+    "category": "pride",
+    "translations": {
+      "en": {
+        "title": "Break Social Barriers",
+        "description": "Engage kindly with those society neglects.",
+        "islamic_guidance": "The Prophet (ﷺ) said: 'He is not of us who does not show mercy to our young ones and does not acknowledge the honor due to our elders.' (Tirmidhi)",
+        "benefits": [
+          "Embodies prophetic character",
+          "Builds bridges across social divides",
+          "Earns reward for serving the neglected"
+        ],
+        "daily_actions": [
+          "Speak to the elderly, disabled, and marginalized",
+          "Volunteer with underprivileged communities",
+          "Include overlooked people in conversations"
+        ]
+      },
+      "ar": {
+        "title": "اكسر الحواجز الاجتماعية",
+        "description": "تواصل بلطف مع من يهملهم المجتمع.",
+        "islamic_guidance": "قال النبي ﷺ: 'ليس منا من لم يرحم صغيرنا ويوقر كبيرنا' (الترمذي)",
+        "benefits": [
+          "يجسد الأخلاق النبوية",
+          "يبني جسوراً عبر الانقسامات الاجتماعية",
+          "يكسب أجراً لخدمة المهملين"
+        ],
+        "daily_actions": [
+          "تحدث مع كبار السن وذوي الإعاقة والمهمشين",
+          "تطوع مع المجتمعات المحرومة",
+          "أشرك الأشخاص المهملين في المحادثات"
+        ]
+      },
+      "fr": {
+        "title": "Brisez les barrières sociales",
+        "description": "Engagez-vous aimablement avec ceux que la société néglige.",
+        "islamic_guidance": "Le Prophète (ﷺ) a dit: 'N'est pas des nôtres celui qui ne fait pas miséricorde à nos jeunes et ne reconnaît pas l'honneur dû à nos aînés.' (Tirmidhi)",
+        "benefits": [
+          "Incarne le caractère prophétique",
+          "Construit des ponts à travers les divisions sociales",
+          "Mérite une récompense pour servir les négligés"
+        ],
+        "daily_actions": [
+          "Parlez aux personnes âgées, handicapées et marginalisées",
+          "Faites du bénévolat avec les communautés défavorisées",
+          "Incluez les personnes négligées dans les conversations"
+        ]
+      }
+    },
+    "duration_options": [7, 14, 21, 40]
+  },
+  {
+    "goal_id": "pride-speak-humble",
+    "category": "pride",
+    "translations": {
+      "en": {
+        "title": "Speak to the Humble",
+        "description": "Start conversations with those who seem overlooked.",
+        "islamic_guidance": "Allah says: 'And lower your wing [in humility] to those who follow you of the believers.' (26:215)",
+        "benefits": [
+          "Develops humility and compassion",
+          "Creates meaningful connections",
+          "Reflects divine mercy"
+        ],
+        "daily_actions": [
+          "Greet the quiet person in gatherings",
+          "Ask about the well-being of those who serve others",
+          "Make eye contact and smile at everyone"
+        ]
+      },
+      "ar": {
+        "title": "تحدث مع المتواضعين",
+        "description": "ابدأ المحادثة مع من يبدو أنهم مهمشون.",
+        "islamic_guidance": "يقول الله: 'وَاخْفِضْ جَنَاحَكَ لِمَنِ اتَّبَعَكَ مِنَ الْمُؤْمِنِينَ' (26:215)",
+        "benefits": [
+          "ينمي التواضع والشفقة",
+          "يخلق علاقات معنوية",
+          "يعكس الرحمة الإلهية"
+        ],
+        "daily_actions": [
+          "سلم على الشخص الهادئ في الجمعات",
+          "اسأل عن صحة من يخدمون الآخرين",
+          "انظر في عيون الجميع وابتسم"
+        ]
+      },
+      "fr": {
+        "title": "Parlez aux humbles",
+        "description": "Engagez la conversation avec ceux qui semblent oubliés.",
+        "islamic_guidance": "Allah dit: 'Et abaisse ton aile [par humilité] devant ceux des croyants qui te suivent.' (26:215)",
+        "benefits": [
+          "Développe l'humilité et la compassion",
+          "Crée des connexions significatives",
+          "Reflète la miséricorde divine"
+        ],
+        "daily_actions": [
+          "Saluez la personne silencieuse dans les rassemblements",
+          "Demandez des nouvelles de ceux qui servent les autres",
+          "Regardez dans les yeux et souriez à tout le monde"
+        ]
+      }
+    },
+    "duration_options": [7, 14, 21, 40]
+  },
+  {
+    "goal_id": "pride-simplicity-vanity",
+    "category": "pride",
+    "translations": {
+      "en": {
+        "title": "Simplicity Over Vanity",
+        "description": "Choose simple clothing to check your ego.",
+        "islamic_guidance": "The Prophet (ﷺ) said: 'Whoever drags his garment [in pride] will not be looked at by Allah on the Day of Resurrection.' (Bukhari)",
+        "benefits": [
+          "Reduces attachment to material things",
+          "Develops inner focus over outer appearance",
+          "Prevents arrogance from wealth display"
+        ],
+        "daily_actions": [
+          "Choose modest, simple clothing",
+          "Avoid expensive brands for show",
+          "Focus on cleanliness over luxury"
+        ]
+      },
+      "ar": {
+        "title": "البساطة بدلاً من التفاخر",
+        "description": "اختر ملابس بسيطة لكبح غرورك.",
+        "islamic_guidance": "قال النبي ﷺ: 'من جر ثوبه خيلاء لم ينظر الله إليه يوم القيامة' (البخاري)",
+        "benefits": [
+          "يقلل التعلق بالأشياء المادية",
+          "ينمي التركيز الداخلي على المظهر الخارجي",
+          "يمنع الغرور من عرض الثروة"
+        ],
+        "daily_actions": [
+          "اختر ملابس متواضعة وبسيطة",
+          "تجنب الماركات الغالية للتفاخر",
+          "ركز على النظافة بدلاً من الترف"
+        ]
+      },
+      "fr": {
+        "title": "La simplicité plutôt que la vanité",
+        "description": "Choisissez des vêtements simples pour maîtriser votre égo.",
+        "islamic_guidance": "Le Prophète (ﷺ) a dit: 'Celui qui traîne son vêtement par orgueil, Allah ne le regardera pas le Jour de la Résurrection.' (Bukhari)",
+        "benefits": [
+          "Réduit l'attachement aux choses matérielles",
+          "Développe la concentration intérieure sur l'apparence extérieure",
+          "Prévient l'arrogance de l'étalage de richesse"
+        ],
+        "daily_actions": [
+          "Choisissez des vêtements modestes et simples",
+          "Évitez les marques chères pour l'ostentation",
+          "Concentrez-vous sur la propreté plutôt que le luxe"
+        ]
+      }
+    },
+    "duration_options": [7, 14, 21, 40]
+  },
+  {
+    "goal_id": "pride-praise-allah-beauty",
+    "category": "pride",
+    "translations": {
+      "en": {
+        "title": "Praise Allah for Beauty",
+        "description": "Thank Allah for your physical blessings instead of boasting.",
+        "islamic_guidance": "Allah says: 'And whatever you have of favor - it is from Allah.' (16:53)",
+        "benefits": [
+          "Maintains gratitude over pride",
+          "Recognizes Allah as the source of all blessings",
+          "Prevents vanity and self-worship"
+        ],
+        "daily_actions": [
+          "Say 'Alhamdulillah' when looking in the mirror",
+          "Thank Allah for your health and appearance",
+          "Avoid excessive focus on physical attributes"
+        ]
+      },
+      "ar": {
+        "title": "احمد الله على الجمال",
+        "description": "احمد الله على نعمك الجسدية بدلاً من التفاخر.",
+        "islamic_guidance": "يقول الله: 'وَمَا بِكُم مِّن نِّعْمَةٍ فَمِنَ اللَّهِ' (16:53)",
+        "benefits": [
+          "يحافظ على الشكر بدلاً من الكبر",
+          "يعترف بالله كمصدر جميع النعم",
+          "يمنع الغرور وعبادة الذات"
+        ],
+        "daily_actions": [
+          "قل 'الحمد لله' عند النظر في المرآة",
+          "احمد الله على صحتك ومظهرك",
+          "تجنب التركيز المفرط على الصفات الجسدية"
+        ]
+      },
+      "fr": {
+        "title": "Remerciez Allah pour la beauté",
+        "description": "Remerciez Allah pour vos bienfaits physiques au lieu de vous en vanter.",
+        "islamic_guidance": "Allah dit: 'Et tout bienfait qui vous atteint vient d'Allah.' (16:53)",
+        "benefits": [
+          "Maintient la gratitude plutôt que l'orgueil",
+          "Reconnaît Allah comme la source de toutes les bénédictions",
+          "Prévient la vanité et l'auto-adoration"
+        ],
+        "daily_actions": [
+          "Dites 'Alhamdulillah' en vous regardant dans le miroir",
+          "Remerciez Allah pour votre santé et votre apparence",
+          "Évitez de vous concentrer excessivement sur les attributs physiques"
+        ]
+      }
+    },
+    "duration_options": [7, 14, 21, 40]
+  },
+  {
+    "goal_id": "pride-value-inner-beauty",
+    "category": "pride",
+    "translations": {
+      "en": {
+        "title": "Value Inner Beauty",
+        "description": "Focus on developing character over looks.",
+        "islamic_guidance": "The Prophet (ﷺ) said: 'Verily, Allah does not look at your bodies or your appearances, but rather He looks at your hearts and your deeds.' (Muslim)",
+        "benefits": [
+          "Develops lasting spiritual beauty",
+          "Shifts focus from temporary to eternal",
+          "Builds meaningful self-worth"
+        ],
+        "daily_actions": [
+          "Spend time improving your character",
+          "Read and reflect on Islamic teachings",
+          "Practice patience, kindness, and forgiveness"
+        ]
+      },
+      "ar": {
+        "title": "قيم الجمال الداخلي",
+        "description": "ركز على تنمية شخصيتك بدلاً من المظهر الخارجي.",
+        "islamic_guidance": "قال النبي ﷺ: 'إن الله لا ينظر إلى أجسادكم ولا إلى صوركم ولكن ينظر إلى قلوبكم وأعمالكم' (مسلم)",
+        "benefits": [
+          "ينمي الجمال الروحي الدائم",
+          "يحول التركيز من المؤقت إلى الأبدي",
+          "يبني احترام ذات معنوي"
+        ],
+        "daily_actions": [
+          "اقض وقتاً في تحسين شخصيتك",
+          "اقرأ وتأمل في التعاليم الإسلامية",
+          "مارس الصبر واللطف والمغفرة"
+        ]
+      },
+      "fr": {
+        "title": "Valorisez la beauté intérieure",
+        "description": "Concentrez-vous sur le développement du caractère plutôt que sur l'apparence.",
+        "islamic_guidance": "Le Prophète (ﷺ) a dit: 'En vérité, Allah ne regarde pas vos corps ni vos apparences, mais Il regarde vos cœurs et vos actions.' (Muslim)",
+        "benefits": [
+          "Développe une beauté spirituelle durable",
+          "Déplace l'attention du temporaire vers l'éternel",
+          "Construit une estime de soi significative"
+        ],
+        "daily_actions": [
+          "Consacrez du temps à améliorer votre caractère",
+          "Lisez et réfléchissez sur les enseignements islamiques",
+          "Pratiquez la patience, la gentillesse et le pardon"
+        ]
+      }
+    },
+    "duration_options": [7, 14, 21, 40]
+  },
+  {
+    "goal_id": "pride-accept-correction",
+    "category": "pride",
+    "translations": {
+      "en": {
+        "title": "Accept Correction",
+        "description": "Welcome sincere advice without defending yourself.",
+        "islamic_guidance": "The Prophet (ﷺ) said: 'Religion is sincerity. We said: To whom? He said: To Allah, His Book, His Messenger, and to the leaders of the Muslims and their common folk.' (Muslim)",
+        "benefits": [
+          "Opens doors to self-improvement",
+          "Builds stronger relationships",
+          "Demonstrates maturity and wisdom"
+        ],
+        "daily_actions": [
+          "Listen fully before responding to criticism",
+          "Thank people for their honest feedback",
+          "Reflect on advice before rejecting it"
+        ]
+      },
+      "ar": {
+        "title": "تقبل التصحيح",
+        "description": "ارحب بالنصيحة الصادقة دون الدفاع عن نفسك.",
+        "islamic_guidance": "قال النبي ﷺ: 'الدين النصيحة. قلنا: لمن؟ قال: لله ولكتابه ولرسوله ولأئمة المسلمين وعامتهم' (مسلم)",
+        "benefits": [
+          "يفتح أبواب التحسن الذاتي",
+          "يبني علاقات أقوى",
+          "يظهر النضج والحكمة"
+        ],
+        "daily_actions": [
+          "استمع جيداً قبل الرد على النقد",
+          "اشكر الناس على ملاحظاتهم الصادقة",
+          "تأمل في النصيحة قبل رفضها"
+        ]
+      },
+      "fr": {
+        "title": "Acceptez la correction",
+        "description": "Accueillez les conseils sincères sans vous justifier.",
+        "islamic_guidance": "Le Prophète (ﷺ) a dit: 'La religion, c'est le conseil sincère. Nous dîmes: Envers qui? Il dit: Envers Allah, Son Livre, Son Messager, les dirigeants des musulmans et leur ensemble.' (Muslim)",
+        "benefits": [
+          "Ouvre les portes à l'amélioration de soi",
+          "Construit des relations plus fortes",
+          "Démontre la maturité et la sagesse"
+        ],
+        "daily_actions": [
+          "Écoutez entièrement avant de répondre aux critiques",
+          "Remerciez les gens pour leurs retours honnêtes",
+          "Réfléchissez aux conseils avant de les rejeter"
+        ]
+      }
+    },
+    "duration_options": [7, 14, 21, 40]
+  },
+  {
+    "goal_id": "pride-seek-feedback",
+    "category": "pride",
+    "translations": {
+      "en": {
+        "title": "Seek Feedback",
+        "description": "Ask trusted people for honest feedback on your behaviour.",
+        "islamic_guidance": "Allah says: 'And those who, when they commit an immorality or wrong themselves [by transgression], remember Allah and seek forgiveness for their sins.' (3:135)",
+        "benefits": [
+          "Accelerates personal growth",
+          "Builds trust and transparency",
+          "Prevents blind spots in character"
+        ],
+        "daily_actions": [
+          "Ask family and friends for honest assessments",
+          "Request specific feedback on your behavior",
+          "Create safe spaces for people to correct you"
+        ]
+      },
+      "ar": {
+        "title": "اطلب الملاحظات",
+        "description": "اطلب من أشخاص تثق بهم ملاحظاتهم الصادقة حول سلوكك.",
+        "islamic_guidance": "يقول الله: 'وَالَّذِينَ إِذَا فَعَلُوا فَاحِشَةً أَوْ ظَلَمُوا أَنفُسَهُمْ ذَكَرُوا اللَّهَ فَاسْتَغْفَرُوا لِذُنُوبِهِمْ' (3:135)",
+        "benefits": [
+          "يسرع النمو الشخصي",
+          "يبني الثقة والشفافية",
+          "يمنع النقاط العمياء في الشخصية"
+        ],
+        "daily_actions": [
+          "اطلب من الأهل والأصدقاء تقييمات صادقة",
+          "اطلب ملاحظات محددة على سلوكك",
+          "اخلق مساحات آمنة للناس لتصحيحك"
+        ]
+      },
+      "fr": {
+        "title": "Demandez des retours",
+        "description": "Demandez à des personnes de confiance un retour honnête sur votre comportement.",
+        "islamic_guidance": "Allah dit: 'Et ceux qui, lorsqu'ils ont commis quelque turpitude ou causé quelque préjudice à leurs propres âmes [par transgression], se souviennent d'Allah et demandent pardon pour leurs péchés.' (3:135)",
+        "benefits": [
+          "Accélère la croissance personnelle",
+          "Construit la confiance et la transparence",
+          "Prévient les angles morts du caractère"
+        ],
+        "daily_actions": [
+          "Demandez à la famille et aux amis des évaluations honnêtes",
+          "Sollicitez des retours spécifiques sur votre comportement",
+          "Créez des espaces sûrs pour que les gens vous corrigent"
+        ]
+      }
+    },
+    "duration_options": [7, 14, 21, 40]
+  },
+  {
+    "goal_id": "pride-reflect-before-reacting",
+    "category": "pride",
+    "translations": {
+      "en": {
+        "title": "Reflect Before Reacting",
+        "description": "Pause before rejecting criticism.",
+        "islamic_guidance": "The Prophet (ﷺ) said: 'The best of people are those who bring most benefit to others.' This includes accepting beneficial criticism.",
+        "benefits": [
+          "Prevents defensive reactions",
+          "Allows wisdom to guide responses",
+          "Creates opportunities for growth"
+        ],
+        "daily_actions": [
+          "Count to ten before responding to criticism",
+          "Ask yourself: 'Could this be true?'",
+          "Thank the person before giving your response"
+        ]
+      },
+      "ar": {
+        "title": "فكر قبل الرد",
+        "description": "توقف قبل رفض النقد.",
+        "islamic_guidance": "قال النبي ﷺ: 'خير الناس أنفعهم للناس' وهذا يشمل قبول النقد المفيد.",
+        "benefits": [
+          "يمنع ردود الأفعال الدفاعية",
+          "يسمح للحكمة بتوجيه الاستجابات",
+          "يخلق فرصاً للنمو"
+        ],
+        "daily_actions": [
+          "اعدد إلى عشرة قبل الرد على النقد",
+          "اسأل نفسك: 'هل يمكن أن يكون هذا صحيحاً؟'",
+          "اشكر الشخص قبل إعطاء ردك"
+        ]
+      },
+      "fr": {
+        "title": "Réfléchissez avant de réagir",
+        "description": "Faites une pause avant de rejeter la critique.",
+        "islamic_guidance": "Le Prophète (ﷺ) a dit: 'Les meilleurs des gens sont ceux qui apportent le plus de bénéfice aux autres.' Cela inclut l'acceptation de critiques bénéfiques.",
+        "benefits": [
+          "Prévient les réactions défensives",
+          "Permet à la sagesse de guider les réponses",
+          "Crée des opportunités de croissance"
+        ],
+        "daily_actions": [
+          "Comptez jusqu'à dix avant de répondre aux critiques",
+          "Demandez-vous: 'Cela pourrait-il être vrai?'",
+          "Remerciez la personne avant de donner votre réponse"
+        ]
+      }
+    },
+    "duration_options": [7, 14, 21, 40]
+  },
+  {
+    "goal_id": "pride-admit-fault",
+    "category": "pride",
+    "translations": {
+      "en": {
+        "title": "Admit Fault",
+        "description": "When wrong, say 'I'm sorry' without excuses.",
+        "islamic_guidance": "Allah says: 'But whoever repents after his wrongdoing and reforms, indeed, Allah will turn to him in forgiveness.' (5:39)",
+        "benefits": [
+          "Demonstrates courage and integrity",
+          "Heals relationships quickly",
+          "Opens doors to Allah's forgiveness"
+        ],
+        "daily_actions": [
+          "Apologize immediately when you realize you're wrong",
+          "Avoid explaining away your mistakes",
+          "Take full responsibility for your actions"
+        ]
+      },
+      "ar": {
+        "title": "اعترف بالخطأ",
+        "description": "عندما تخطئ، قل \"أنا آسف\" دون أعذار.",
+        "islamic_guidance": "يقول الله: 'فَمَن تَابَ مِن بَعْدِ ظُلْمِهِ وَأَصْلَحَ فَإِنَّ اللَّهَ يَتُوبُ عَلَيْهِ' (5:39)",
+        "benefits": [
+          "يظهر الشجاعة والنزاهة",
+          "يشفي العلاقات بسرعة",
+          "يفتح أبواب مغفرة الله"
+        ],
+        "daily_actions": [
+          "اعتذر فوراً عندما تدرك أنك مخطئ",
+          "تجنب تبرير أخطائك",
+          "تحمل المسؤولية الكاملة عن أفعالك"
+        ]
+      },
+      "fr": {
+        "title": "Admettez vos fautes",
+        "description": "Lorsque vous avez tort, dites « Je suis désolé » sans excuses.",
+        "islamic_guidance": "Allah dit: 'Mais quiconque se repent après son injustice et se réforme, Allah agréera son repentir.' (5:39)",
+        "benefits": [
+          "Démontre le courage et l'intégrité",
+          "Guérit rapidement les relations",
+          "Ouvre les portes au pardon d'Allah"
+        ],
+        "daily_actions": [
+          "Excusez-vous immédiatement quand vous réalisez votre erreur",
+          "Évitez d'expliquer vos erreurs",
+          "Prenez l'entière responsabilité de vos actions"
+        ]
+      }
+    },
+    "duration_options": [7, 14, 21, 40]
+  },
+  {
+    "goal_id": "pride-soften-heart",
+    "category": "pride",
+    "translations": {
+      "en": {
+        "title": "Soften the Heart",
+        "description": "Practice humility by acknowledging mistakes.",
+        "islamic_guidance": "The Prophet (ﷺ) said: 'All the sons of Adam are sinners, but the best of sinners are those who repent.' (Tirmidhi)",
+        "benefits": [
+          "Develops emotional intelligence",
+          "Builds empathy and compassion",
+          "Strengthens spiritual connection"
+        ],
+        "daily_actions": [
+          "Reflect on your daily mistakes",
+          "Make istighfar regularly",
+          "Practice self-compassion while maintaining accountability"
+        ]
+      },
+      "ar": {
+        "title": "ليّن قلبك",
+        "description": "مارس التواضع بالاعتراف بأخطائك.",
+        "islamic_guidance": "قال النبي ﷺ: 'كل بني آدم خطاء وخير الخطائين التوابون' (الترمذي)",
+        "benefits": [
+          "ينمي الذكاء العاطفي",
+          "يبني التعاطف والشفقة",
+          "يقوي الاتصال الروحي"
+        ],
+        "daily_actions": [
+          "تأمل في أخطائك اليومية",
+          "استغفر بانتظام",
+          "مارس الشفقة على الذات مع الحفاظ على المساءلة"
+        ]
+      },
+      "fr": {
+        "title": "Adoucissez votre cœur",
+        "description": "Pratiquez l'humilité en reconnaissant vos erreurs.",
+        "islamic_guidance": "Le Prophète (ﷺ) a dit: 'Tous les fils d'Adam sont pécheurs, mais les meilleurs des pécheurs sont ceux qui se repentent.' (Tirmidhi)",
+        "benefits": [
+          "Développe l'intelligence émotionnelle",
+          "Construit l'empathie et la compassion",
+          "Renforce la connexion spirituelle"
+        ],
+        "daily_actions": [
+          "Réfléchissez à vos erreurs quotidiennes",
+          "Faites istighfar régulièrement",
+          "Pratiquez l'auto-compassion tout en maintenant la responsabilité"
+        ]
+      }
+    },
+    "duration_options": [7, 14, 21, 40]
+  },
+  {
+    "goal_id": "pride-reconcile-quickly",
+    "category": "pride",
+    "translations": {
+      "en": {
+        "title": "Reconcile Quickly",
+        "description": "Restore relationships rather than hold onto pride.",
+        "islamic_guidance": "The Prophet (ﷺ) said: 'It is not permissible for a Muslim to desert his fellow Muslim for more than three days.' (Bukhari)",
+        "benefits": [
+          "Prevents long-term relationship damage",
+          "Demonstrates maturity and wisdom",
+          "Creates peace and harmony"
+        ],
+        "daily_actions": [
+          "Reach out to estranged friends and family",
+          "Initiate conversations to resolve conflicts",
+          "Choose peace over being right"
+        ]
+      },
+      "ar": {
+        "title": "سارع بالمصالحة",
+        "description": "أصلح علاقاتك بدلاً من التمسك بالكبرياء.",
+        "islamic_guidance": "قال النبي ﷺ: 'لا يحل لمسلم أن يهجر أخاه فوق ثلاث' (البخاري)",
+        "benefits": [
+          "يمنع الضرر طويل المدى للعلاقات",
+          "يظهر النضج والحكمة",
+          "يخلق السلام والانسجام"
+        ],
+        "daily_actions": [
+          "تواصل مع الأصدقاء والعائلة المتنافرين",
+          "ابدأ المحادثات لحل الصراعات",
+          "اختر السلام على أن تكون محقاً"
+        ]
+      },
+      "fr": {
+        "title": "Réconciliez-vous rapidement",
+        "description": "Réparez les relations plutôt que de rester prisonnier de votre orgueil.",
+        "islamic_guidance": "Le Prophète (ﷺ) a dit: 'Il n'est pas permis à un musulman de délaisser son frère musulman plus de trois jours.' (Bukhari)",
+        "benefits": [
+          "Prévient les dommages relationnels à long terme",
+          "Démontre la maturité et la sagesse",
+          "Crée la paix et l'harmonie"
+        ],
+        "daily_actions": [
+          "Tendez la main aux amis et à la famille éloignés",
+          "Initiez des conversations pour résoudre les conflits",
+          "Choisissez la paix plutôt que d'avoir raison"
+        ]
+      }
+    },
+    "duration_options": [7, 14, 21, 40]
+  },
+  {
+    "goal_id": "pride-hide-good-deeds",
+    "category": "pride",
+    "translations": {
+      "en": {
+        "title": "Hide Good Deeds",
+        "description": "Do acts of worship privately.",
+        "islamic_guidance": "Allah says: 'If you disclose your charitable expenditures, they are good; but if you conceal them and give them to the poor, it is better for you.' (2:271)",
+        "benefits": [
+          "Increases sincerity in worship",
+          "Protects from showing off",
+          "Earns greater spiritual reward"
+        ],
+        "daily_actions": [
+          "Perform extra prayers without telling anyone",
+          "Give charity anonymously",
+          "Make dhikr and du'a privately"
+        ]
+      },
+      "ar": {
+        "title": "أخفِ أعمالك الصالحة",
+        "description": "قم بالأعمال الصالحة سراً.",
+        "islamic_guidance": "يقول الله: 'إِن تُبْدُوا الصَّدَقَاتِ فَنِعِمَّا هِيَ وَإِن تُخْفُوهَا وَتُؤْتُوهَا الْفُقَرَاءَ فَهُوَ خَيْرٌ لَّكُمْ' (2:271)",
+        "benefits": [
+          "يزيد الإخلاص في العبادة",
+          "يحمي من الرياء",
+          "يكسب أجراً روحياً أعظم"
+        ],
+        "daily_actions": [
+          "صل صلوات إضافية دون إخبار أحد",
+          "تصدق بشكل مجهول",
+          "اذكر الله وادع سراً"
+        ]
+      },
+      "fr": {
+        "title": "Cachez vos bonnes actions",
+        "description": "Faites vos actes pieux en privé.",
+        "islamic_guidance": "Allah dit: 'Si vous donnez ouvertement vos aumônes, c'est bien; mais si vous les cachez tout en les donnant aux indigents, c'est mieux pour vous.' (2:271)",
+        "benefits": [
+          "Augmente la sincérité dans l'adoration",
+          "Protège de l'ostentation",
+          "Mérite une plus grande récompense spirituelle"
+        ],
+        "daily_actions": [
+          "Accomplissez des prières supplémentaires sans le dire à personne",
+          "Donnez l'aumône anonymement",
+          "Faites dhikr et du'a en privé"
+        ]
+      }
+    },
+    "duration_options": [7, 14, 21, 40]
+  },
+  {
+    "goal_id": "pride-purify-intentions",
+    "category": "pride",
+    "translations": {
+      "en": {
+        "title": "Purify Intentions",
+        "description": "Do good for Allah alone, not praise.",
+        "islamic_guidance": "The Prophet (ﷺ) said: 'Actions are but by intention and every man shall have only that which he intended.' (Bukhari)",
+        "benefits": [
+          "Ensures maximum spiritual reward",
+          "Protects from spiritual diseases",
+          "Develops sincere relationship with Allah"
+        ],
+        "daily_actions": [
+          "Before each action, check your intention",
+          "Ask: 'Am I doing this for Allah or for people?'",
+          "Renew your intention throughout the day"
+        ]
+      },
+      "ar": {
+        "title": "طهر نيتك",
+        "description": "افعل الخير لوجه الله وحده وليس طلباً للمدح.",
+        "islamic_guidance": "قال النبي ﷺ: 'إنما الأعمال بالنيات وإنما لكل امرئ ما نوى' (البخاري)",
+        "benefits": [
+          "يضمن الحد الأقصى من الأجر الروحي",
+          "يحمي من الأمراض الروحية",
+          "ينمي علاقة صادقة مع الله"
+        ],
+        "daily_actions": [
+          "قبل كل عمل، افحص نيتك",
+          "اسأل: 'هل أفعل هذا لله أم للناس؟'",
+          "جدد نيتك طوال اليوم"
+        ]
+      },
+      "fr": {
+        "title": "Purifiez vos intentions",
+        "description": "Faites le bien uniquement pour Allah, non pour la louange des gens.",
+        "islamic_guidance": "Le Prophète (ﷺ) a dit: 'Les actions ne valent que par les intentions et chacun n'aura que ce qu'il a eu l'intention de faire.' (Bukhari)",
+        "benefits": [
+          "Assure la récompense spirituelle maximale",
+          "Protège des maladies spirituelles",
+          "Développe une relation sincère avec Allah"
+        ],
+        "daily_actions": [
+          "Avant chaque action, vérifiez votre intention",
+          "Demandez-vous: 'Est-ce que je fais cela pour Allah ou pour les gens?'",
+          "Renouvelez votre intention tout au long de la journée"
+        ]
+      }
+    },
+    "duration_options": [7, 14, 21, 40]
+  },
+  {
+    "goal_id": "pride-resist-social-media",
+    "category": "pride",
+    "translations": {
+      "en": {
+        "title": "Resist Social Media Validation",
+        "description": "Post less and reflect more.",
+        "islamic_guidance": "The Prophet (ﷺ) said: 'Whoever seeks the pleasure of Allah by displeasing people, Allah will suffice him from people.' (Tirmidhi)",
+        "benefits": [
+          "Reduces dependence on others' approval",
+          "Increases focus on real spiritual growth",
+          "Protects from vanity and showing off"
+        ],
+        "daily_actions": [
+          "Limit social media posting about good deeds",
+          "Focus on private spiritual development",
+          "Seek Allah's approval over people's likes"
+        ]
+      },
+      "ar": {
+        "title": "قاوم السعي للتقدير على وسائل التواصل",
+        "description": "قلل من منشوراتك وتأمل أكثر.",
+        "islamic_guidance": "قال النبي ﷺ: 'من التمس رضا الله بسخط الناس كفاه الله مؤونة الناس' (الترمذي)",
+        "benefits": [
+          "يقلل الاعتماد على موافقة الآخرين",
+          "يزيد التركيز على النمو الروحي الحقيقي",
+          "يحمي من الغرور والرياء"
+        ],
+        "daily_actions": [
+          "قلل من نشر الأعمال الصالحة على وسائل التواصل",
+          "ركز على التطوير الروحي الخاص",
+          "اطلب رضا الله على إعجابات الناس"
+        ]
+      },
+      "fr": {
+        "title": "Résistez à la validation sur les réseaux sociaux",
+        "description": "Publiez moins et réfléchissez davantage.",
+        "islamic_guidance": "Le Prophète (ﷺ) a dit: 'Quiconque cherche la satisfaction d'Allah en déplaisant aux gens, Allah lui suffira contre les gens.' (Tirmidhi)",
+        "benefits": [
+          "Réduit la dépendance à l'approbation des autres",
+          "Augmente la concentration sur la vraie croissance spirituelle",
+          "Protège de la vanité et de l'ostentation"
+        ],
+        "daily_actions": [
+          "Limitez les publications sur les bonnes actions sur les réseaux sociaux",
+          "Concentrez-vous sur le développement spirituel privé",
+          "Cherchez l'approbation d'Allah plutôt que les likes des gens"
+        ]
+      }
+    },
+    "duration_options": [7, 14, 21, 40]
+  },
+  {
+    "goal_id": "pride-see-others-better",
+    "category": "pride",
+    "translations": {
+      "en": {
+        "title": "See Others as Better",
+        "description": "Assume others are spiritually higher than you.",
+        "islamic_guidance": "The Prophet (ﷺ) said: 'No one will enter Paradise who has an atom's weight of pride in his heart.' (Muslim)",
+        "benefits": [
+          "Eliminates spiritual arrogance",
+          "Develops genuine humility",
+          "Opens heart to learning from others"
+        ],
+        "daily_actions": [
+          "Look for good qualities in everyone you meet",
+          "Assume people have hidden virtues",
+          "Avoid comparing yourself favorably to others"
+        ]
+      },
+      "ar": {
+        "title": "اعتبر الآخرين أفضل منك",
+        "description": "افترض أن الآخرين أعلى منك روحياً.",
+        "islamic_guidance": "قال النبي ﷺ: 'لا يدخل الجنة من كان في قلبه مثقال ذرة من كبر' (مسلم)",
+        "benefits": [
+          "يزيل الغرور الروحي",
+          "ينمي التواضع الحقيقي",
+          "يفتح القلب للتعلم من الآخرين"
+        ],
+        "daily_actions": [
+          "ابحث عن الصفات الجيدة في كل من تقابل",
+          "افترض أن الناس لديهم فضائل خفية",
+          "تجنب المقارنة المتفوقة مع الآخرين"
+        ]
+      },
+      "fr": {
+        "title": "Considérez les autres comme meilleurs que vous",
+        "description": "Considérez les autres comme spirituellement supérieurs à vous.",
+        "islamic_guidance": "Le Prophète (ﷺ) a dit: 'N'entrera pas au Paradis celui qui a dans son cœur le poids d'un atome d'orgueil.' (Muslim)",
+        "benefits": [
+          "Élimine l'arrogance spirituelle",
+          "Développe une humilité genuine",
+          "Ouvre le cœur à l'apprentissage des autres"
+        ],
+        "daily_actions": [
+          "Cherchez les bonnes qualités chez tous ceux que vous rencontrez",
+          "Supposez que les gens ont des vertus cachées",
+          "Évitez de vous comparer favorablement aux autres"
+        ]
+      }
+    },
+    "duration_options": [7, 14, 21, 40]
+  },
+  {
+    "goal_id": "pride-avoid-belittling",
+    "category": "pride",
+    "translations": {
+      "en": {
+        "title": "Avoid Belittling",
+        "description": "Speak gently and avoid sarcastic tones.",
+        "islamic_guidance": "Allah says: 'O you who believe! Let not a people ridicule [another] people; perhaps they are better than them; nor let women ridicule [other] women; perhaps they are better than them.' (49:11)",
+        "benefits": [
+          "Creates respectful communication",
+          "Builds others' confidence and dignity",
+          "Reflects Islamic character"
+        ],
+        "daily_actions": [
+          "Use encouraging words when speaking to others",
+          "Avoid jokes at others' expense",
+          "Speak with kindness even when correcting"
+        ]
+      },
+      "ar": {
+        "title": "تجنب التقليل من الآخرين",
+        "description": "تكلم بلطف وتجنب النبرة الساخرة.",
+        "islamic_guidance": "يقول الله: 'يَا أَيُّهَا الَّذِينَ آمَنُوا لَا يَسْخَرْ قَوْمٌ مِّن قَوْمٍ عَسَىٰ أَن يَكُونُوا خَيْرًا مِّنْهُمْ وَلَا نِسَاءٌ مِّن نِّسَاءٍ عَسَىٰ أَن يَكُنَّ خَيْرًا مِّنْهُنَّ' (49:11)",
+        "benefits": [
+          "يخلق تواصلاً محترماً",
+          "يبني ثقة الآخرين وكرامتهم",
+          "يعكس الخلق الإسلامي"
+        ],
+        "daily_actions": [
+          "استخدم كلمات مشجعة عند التحدث مع الآخرين",
+          "تجنب النكات على حساب الآخرين",
+          "تكلم بلطف حتى عند التصحيح"
+        ]
+      },
+      "fr": {
+        "title": "Évitez de rabaisser les autres",
+        "description": "Parlez avec douceur et évitez les tons sarcastiques.",
+        "islamic_guidance": "Allah dit: 'Ô vous qui croyez! Qu'un peuple ne se moque pas d'un autre peuple: ceux-ci sont peut-être meilleurs qu'eux; et que des femmes ne se moquent pas d'autres femmes: celles-ci sont peut-être meilleures qu'elles.' (49:11)",
+        "benefits": [
+          "Crée une communication respectueuse",
+          "Construit la confiance et la dignité des autres",
+          "Reflète le caractère islamique"
+        ],
+        "daily_actions": [
+          "Utilisez des mots encourageants en parlant aux autres",
+          "Évitez les blagues aux dépens des autres",
+          "Parlez avec gentillesse même en corrigeant"
+        ]
+      }
+    },
+    "duration_options": [7, 14, 21, 40]
+  },
+  {
+    "goal_id": "pride-treat-dignity",
+    "category": "pride",
+    "translations": {
+      "en": {
+        "title": "Treat All With Dignity",
+        "description": "Show respect regardless of status.",
+        "islamic_guidance": "The Prophet (ﷺ) said: 'He is not one of us who does not have mercy on our young ones and does not respect our elders.' (Tirmidhi)",
+        "benefits": [
+          "Embodies prophetic character",
+          "Creates inclusive environments",
+          "Earns respect from others"
+        ],
+        "daily_actions": [
+          "Use polite language with everyone",
+          "Give your full attention when others speak",
+          "Show courtesy to people in service positions"
+        ]
+      },
+      "ar": {
+        "title": "عامل الجميع بكرامة",
+        "description": "أظهر الاحترام بغض النظر عن المكانة.",
+        "islamic_guidance": "قال النبي ﷺ: 'ليس منا من لم يرحم صغيرنا ويوقر كبيرنا' (الترمذي)",
+        "benefits": [
+          "يجسد الخلق النبوي",
+          "يخلق بيئات شاملة",
+          "يكسب احترام الآخرين"
+        ],
+        "daily_actions": [
+          "استخدم لغة مهذبة مع الجميع",
+          "أعط انتباهك الكامل عندما يتحدث الآخرون",
+          "أظهر المجاملة للناس في المناصب الخدمية"
+        ]
+      },
+      "fr": {
+        "title": "Traitez tout le monde avec dignité",
+        "description": "Montrez du respect quelle que soit la position sociale.",
+        "islamic_guidance": "Le Prophète (ﷺ) a dit: 'N'est pas des nôtres celui qui ne fait pas miséricorde à nos jeunes et ne respecte pas nos aînés.' (Tirmidhi)",
+        "benefits": [
+          "Incarne le caractère prophétique",
+          "Crée des environnements inclusifs",
+          "Mérite le respect des autres"
+        ],
+        "daily_actions": [
+          "Utilisez un langage poli avec tout le monde",
+          "Donnez toute votre attention quand les autres parlent",
+          "Montrez de la courtoisie aux personnes en position de service"
+        ]
+      }
+    },
+    "duration_options": [7, 14, 21, 40]
+  }
+]

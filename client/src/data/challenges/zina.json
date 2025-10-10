@@ -1,0 +1,485 @@
+[
+  {
+    "id": "challenge-zina-flirt-01",
+    "category": "zina",
+    "subcategory": "flirtatious_speech",
+    "title": "Guard Your Words",
+    "description": "Today, avoid flirtatious or suggestive language in all conversations — online or in person.",
+    "duration_days": 1,
+    "translations": {
+      "en": {
+        "title": "Guard Your Words",
+        "description": "Today, avoid flirtatious or suggestive language in all conversations — online or in person."
+      },
+      "fr": {
+        "title": "Gardez vos mots",
+        "description": "Aujourd'hui, évitez le langage flirteur ou suggestif dans toutes les conversations — en ligne ou en personne."
+      },
+      "ar": {
+        "title": "احرس كلماتك",
+        "description": "اليوم، تجنب اللغة المغازلة أو الموحية في جميع المحادثات — على الإنترنت أو وجهاً لوجه."
+      }
+    },
+    "difficulty": "easy"
+  },
+  {
+    "id": "challenge-zina-flirt-02",
+    "category": "zina",
+    "subcategory": "flirtatious_speech",
+    "title": "3-Day Speech Purity",
+    "description": "Speak respectfully and modestly for 3 days. Avoid playful messaging that crosses limits.",
+    "duration_days": 3,
+    "translations": {
+      "en": {
+        "title": "3-Day Speech Purity",
+        "description": "Speak respectfully and modestly for 3 days. Avoid playful messaging that crosses limits."
+      },
+      "fr": {
+        "title": "Pureté de parole de 3 jours",
+        "description": "Parlez respectueusement et modestement pendant 3 jours. Évitez les messages ludiques qui dépassent les limites."
+      },
+      "ar": {
+        "title": "طهارة الكلام لمدة 3 أيام",
+        "description": "تحدث باحترام وتواضع لمدة 3 أيام. تجنب الرسائل المرحة التي تتجاوز الحدود."
+      }
+    },
+    "difficulty": "medium"
+  },
+  {
+    "id": "challenge-zina-flirt-03",
+    "category": "zina",
+    "subcategory": "flirtatious_speech",
+    "title": "7-Day Messaging Cleanse",
+    "description": "Avoid texting or speaking with romantic intent to anyone outside of marriage for 7 days.",
+    "duration_days": 7,
+    "translations": {
+      "en": {
+        "title": "7-Day Messaging Cleanse",
+        "description": "Avoid texting or speaking with romantic intent to anyone outside of marriage for 7 days."
+      },
+      "ar": {
+        "title": "تطهير الرسائل لمدة 7 أيام",
+        "description": "لمدة أسبوع، طهر رسائلك من كل ما يثير الفتنة."
+      },
+      "fr": {
+        "title": "Nettoyage de messagerie de 7 jours",
+        "description": "Pendant une semaine, purifiez vos messages de tout ce qui éveille la tentation."
+      }
+    },
+    "difficulty": "medium"
+  },
+  {
+    "id": "challenge-zina-privacy-01",
+    "category": "zina",
+    "subcategory": "private_contact",
+    "title": "Respect Personal Boundaries",
+    "description": "Do not place yourself in a one-on-one private setting with a non-mahram today.",
+    "duration_days": 1,
+    "translations": {
+      "en": {
+        "title": "Respect Personal Boundaries",
+        "description": "Do not place yourself in a one-on-one private setting with a non-mahram today."
+      },
+      "fr": {
+        "title": "Respectez les limites personnelles",
+        "description": "Ne vous placez pas dans un cadre privé en tête-à-tête avec un non-mahram aujourd'hui."
+      },
+      "ar": {
+        "title": "احترم الحدود الشخصية",
+        "description": "لا تضع نفسك في إطار خاص وجهاً لوجه مع غير محرم اليوم."
+      }
+    },
+    "difficulty": "easy"
+  },
+  {
+    "id": "challenge-zina-privacy-02",
+    "category": "zina",
+    "subcategory": "private_contact",
+    "title": "3-Day Halwa Barrier",
+    "description": "Avoid all private, unsupervised contact with the opposite gender for 3 days.",
+    "duration_days": 3,
+    "translations": {
+      "en": {
+        "title": "3-Day Halwa Barrier",
+        "description": "Avoid all private, unsupervised contact with the opposite gender for 3 days."
+      },
+      "ar": {
+        "title": "حاجز الخلوة لمدة 3 أيام",
+        "description": "لمدة 3 أيام، تجنب الخلوة مع الأجانب."
+      },
+      "fr": {
+        "title": "Barrière d'intimité de 3 jours",
+        "description": "Pendant 3 jours, évitez l'intimité avec les étrangers."
+      }
+    },
+    "difficulty": "medium"
+  },
+  {
+    "id": "challenge-zina-privacy-03",
+    "category": "zina",
+    "subcategory": "private_contact",
+    "title": "7 Days of Honour",
+    "description": "Protect your dignity and that of others by avoiding any risky proximity for 7 days.",
+    "duration_days": 7,
+    "translations": {
+      "en": {
+        "title": "7 Days of Honour",
+        "description": "Protect your dignity and that of others by avoiding any risky proximity for 7 days."
+      },
+      "ar": {
+        "title": "7 أيام من الشرف",
+        "description": "لمدة أسبوع، احتفظ بشرفك وتجنب المواقف المشبوهة."
+      },
+      "fr": {
+        "title": "7 jours d'honneur",
+        "description": "Pendant une semaine, préservez votre honneur et évitez les situations suspectes."
+      }
+    },
+    "difficulty": "medium"
+  },
+  {
+    "id": "challenge-zina-media-01",
+    "category": "zina",
+    "subcategory": "romantic_media",
+    "title": "Skip the Scene",
+    "description": "Today, fast-forward or avoid any sexualised scene in shows, music, or books.",
+    "duration_days": 1,
+    "translations": {
+      "en": {
+        "title": "Skip the Scene",
+        "description": "Today, fast-forward or avoid any sexualised scene in shows, music, or books."
+      },
+      "fr": {
+        "title": "Ignorez la scène",
+        "description": "Aujourd'hui, avancez rapidement ou évitez toute scène sexualisée dans les émissions, la musique ou les livres."
+      },
+      "ar": {
+        "title": "تجاهل المشهد",
+        "description": "اليوم، تسريع أو تجنب أي مشهد جنسي في البرامج أو الموسيقى أو الكتب."
+      }
+    },
+    "difficulty": "easy"
+  },
+  {
+    "id": "challenge-zina-media-02",
+    "category": "zina",
+    "subcategory": "romantic_media",
+    "title": "3-Day Content Reset",
+    "description": "Avoid all romantic or sensual entertainment — music, video, novels — for 3 days.",
+    "duration_days": 3,
+    "translations": {
+      "en": {
+        "title": "3-Day Content Reset",
+        "description": "Avoid all romantic or sensual entertainment — music, video, novels — for 3 days."
+      },
+      "ar": {
+        "title": "إعادة تعيين المحتوى لمدة 3 أيام",
+        "description": "لمدة 3 أيام، اعيد تعيين المحتوى الذي تستهلكه إلى الحلال."
+      },
+      "fr": {
+        "title": "Réinitialisation du contenu de 3 jours",
+        "description": "Pendant 3 jours, réinitialisez le contenu que vous consommez vers le halal."
+      }
+    },
+    "difficulty": "medium"
+  },
+  {
+    "id": "challenge-zina-media-03",
+    "category": "zina",
+    "subcategory": "romantic_media",
+    "title": "7-Day Desire Detox",
+    "description": "Cleanse your media intake. Focus on modest, inspiring content only for 7 days.",
+    "duration_days": 7,
+    "translations": {
+      "en": {
+        "title": "7-Day Desire Detox",
+        "description": "Cleanse your media intake. Focus on modest, inspiring content only for 7 days."
+      },
+      "ar": {
+        "title": "تخلص من الرغبة لمدة 7 أيام",
+        "description": "لمدة أسبوع، تخلص من المحتوى الذي يثير الرغبات المحرمة."
+      },
+      "fr": {
+        "title": "Détox de désir de 7 jours",
+        "description": "Pendant une semaine, éliminez le contenu qui éveille les désirs interdits."
+      }
+    },
+    "difficulty": "medium"
+  },
+  {
+    "id": "challenge-zina-fantasy-01",
+    "category": "zina",
+    "subcategory": "fantasising",
+    "title": "Shift the Thought",
+    "description": "Today, when a lustful thought arises, immediately make dhikr or say a du'a of protection.",
+    "duration_days": 1,
+    "translations": {
+      "en": {
+        "title": "Shift the Thought",
+        "description": "Today, when a lustful thought arises, immediately make dhikr or say a du'a of protection."
+      },
+      "ar": {
+        "title": "غير الفكرة",
+        "description": "اليوم، كلما جاءتك فكرة سيئة، غيرها إلى فكرة طيبة."
+      },
+      "fr": {
+        "title": "Changez la pensée",
+        "description": "Aujourd'hui, chaque fois qu'une mauvaise pensée vous vient, changez-la en une bonne pensée."
+      }
+    },
+    "difficulty": "easy"
+  },
+  {
+    "id": "challenge-zina-fantasy-02",
+    "category": "zina",
+    "subcategory": "fantasising",
+    "title": "3-Day Mind Rewire",
+    "description": "Actively replace indecent thoughts with thoughts of Jannah or death for 3 days.",
+    "duration_days": 3,
+    "translations": {
+      "en": {
+        "title": "3-Day Mind Rewire",
+        "description": "Actively replace indecent thoughts with thoughts of Jannah or death for 3 days."
+      },
+      "ar": {
+        "title": "إعادة توصيل العقل لمدة 3 أيام",
+        "description": "لمدة 3 أيام، اعيد توصيل أفكارك نحو الطهارة."
+      },
+      "fr": {
+        "title": "Reconnexion mentale de 3 jours",
+        "description": "Pendant 3 jours, reconnectez vos pensées vers la pureté."
+      }
+    },
+    "difficulty": "medium"
+  },
+  {
+    "id": "challenge-zina-fantasy-03",
+    "category": "zina",
+    "subcategory": "fantasising",
+    "title": "7 Days of Thought Control",
+    "description": "Guard your inner gaze. Monitor your thoughts and redirect temptations all week.",
+    "duration_days": 7,
+    "translations": {
+      "en": {
+        "title": "7 Days of Thought Control",
+        "description": "Guard your inner gaze. Monitor your thoughts and redirect temptations all week."
+      },
+      "ar": {
+        "title": "7 أيام من السيطرة على الأفكار",
+        "description": "لمدة أسبوع، تحكم في أفكارك وتجنب الخيالات المحرمة."
+      },
+      "fr": {
+        "title": "7 jours de contrôle des pensées",
+        "description": "Pendant une semaine, contrôlez vos pensées et évitez les fantasmes interdits."
+      }
+    },
+    "difficulty": "medium"
+  },
+  {
+    "id": "challenge-zina-social-01",
+    "category": "zina",
+    "subcategory": "social_media",
+    "title": "Unfollow Temptation",
+    "description": "Today, unfollow any account that tempts you toward lust or comparison.",
+    "duration_days": 1,
+    "translations": {
+      "en": {
+        "title": "Unfollow Temptation",
+        "description": "Today, unfollow any account that tempts you toward lust or comparison."
+      },
+      "ar": {
+        "title": "إلغاء متابعة الإغراء",
+        "description": "اليوم، ألغ متابعة حساب أو مصدر يثير فيك الرغبات المحرمة."
+      },
+      "fr": {
+        "title": "Arrêtez de suivre la tentation",
+        "description": "Aujourd'hui, arrêtez de suivre un compte ou une source qui éveille en vous des désirs interdits."
+      }
+    },
+    "difficulty": "easy"
+  },
+  {
+    "id": "challenge-zina-social-02",
+    "category": "zina",
+    "subcategory": "social_media",
+    "title": "3-Day Scroll Purity",
+    "description": "For the next 3 days, limit screen time and avoid apps that encourage visual temptation.",
+    "duration_days": 3,
+    "translations": {
+      "en": {
+        "title": "3-Day Scroll Purity",
+        "description": "For the next 3 days, limit screen time and avoid apps that encourage visual temptation."
+      },
+      "ar": {
+        "title": "طهارة التصفح لمدة 3 أيام",
+        "description": "لمدة 3 أيام، تصفح وسائل التواصل بطهارة."
+      },
+      "fr": {
+        "title": "Pureté de défilement de 3 jours",
+        "description": "Pendant 3 jours, naviguez sur les réseaux sociaux avec pureté."
+      }
+    },
+    "difficulty": "medium"
+  },
+  {
+    "id": "challenge-zina-social-03",
+    "category": "zina",
+    "subcategory": "social_media",
+    "title": "7-Day Social Reset",
+    "description": "Detox your digital space. Only allow feeds that remind you of modesty and sincerity.",
+    "duration_days": 7,
+    "translations": {
+      "en": {
+        "title": "7-Day Social Reset",
+        "description": "Detox your digital space. Only allow feeds that remind you of modesty and sincerity."
+      },
+      "ar": {
+        "title": "إعادة تعيين وسائل التواصل لمدة 7 أيام",
+        "description": "لمدة أسبوع، اعيد تعيين استخدامك لوسائل التواصل."
+      },
+      "fr": {
+        "title": "Réinitialisation sociale de 7 jours",
+        "description": "Pendant une semaine, réinitialisez votre utilisation des réseaux sociaux."
+      }
+    },
+    "difficulty": "medium"
+  },
+  {
+    "id": "challenge-zina-companionship-01",
+    "category": "zina",
+    "subcategory": "unlawful_relationship",
+    "title": "Cut the Thread",
+    "description": "Mute or archive one chat that you know leads you to sin. Give yourself space today.",
+    "duration_days": 1,
+    "translations": {
+      "en": {
+        "title": "Cut the Thread",
+        "description": "Mute or archive one chat that you know leads you to sin. Give yourself space today."
+      },
+      "ar": {
+        "title": "اقطع الخيط",
+        "description": "اليوم، اقطع التواصل مع شخص يجرك إلى المعصية."
+      },
+      "fr": {
+        "title": "Coupez le fil",
+        "description": "Aujourd'hui, coupez la communication avec quelqu'un qui vous entraîne vers le péché."
+      }
+    },
+    "difficulty": "easy"
+  },
+  {
+    "id": "challenge-zina-companionship-02",
+    "category": "zina",
+    "subcategory": "unlawful_relationship",
+    "title": "3-Day Boundaries",
+    "description": "Avoid replying or initiating flirtatious contact with any non-mahram for 3 days.",
+    "duration_days": 3,
+    "translations": {
+      "en": {
+        "title": "3-Day Boundaries",
+        "description": "Avoid replying or initiating flirtatious contact with any non-mahram for 3 days."
+      },
+      "ar": {
+        "title": "حدود لمدة 3 أيام",
+        "description": "لمدة 3 أيام، ضع حدوداً واضحة في علاقاتك."
+      },
+      "fr": {
+        "title": "Limites de 3 jours",
+        "description": "Pendant 3 jours, établissez des limites claires dans vos relations."
+      }
+    },
+    "difficulty": "medium"
+  },
+  {
+    "id": "challenge-zina-companionship-03",
+    "category": "zina",
+    "subcategory": "unlawful_relationship",
+    "title": "7-Day Exit Strategy",
+    "description": "Begin planning to end any illicit relationship. Make istighfar and write your intention.",
+    "duration_days": 7,
+    "translations": {
+      "en": {
+        "title": "7-Day Exit Strategy",
+        "description": "Begin planning to end any illicit relationship. Make istighfar and write your intention."
+      },
+      "ar": {
+        "title": "استراتيجية الخروج لمدة 7 أيام",
+        "description": "لمدة أسبوع، ضع استراتيجية للخروج من العلاقات المحرمة."
+      },
+      "fr": {
+        "title": "Stratégie de sortie de 7 jours",
+        "description": "Pendant une semaine, développez une stratégie pour sortir des relations interdites."
+      }
+    },
+    "difficulty": "medium"
+  },
+  {
+    "id": "challenge-zina-hopelessness-01",
+    "category": "zina",
+    "subcategory": "hopelessness",
+    "title": "Du'a of Hope",
+    "description": "Read or listen to the du'a of Yunus (as) today. Reflect on its power to lift shame.",
+    "duration_days": 1,
+    "translations": {
+      "en": {
+        "title": "Du'a of Hope",
+        "description": "Read or listen to the du'a of Yunus (as) today. Reflect on its power to lift shame."
+      },
+      "ar": {
+        "title": "دعاء الأمل",
+        "description": "اليوم، ادع دعاء الأمل والتوبة من القلب."
+      },
+      "fr": {
+        "title": "Du'a d'espoir",
+        "description": "Aujourd'hui, faites une du'a d'espoir et de repentir du cœur."
+      }
+    },
+    "difficulty": "easy"
+  },
+  {
+    "id": "challenge-zina-hopelessness-02",
+    "category": "zina",
+    "subcategory": "hopelessness",
+    "title": "3-Day Mercy Reminder",
+    "description": "Repeat daily: 'Allah's mercy is greater than my sin.' Make sincere du'a each day.",
+    "duration_days": 3,
+    "translations": {
+      "en": {
+        "title": "3-Day Mercy Reminder",
+        "description": "Repeat daily: 'Allah's mercy is greater than my sin.' Make sincere du'a each day."
+      },
+      "ar": {
+        "title": "تذكرة الرحمة لمدة 3 أيام",
+        "description": "لمدة 3 أيام، تذكر رحمة الله وأنه يقبل التوبة."
+      },
+      "fr": {
+        "title": "Rappel de miséricorde de 3 jours",
+        "description": "Pendant 3 jours, rappelez-vous la miséricorde d'Allah et qu'Il accepte le repentir."
+      }
+    },
+    "difficulty": "medium"
+  },
+  {
+    "id": "challenge-zina-hopelessness-03",
+    "category": "zina",
+    "subcategory": "hopelessness",
+    "title": "7 Days of Returning",
+    "description": "For 7 days, pray 2 rak'at of tawbah and write one reflection on healing and hope.",
+    "duration_days": 7,
+    "translations": {
+      "en": {
+        "title": "7 Days of Returning",
+        "description": "For 7 days, pray 2 rak'at of tawbah and write one reflection on healing and hope."
+      },
+      "ar": {
+        "title": "7 أيام من العودة",
+        "description": "لمدة أسبوع، عد إلى الله بالتوبة والاستغفار."
+      },
+      "fr": {
+        "title": "7 jours de retour",
+        "description": "Pendant une semaine, revenez à Allah avec repentir et demande de pardon."
+      }
+    },
+    "difficulty": "medium"
+  }
+]

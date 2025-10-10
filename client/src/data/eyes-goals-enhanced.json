@@ -1,0 +1,470 @@
+[
+  {
+    "goal_id": "eyes-lower-gaze",
+    "category": "eyes",
+    "translations": {
+      "en": {
+        "title": "Lower the Gaze",
+        "description": "Practice modesty by lowering your gaze from inappropriate sights, protecting your heart from hidden desires.",
+        "islamic_guidance": "Allah says: 'Tell the believing men to reduce some of their vision and guard their private parts.' (24:30)",
+        "benefits": [
+          "Purifies the heart from lustful thoughts",
+          "Increases spiritual focus and concentration",
+          "Develops strong self-control and discipline"
+        ],
+        "daily_actions": [
+          "Practice the 3-second rule: look away after 3 seconds",
+          "Focus on people's faces during conversations",
+          "Avoid lingering looks at inappropriate content"
+        ]
+      },
+      "ar": {
+        "title": "غض البصر",
+        "description": "مارس الحياء بغض البصر عن المناظر غير اللائقة، واحفظ قلبك من الشهوات الخفية.",
+        "islamic_guidance": "يقول الله: 'قُل لِّلْمُؤْمِنِينَ يَغُضُّوا مِنْ أَبْصَارِهِمْ وَيَحْفَظُوا فُرُوجَهُمْ' (24:30)",
+        "benefits": [
+          "يطهر القلب من الأفكار الشهوانية",
+          "يزيد التركيز الروحي والانتباه",
+          "ينمي ضبط النفس والانضباط القوي"
+        ],
+        "daily_actions": [
+          "مارس قاعدة الثلاث ثوان: انظر بعيداً بعد 3 ثوان",
+          "ركز على وجوه الناس أثناء المحادثات",
+          "تجنب النظرات الطويلة للمحتوى غير المناسب"
+        ]
+      },
+      "fr": {
+        "title": "Baisser le regard",
+        "description": "Pratiquez la pudeur en baissant le regard devant des scènes inappropriées et protégez votre cœur des désirs cachés.",
+        "islamic_guidance": "Allah dit: 'Dis aux croyants de baisser leurs regards et de garder leur chasteté.' (24:30)",
+        "benefits": [
+          "Purifie le cœur des pensées lubriques",
+          "Augmente la concentration spirituelle",
+          "Développe une forte maîtrise de soi"
+        ],
+        "daily_actions": [
+          "Pratiquez la règle des 3 secondes: détournez le regard après 3 secondes",
+          "Concentrez-vous sur les visages des gens pendant les conversations",
+          "Évitez les regards persistants sur le contenu inapproprié"
+        ]
+      }
+    },
+    "duration_options": [7, 14, 21, 40]
+  },
+  {
+    "goal_id": "eyes-mindful-vision",
+    "category": "eyes",
+    "translations": {
+      "en": {
+        "title": "Mindful Vision",
+        "description": "Commit to watching where your eyes wander. Shift focus immediately from anything that provokes lust.",
+        "islamic_guidance": "The Prophet (ﷺ) said: 'The glance is a poisoned arrow of shaytan. Whoever gives it up for fear of Allah will receive from Him a faith, the sweetness of which he will find within his heart.' (Tabarani)",
+        "benefits": [
+          "Develops awareness of visual habits",
+          "Strengthens willpower against temptation",
+          "Creates mindful living patterns"
+        ],
+        "daily_actions": [
+          "Check your gaze direction every hour",
+          "Redirect attention to beneficial sights",
+          "Practice dhikr when faced with temptation"
+        ]
+      },
+      "ar": {
+        "title": "رؤية يقظة",
+        "description": "التزم بمراقبة أين تتجه عيناك. حوّل بصرك فوراً عن كل ما يثير الشهوة.",
+        "islamic_guidance": "قال النبي ﷺ: 'النظرة سهم مسموم من سهام إبليس، من تركها من خوف الله أعطاه الله إيماناً يجد حلاوته في قلبه' (الطبراني)",
+        "benefits": [
+          "ينمي الوعي بالعادات البصرية",
+          "يقوي الإرادة ضد الإغراء",
+          "يخلق أنماط حياة واعية"
+        ],
+        "daily_actions": [
+          "تحقق من اتجاه نظرك كل ساعة",
+          "وجه انتباهك إلى المناظر المفيدة",
+          "مارس الذكر عند مواجهة الإغراء"
+        ]
+      },
+      "fr": {
+        "title": "Vision attentive",
+        "description": "Engagez-vous à surveiller où se posent vos yeux. Détournez immédiatement le regard de tout ce qui provoque le désir.",
+        "islamic_guidance": "Le Prophète (ﷺ) a dit: 'Le regard est une flèche empoisonnée de Satan. Celui qui l'abandonne par crainte d'Allah recevra de Lui une foi dont il trouvera la douceur dans son cœur.' (Tabarani)",
+        "benefits": [
+          "Développe la conscience des habitudes visuelles",
+          "Renforce la volonté contre la tentation",
+          "Crée des modes de vie conscients"
+        ],
+        "daily_actions": [
+          "Vérifiez la direction de votre regard toutes les heures",
+          "Redirigez l'attention vers des vues bénéfiques",
+          "Pratiquez le dhikr face à la tentation"
+        ]
+      }
+    },
+    "duration_options": [7, 14, 21, 40]
+  },
+  {
+    "goal_id": "eyes-purify-inner-gaze",
+    "category": "eyes",
+    "translations": {
+      "en": {
+        "title": "Purify the Inner Gaze",
+        "description": "Seek to purify the eyes and heart together. Replace wrongful looks with dhikr or prayer.",
+        "islamic_guidance": "Allah says: 'And it is He who created the heavens and earth in truth. And the day He says, Be, and it is, His word is the truth.' (6:73)",
+        "benefits": [
+          "Connects vision with spiritual practice",
+          "Transforms looking into worship",
+          "Creates positive visual associations"
+        ],
+        "daily_actions": [
+          "Say 'Astaghfirullah' after any improper glance",
+          "Recite verses about Allah's creation when seeing beauty",
+          "Practice gratitude for the gift of sight"
+        ]
+      },
+      "ar": {
+        "title": "تطهير النظر الباطني",
+        "description": "اسع لتطهير العين والقلب معاً. استبدل النظرات المحرمة بالذكر أو الصلاة.",
+        "islamic_guidance": "يقول الله: 'وَهُوَ الَّذِي خَلَقَ السَّمَاوَاتِ وَالْأَرْضَ بِالْحَقِّ ۖ وَيَوْمَ يَقُولُ كُن فَيَكُونُ ۚ قَوْلُهُ الْحَقُّ' (6:73)",
+        "benefits": [
+          "يربط الرؤية بالممارسة الروحية",
+          "يحول النظر إلى عبادة",
+          "يخلق ارتباطات بصرية إيجابية"
+        ],
+        "daily_actions": [
+          "قل 'أستغفر الله' بعد أي نظرة غير صحيحة",
+          "اتل آيات عن خلق الله عند رؤية الجمال",
+          "مارس الشكر على نعمة البصر"
+        ]
+      },
+      "fr": {
+        "title": "Purifier le regard intérieur",
+        "description": "Cherchez à purifier les yeux et le cœur ensemble. Remplacez les regards interdits par le dhikr ou la prière.",
+        "islamic_guidance": "Allah dit: 'Et c'est Lui qui a créé les cieux et la terre en toute vérité. Et le jour où Il dit: Sois! Et c'est, Sa parole est la vérité.' (6:73)",
+        "benefits": [
+          "Connecte la vision avec la pratique spirituelle",
+          "Transforme le regard en adoration",
+          "Crée des associations visuelles positives"
+        ],
+        "daily_actions": [
+          "Dites 'Astaghfirullah' après tout regard inapproprié",
+          "Récitez des versets sur la création d'Allah en voyant la beauté",
+          "Pratiquez la gratitude pour le don de la vue"
+        ]
+      }
+    },
+    "duration_options": [7, 14, 21, 40]
+  },
+  {
+    "goal_id": "eyes-glance-not-stare",
+    "category": "eyes",
+    "translations": {
+      "en": {
+        "title": "Glance, Don't Stare",
+        "description": "Cultivate quick, respectful glances instead of lingering looks.",
+        "islamic_guidance": "The Prophet (ﷺ) said: 'O Ali, do not follow a glance with another, for you are forgiven the first, but not the second.' (Abu Dawud)",
+        "benefits": [
+          "Maintains respect for others' dignity",
+          "Prevents escalation of desire",
+          "Develops disciplined observation"
+        ],
+        "daily_actions": [
+          "Count to three before looking away",
+          "Avoid second glances at the same person",
+          "Practice brief, purposeful looking"
+        ]
+      },
+      "ar": {
+        "title": "لمحة بلا إطالة",
+        "description": "درب نفسك على نظرات سريعة ومحترمة بدلاً من الإطالة.",
+        "islamic_guidance": "قال النبي ﷺ: 'يا علي، لا تتبع النظرة النظرة، فإن لك الأولى وليس لك الآخرة' (أبو داود)",
+        "benefits": [
+          "يحافظ على احترام كرامة الآخرين",
+          "يمنع تصعيد الشهوة",
+          "ينمي الملاحظة المنضبطة"
+        ],
+        "daily_actions": [
+          "عد إلى ثلاثة قبل النظر بعيداً",
+          "تجنب النظرة الثانية لنفس الشخص",
+          "مارس النظر المختصر والهادف"
+        ]
+      },
+      "fr": {
+        "title": "Un regard bref, sans fixer",
+        "description": "Apprenez à jeter des regards brefs et respectueux au lieu de fixer longuement.",
+        "islamic_guidance": "Le Prophète (ﷺ) a dit: 'Ô Ali, ne fais pas suivre un regard d'un autre, car le premier te sera pardonné, mais pas le second.' (Abu Dawud)",
+        "benefits": [
+          "Maintient le respect de la dignité d'autrui",
+          "Empêche l'escalade du désir",
+          "Développe l'observation disciplinée"
+        ],
+        "daily_actions": [
+          "Comptez jusqu'à trois avant de détourner le regard",
+          "Évitez les seconds regards vers la même personne",
+          "Pratiquez le regard bref et intentionnel"
+        ]
+      }
+    },
+    "duration_options": [7, 14, 21, 40]
+  },
+  {
+    "goal_id": "eyes-social-awareness",
+    "category": "eyes",
+    "translations": {
+      "en": {
+        "title": "Awareness in Social Spaces",
+        "description": "Be mindful in public areas. Maintain respectful eye contact without excess.",
+        "islamic_guidance": "Allah says: 'And lower your wing to the believers who follow you.' (26:215)",
+        "benefits": [
+          "Improves social interactions",
+          "Builds trust and respect",
+          "Creates comfortable environments"
+        ],
+        "daily_actions": [
+          "Make appropriate eye contact during conversations",
+          "Look at faces, not bodies, when talking",
+          "Practice respectful glances in public"
+        ]
+      },
+      "ar": {
+        "title": "وعي في الأماكن العامة",
+        "description": "كن واعيًا في الأماكن العامة. حافظ على تواصل بصري محترم دون مبالغة.",
+        "islamic_guidance": "يقول الله: 'وَاخْفِضْ جَنَاحَكَ لِمَنِ اتَّبَعَكَ مِنَ الْمُؤْمِنِينَ' (26:215)",
+        "benefits": [
+          "يحسن التفاعلات الاجتماعية",
+          "يبني الثقة والاحترام",
+          "يخلق بيئات مريحة"
+        ],
+        "daily_actions": [
+          "اجعل تواصلاً بصرياً مناسباً أثناء المحادثات",
+          "انظر إلى الوجوه، وليس الأجساد، عند التحدث",
+          "مارس النظرات المحترمة في الأماكن العامة"
+        ]
+      },
+      "fr": {
+        "title": "Vigilance dans les lieux publics",
+        "description": "Soyez attentif dans les lieux publics. Maintenez un contact visuel respectueux sans excès.",
+        "islamic_guidance": "Allah dit: 'Et baisse ton aile pour ceux des croyants qui te suivent.' (26:215)",
+        "benefits": [
+          "Améliore les interactions sociales",
+          "Construit la confiance et le respect",
+          "Crée des environnements confortables"
+        ],
+        "daily_actions": [
+          "Établissez un contact visuel approprié lors des conversations",
+          "Regardez les visages, pas les corps, en parlant",
+          "Pratiquez des regards respectueux en public"
+        ]
+      }
+    },
+    "duration_options": [7, 14, 21, 40]
+  },
+  {
+    "goal_id": "eyes-control-curiosity",
+    "category": "eyes",
+    "translations": {
+      "en": {
+        "title": "Control the Curious Eye",
+        "description": "Avoid prolonged observation of anyone's body, dress, or private space.",
+        "islamic_guidance": "The Prophet (ﷺ) said: 'Whoever guarantees me what is between his two jaw-bones and what is between his two legs, I guarantee him Paradise.' (Bukhari)",
+        "benefits": [
+          "Respects others' privacy",
+          "Reduces intrusive thoughts",
+          "Maintains personal boundaries"
+        ],
+        "daily_actions": [
+          "Avoid staring at people's clothing or appearance",
+          "Give others space and privacy",
+          "Focus on necessary visual information only"
+        ]
+      },
+      "ar": {
+        "title": "ضبط العين الفضولية",
+        "description": "تجنب التحديق الطويل في جسم أو لباس أو خصوصية أي شخص.",
+        "islamic_guidance": "قال النبي ﷺ: 'من ضمن لي ما بين لحييه وما بين رجليه ضمنت له الجنة' (البخاري)",
+        "benefits": [
+          "يحترم خصوصية الآخرين",
+          "يقلل الأفكار المتطفلة",
+          "يحافظ على الحدود الشخصية"
+        ],
+        "daily_actions": [
+          "تجنب التحديق في ملابس أو مظهر الناس",
+          "امنح الآخرين المساحة والخصوصية",
+          "ركز على المعلومات البصرية الضرورية فقط"
+        ]
+      },
+      "fr": {
+        "title": "Contrôler l'œil curieux",
+        "description": "Évitez d'observer longuement le corps, la tenue ou l'espace privé de quiconque.",
+        "islamic_guidance": "Le Prophète (ﷺ) a dit: 'Quiconque me garantit ce qui est entre ses deux mâchoires et ce qui est entre ses deux jambes, je lui garantis le Paradis.' (Bukhari)",
+        "benefits": [
+          "Respecte la vie privée d'autrui",
+          "Réduit les pensées intrusives",
+          "Maintient les limites personnelles"
+        ],
+        "daily_actions": [
+          "Évitez de fixer les vêtements ou l'apparence des gens",
+          "Donnez aux autres de l'espace et de l'intimité",
+          "Concentrez-vous uniquement sur les informations visuelles nécessaires"
+        ]
+      }
+    },
+    "duration_options": [7, 14, 21, 40]
+  },
+  {
+    "goal_id": "eyes-visual-cleanse",
+    "category": "eyes",
+    "translations": {
+      "en": {
+        "title": "Visual Cleanse",
+        "description": "Stay away from images, videos, or ads that promote indecency or temptation.",
+        "islamic_guidance": "Allah says: 'And those who turn away from ill speech.' (23:3)",
+        "benefits": [
+          "Purifies mental imagery",
+          "Reduces unwanted thoughts",
+          "Improves spiritual focus"
+        ],
+        "daily_actions": [
+          "Use ad blockers on inappropriate content",
+          "Avoid websites with provocative images",
+          "Close eyes or look away from tempting visuals"
+        ]
+      },
+      "ar": {
+        "title": "تطهير بصري",
+        "description": "ابتعد عن الصور أو المقاطع أو الإعلانات التي تروج للفحش أو الإثارة.",
+        "islamic_guidance": "يقول الله: 'وَالَّذِينَ هُمْ عَنِ اللَّغْوِ مُعْرِضُونَ' (23:3)",
+        "benefits": [
+          "يطهر الصور الذهنية",
+          "يقلل الأفكار غير المرغوبة",
+          "يحسن التركيز الروحي"
+        ],
+        "daily_actions": [
+          "استخدم حاجبات الإعلانات على المحتوى غير المناسب",
+          "تجنب المواقع ذات الصور المثيرة",
+          "أغلق عينيك أو انظر بعيداً عن المرئيات المغرية"
+        ]
+      },
+      "fr": {
+        "title": "Nettoyage visuel",
+        "description": "Éloignez-vous des images, vidéos ou publicités qui incitent à l'indécence ou à la tentation.",
+        "islamic_guidance": "Allah dit: 'Et ceux qui se détournent des futilités.' (23:3)",
+        "benefits": [
+          "Purifie l'imagerie mentale",
+          "Réduit les pensées indésirables",
+          "Améliore la concentration spirituelle"
+        ],
+        "daily_actions": [
+          "Utilisez des bloqueurs de publicités sur le contenu inapproprié",
+          "Évitez les sites web avec des images provocantes",
+          "Fermez les yeux ou détournez le regard des visuels tentants"
+        ]
+      }
+    },
+    "duration_options": [7, 14, 21, 40]
+  },
+  {
+    "goal_id": "eyes-halal-entertainment",
+    "category": "eyes",
+    "translations": {
+      "en": {
+        "title": "Choose Halal Entertainment",
+        "description": "Replace harmful media with beneficial or spiritually uplifting content.",
+        "islamic_guidance": "The Prophet (ﷺ) said: 'Whoever believes in Allah and the Last Day, let him speak good or remain silent.' (Bukhari)",
+        "benefits": [
+          "Nurtures positive mindset",
+          "Supports spiritual growth",
+          "Provides wholesome entertainment"
+        ],
+        "daily_actions": [
+          "Choose Islamic documentaries over inappropriate shows",
+          "Watch nature programs that remind you of Allah's creation",
+          "Select educational content over mindless entertainment"
+        ]
+      },
+      "ar": {
+        "title": "اختر ترفيهاً حلالاً",
+        "description": "استبدل الوسائط الضارة بمحتوى مفيد أو يرفع روحك.",
+        "islamic_guidance": "قال النبي ﷺ: 'من كان يؤمن بالله واليوم الآخر فليقل خيراً أو ليصمت' (البخاري)",
+        "benefits": [
+          "يغذي العقلية الإيجابية",
+          "يدعم النمو الروحي",
+          "يوفر ترفيهاً صحياً"
+        ],
+        "daily_actions": [
+          "اختر الأفلام الوثائقية الإسلامية بدلاً من البرامج غير المناسبة",
+          "شاهد برامج الطبيعة التي تذكرك بخلق الله",
+          "اختر المحتوى التعليمي بدلاً من الترفيه الفارغ"
+        ]
+      },
+      "fr": {
+        "title": "Choisissez un divertissement halal",
+        "description": "Remplacez les médias nuisibles par du contenu bénéfique ou spirituellement édifiant.",
+        "islamic_guidance": "Le Prophète (ﷺ) a dit: 'Que celui qui croit en Allah et au Jour dernier dise du bien ou qu'il se taise.' (Bukhari)",
+        "benefits": [
+          "Nourrit un état d'esprit positif",
+          "Soutient la croissance spirituelle",
+          "Fournit un divertissement sain"
+        ],
+        "daily_actions": [
+          "Choisissez des documentaires islamiques plutôt que des émissions inappropriées",
+          "Regardez des programmes sur la nature qui vous rappellent la création d'Allah",
+          "Sélectionnez du contenu éducatif plutôt que du divertissement vide"
+        ]
+      }
+    },
+    "duration_options": [7, 14, 21, 40]
+  },
+  {
+    "goal_id": "eyes-social-media-guard",
+    "category": "eyes",
+    "translations": {
+      "en": {
+        "title": "Social Media Guard",
+        "description": "Avoid pages, accounts, or channels filled with immodest or provocative visuals.",
+        "islamic_guidance": "Allah says: 'O you who believe! Avoid much suspicion, indeed some suspicions are sins.' (49:12)",
+        "benefits": [
+          "Protects from constant temptation",
+          "Improves mental health",
+          "Increases productive time"
+        ],
+        "daily_actions": [
+          "Unfollow accounts with inappropriate content",
+          "Use privacy settings to filter content",
+          "Spend time on beneficial social media pages"
+        ]
+      },
+      "ar": {
+        "title": "حراسة وسائل التواصل",
+        "description": "تجنب الصفحات أو الحسابات المليئة بصور غير محتشمة أو مثيرة.",
+        "islamic_guidance": "يقول الله: 'يَا أَيُّهَا الَّذِينَ آمَنُوا اجْتَنِبُوا كَثِيرًا مِّنَ الظَّنِّ إِنَّ بَعْضَ الظَّنِّ إِثْمٌ' (49:12)",
+        "benefits": [
+          "يحمي من الإغراء المستمر",
+          "يحسن الصحة النفسية",
+          "يزيد الوقت المنتج"
+        ],
+        "daily_actions": [
+          "ألغ متابعة الحسابات ذات المحتوى غير المناسب",
+          "استخدم إعدادات الخصوصية لتصفية المحتوى",
+          "اقض وقتاً على صفحات وسائل التواصل المفيدة"
+        ]
+      },
+      "fr": {
+        "title": "Surveillance des réseaux sociaux",
+        "description": "Évitez les pages, comptes ou chaînes remplis d'images provocantes ou indécentes.",
+        "islamic_guidance": "Allah dit: 'Ô vous qui croyez! Évitez de trop conjecturer car une partie des conjectures est péché.' (49:12)",
+        "benefits": [
+          "Protège de la tentation constante",
+          "Améliore la santé mentale",
+          "Augmente le temps productif"
+        ],
+        "daily_actions": [
+          "Désabonnez-vous des comptes avec du contenu inapproprié",
+          "Utilisez les paramètres de confidentialité pour filtrer le contenu",
+          "Passez du temps sur des pages de médias sociaux bénéfiques"
+        ]
+      }
+    },
+    "duration_options": [7, 14, 21, 40]
+  }
+]

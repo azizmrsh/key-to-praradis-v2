@@ -1,0 +1,218 @@
+[
+  {
+    "id": "challenge-tongue-lying-01",
+    "category": "tongue",
+    "subcategory": "lying",
+    "title": "No Lies for 24 Hours",
+    "description": "Make it through one full day without a single lie — not even a small one.",
+    "duration_days": 1
+  },
+  {
+    "id": "challenge-tongue-lying-02",
+    "category": "tongue",
+    "subcategory": "lying",
+    "title": "Truth Audit",
+    "description": "Before sleeping, review your conversations. Were you fully honest? Reflect and write in your journal.",
+    "duration_days": 1
+  },
+  {
+    "id": "challenge-tongue-lying-03",
+    "category": "tongue",
+    "subcategory": "lying",
+    "title": "Correct a Past Lie",
+    "description": "Reach out to someone and correct something dishonest you’ve said before. Seek Allah’s forgiveness.",
+    "duration_days": 1
+  },
+  {
+    "id": "challenge-tongue-backbiting-01",
+    "category": "tongue",
+    "subcategory": "backbiting",
+    "title": "Leave the Room (Literally or Virtually)",
+    "description": "If someone starts backbiting, remove yourself — respectfully. One-time challenge.",
+    "duration_days": 1
+  },
+  {
+    "id": "challenge-tongue-backbiting-02",
+    "category": "tongue",
+    "subcategory": "backbiting",
+    "title": "Defend Their Honour",
+    "description": "Say one good thing about someone being backbitten. Flip the tone of the conversation.",
+    "duration_days": 1
+  },
+  {
+    "id": "challenge-tongue-backbiting-03",
+    "category": "tongue",
+    "subcategory": "backbiting",
+    "title": "Fast From Gossip",
+    "description": "For the next 3 hours, no gossip. No stories about anyone else. See how long you can last.",
+    "duration_days": 1
+  },
+  {
+    "id": "challenge-tongue-slander-01",
+    "category": "tongue",
+    "subcategory": "slander",
+    "title": "Pause Before You Speak",
+    "description": "Any time you speak today, pause for 3 seconds before repeating something about someone else.",
+    "duration_days": 1
+  },
+  {
+    "id": "challenge-tongue-slander-02",
+    "category": "tongue",
+    "subcategory": "slander",
+    "title": "Delete the Message",
+    "description": "Delete a message or post that could misrepresent someone, even slightly. Don’t spread doubt.",
+    "duration_days": 1
+  },
+  {
+    "id": "challenge-tongue-slander-03",
+    "category": "tongue",
+    "subcategory": "slander",
+    "title": "Say 'I Don’t Know'",
+    "description": "When unsure, say 'I don’t know' today. Resist the urge to fill gaps with assumptions.",
+    "duration_days": 1
+  },
+  {
+    "id": "challenge-tongue-mockery-01",
+    "category": "tongue",
+    "subcategory": "mockery",
+    "title": "Be the Gentle One",
+    "description": "Speak kindly today. Avoid all sarcasm, imitations, and subtle mocking.",
+    "duration_days": 1
+  },
+  {
+    "id": "challenge-tongue-mockery-02",
+    "category": "tongue",
+    "subcategory": "mockery",
+    "title": "Silent Smile",
+    "description": "Today, when tempted to joke at someone’s expense — smile instead. Let it pass.",
+    "duration_days": 1
+  },
+  {
+    "id": "challenge-tongue-mockery-03",
+    "category": "tongue",
+    "subcategory": "mockery",
+    "title": "Compliment the One You Mock",
+    "description": "Think of someone you’ve mocked. Privately make dua for them. Optionally, offer praise to their face.",
+    "duration_days": 1
+  },
+  {
+    "id": "challenge-tongue-idle-01",
+    "category": "tongue",
+    "subcategory": "idle",
+    "title": "Three Sacred Silences",
+    "description": "For today, find 3 moments to consciously be silent when you would normally speak unnecessarily.",
+    "duration_days": 1
+  },
+  {
+    "id": "challenge-tongue-idle-02",
+    "category": "tongue",
+    "subcategory": "idle",
+    "title": "Intentional Speech Week",
+    "description": "For 7 days, try to speak only when you have clear purpose or benefit. Reflect at day’s end.",
+    "duration_days": 7
+  },
+  {
+    "id": "challenge-tongue-idle-03",
+    "category": "tongue",
+    "subcategory": "idle",
+    "title": "Silent Mornings",
+    "description": "For the next 3 days, remain silent after Fajr until breakfast unless necessary.",
+    "duration_days": 3
+  },
+  {
+    "id": "challenge-tongue-flattery-01",
+    "category": "tongue",
+    "subcategory": "false_praise",
+    "title": "Truthful Compliments Only",
+    "description": "Today, only give compliments you mean. No flattery. No exaggeration.",
+    "duration_days": 1
+  },
+  {
+    "id": "challenge-tongue-flattery-02",
+    "category": "tongue",
+    "subcategory": "false_praise",
+    "title": "Authenticity Practice – 7 Days",
+    "description": "Avoid insincere compliments or strategic praise for 7 days. Honour truth in every word.",
+    "duration_days": 7
+  },
+  {
+    "id": "challenge-tongue-flattery-03",
+    "category": "tongue",
+    "subcategory": "false_praise",
+    "title": "14-Day Praise Cleanse",
+    "description": "For 14 days, be mindful of any praise you offer. Let it be genuine and spiritually safe.",
+    "duration_days": 14
+  },
+  {
+    "id": "challenge-tongue-secrets-01",
+    "category": "tongue",
+    "subcategory": "exposing_secrets",
+    "title": "Zip the Lips",
+    "description": "Do not reveal anything personal you know about others for 24 hours. Not even hints.",
+    "duration_days": 1
+  },
+  {
+    "id": "challenge-tongue-secrets-02",
+    "category": "tongue",
+    "subcategory": "exposing_secrets",
+    "title": "Safeguard the Trust",
+    "description": "For 7 days, reflect on whether you speak from trust. Record slips and ask Allah for restraint.",
+    "duration_days": 7
+  },
+  {
+    "id": "challenge-tongue-secrets-03",
+    "category": "tongue",
+    "subcategory": "exposing_secrets",
+    "title": "Honour the Private",
+    "description": "If you’ve recently shared something private, contact that person to affirm your trust.",
+    "duration_days": 3
+  },
+  {
+    "id": "challenge-tongue-vulgar-01",
+    "category": "tongue",
+    "subcategory": "vulgarity",
+    "title": "Refined Language Day",
+    "description": "No swearing, rough words, or aggressive tone for 24 hours. Use words of mercy and dignity.",
+    "duration_days": 1
+  },
+  {
+    "id": "challenge-tongue-vulgar-02",
+    "category": "tongue",
+    "subcategory": "vulgarity",
+    "title": "Speak Like a Believer – 7 Days",
+    "description": "For a full week, monitor your speech tone and purity. Use reminders and daily du‘a for control.",
+    "duration_days": 7
+  },
+  {
+    "id": "challenge-tongue-vulgar-03",
+    "category": "tongue",
+    "subcategory": "vulgarity",
+    "title": "14-Day Clean Speech Reset",
+    "description": "Avoid all profanity, innuendo, or hostile tone for 14 days. Let your words carry the fragrance of mercy.",
+    "duration_days": 14
+  },
+  {
+    "id": "challenge-tongue-arguing-01",
+    "category": "tongue",
+    "subcategory": "arguing",
+    "title": "Let It Go (Once)",
+    "description": "Walk away from one argument today — even if you’re right. Choose peace over ego.",
+    "duration_days": 1
+  },
+  {
+    "id": "challenge-tongue-arguing-02",
+    "category": "tongue",
+    "subcategory": "arguing",
+    "title": "7 Days of Calm Speech",
+    "description": "Refrain from raising your voice or arguing for 7 days. Choose stillness over combativeness.",
+    "duration_days": 7
+  },
+  {
+    "id": "challenge-tongue-arguing-03",
+    "category": "tongue",
+    "subcategory": "arguing",
+    "title": "14-Day Dispute Detox",
+    "description": "Avoid all disputes — verbal, online, or passive-aggressive — for 14 days. Replace with du‘a.",
+    "duration_days": 14
+  }
+]

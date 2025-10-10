@@ -1,0 +1,35 @@
+[
+  {
+    "id": "goal-ears-backbiting-01",
+    "category": "ears",
+    "subcategory": "listening_to_backbiting",
+    "title": "Excuse Yourself from Gossip",
+    "title_ar": "اعتذر عن مجلس الغيبة",
+    "title_fr": "Éloignez-vous des commérages",
+    "description": "Politely excuse yourself if someone begins backbiting in your presence.",
+    "description_ar": "اعتذر بلطف إذا بدأ أحدهم في الغيبة أمامك.",
+    "description_fr": "Excusez-vous poliment si quelqu'un commence à médire en votre présence."
+  },
+  {
+    "id": "goal-ears-backbiting-02",
+    "category": "ears",
+    "subcategory": "listening_to_backbiting",
+    "title": "Change the Subject",
+    "title_ar": "غيّر موضوع الحديث",
+    "title_fr": "Changez de sujet",
+    "description": "Redirect conversations away from speaking about others’ faults.",
+    "description_ar": "وجه الحديث بعيداً عن ذكر عيوب الآخرين.",
+    "description_fr": "Orientez la conversation loin des défauts des autres."
+  },
+  {
+    "id": "goal-ears-backbiting-03",
+    "category": "ears",
+    "subcategory": "listening_to_backbiting",
+    "title": "Protect Your Ears and Heart",
+    "title_ar": "احم أذنك وقلبك",
+    "title_fr": "Protégez vos oreilles et votre cœur",
+    "description": "Train your ears to dislike listening to any negative talk about others.",
+    "description_ar": "درب أذنك على كراهية الاستماع للكلام السلبي عن الآخرين.",
+    "description_fr": "Habituez vos oreilles à ne pas aimer entendre des propos négatifs sur autrui."
+  }
+]

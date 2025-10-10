@@ -1,0 +1,170 @@
+[
+  {
+    "id": "challenge-eyes-lustful-01",
+    "category": "eyes",
+    "subcategory": "lustful_gaze",
+    "title": "Lower Your Gaze Challenge",
+    "description": "Avoid looking at anyone or anything immodest today. Practise intentional lowering of the gaze.",
+    "duration_days": 1
+  },
+  {
+    "id": "challenge-eyes-lustful-02",
+    "category": "eyes",
+    "subcategory": "lustful_gaze",
+    "title": "Lust-Free Vision – 7 Days",
+    "description": "Be mindful of desire in your gaze. Lower your eyes instantly upon temptation, for a full week.",
+    "duration_days": 7
+  },
+  {
+    "id": "challenge-eyes-lustful-03",
+    "category": "eyes",
+    "subcategory": "lustful_gaze",
+    "title": "14 Days of Gaze Purity",
+    "description": "Avoid all lustful looking — in real life or online. Reflect daily on self-control and dignity.",
+    "duration_days": 14
+  },
+  {
+    "id": "challenge-eyes-prolonged-01",
+    "category": "eyes",
+    "subcategory": "prolonged_gaze",
+    "title": "Catch Yourself Staring",
+    "description": "If you catch yourself staring, gently blink and look away. Practise this 5 times today.",
+    "duration_days": 1
+  },
+  {
+    "id": "challenge-eyes-prolonged-02",
+    "category": "eyes",
+    "subcategory": "prolonged_gaze",
+    "title": "Respectful Eyes – 7 Days",
+    "description": "For one week, train yourself to keep your gaze respectful, calm, and brief.",
+    "duration_days": 7
+  },
+  {
+    "id": "challenge-eyes-prolonged-03",
+    "category": "eyes",
+    "subcategory": "prolonged_gaze",
+    "title": "14-Day Gaze Discipline",
+    "description": "Avoid lingering looks. Respond to every temptation by remembering Allah.",
+    "duration_days": 14
+  },
+  {
+    "id": "challenge-eyes-images-01",
+    "category": "eyes",
+    "subcategory": "prohibited_images",
+    "title": "One Day Screen Filter",
+    "description": "No inappropriate images today — no scrolling, no media, no excuses.",
+    "duration_days": 1
+  },
+  {
+    "id": "challenge-eyes-images-02",
+    "category": "eyes",
+    "subcategory": "prohibited_images",
+    "title": "7-Day Visual Detox",
+    "description": "Avoid social media, movies, or ads that display indecency or glamorise sin.",
+    "duration_days": 7
+  },
+  {
+    "id": "challenge-eyes-images-03",
+    "category": "eyes",
+    "subcategory": "prohibited_images",
+    "title": "14-Day Purity Media Fast",
+    "description": "For 2 weeks, actively avoid all exposure to haram visual content.",
+    "duration_days": 14
+  },
+  {
+    "id": "challenge-eyes-judging-01",
+    "category": "eyes",
+    "subcategory": "judging_by_appearance",
+    "title": "Look With Mercy",
+    "description": "Today, when you look at someone, ask: 'How does Allah see them?' Not 'How do I?'",
+    "duration_days": 1
+  },
+  {
+    "id": "challenge-eyes-judging-02",
+    "category": "eyes",
+    "subcategory": "judging_by_appearance",
+    "title": "7 Days of Inner Vision",
+    "description": "Avoid judging anyone based on clothes, face, or body. See the soul, not the shell.",
+    "duration_days": 7
+  },
+  {
+    "id": "challenge-eyes-judging-03",
+    "category": "eyes",
+    "subcategory": "judging_by_appearance",
+    "title": "2 Weeks of Dignified Gaze",
+    "description": "Practice humility: speak kindly to anyone you might normally overlook.",
+    "duration_days": 14
+  },
+  {
+    "id": "challenge-eyes-envy-01",
+    "category": "eyes",
+    "subcategory": "visual_envy",
+    "title": "Scroll Without Jealousy",
+    "description": "Today, browse mindfully — no comparison, no envy. Celebrate others’ blessings.",
+    "duration_days": 1
+  },
+  {
+    "id": "challenge-eyes-envy-02",
+    "category": "eyes",
+    "subcategory": "visual_envy",
+    "title": "7 Days Without Comparison",
+    "description": "For one week, if you feel envy rise, say a du‘a of blessing for the other person.",
+    "duration_days": 7
+  },
+  {
+    "id": "challenge-eyes-envy-03",
+    "category": "eyes",
+    "subcategory": "visual_envy",
+    "title": "14-Day Comparison Cleanse",
+    "description": "Avoid all comparing your life to others’ images. Focus on gratitude and self-worth.",
+    "duration_days": 14
+  },
+  {
+    "id": "challenge-eyes-staring-01",
+    "category": "eyes",
+    "subcategory": "staring",
+    "title": "Polite Eyes Challenge",
+    "description": "Make people feel respected by avoiding intense staring. Practise 5 mindful interactions.",
+    "duration_days": 1
+  },
+  {
+    "id": "challenge-eyes-staring-02",
+    "category": "eyes",
+    "subcategory": "staring",
+    "title": "Stare-Free Week",
+    "description": "Rein in your gaze for 7 days — especially in shops, queues, and online.",
+    "duration_days": 7
+  },
+  {
+    "id": "challenge-eyes-staring-03",
+    "category": "eyes",
+    "subcategory": "staring",
+    "title": "Respect the Space of Others",
+    "description": "Go 14 days without letting your eyes linger where they are not welcome.",
+    "duration_days": 14
+  },
+  {
+    "id": "challenge-eyes-prayer-01",
+    "category": "eyes",
+    "subcategory": "inattentiveness_in_prayer",
+    "title": "One Focused Prayer",
+    "description": "Today, try to complete one full prayer without looking around once.",
+    "duration_days": 1
+  },
+  {
+    "id": "challenge-eyes-prayer-02",
+    "category": "eyes",
+    "subcategory": "inattentiveness_in_prayer",
+    "title": "Prayer Eye Control – 7 Days",
+    "description": "Train yourself to keep your eyes in sujood. Lower your gaze in every prayer for 7 days.",
+    "duration_days": 7
+  },
+  {
+    "id": "challenge-eyes-prayer-03",
+    "category": "eyes",
+    "subcategory": "inattentiveness_in_prayer",
+    "title": "14-Day Salah Gaze Discipline",
+    "description": "For 2 weeks, guard your gaze during salah. Let your eyes lead your heart to humility.",
+    "duration_days": 14
+  }
+]

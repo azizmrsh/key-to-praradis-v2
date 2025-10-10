@@ -1,0 +1,200 @@
+[
+  {
+    "id": "goal-tongue-lying-01",
+    "category": "tongue",
+    "subcategory": "lying",
+    "title": "Radical Honesty",
+    "title_ar": "الصدق التام",
+    "title_fr": "Honnêteté radicale",
+    "description": "Commit to speaking truthfully in all situations. No lies, exaggeration, or omissions — even to protect yourself.",
+    "description_ar": "التزم بالتحدث بصدق في جميع المواقف. لا أكاذيب أو مبالغات أو إخفاء للحقيقة — حتى لحماية نفسك.",
+    "description_fr": "Engagez-vous à parler avec vérité en toutes circonstances. Aucun mensonge, aucune exagération ni omission — même pour vous protéger."
+  },
+  {
+    "id": "goal-tongue-lying-02",
+    "category": "tongue",
+    "subcategory": "lying",
+    "title": "Clean Your Record",
+    "title_ar": "تنقية سجلك",
+    "title_fr": "Nettoyez votre dossier",
+    "description": "Actively correct misstatements when you notice them and log them in your journal.",
+    "description_ar": "صحح أي بيانات غير صحيحة عند ملاحظتها، ودونها في مفكرتك.",
+    "description_fr": "Corrigez activement toute déclaration inexacte et consignez-la dans votre journal."
+  },
+  {
+    "id": "goal-tongue-lying-03",
+    "category": "tongue",
+    "subcategory": "lying",
+    "title": "Speak With Integrity",
+    "title_ar": "تحدث بنزاهة",
+    "title_fr": "Parlez avec intégrité",
+    "description": "Pause before you speak. Reflect on truth versus convenience.",
+    "description_ar": "توقف قبل الكلام. تأمل في الصدق مقابل الراحة.",
+    "description_fr": "Faites une pause avant de parler. Réfléchissez à la vérité contre la commodité."
+  },
+  {
+    "id": "goal-tongue-backbiting-01",
+    "category": "tongue",
+    "subcategory": "backbiting",
+    "title": "Avoid Backbiting",
+    "title_ar": "تجنب الغيبة",
+    "title_fr": "Évitez la médisance",
+    "description": "Avoid all talk about others in their absence — even if it’s true.",
+    "description_ar": "تجنب الحديث عن الآخرين في غيابهم — حتى لو كان الكلام صحيحاً.",
+    "description_fr": "Évitez de parler des autres en leur absence — même si c'est vrai."
+  },
+  {
+    "id": "goal-tongue-backbiting-02",
+    "category": "tongue",
+    "subcategory": "backbiting",
+    "title": "Cover the Faults of Others",
+    "title_ar": "استر عيوب الآخرين",
+    "title_fr": "Couvrez les défauts des autres",
+    "description": "Whenever you hear backbiting, counter it with a positive remark or silence.",
+    "description_ar": "كلما سمعت غيبة، قابلها بكلمة طيبة أو بالصمت.",
+    "description_fr": "Chaque fois que vous entendez une médisance, répondez par une remarque positive ou par le silence."
+  },
+  {
+    "id": "goal-tongue-backbiting-03",
+    "category": "tongue",
+    "subcategory": "backbiting",
+    "title": "Guard the Honour of Believers",
+    "title_ar": "حافظ على شرف المؤمنين",
+    "title_fr": "Protégez l’honneur des croyants",
+    "description": "Make it a habit to defend the reputation of others when absent.",
+    "description_ar": "اجعل من عادتك الدفاع عن سمعة الآخرين في غيابهم.",
+    "description_fr": "Prenez l’habitude de défendre la réputation des autres en leur absence."
+  },
+  {
+    "id": "goal-tongue-slander-01",
+    "category": "tongue",
+    "subcategory": "slander",
+    "title": "Verify Before You Speak",
+    "title_ar": "تحقق قبل الكلام",
+    "title_fr": "Vérifiez avant de parler",
+    "description": "Commit to verifying any negative news or rumours before repeating them.",
+    "description_ar": "الزم التحقق من أي أخبار سلبية قبل ترديدها.",
+    "description_fr": "Engagez-vous à vérifier toute information négative avant de la répéter."
+  },
+  {
+    "id": "goal-tongue-slander-02",
+    "category": "tongue",
+    "subcategory": "slander",
+    "title": "Speak No Harm",
+    "title_ar": "لا تنطق بما يضر",
+    "title_fr": "Ne parlez d’aucun mal",
+    "description": "Avoid all speech that could harm someone’s honour — directly or indirectly.",
+    "description_ar": "تجنب كل الكلام الذي قد يسيء إلى كرامة الآخرين — مباشرة أو غير مباشرة.",
+    "description_fr": "Évitez tout discours pouvant nuire à l’honneur d’autrui — directement ou indirectement."
+  },
+  {
+    "id": "goal-tongue-mockery-01",
+    "category": "tongue",
+    "subcategory": "mockery",
+    "title": "No Mockery",
+    "title_ar": "لا سخرية",
+    "title_fr": "Aucune moquerie",
+    "description": "Refrain from mocking, sarcastic remarks, or jokes at others’ expense.",
+    "description_ar": "امتنع عن السخرية أو التعليقات اللاذعة أو النكات على حساب الآخرين.",
+    "description_fr": "Abstenez-vous de moqueries, de sarcasmes ou de plaisanteries aux dépens d’autrui."
+  },
+  {
+    "id": "goal-tongue-mockery-02",
+    "category": "tongue",
+    "subcategory": "mockery",
+    "title": "Speak With Dignity",
+    "title_ar": "تحدث بكرامة",
+    "title_fr": "Parlez avec dignité",
+    "description": "Use your tongue to uplift, not shame. Practise restraint and kindness.",
+    "description_ar": "استخدم لسانك للرفع لا للهدم. مارس اللطف وضبط النفس.",
+    "description_fr": "Utilisez votre langue pour élever, pas pour blesser. Pratiquez la gentillesse et la retenue."
+  },
+  {
+    "id": "goal-tongue-idle-01",
+    "category": "tongue",
+    "subcategory": "idle",
+    "title": "Speak Only When Beneficial",
+    "title_ar": "تحدث فقط عند الفائدة",
+    "title_fr": "Parlez seulement si c’est bénéfique",
+    "description": "Reduce idle talk. Speak only when it adds value to your day or others’ hearts.",
+    "description_ar": "قلل من الكلام الفارغ. تحدث فقط إذا كان فيه فائدة لك أو لغيرك.",
+    "description_fr": "Réduisez les bavardages inutiles. Parlez seulement si cela apporte de la valeur."
+  },
+  {
+    "id": "goal-tongue-idle-02",
+    "category": "tongue",
+    "subcategory": "idle",
+    "title": "Silent Reflection Habit",
+    "title_ar": "عادة التأمل الصامت",
+    "title_fr": "Habitude de la réflexion silencieuse",
+    "description": "Practise daily silence and inward reflection.",
+    "description_ar": "مارس الصمت والتأمل الداخلي يومياً.",
+    "description_fr": "Pratiquez le silence et la réflexion intérieure chaque jour."
+  },
+  {
+    "id": "goal-tongue-flattery-01",
+    "category": "tongue",
+    "subcategory": "false_praise",
+    "title": "Sincere Praise Only",
+    "title_ar": "مدح صادق فقط",
+    "title_fr": "Louange sincère uniquement",
+    "description": "Offer praise only when genuine and purposeful.",
+    "description_ar": "امدح الآخرين بصدق فقط وليس بهدف المنفعة أو المجاملة الزائفة.",
+    "description_fr": "Ne donnez des éloges que sincères, jamais manipulateurs ou faux."
+  },
+  {
+    "id": "goal-tongue-flattery-02",
+    "category": "tongue",
+    "subcategory": "false_praise",
+    "title": "Intention Check Before Praise",
+    "title_ar": "تحقق من النية قبل المدح",
+    "title_fr": "Vérifiez votre intention avant de louer",
+    "description": "Pause before praising others. Reflect on your intention.",
+    "description_ar": "توقف قبل مدح الآخرين. تأمل نيتك.",
+    "description_fr": "Faites une pause avant de louer. Réfléchissez à votre intention."
+  },
+  {
+    "id": "goal-tongue-secrets-01",
+    "category": "tongue",
+    "subcategory": "exposing_secrets",
+    "title": "Protect What’s Private",
+    "title_ar": "حافظ على خصوصية الآخرين",
+    "title_fr": "Protégez ce qui est privé",
+    "description": "Do not share anything personal or private that was entrusted to you.",
+    "description_ar": "لا تشارك أي معلومات شخصية أو خاصة تم ائتمانك بها.",
+    "description_fr": "Ne partagez aucune information personnelle ou confidentielle."
+  },
+  {
+    "id": "goal-tongue-secrets-02",
+    "category": "tongue",
+    "subcategory": "exposing_secrets",
+    "title": "Become a Vault of Trust",
+    "title_ar": "كن مستودع الثقة",
+    "title_fr": "Soyez un coffre-fort de confiance",
+    "description": "Protect others’ trust as your own honour.",
+    "description_ar": "احفظ أسرار الآخرين كأنها شرفك.",
+    "description_fr": "Protégez les secrets des autres comme votre propre honneur."
+  },
+  {
+    "id": "goal-tongue-vulgar-01",
+    "category": "tongue",
+    "subcategory": "vulgarity",
+    "title": "Clean Speech",
+    "title_ar": "كلام طاهر",
+    "title_fr": "Paroles pures",
+    "description": "Eliminate all foul or aggressive language. Speak with dignity.",
+    "description_ar": "امتنع عن كل الكلام الفاحش أو العدواني. تحدث بكرامة.",
+    "description_fr": "Éliminez tout langage vulgaire ou agressif. Parlez avec dignité."
+  },
+  {
+    "id": "goal-tongue-arguing-01",
+    "category": "tongue",
+    "subcategory": "arguing",
+    "title": "Choose Peace Over Victory",
+    "title_ar": "اختر السلام على الانتصار",
+    "title_fr": "Choisissez la paix plutôt que la victoire",
+    "description": "Avoid unnecessary arguments, debates, and ego-driven exchanges.",
+    "description_ar": "تجنب الجدال والنقاشات العقيمة والتنافس الذاتي.",
+    "description_fr": "Évitez les disputes et débats inutiles. Choisissez la paix plutôt que la victoire."
+  }
+]

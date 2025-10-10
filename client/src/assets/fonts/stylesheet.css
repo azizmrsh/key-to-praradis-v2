@@ -1,0 +1,45 @@
+@font-face {
+    font-family: 'Sakkal Kitab Lt';
+    src: url('SakkalKitabLt.woff2') format('woff2'),
+        url('SakkalKitabLt.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Sakkal Kitab Hvy';
+    src: url('SakkalKitabHvy.woff2') format('woff2'),
+        url('SakkalKitabHvy.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Sakkal Kitab';
+    src: url('SakkalKitab-Bold.woff2') format('woff2'),
+        url('SakkalKitab-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Sakkal Kitab';
+    src: url('SakkalKitab-Regular.woff2') format('woff2'),
+        url('SakkalKitab-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Sakkal Kitab Md';
+    src: url('SakkalKitabMd.woff2') format('woff2'),
+        url('SakkalKitabMd.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+

@@ -1,0 +1,485 @@
+[
+  {
+    "id": "challenge-eyes-lustful-01",
+    "category": "eyes",
+    "subcategory": "lustful_gaze",
+    "title": "Lower Your Gaze Challenge",
+    "description": "Avoid looking at anyone or anything immodest today. Practise intentional lowering of the gaze.",
+    "duration_days": 1,
+    "translations": {
+      "en": {
+        "title": "Lower Your Gaze Challenge",
+        "description": "Avoid looking at anyone or anything immodest today. Practise intentional lowering of the gaze."
+      },
+      "fr": {
+        "title": "Baisser le regard pour un jour",
+        "description": "Aujourd'hui, baissez votre regard dès que vous voyez quelque chose d'illicite. Ne regardez pas une seconde fois."
+      },
+      "ar": {
+        "title": "غض البصر لمدة يوم واحد",
+        "description": "اليوم، اغضض بصرك فور رؤية أي شيء حرام. لا تنظر مرة ثانية."
+      }
+    },
+    "difficulty": "easy"
+  },
+  {
+    "id": "challenge-eyes-lustful-02",
+    "category": "eyes",
+    "subcategory": "lustful_gaze",
+    "title": "Lust-Free Vision – 7 Days",
+    "description": "Be mindful of desire in your gaze. Lower your eyes instantly upon temptation, for a full week.",
+    "duration_days": 7,
+    "translations": {
+      "en": {
+        "title": "Lust-Free Vision – 7 Days",
+        "description": "Be mindful of desire in your gaze. Lower your eyes instantly upon temptation, for a full week."
+      },
+      "fr": {
+        "title": "Semaine de baissement du regard",
+        "description": "Pendant 7 jours, pratiquez constamment le fait de baisser le regard de tout ce qui est illicite."
+      },
+      "ar": {
+        "title": "أسبوع غض البصر",
+        "description": "لمدة 7 أيام، مارس غض البصر عن كل ما هو حرام باستمرار."
+      }
+    },
+    "difficulty": "medium"
+  },
+  {
+    "id": "challenge-eyes-lustful-03",
+    "category": "eyes",
+    "subcategory": "lustful_gaze",
+    "title": "14 Days of Gaze Purity",
+    "description": "Avoid all lustful looking — in real life or online. Reflect daily on self-control and dignity.",
+    "duration_days": 14,
+    "translations": {
+      "en": {
+        "title": "14 Days of Gaze Purity",
+        "description": "Avoid all lustful looking — in real life or online. Reflect daily on self-control and dignity."
+      },
+      "fr": {
+        "title": "14 jours de purification du regard",
+        "description": "Pendant deux semaines, évitez de regarder tout contenu qui éveille la luxure."
+      },
+      "ar": {
+        "title": "14 يوماً من تطهير النظر",
+        "description": "لمدة أسبوعين، تجنب النظر إلى أي محتوى يثير الشهوة."
+      }
+    },
+    "difficulty": "hard"
+  },
+  {
+    "id": "challenge-eyes-prolonged-01",
+    "category": "eyes",
+    "subcategory": "prolonged_gaze",
+    "title": "Catch Yourself Staring",
+    "description": "If you catch yourself staring, gently blink and look away. Practise this 5 times today.",
+    "duration_days": 1,
+    "translations": {
+      "en": {
+        "title": "Catch Yourself Staring",
+        "description": "If you catch yourself staring, gently blink and look away. Practise this 5 times today."
+      },
+      "fr": {
+        "title": "Éviter le regard prolongé",
+        "description": "Aujourd'hui, évitez de regarder longuement les gens. Regardez et détournez votre regard."
+      },
+      "ar": {
+        "title": "تجنب النظر الطويل",
+        "description": "اليوم، تجنب النظر الطويل إلى الأشخاص. انظر واصرف بصرك."
+      }
+    },
+    "difficulty": "easy"
+  },
+  {
+    "id": "challenge-eyes-prolonged-02",
+    "category": "eyes",
+    "subcategory": "prolonged_gaze",
+    "title": "Respectful Eyes – 7 Days",
+    "description": "For one week, train yourself to keep your gaze respectful, calm, and brief.",
+    "duration_days": 7,
+    "translations": {
+      "en": {
+        "title": "Respectful Eyes – 7 Days",
+        "description": "For one week, train yourself to keep your gaze respectful, calm, and brief."
+      },
+      "fr": {
+        "title": "Semaine de regard respectueux",
+        "description": "Pendant 7 jours, pratiquez seulement un regard respectueux et approprié."
+      },
+      "ar": {
+        "title": "أسبوع من النظر المحترم",
+        "description": "لمدة 7 أيام، تدرب على النظر المحترم والمناسب فقط."
+      }
+    },
+    "difficulty": "medium"
+  },
+  {
+    "id": "challenge-eyes-prolonged-03",
+    "category": "eyes",
+    "subcategory": "prolonged_gaze",
+    "title": "14-Day Gaze Discipline",
+    "description": "Avoid lingering looks. Respond to every temptation by remembering Allah.",
+    "duration_days": 14,
+    "translations": {
+      "en": {
+        "title": "14-Day Gaze Discipline",
+        "description": "Avoid lingering looks. Respond to every temptation by remembering Allah."
+      },
+      "ar": {
+        "title": "14 يوماً من انضباط النظر",
+        "description": "لمدة أسبوعين، اتقن فن النظر المحترم والمناسب."
+      },
+      "fr": {
+        "title": "14 jours de discipline du regard",
+        "description": "Pendant deux semaines, maîtrisez l'art du regard respectueux et approprié."
+      }
+    },
+    "difficulty": "hard"
+  },
+  {
+    "id": "challenge-eyes-images-01",
+    "category": "eyes",
+    "subcategory": "prohibited_images",
+    "title": "One Day Screen Filter",
+    "description": "No inappropriate images today — no scrolling, no media, no excuses.",
+    "duration_days": 1,
+    "translations": {
+      "en": {
+        "title": "One Day Screen Filter",
+        "description": "No inappropriate images today — no scrolling, no media, no excuses."
+      },
+      "fr": {
+        "title": "Jour sans images interdites",
+        "description": "Aujourd'hui, évitez de regarder des images ou vidéos inappropriées."
+      },
+      "ar": {
+        "title": "يوم بلا صور محرمة",
+        "description": "اليوم، تجنب النظر إلى أي صور أو مقاطع فيديو غير لائقة."
+      }
+    },
+    "difficulty": "easy"
+  },
+  {
+    "id": "challenge-eyes-images-02",
+    "category": "eyes",
+    "subcategory": "prohibited_images",
+    "title": "7-Day Visual Detox",
+    "description": "Avoid social media, movies, or ads that display indecency or glamorise sin.",
+    "duration_days": 7,
+    "translations": {
+      "en": {
+        "title": "7-Day Visual Detox",
+        "description": "Avoid social media, movies, or ads that display indecency or glamorise sin."
+      },
+      "fr": {
+        "title": "Désintoxication visuelle de 7 jours",
+        "description": "Évitez les médias sociaux, les films ou les publicités qui affichent l'indécence ou glorifient le péché."
+      },
+      "ar": {
+        "title": "تطهير بصري لمدة 7 أيام",
+        "description": "تجنب وسائل التواصل الاجتماعي أو الأفلام أو الإعلانات التي تعرض الفحش أو تمجد الخطيئة."
+      }
+    },
+    "difficulty": "medium"
+  },
+  {
+    "id": "challenge-eyes-images-03",
+    "category": "eyes",
+    "subcategory": "prohibited_images",
+    "title": "14-Day Purity Media Fast",
+    "description": "For 2 weeks, actively avoid all exposure to haram visual content.",
+    "duration_days": 14,
+    "translations": {
+      "en": {
+        "title": "14-Day Purity Media Fast",
+        "description": "For 2 weeks, actively avoid all exposure to haram visual content."
+      },
+      "ar": {
+        "title": "صوم وسائل الإعلام المطهرة لمدة 14 يوماً",
+        "description": "لمدة أسبوعين، تجنب بنشاط كل تعرض للمحتوى البصري الحرام."
+      },
+      "fr": {
+        "title": "Jeûne médiatique de pureté de 14 jours",
+        "description": "Pendant 2 semaines, évitez activement toute exposition au contenu visuel haram."
+      }
+    },
+    "difficulty": "hard"
+  },
+  {
+    "id": "challenge-eyes-judging-01",
+    "category": "eyes",
+    "subcategory": "judging_by_appearance",
+    "title": "Look With Mercy",
+    "description": "Today, when you look at someone, ask: 'How does Allah see them?' Not 'How do I?'",
+    "duration_days": 1,
+    "translations": {
+      "en": {
+        "title": "Look With Mercy",
+        "description": "Today, when you look at someone, ask: 'How does Allah see them?' Not 'How do I?'"
+      },
+      "ar": {
+        "title": "انظر برحمة",
+        "description": "اليوم، عندما تنظر إلى شخص، اسأل: 'كيف يراهم الله؟' وليس 'كيف أراهم أنا؟'"
+      },
+      "fr": {
+        "title": "Regardez avec miséricorde",
+        "description": "Aujourd'hui, quand vous regardez quelqu'un, demandez: 'Comment Allah les voit-Il?' Pas 'Comment je les vois?'"
+      }
+    },
+    "difficulty": "easy"
+  },
+  {
+    "id": "challenge-eyes-judging-02",
+    "category": "eyes",
+    "subcategory": "judging_by_appearance",
+    "title": "7 Days of Inner Vision",
+    "description": "Avoid judging anyone based on clothes, face, or body. See the soul, not the shell.",
+    "duration_days": 7,
+    "translations": {
+      "en": {
+        "title": "7 Days of Inner Vision",
+        "description": "Avoid judging anyone based on clothes, face, or body. See the soul, not the shell."
+      },
+      "ar": {
+        "title": "7 أيام من الرؤية الداخلية",
+        "description": "تجنب الحكم على أي شخص بناءً على الملابس أو الوجه أو الجسم. انظر إلى الروح، وليس القشرة."
+      },
+      "fr": {
+        "title": "7 jours de vision intérieure",
+        "description": "Évitez de juger quelqu'un basé sur les vêtements, le visage ou le corps. Voyez l'âme, pas l'enveloppe."
+      }
+    },
+    "difficulty": "medium"
+  },
+  {
+    "id": "challenge-eyes-judging-03",
+    "category": "eyes",
+    "subcategory": "judging_by_appearance",
+    "title": "2 Weeks of Dignified Gaze",
+    "description": "Practice humility: speak kindly to anyone you might normally overlook.",
+    "duration_days": 14,
+    "translations": {
+      "en": {
+        "title": "2 Weeks of Dignified Gaze",
+        "description": "Practice humility: speak kindly to anyone you might normally overlook."
+      },
+      "ar": {
+        "title": "أسبوعان من النظر الكريم",
+        "description": "لمدة أسبوعين، تدرب على النظر إلى الناس بكرامة واحترام."
+      },
+      "fr": {
+        "title": "2 semaines de regard digne",
+        "description": "Pendant deux semaines, pratiquez regarder les gens avec dignité et respect."
+      }
+    },
+    "difficulty": "hard"
+  },
+  {
+    "id": "challenge-eyes-envy-01",
+    "category": "eyes",
+    "subcategory": "visual_envy",
+    "title": "Scroll Without Jealousy",
+    "description": "Today, browse mindfully — no comparison, no envy. Celebrate others' blessings.",
+    "duration_days": 1,
+    "translations": {
+      "en": {
+        "title": "Scroll Without Jealousy",
+        "description": "Today, browse mindfully — no comparison, no envy. Celebrate others' blessings."
+      },
+      "ar": {
+        "title": "تصفح بلا حسد",
+        "description": "اليوم، تصفح وسائل التواصل دون أن تشعر بالحسد. احمد الله على نعمه."
+      },
+      "fr": {
+        "title": "Naviguer sans jalousie",
+        "description": "Aujourd'hui, naviguez sur les réseaux sociaux sans ressentir de jalousie. Remerciez Allah pour Ses bienfaits."
+      }
+    },
+    "difficulty": "easy"
+  },
+  {
+    "id": "challenge-eyes-envy-02",
+    "category": "eyes",
+    "subcategory": "visual_envy",
+    "title": "7 Days Without Comparison",
+    "description": "For one week, if you feel envy rise, say a du'a of blessing for the other person.",
+    "duration_days": 7,
+    "translations": {
+      "en": {
+        "title": "7 Days Without Comparison",
+        "description": "For one week, if you feel envy rise, say a du'a of blessing for the other person."
+      },
+      "ar": {
+        "title": "7 أيام بلا مقارنة",
+        "description": "لمدة أسبوع، تجنب مقارنة نفسك بالآخرين بصرياً."
+      },
+      "fr": {
+        "title": "7 jours sans comparaison",
+        "description": "Pendant une semaine, évitez de vous comparer visuellement aux autres."
+      }
+    },
+    "difficulty": "medium"
+  },
+  {
+    "id": "challenge-eyes-envy-03",
+    "category": "eyes",
+    "subcategory": "visual_envy",
+    "title": "14-Day Comparison Cleanse",
+    "description": "Avoid all comparing your life to others' images. Focus on gratitude and self-worth.",
+    "duration_days": 14,
+    "translations": {
+      "en": {
+        "title": "14-Day Comparison Cleanse",
+        "description": "Avoid all comparing your life to others' images. Focus on gratitude and self-worth."
+      },
+      "ar": {
+        "title": "تطهير المقارنة لمدة 14 يوماً",
+        "description": "لمدة أسبوعين، تدرب على الامتنان بدلاً من المقارنة."
+      },
+      "fr": {
+        "title": "Nettoyage de comparaison de 14 jours",
+        "description": "Pendant deux semaines, pratiquez la gratitude au lieu de la comparaison."
+      }
+    },
+    "difficulty": "hard"
+  },
+  {
+    "id": "challenge-eyes-staring-01",
+    "category": "eyes",
+    "subcategory": "staring",
+    "title": "Polite Eyes Challenge",
+    "description": "Make people feel respected by avoiding intense staring. Practise 5 mindful interactions.",
+    "duration_days": 1,
+    "translations": {
+      "en": {
+        "title": "Polite Eyes Challenge",
+        "description": "Make people feel respected by avoiding intense staring. Practise 5 mindful interactions."
+      },
+      "ar": {
+        "title": "تحدي العيون المؤدبة",
+        "description": "اليوم، تجنب التحديق في الناس. انظر بأدب واحترام."
+      },
+      "fr": {
+        "title": "Défi des yeux polis",
+        "description": "Aujourd'hui, évitez de fixer les gens. Regardez avec politesse et respect."
+      }
+    },
+    "difficulty": "easy"
+  },
+  {
+    "id": "challenge-eyes-staring-02",
+    "category": "eyes",
+    "subcategory": "staring",
+    "title": "Stare-Free Week",
+    "description": "Rein in your gaze for 7 days — especially in shops, queues, and online.",
+    "duration_days": 7,
+    "translations": {
+      "en": {
+        "title": "Stare-Free Week",
+        "description": "Rein in your gaze for 7 days — especially in shops, queues, and online."
+      },
+      "ar": {
+        "title": "أسبوع بلا تحديق",
+        "description": "لمدة 7 أيام، تدرب على النظر المحترم دون تحديق."
+      },
+      "fr": {
+        "title": "Semaine sans fixation",
+        "description": "Pendant 7 jours, pratiquez le regard respectueux sans fixer."
+      }
+    },
+    "difficulty": "medium"
+  },
+  {
+    "id": "challenge-eyes-staring-03",
+    "category": "eyes",
+    "subcategory": "staring",
+    "title": "Respect the Space of Others",
+    "description": "Go 14 days without letting your eyes linger where they are not welcome.",
+    "duration_days": 14,
+    "translations": {
+      "en": {
+        "title": "Respect the Space of Others",
+        "description": "Go 14 days without letting your eyes linger where they are not welcome."
+      },
+      "ar": {
+        "title": "احترم مساحة الآخرين",
+        "description": "لمدة أسبوعين، احترم الحدود البصرية للآخرين."
+      },
+      "fr": {
+        "title": "Respecter l'espace des autres",
+        "description": "Pendant deux semaines, respectez les limites visuelles des autres."
+      }
+    },
+    "difficulty": "hard"
+  },
+  {
+    "id": "challenge-eyes-prayer-01",
+    "category": "eyes",
+    "subcategory": "inattentiveness_in_prayer",
+    "title": "One Focused Prayer",
+    "description": "Today, try to complete one full prayer without looking around once.",
+    "duration_days": 1,
+    "translations": {
+      "en": {
+        "title": "One Focused Prayer",
+        "description": "Today, try to complete one full prayer without looking around once."
+      },
+      "ar": {
+        "title": "صلاة واحدة مركزة",
+        "description": "اليوم، صل صلاة واحدة بتركيز كامل، غاضاً بصرك عن كل ما يلهي."
+      },
+      "fr": {
+        "title": "Une prière concentrée",
+        "description": "Aujourd'hui, priez une prière avec une concentration totale, en détournant votre regard de toute distraction."
+      }
+    },
+    "difficulty": "easy"
+  },
+  {
+    "id": "challenge-eyes-prayer-02",
+    "category": "eyes",
+    "subcategory": "inattentiveness_in_prayer",
+    "title": "Prayer Eye Control – 7 Days",
+    "description": "Train yourself to keep your eyes in sujood. Lower your gaze in every prayer for 7 days.",
+    "duration_days": 7,
+    "translations": {
+      "en": {
+        "title": "Prayer Eye Control – 7 Days",
+        "description": "Train yourself to keep your eyes in sujood. Lower your gaze in every prayer for 7 days."
+      },
+      "ar": {
+        "title": "ضبط العين في الصلاة - 7 أيام",
+        "description": "لمدة 7 أيام، تدرب على التركيز البصري في كل صلاة."
+      },
+      "fr": {
+        "title": "Contrôle des yeux en prière - 7 jours",
+        "description": "Pendant 7 jours, pratiquez la concentration visuelle dans chaque prière."
+      }
+    },
+    "difficulty": "medium"
+  },
+  {
+    "id": "challenge-eyes-prayer-03",
+    "category": "eyes",
+    "subcategory": "inattentiveness_in_prayer",
+    "title": "14-Day Salah Gaze Discipline",
+    "description": "For 2 weeks, guard your gaze during salah. Let your eyes lead your heart to humility.",
+    "duration_days": 14,
+    "translations": {
+      "en": {
+        "title": "14-Day Salah Gaze Discipline",
+        "description": "For 2 weeks, guard your gaze during salah. Let your eyes lead your heart to humility."
+      },
+      "ar": {
+        "title": "14 يوماً من انضباط النظر في الصلاة",
+        "description": "لمدة أسبوعين، اتقن التركيز البصري في الصلاة."
+      },
+      "fr": {
+        "title": "14 jours de discipline du regard en prière",
+        "description": "Pendant deux semaines, maîtrisez la concentration visuelle en prière."
+      }
+    },
+    "difficulty": "hard"
+  }
+]

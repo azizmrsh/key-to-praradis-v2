@@ -1,0 +1,170 @@
+[
+  {
+    "id": "challenge-zina-flirt-01",
+    "category": "zina",
+    "subcategory": "flirtatious_speech",
+    "title": "Guard Your Words",
+    "description": "Today, avoid flirtatious or suggestive language in all conversations — online or in person.",
+    "duration_days": 1
+  },
+  {
+    "id": "challenge-zina-flirt-02",
+    "category": "zina",
+    "subcategory": "flirtatious_speech",
+    "title": "3-Day Speech Purity",
+    "description": "Speak respectfully and modestly for 3 days. Avoid playful messaging that crosses limits.",
+    "duration_days": 3
+  },
+  {
+    "id": "challenge-zina-flirt-03",
+    "category": "zina",
+    "subcategory": "flirtatious_speech",
+    "title": "7-Day Messaging Cleanse",
+    "description": "Avoid texting or speaking with romantic intent to anyone outside of marriage for 7 days.",
+    "duration_days": 7
+  },
+  {
+    "id": "challenge-zina-privacy-01",
+    "category": "zina",
+    "subcategory": "private_contact",
+    "title": "Respect Personal Boundaries",
+    "description": "Do not place yourself in a one-on-one private setting with a non-mahram today.",
+    "duration_days": 1
+  },
+  {
+    "id": "challenge-zina-privacy-02",
+    "category": "zina",
+    "subcategory": "private_contact",
+    "title": "3-Day Halwa Barrier",
+    "description": "Avoid all private, unsupervised contact with the opposite gender for 3 days.",
+    "duration_days": 3
+  },
+  {
+    "id": "challenge-zina-privacy-03",
+    "category": "zina",
+    "subcategory": "private_contact",
+    "title": "7 Days of Honour",
+    "description": "Protect your dignity and that of others by avoiding any risky proximity for 7 days.",
+    "duration_days": 7
+  },
+  {
+    "id": "challenge-zina-media-01",
+    "category": "zina",
+    "subcategory": "romantic_media",
+    "title": "Skip the Scene",
+    "description": "Today, fast-forward or avoid any sexualised scene in shows, music, or books.",
+    "duration_days": 1
+  },
+  {
+    "id": "challenge-zina-media-02",
+    "category": "zina",
+    "subcategory": "romantic_media",
+    "title": "3-Day Content Reset",
+    "description": "Avoid all romantic or sensual entertainment — music, video, novels — for 3 days.",
+    "duration_days": 3
+  },
+  {
+    "id": "challenge-zina-media-03",
+    "category": "zina",
+    "subcategory": "romantic_media",
+    "title": "7-Day Desire Detox",
+    "description": "Cleanse your media intake. Focus on modest, inspiring content only for 7 days.",
+    "duration_days": 7
+  },
+  {
+    "id": "challenge-zina-fantasy-01",
+    "category": "zina",
+    "subcategory": "fantasising",
+    "title": "Shift the Thought",
+    "description": "Today, when a lustful thought arises, immediately make dhikr or say a du‘a of protection.",
+    "duration_days": 1
+  },
+  {
+    "id": "challenge-zina-fantasy-02",
+    "category": "zina",
+    "subcategory": "fantasising",
+    "title": "3-Day Mind Rewire",
+    "description": "Actively replace indecent thoughts with thoughts of Jannah or death for 3 days.",
+    "duration_days": 3
+  },
+  {
+    "id": "challenge-zina-fantasy-03",
+    "category": "zina",
+    "subcategory": "fantasising",
+    "title": "7 Days of Thought Control",
+    "description": "Guard your inner gaze. Monitor your thoughts and redirect temptations all week.",
+    "duration_days": 7
+  },
+  {
+    "id": "challenge-zina-social-01",
+    "category": "zina",
+    "subcategory": "social_media",
+    "title": "Unfollow Temptation",
+    "description": "Today, unfollow any account that tempts you toward lust or comparison.",
+    "duration_days": 1
+  },
+  {
+    "id": "challenge-zina-social-02",
+    "category": "zina",
+    "subcategory": "social_media",
+    "title": "3-Day Scroll Purity",
+    "description": "For the next 3 days, limit screen time and avoid apps that encourage visual temptation.",
+    "duration_days": 3
+  },
+  {
+    "id": "challenge-zina-social-03",
+    "category": "zina",
+    "subcategory": "social_media",
+    "title": "7-Day Social Reset",
+    "description": "Detox your digital space. Only allow feeds that remind you of modesty and sincerity.",
+    "duration_days": 7
+  },
+  {
+    "id": "challenge-zina-companionship-01",
+    "category": "zina",
+    "subcategory": "unlawful_relationship",
+    "title": "Cut the Thread",
+    "description": "Mute or archive one chat that you know leads you to sin. Give yourself space today.",
+    "duration_days": 1
+  },
+  {
+    "id": "challenge-zina-companionship-02",
+    "category": "zina",
+    "subcategory": "unlawful_relationship",
+    "title": "3-Day Boundaries",
+    "description": "Avoid replying or initiating flirtatious contact with any non-mahram for 3 days.",
+    "duration_days": 3
+  },
+  {
+    "id": "challenge-zina-companionship-03",
+    "category": "zina",
+    "subcategory": "unlawful_relationship",
+    "title": "7-Day Exit Strategy",
+    "description": "Begin planning to end any illicit relationship. Make istighfar and write your intention.",
+    "duration_days": 7
+  },
+  {
+    "id": "challenge-zina-hopelessness-01",
+    "category": "zina",
+    "subcategory": "hopelessness",
+    "title": "Du‘a of Hope",
+    "description": "Read or listen to the du‘a of Yunus (as) today. Reflect on its power to lift shame.",
+    "duration_days": 1
+  },
+  {
+    "id": "challenge-zina-hopelessness-02",
+    "category": "zina",
+    "subcategory": "hopelessness",
+    "title": "3-Day Mercy Reminder",
+    "description": "Repeat daily: ‘Allah’s mercy is greater than my sin.’ Make sincere du‘a each day.",
+    "duration_days": 3
+  },
+  {
+    "id": "challenge-zina-hopelessness-03",
+    "category": "zina",
+    "subcategory": "hopelessness",
+    "title": "7 Days of Returning",
+    "description": "For 7 days, pray 2 rak‘at of tawbah and write one reflection on healing and hope.",
+    "duration_days": 7
+  }
+]

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1" />
+    <title>Keys to Paradise</title>
+    <meta name="description" content="A privacy-focused Islamic self-improvement app based on Imam Al-Ghazali's teachings" />
+    <link href="https://fonts.googleapis.com/css2?family=PT+Serif:wght@400;700&family=Noto+Sans:wght@400;500;600;700&family=Amiri:wght@400;700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <style>
+      :root {
+        --app-height: 100vh;
+      }
+      html, body {
+        padding: 0;
+        margin: 0;
+        overflow-x: hidden;
+        min-height: var(--app-height);
+      }
+      .pattern-bg {
+        background-image: url('https://images.unsplash.com/photo-1562774053-701939374585?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3');
+        background-size: cover;
+        background-position: center;
+        background-blend-mode: overlay;
+        background-color: rgba(0, 105, 92, 0.9);
+      }
+      .arabic {
+        font-family: 'Amiri', serif;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+    <!-- This is a replit script which adds a banner on the top of the page when opened in development mode outside the replit environment -->
+    <script type="text/javascript" src="https://replit.com/public/js/replit-dev-banner.js"></script>
+  </body>
+</html>

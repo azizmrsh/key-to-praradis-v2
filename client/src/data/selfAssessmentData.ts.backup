@@ -1,0 +1,1599 @@
+// Self-Assessment Data Structure
+
+export type SinCategory = 
+  | 'tongue'
+  | 'eyes'
+  | 'ears'
+  | 'pride'
+  | 'stomach'
+  | 'zina'
+  | 'heart';
+
+export type IslamicReference = {
+  type: 'quran' | 'hadith';
+  text: string;
+  source: string;
+  translation?: string;
+};
+
+export type QuestionTranslations = {
+  english: string;
+  arabic?: string;
+  french?: string;
+};
+
+export type QuestionType = {
+  id: string;
+  text: string;
+  category: SinCategory;
+  section: string;
+  conditionalOn?: string; // If this is a conditional question, this refers to the parent question ID
+  conditionalValue?: number; // The minimum score on the parent question to show this question
+  islamicReferences?: IslamicReference[]; // Quran verses and Hadith related to this question
+  translations?: QuestionTranslations; // Multi-language support
+};
+
+export type ScoreScale = 1 | 2 | 3 | 4 | 5;
+
+export interface SelfAssessmentResponse {
+  questionId: string;
+  score: ScoreScale;
+  timestamp: Date;
+}
+
+export interface SelfAssessmentResult {
+  categoryScores: Record<SinCategory, number>;
+  totalQuestions: Record<SinCategory, number>;
+  answeredQuestions: Record<SinCategory, number>;
+  primaryStruggle: SinCategory;
+  secondaryStruggle: SinCategory;
+  completedAt: Date;
+}
+
+export interface SelfAssessmentGoal {
+  sinCategory: SinCategory;
+  durationDays: number;
+  startDate: Date;
+  reminder: boolean;
+  reminderTime?: string;
+}
+
+// Sample category titles and descriptions
+export const categoryInfo: Record<SinCategory, { title: string, description: string }> = {
+  tongue: {
+    title: "Sins of the Tongue",
+    description: "Words that harm others through lying, backbiting, slander, mockery, or inappropriate speech."
+  },
+  eyes: {
+    title: "Sins of the Eyes",
+    description: "Looking at what is forbidden, inappropriate visual content, and the envy that can develop through sight."
+  },
+  ears: {
+    title: "Sins of the Ears",
+    description: "Listening to backbiting, slander, inappropriate content, and other harmful speech."
+  },
+  pride: {
+    title: "Pride",
+    description: "Feelings of superiority, arrogance, vanity, and difficulty with humility."
+  },
+  stomach: {
+    title: "Sins of the Stomach",
+    description: "Overeating, consuming what is unlawful, and excessive material appetite."
+  },
+  zina: {
+    title: "Zina",
+    description: "Unlawful physical relations and actions that may lead to them."
+  },
+  heart: {
+    title: "Sins of the Heart",
+    description: "Internal spiritual diseases such as envy, malice, hypocrisy, and attachments to the worldly life."
+  },
+};
+
+// Questions for self-assessment, organized by category with multilingual support
+export const selfAssessmentQuestions: QuestionType[] = [
+  {
+    id: 'tongue_1',
+    text: 'Do you sometimes tell lies to avoid trouble or embarrassment?',
+    category: 'tongue',
+    section: 'Lying',
+    translations: {
+      english: 'Do you sometimes tell lies to avoid trouble or embarrassment?',
+      arabic: 'هل تكذب أحيانًا لتتجنب الوقوع في مشكلة أو لتفادي الإحراج؟',
+      french: 'Est-ce que vous mentez parfois pour éviter des ennuis ou de l\'embarras ?'
+    }
+  },
+  {
+    id: 'tongue_2',
+    text: 'Do you find yourself exaggerating stories to sound more interesting?',
+    category: 'tongue',
+    section: 'Lying',
+    translations: {
+      english: 'Do you find yourself exaggerating stories to sound more interesting?',
+      arabic: 'هل تجد نفسك تبالغ في سرد القصص لتبدو أكثر إثارة؟',
+      french: 'Vous arrive-t-il d\'exagérer des histoires pour paraître plus intéressant ?'
+    }
+  },
+  {
+    id: 'tongue_3',
+    text: 'Do you justify saying things that aren\',
+    category: 'tongue',
+    section: 'Lying'
+  },
+  {
+    id: 'tongue_4',
+    text: 'Do you speak about others\',
+    category: 'tongue',
+    section: 'Backbiting'
+  },
+  {
+    id: 'tongue_5',
+    text: 'Do you listen and contribute when others gossip or backbite?',
+    category: 'tongue',
+    section: 'Backbiting',
+    translations: {
+      english: 'Do you listen and contribute when others gossip or backbite?',
+      arabic: 'هل تستمع وتشارك في الحديث عندما يغتاب أو ينمّ الآخرون؟',
+      french: 'Écoutez-vous et contribuez-vous lorsque d\'autres font des commérages ou méditent sur autrui ?'
+    }
+  },
+  {
+    id: 'tongue_6',
+    text: 'Do you make sarcastic jokes that could hurt someone\',
+    category: 'tongue',
+    section: 'Mockery'
+  },
+  {
+    id: 'tongue_7',
+    text: 'Do you find it difficult to stop backbiting once it begins?',
+    category: 'tongue',
+    section: 'Backbiting',
+    translations: {
+      english: 'Do you find it difficult to stop backbiting once it begins?',
+      arabic: 'هل تجد صعوبة في التوقف عن الغيبة بمجرد أن تبدأ؟',
+      french: 'Avez-vous du mal à arrêter de médire une fois que cela commence ?'
+    }
+  },
+  {
+    id: 'tongue_8',
+    text: 'Do you raise your voice in arguments to assert yourself?',
+    category: 'tongue',
+    section: 'Arguments',
+    translations: {
+      english: 'Do you raise your voice in arguments to assert yourself?',
+      arabic: 'هل ترفع صوتك أثناء الجدال لتُثبت نفسك؟',
+      french: 'Élevez-vous la voix lors des disputes pour vous affirmer ?'
+    }
+  },
+  {
+    id: 'tongue_9',
+    text: 'Do you speak negatively about people you disagree with?',
+    category: 'tongue',
+    section: 'Negative Speech',
+    translations: {
+      english: 'Do you speak negatively about people you disagree with?',
+      arabic: 'هل تتحدث بسلبية عن أشخاص تختلف معهم؟',
+      french: 'Parlez-vous négativement des personnes avec lesquelles vous êtes en désaccord ?'
+    }
+  },
+  {
+    id: 'tongue_10',
+    text: 'Do you praise others insincerely to win favour or avoid conflict?',
+    category: 'tongue',
+    section: 'Insincerity',
+    translations: {
+      english: 'Do you praise others insincerely to win favour or avoid conflict?',
+      arabic: 'هل تمدح الآخرين بغير صدق لكسب رضاهم أو لتجنب الخلاف؟',
+      french: 'Faites-vous des compliments non sincères pour obtenir des faveurs ou éviter les conflits ?'
+    }
+  },
+  {
+    id: 'tongue_11',
+    text: 'Do you sometimes share things that were told to you in confidence?',
+    category: 'tongue',
+    section: 'Betraying Confidence',
+    translations: {
+      english: 'Do you sometimes share things that were told to you in confidence?',
+      arabic: 'هل تشارك أحيانًا أشياء قيلت لك بسرية؟',
+      french: 'Partagez-vous parfois des informations qui vous ont été confiées ?'
+    }
+  },
+  {
+    id: 'tongue_12',
+    text: 'Do you speak more than necessary in situations that require silence?',
+    category: 'tongue',
+    section: 'Excessive Speech',
+    translations: {
+      english: 'Do you speak more than necessary in situations that require silence?',
+      arabic: 'هل تتحدث أكثر من اللازم في مواقف تستدعي الصمت؟',
+      french: 'Parlez-vous plus que nécessaire dans des situations qui exigent le silence ?'
+    }
+  },
+  {
+    id: 'tongue_13',
+    text: 'Do you joke about serious topics in a way that might be disrespectful?',
+    category: 'tongue',
+    section: 'Inappropriate Humor',
+    translations: {
+      english: 'Do you joke about serious topics in a way that might be disrespectful?',
+      arabic: 'هل تمزح حول مواضيع جادة بطريقة قد تُعتبر غير محترمة؟',
+      french: 'Faites-vous des blagues sur des sujets sérieux d\'une manière qui pourrait être irrespectueuse ?'
+    }
+  },
+  {
+    id: 'tongue_14',
+    text: 'Do you enjoy talking about other people\',
+    category: 'tongue',
+    section: 'Backbiting'
+  },
+  {
+    id: 'tongue_15',
+    text: 'Do you dominate conversations or talk over others?',
+    category: 'tongue',
+    section: 'Dominating Speech',
+    translations: {
+      english: 'Do you dominate conversations or talk over others?',
+      arabic: 'هل تهيمن على الحوارات أو تقاطع الآخرين أثناء حديثهم؟',
+      french: 'Dominez-vous les conversations ou parlez-vous par-dessus les autres ?'
+    }
+  },
+  {
+    id: 'tongue_16',
+    text: 'Do you find yourself lying even when it\',
+    category: 'tongue',
+    section: 'Habitual Lying'
+  },
+  {
+    id: 'tongue_17',
+    text: 'Do you say things impulsively and regret them later?',
+    category: 'tongue',
+    section: 'Impulsive Speech',
+    translations: {
+      english: 'Do you say things impulsively and regret them later?',
+      arabic: 'هل تقول أشياء بدافع الاندفاع ثم تندم عليها لاحقًا؟',
+      french: 'Dites-vous des choses impulsivement que vous regrettez ensuite ?'
+    }
+  },
+  {
+    id: 'tongue_18',
+    text: 'Do you speak harshly when you\',
+    category: 'tongue',
+    section: 'Harsh Speech'
+  },
+  {
+    id: 'tongue_19',
+    text: 'Do you speak without considering the impact of your words?',
+    category: 'tongue',
+    section: 'Thoughtless Speech',
+    translations: {
+      english: 'Do you speak without considering the impact of your words?',
+      arabic: 'هل تتكلم دون أن تفكر في أثر كلماتك على الآخرين؟',
+      french: 'Parlez-vous sans réfléchir à l’impact de vos paroles ?'
+    }
+  },
+  {
+    id: 'tongue_20',
+    text: 'Do you use words to subtly make others feel inferior or guilty?',
+    category: 'tongue',
+    section: 'Manipulation',
+    translations: {
+      english: 'Do you use words to subtly make others feel inferior or guilty?',
+      arabic: 'هل تستخدم كلماتك بطريقة غير مباشرة لتجعل الآخرين يشعرون بالنقص أو الذنب؟',
+      french: 'Utilisez-vous vos mots pour faire sentir les autres inférieurs ou coupables de manière subtile ?'
+    }
+  },
+  {
+    id: 'eyes_1',
+    text: 'Do you look at images that are inappropriate or immodest?',
+    category: 'eyes',
+    section: 'Inappropriate Viewing',
+    translations: {
+      english: 'Do you look at images that are inappropriate or immodest?',
+      arabic: 'هل تنظر إلى صور غير لائقة أو فاحشة؟',
+      french: 'Regardez-vous des images inappropriées ou indécentes ?'
+    }
+  },
+  {
+    id: 'eyes_2',
+    text: 'Do you struggle to lower your gaze in public settings?',
+    category: 'eyes',
+    section: 'Lowering Gaze',
+    translations: {
+      english: 'Do you struggle to lower your gaze in public settings?',
+      arabic: 'هل تجد صعوبة في غضّ البصر في الأماكن العامة أو على الإنترنت؟',
+      french: 'Avez-vous du mal à baisser le regard dans les lieux publics ou en ligne ?'
+    }
+  },
+  {
+    id: 'eyes_3',
+    text: 'Do you watch videos or content that contradict your spiritual values?',
+    category: 'eyes',
+    section: 'Inappropriate Content',
+    translations: {
+      english: 'Do you watch videos or content that contradict your spiritual values?',
+      arabic: 'هل تشاهد مقاطع فيديو أو محتوى يتعارض مع قيمك الدينية أو الأخلاقية؟',
+      french: 'Regardez-vous des vidéos ou du contenu contraire à vos valeurs religieuses ou morales ?'
+    }
+  },
+  {
+    id: 'eyes_4',
+    text: 'Do you scroll through social media with curiosity for appearance-based posts?',
+    category: 'eyes',
+    section: 'Social Media',
+    translations: {
+      english: 'Do you scroll through social media with curiosity for appearance-based posts?',
+      arabic: 'هل تتصفح وسائل التواصل الاجتماعي بدافع الفضول لرؤية صور أو أشخاص يجذبونك؟',
+      french: 'Faites-vous défiler les réseaux sociaux par curiosité pour voir des images ou des personnes qui vous attirent ?'
+    }
+  },
+  {
+    id: 'eyes_5',
+    text: 'Do you find yourself returning to visual content that you know is harmful?',
+    category: 'eyes',
+    section: 'Repeated Viewing',
+    translations: {
+      english: 'Do you find yourself returning to visual content that you know is harmful?',
+      arabic: 'هل تعود مرارًا إلى محتوى بصري تعلم أنه مضر؟',
+      french: 'Revenez-vous souvent à du contenu visuel que vous savez nuisible ?'
+    }
+  },
+  {
+    id: 'eyes_6',
+    text: 'Do you stare at others in a way that might make them uncomfortable?',
+    category: 'eyes',
+    section: 'Inappropriate Staring',
+    translations: {
+      english: 'Do you stare at others in a way that might make them uncomfortable?',
+      arabic: 'هل تحدق في الأشخاص بطريقة قد تزعجهم أو تُعتبر غير لائقة؟',
+      french: 'Fixez-vous les gens d\'une manière qui pourrait les mettre mal à l\'aise ou être jugée inappropriée ?'
+    }
+  },
+  {
+    id: 'eyes_7',
+    text: 'Do you watch entertainment that includes excessive indecency?',
+    category: 'eyes',
+    section: 'Indecent Entertainment',
+    translations: {
+      english: 'Do you watch entertainment that includes excessive indecency?',
+      arabic: 'هل تشاهد أعمالًا ترفيهية تحتوي على مشاهد فاحشة أو غير لائقة؟',
+      french: 'Regardez-vous des divertissements contenant des scènes indécentes ou immorales ?'
+    }
+  },
+  {
+    id: 'eyes_8',
+    text: 'Do you compare your appearance with others online or in public?',
+    category: 'eyes',
+    section: 'Comparison',
+    translations: {
+      english: 'Do you compare your appearance with others online or in public?',
+      arabic: 'هل تقارن مظهرك بمظهر الآخرين عبر الإنترنت أو في الواقع؟',
+      french: 'Comparez-vous votre apparence à celle des autres en ligne ou en personne ?'
+    }
+  },
+  {
+    id: 'eyes_9',
+    text: 'Do you feel envy when you see others living a life you desire?',
+    category: 'eyes',
+    section: 'Envy',
+    translations: {
+      english: 'Do you feel envy when you see others living a life you desire?',
+      arabic: 'هل تشعر بالغيرة عند رؤية حياة الآخرين تبدو مثالية؟',
+      french: 'Ressentez-vous de la jalousie en voyant la vie apparemment parfaite des autres ?'
+    }
+  },
+  {
+    id: 'eyes_10',
+    text: 'Do you seek out visually provocative material even after deciding not to?',
+    category: 'eyes',
+    section: 'Seeking Provocative Content',
+    translations: {
+      english: 'Do you seek out visually provocative material even after deciding not to?',
+      arabic: 'هل تبحث عن محتوى بصري مثير رغم معرفتك بضرره؟',
+      french: 'Cherchez-vous intentionnellement du contenu visuel provocant bien que vous sachiez qu\'il est nuisible ?'
+    }
+  },
+  {
+    id: 'eyes_11',
+    text: 'Do you feel compelled to look at someone you find attractive, despite knowing it\',
+    category: 'eyes',
+    section: 'Inappropriate Attraction'
+  },
+  {
+    id: 'eyes_12',
+    text: 'Do you pay attention to things that distract you during prayer?',
+    category: 'eyes',
+    section: 'Prayer Distraction',
+    translations: {
+      english: 'Do you pay attention to things that distract you during prayer?',
+      arabic: 'هل تستمع أو تشاهد دون أن تحاول كبح رغبتك؟',
+      french: 'Regardez-vous ou écoutez-vous sans essayer de réfréner vos désirs ?'
+    }
+  },
+  {
+    id: 'eyes_13',
+    text: 'Do you view people through a judgmental or critical lens?',
+    category: 'eyes',
+    section: 'Judgmental Viewing',
+    translations: {
+      english: 'Do you view people through a judgmental or critical lens?',
+      arabic: 'هل تنظر إلى الناس بنظرة انتقادية أو حُكمية؟',
+      french: 'Avez-vous tendance à regarder les gens avec un regard critique ou jugeant ?'
+    }
+  },
+  {
+    id: 'eyes_14',
+    text: 'Do you catch yourself mentally undressing or fantasising about someone you see?',
+    category: 'eyes',
+    section: 'Fantasy',
+    translations: {
+      english: 'Do you catch yourself mentally undressing or fantasising about someone you see?',
+      arabic: 'هل تشعر بالذنب أو الندم بعد مشاهدة محتوى غير لائق؟',
+      french: 'Ressentez-vous de la culpabilité ou du regret après avoir regardé du contenu inapproprié ?'
+    }
+  },
+  {
+    id: 'eyes_15',
+    text: 'Do you look at people to assess their beauty or worth?',
+    category: 'eyes',
+    section: 'Assessing Others',
+    translations: {
+      english: 'Do you look at people to assess their beauty or worth?',
+      arabic: 'هل تتأثر مشاعرك أو حالتك النفسية بسبب ما تشاهده؟',
+      french: 'Votre état émotionnel est-il affecté par ce que vous regardez ?'
+    }
+  },
+  {
+    id: 'eyes_16',
+    text: 'Do you indulge in visual curiosity when walking or in public transport?',
+    category: 'eyes',
+    section: 'Public Curiosity',
+    translations: {
+      english: 'Do you indulge in visual curiosity when walking or in public transport?',
+      arabic: 'هل تجد صعوبة في تجنب المشاهد المثيرة أو المحرمة؟',
+      french: 'Avez-vous du mal à éviter les scènes provocantes ou interdites ?'
+    }
+  },
+  {
+    id: 'eyes_17',
+    text: 'Do you rationalise watching certain shows because of the storyline, despite their visual content?',
+    category: 'eyes',
+    section: 'Rationalization',
+    translations: {
+      english: 'Do you rationalise watching certain shows because of the storyline, despite their visual content?',
+      arabic: 'هل تنظر إلى محتوى تعرف أنه خاطئ، فقط بدافع الفضول؟',
+      french: 'Regardez-vous du contenu que vous savez inapproprié simplement par curiosité ?'
+    }
+  },
+  {
+    id: 'eyes_18',
+    text: 'Do you follow accounts or media pages primarily for how people look?',
+    category: 'eyes',
+    section: 'Social Media Following',
+    translations: {
+      english: 'Do you follow accounts or media pages primarily for how people look?',
+      arabic: 'هل تقضي وقتًا طويلًا في مشاهدة محتوى بصري غير نافع؟',
+      french: 'Passez-vous beaucoup de temps à regarder du contenu visuel inutile ?'
+    }
+  },
+  {
+    id: 'eyes_19',
+    text: 'Do you spend time examining people\',
+    category: 'eyes',
+    section: 'Physical Examination'
+  },
+  {
+    id: 'eyes_20',
+    text: 'Do you feel uneasy or distracted after prolonged exposure to visual content?',
+    category: 'eyes',
+    section: 'Post-Viewing Effects',
+    translations: {
+      english: 'Do you feel uneasy or distracted after prolonged exposure to visual content?',
+      arabic: 'هل تشعر بعدم ارتياح أو تشتت بعد مشاهدة طويلة للمحتوى البصري؟',
+      french: 'Vous sentez-vous mal à l\'aise ou distrait après une longue exposition à du contenu visuel ?'
+    }
+  },
+  {
+    id: 'ears_1',
+    text: 'Do you listen to people backbiting or speaking ill of others without stopping them?',
+    category: 'ears',
+    section: 'Listening to Backbiting',
+    translations: {
+      english: 'Do you listen to people backbiting or speaking ill of others without stopping them?',
+      arabic: 'هل تستمع إلى من يغتابون أو يتحدثون بسوء عن الآخرين؟',
+      french: 'Écoutez-vous les gens médire ou parler négativement des autres ?'
+    }
+  },
+  {
+    id: 'ears_2',
+    text: 'Do you enjoy hearing gossip or rumours about others?',
+    category: 'ears',
+    section: 'Enjoying Gossip',
+    translations: {
+      english: 'Do you enjoy hearing gossip or rumours about others?',
+      arabic: 'هل تستمتع بسماع النميمة أو الشائعات عن الآخرين؟',
+      french: 'Prenez-vous plaisir à entendre des ragots ou des rumeurs sur les autres ?'
+    }
+  },
+  {
+    id: 'ears_3',
+    text: 'Do you find it entertaining to hear mocking or sarcastic remarks about people?',
+    category: 'ears',
+    section: 'Enjoying Mockery',
+    translations: {
+      english: 'Do you find it entertaining to hear mocking or sarcastic remarks about people?',
+      arabic: 'هل تجد الاستهزاء أو السخرية من الآخرين مسليًا؟',
+      french: 'Trouvez-vous amusant d\'entendre des moqueries ou des sarcasmes envers autrui ?'
+    }
+  },
+  {
+    id: 'ears_4',
+    text: 'Do you listen to music or content with inappropriate or vulgar themes?',
+    category: 'ears',
+    section: 'Inappropriate Content',
+    translations: {
+      english: 'Do you listen to music or content with inappropriate or vulgar themes?',
+      arabic: 'هل تستمع إلى الموسيقى أو المحتوى الذي يحتوي على كلمات غير لائقة؟',
+      french: 'Écoutez-vous de la musique ou du contenu avec des paroles inappropriées ?'
+    }
+  },
+  {
+    id: 'ears_5',
+    text: 'Do you fail to walk away when someone starts slandering another person?',
+    category: 'ears',
+    section: 'Enabling Slander',
+    translations: {
+      english: 'Do you fail to walk away when someone starts slandering another person?',
+      arabic: 'هل تفشل في الانسحاب عند سماع الغيبة أو الكلام السيء؟',
+      french: 'Échouez-vous à vous éloigner lorsque quelqu\'un commence à médire ?'
+    }
+  },
+  {
+    id: 'ears_6',
+    text: 'Do you stay silent while others speak in a way that dishonours someone absent?',
+    category: 'ears',
+    section: 'Silent Complicity',
+    translations: {
+      english: 'Do you stay silent while others speak in a way that dishonours someone absent?',
+      arabic: 'هل تشارك الصمت عندما تسمع غيبة أو نميمة دون الاعتراض عليها؟',
+      french: 'Gardez-vous le silence lorsque vous entendez de la médisance ou des ragots sans les dénoncer ?'
+    }
+  },
+  {
+    id: 'ears_7',
+    text: 'Do you find it hard to avoid conversations that involve exposing people\',
+    category: 'ears',
+    section: 'Fault-Finding Conversations'
+  },
+  {
+    id: 'ears_8',
+    text: 'Do you listen to shows or podcasts that promote values against your beliefs?',
+    category: 'ears',
+    section: 'Contradictory Content',
+    translations: {
+      english: 'Do you listen to shows or podcasts that promote values against your beliefs?',
+      arabic: 'هل تبرر سماع الغيبة بقولك إنك لم تشارك فيها؟',
+      french: 'Justifiez-vous l\'écoute de la médisance en disant que vous n\'y avez pas participé ?'
+    }
+  },
+  {
+    id: 'ears_9',
+    text: 'Do you enjoy hearing compliments or flattery that you know are exaggerated or insincere?',
+    category: 'ears',
+    section: 'False Flattery',
+    translations: {
+      english: 'Do you enjoy hearing compliments or flattery that you know are exaggerated or insincere?',
+      arabic: 'هل تحب سماع النقد اللاذع أو الساخر عن الآخرين؟',
+      french: 'Aimez-vous entendre des critiques acerbes ou sarcastiques sur les autres ?'
+    }
+  },
+  {
+    id: 'ears_10',
+    text: 'Do you listen with interest when people reveal private matters of others?',
+    category: 'ears',
+    section: 'Privacy Violation',
+    translations: {
+      english: 'Do you listen with interest when people reveal private matters of others?',
+      arabic: 'هل تستمع لمحتوى متناقض مع قيمك أو إيمانك؟',
+      french: 'Écoutez-vous du contenu qui contredit vos valeurs ou votre foi ?'
+    }
+  },
+  {
+    id: 'ears_11',
+    text: 'Do you enjoy tuning in to dramatic or scandal-driven content?',
+    category: 'ears',
+    section: 'Drama Content',
+    translations: {
+      english: 'Do you enjoy tuning in to dramatic or scandal-driven content?',
+      arabic: 'هل تنصت لأحاديث تافهة أو سطحية تضيّع وقتك؟',
+      french: 'Écoutez-vous des bavardages futiles ou superficiels qui vous font perdre du temps ?'
+    }
+  },
+  {
+    id: 'ears_12',
+    text: 'Do you eavesdrop on conversations not meant for you?',
+    category: 'ears',
+    section: 'Eavesdropping',
+    translations: {
+      english: 'Do you eavesdrop on conversations not meant for you?',
+      arabic: 'هل تتابع محتوى سمعي بدافع الفضول رغم معرفتك بأثره السلبي؟',
+      french: 'Écoutez-vous du contenu par curiosité même si vous savez qu\'il est nuisible ?'
+    }
+  },
+  {
+    id: 'ears_13',
+    text: 'Do you stay in situations where people are arguing or verbally attacking one another?',
+    category: 'ears',
+    section: 'Conflict Exposure',
+    translations: {
+      english: 'Do you stay in situations where people are arguing or verbally attacking one another?',
+      arabic: 'هل تستمتع بسماع أسرار الناس حتى دون إذنهم؟',
+      french: 'Prenez-vous plaisir à écouter les secrets des autres sans leur permission ?'
+    }
+  },
+  {
+    id: 'ears_14',
+    text: 'Do you fail to advise someone kindly when they speak inappropriately in your presence?',
+    category: 'ears',
+    section: 'Failure to Advise',
+    translations: {
+      english: 'Do you fail to advise someone kindly when they speak inappropriately in your presence?',
+      arabic: 'هل تعيد تشغيل المقاطع التي تتضمن غيبة أو نميمة؟',
+      french: 'Réécoutez-vous des extraits contenant de la médisance ou des ragots ?'
+    }
+  },
+  {
+    id: 'ears_15',
+    text: 'Do you keep listening even when you know what\',
+    category: 'ears',
+    section: 'Continued Listening'
+  },
+  {
+    id: 'ears_16',
+    text: 'Do you find pleasure in overhearing shocking or shameful things?',
+    category: 'ears',
+    section: 'Pleasure in Scandal',
+    translations: {
+      english: 'Do you find pleasure in overhearing shocking or shameful things?',
+      arabic: 'هل تجد صعوبة في تجاهل التعليقات المسيئة أو الساخرة؟',
+      french: 'Avez-vous du mal à ignorer les remarques blessantes ou moqueuses ?'
+    }
+  },
+  {
+    id: 'ears_17',
+    text: 'Do you feel affected or spiritually down after hearing inappropriate conversations or media?',
+    category: 'ears',
+    section: 'Spiritual Impact',
+    translations: {
+      english: 'Do you feel affected or spiritually down after hearing inappropriate conversations or media?',
+      arabic: 'هل تدّعي الحياد بينما تستمع إلى الظلم أو الإهانة؟',
+      french: 'Prétendez-vous être neutre tout en écoutant des injustices ou des insultes ?'
+    }
+  },
+  {
+    id: 'ears_18',
+    text: 'Do you pretend not to notice when someone is being ridiculed nearby?',
+    category: 'ears',
+    section: 'Ignoring Ridicule',
+    translations: {
+      english: 'Do you pretend not to notice when someone is being ridiculed nearby?',
+      arabic: 'هل تشعر بالذنب بعد الاستماع إلى محتوى غير لائق؟',
+      french: 'Ressentez-vous de la culpabilité après avoir écouté du contenu inapproprié ?'
+    }
+  },
+  {
+    id: 'ears_19',
+    text: 'Do you ignore or tolerate indecent language in music or entertainment?',
+    category: 'ears',
+    section: 'Tolerating Indecency',
+    translations: {
+      english: 'Do you ignore or tolerate indecent language in music or entertainment?',
+      arabic: 'هل تبرر الإنصات بحجة أنه مجرد فضول أو تسلية؟',
+      french: 'Justifiez-vous votre écoute en disant que c\'est par curiosité ou pour vous distraire ?'
+    }
+  },
+  {
+    id: 'ears_20',
+    text: 'Do you continue to engage with friends or groups that often indulge in harmful speech?',
+    category: 'ears',
+    section: 'Harmful Social Groups',
+    translations: {
+      english: 'Do you continue to engage with friends or groups that often indulge in harmful speech?',
+      arabic: 'هل تشعر أن ما تسمعه يؤثر سلبًا على قلبك أو إيمانك؟',
+      french: 'Ressentez-vous que ce que vous entendez affecte négativement votre cœur ou votre foi ?'
+    }
+  },
+  {
+    id: 'pride_1',
+    text: 'Do you often feel you are more knowledgeable or qualified than others?',
+    category: 'pride',
+    section: 'Intellectual Superiority',
+    translations: {
+      english: 'Do you often feel you are more knowledgeable or qualified than others?',
+      arabic: 'هل تشعر غالبًا أنك أكثر علمًا أو فهمًا من الآخرين؟',
+      french: 'Avez-vous souvent l\'impression d\'en savoir plus ou de mieux comprendre que les autres ?'
+    }
+  },
+  {
+    id: 'pride_2',
+    text: 'Do you consider your religious practice superior to others\',
+    category: 'pride',
+    section: 'Religious Superiority'
+  },
+  {
+    id: 'pride_3',
+    text: 'Do you look down on people from different backgrounds or social classes?',
+    category: 'pride',
+    section: 'Social Superiority',
+    translations: {
+      english: 'Do you look down on people from different backgrounds or social classes?',
+      arabic: 'هل تنظر بازدراء إلى أشخاص من خلفيات أو مستويات مختلفة؟',
+      french: 'Méprisez-vous les personnes d\'horizons ou de statuts différents ?'
+    }
+  },
+  {
+    id: 'pride_4',
+    text: 'Do you find it difficult to accept criticism, especially from those you see as inferior?',
+    category: 'pride',
+    section: 'Rejection of Criticism',
+    translations: {
+      english: 'Do you find it difficult to accept criticism, especially from those you see as inferior?',
+      arabic: 'هل تجد صعوبة في تقبل النقد، حتى عندما يكون بنّاءً؟',
+      french: 'Avez-vous du mal à accepter les critiques, même lorsqu\'elles sont constructives ?'
+    }
+  },
+  {
+    id: 'pride_5',
+    text: 'Do you feel discomfort when others are praised more than you?',
+    category: 'pride',
+    section: 'Jealousy of Praise',
+    translations: {
+      english: 'Do you feel discomfort when others are praised more than you?',
+      arabic: 'هل تشعر بعدم الارتياح عندما يُمدَح الآخرون أمامك؟',
+      french: 'Vous sentez-vous mal à l\'aise lorsque d\'autres sont félicités en votre présence ?'
+    }
+  },
+  {
+    id: 'pride_6',
+    text: 'Do you enjoy being recognised or praised publicly?',
+    category: 'pride',
+    section: 'Seeking Recognition',
+    translations: {
+      english: 'Do you enjoy being recognised or praised publicly?',
+      arabic: 'هل تستمتع بأن يتم الاعتراف بك أو مدحك علنًا؟',
+      french: 'Aimez-vous être reconnu ou complimenté en public ?'
+    }
+  },
+  {
+    id: 'pride_7',
+    text: 'Do you feel disturbed when someone you dislike is shown respect?',
+    category: 'pride',
+    section: 'Resentment of Others\'
+  },
+  {
+    id: 'pride_8',
+    text: 'Do you believe others should acknowledge your contributions more than they do?',
+    category: 'pride',
+    section: 'Expecting Acknowledgment',
+    translations: {
+      english: 'Do you believe others should acknowledge your contributions more than they do?',
+      arabic: 'هل تجد صعوبة في أداء المهام البسيطة التي لا يُلاحظها أحد؟',
+      french: 'Avez-vous du mal à accomplir des tâches simples si personne ne les remarque ?'
+    }
+  },
+  {
+    id: 'pride_9',
+    text: 'Do you struggle to admit when you are wrong?',
+    category: 'pride',
+    section: 'Inability to Admit Error',
+    translations: {
+      english: 'Do you struggle to admit when you are wrong?',
+      arabic: 'هل تعتبر بعض الأعمال متدنية ولا تليق بك؟',
+      french: 'Considérez-vous certaines tâches comme indignes de vous ?'
+    }
+  },
+  {
+    id: 'pride_10',
+    text: 'Do you find it difficult to apologise even when you know you should?',
+    category: 'pride',
+    section: 'Difficulty Apologizing',
+    translations: {
+      english: 'Do you find it difficult to apologise even when you know you should?',
+      arabic: 'هل تسعى لتنال الاحترام أو المعاملة الخاصة؟',
+      french: 'Recherchez-vous le respect ou un traitement de faveur ?'
+    }
+  },
+  {
+    id: 'pride_11',
+    text: 'Do you feel that others should follow your opinion because of your experience or knowledge?',
+    category: 'pride',
+    section: 'Expecting Deference',
+    translations: {
+      english: 'Do you feel that others should follow your opinion because of your experience or knowledge?',
+      arabic: 'هل تجد صعوبة في الاعتراف بخطئك أمام الآخرين؟',
+      french: 'Avez-vous du mal à reconnaître vos torts devant les autres ?'
+    }
+  },
+  {
+    id: 'pride_12',
+    text: 'Do you think people are lucky to have you in their lives, workplace, or group?',
+    category: 'pride',
+    section: 'Sense of Importance',
+    translations: {
+      english: 'Do you think people are lucky to have you in their lives, workplace, or group?',
+      arabic: 'هل تتجنب الاعتذار حتى عندما تكون مخطئًا؟',
+      french: 'Évitez-vous de vous excuser même lorsque vous avez tort ?'
+    }
+  },
+  {
+    id: 'pride_13',
+    text: 'Do you hide your faults while pointing out the faults of others?',
+    category: 'pride',
+    section: 'Hypocrisy',
+    translations: {
+      english: 'Do you hide your faults while pointing out the faults of others?',
+      arabic: 'هل تتوقع من الآخرين أن يقدّموك أو يفسحوا لك المجال؟',
+      french: 'Attendez-vous des autres qu\'ils vous laissent passer ou vous donnent la priorité ?'
+    }
+  },
+  {
+    id: 'pride_14',
+    text: 'Do you feel annoyed or envious when someone excels in a way you have not?',
+    category: 'pride',
+    section: 'Envy of Excellence',
+    translations: {
+      english: 'Do you feel annoyed or envious when someone excels in a way you have not?',
+      arabic: 'هل تشعر أنك شخص مهم ويجب أن يُعامل باحترام خاص؟',
+      french: 'Vous sentez-vous important au point de mériter un traitement spécial ?'
+    }
+  },
+  {
+    id: 'pride_15',
+    text: 'Do you sometimes help others primarily to be seen as helpful?',
+    category: 'pride',
+    section: 'Show-off Helping',
+    translations: {
+      english: 'Do you sometimes help others primarily to be seen as helpful?',
+      arabic: 'هل تشعر بالغيرة عندما ينجح الآخرون في شيء تتمنى تحقيقه؟',
+      french: 'Ressentez-vous de la jalousie quand d\'autres réussissent dans un domaine que vous visez ?'
+    }
+  },
+  {
+    id: 'pride_16',
+    text: 'Do you hesitate to serve in roles or tasks you consider beneath you?',
+    category: 'pride',
+    section: 'Refusing Humble Service',
+    translations: {
+      english: 'Do you hesitate to serve in roles or tasks you consider beneath you?',
+      arabic: 'هل تظهر نفسك بمظهر التدين لتنال إعجاب الآخرين؟',
+      french: 'Affichez-vous votre piété pour impressionner les autres ?'
+    }
+  },
+  {
+    id: 'pride_17',
+    text: 'Do you seek validation through social media or public acknowledgement?',
+    category: 'pride',
+    section: 'Social Media Validation',
+    translations: {
+      english: 'Do you seek validation through social media or public acknowledgement?',
+      arabic: 'هل تفتخر بأعمالك الصالحة وتحدث بها أمام الآخرين؟',
+      french: 'Vous vantez-vous de vos bonnes actions devant les autres ?'
+    }
+  },
+  {
+    id: 'pride_18',
+    text: 'Do you avoid associating with those you perceive as less refined or educated?',
+    category: 'pride',
+    section: 'Social Exclusion',
+    translations: {
+      english: 'Do you avoid associating with those you perceive as less refined or educated?',
+      arabic: 'هل تهتم كثيرًا بكيفية رؤية الناس لك دينيًا؟',
+      french: 'Vous souciez-vous excessivement de la manière dont les autres perçoivent votre religiosité ?'
+    }
+  },
+  {
+    id: 'pride_19',
+    text: 'Do you feel that admitting weakness would make people respect you less?',
+    category: 'pride',
+    section: 'Fear of Vulnerability',
+    translations: {
+      english: 'Do you feel that admitting weakness would make people respect you less?',
+      arabic: 'هل تزدري من هم أقل التزامًا منك في الدين؟',
+      french: 'Méprisez-vous ceux qui semblent moins engagés religieusement que vous ?'
+    }
+  },
+  {
+    id: 'pride_20',
+    text: 'Do you compare your good deeds to others\',
+    category: 'pride',
+    section: 'Comparative Superiority'
+  },
+  {
+    id: 'stomach_1',
+    text: 'Do you eat more than your body needs on a regular basis?',
+    category: 'stomach',
+    section: 'Overeating',
+    translations: {
+      english: 'Do you eat more than your body needs on a regular basis?',
+      arabic: 'هل تأكل بانتظام أكثر مما يحتاجه جسمك؟',
+      french: 'Mangez-vous régulièrement plus que ce dont votre corps a besoin ?'
+    }
+  },
+  {
+    id: 'stomach_2',
+    text: 'Do you eat even when you are not hungry, out of boredom or habit?',
+    category: 'stomach',
+    section: 'Mindless Eating',
+    translations: {
+      english: 'Do you eat even when you are not hungry, out of boredom or habit?',
+      arabic: 'هل تأكل حتى عندما لا تكون جائعًا، بدافع الملل أو التسلية؟',
+      french: 'Mangez-vous même sans avoir faim, par ennui ou pour vous divertir ?'
+    }
+  },
+  {
+    id: 'stomach_3',
+    text: 'Do you feel discomfort or guilt after overeating?',
+    category: 'stomach',
+    section: 'Post-Eating Guilt',
+    translations: {
+      english: 'Do you feel discomfort or guilt after overeating?',
+      arabic: 'هل تشعر بعدم الراحة أو الذنب بعد الإفراط في الأكل؟',
+      french: 'Ressentez-vous de l\'inconfort ou de la culpabilité après avoir trop mangé ?'
+    }
+  },
+  {
+    id: 'stomach_4',
+    text: 'Do you indulge in expensive or luxurious food more than necessary?',
+    category: 'stomach',
+    section: 'Luxury Indulgence',
+    translations: {
+      english: 'Do you indulge in expensive or luxurious food more than necessary?',
+      arabic: 'هل تنغمس في الأطعمة الفاخرة أو باهظة الثمن بانتظام؟',
+      french: 'Consommez-vous régulièrement des aliments luxueux ou coûteux ?'
+    }
+  },
+  {
+    id: 'stomach_5',
+    text: 'Do you ignore whether your food was obtained from halal earnings?',
+    category: 'stomach',
+    section: 'Halal Concerns',
+    translations: {
+      english: 'Do you ignore whether your food was obtained from halal earnings?',
+      arabic: 'هل تتجاهل ما إذا كان طعامك قد كُسب بطرق حلال؟',
+      french: 'Ignorez-vous si votre nourriture a été acquise de manière licite ?'
+    }
+  },
+  {
+    id: 'stomach_6',
+    text: 'Do you eat in secret to avoid judgment about quantity or type of food?',
+    category: 'stomach',
+    section: 'Secret Eating',
+    translations: {
+      english: 'Do you eat in secret to avoid judgment about quantity or type of food?',
+      arabic: 'هل تأكل في الخفاء لتجنب حكم الآخرين؟',
+      french: 'Mangez-vous en secret pour éviter le jugement des autres ?'
+    }
+  },
+  {
+    id: 'stomach_7',
+    text: 'Do you make impulsive food choices that go against your dietary or spiritual goals?',
+    category: 'stomach',
+    section: 'Impulsive Eating',
+    translations: {
+      english: 'Do you make impulsive food choices that go against your dietary or spiritual goals?',
+      arabic: 'هل تتناول الطعام بدافع الاندفاع أو بدون تفكير؟',
+      french: 'Mangez-vous de manière impulsive ou sans réfléchir ?'
+    }
+  },
+  {
+    id: 'stomach_8',
+    text: 'Do you frequently snack without being mindful of your intake?',
+    category: 'stomach',
+    section: 'Mindless Snacking',
+    translations: {
+      english: 'Do you frequently snack without being mindful of your intake?',
+      arabic: 'هل تميل إلى تناول الوجبات الخفيفة بلا وعي أثناء اليوم؟',
+      french: 'Avez-vous tendance à grignoter inconsciemment tout au long de la journée ?'
+    }
+  },
+  {
+    id: 'stomach_9',
+    text: 'Do you consume food or drink that you suspect may be doubtful or haram?',
+    category: 'stomach',
+    section: 'Doubtful Consumption',
+    translations: {
+      english: 'Do you consume food or drink that you suspect may be doubtful or haram?',
+      arabic: 'هل تستهلك أطعمة أو مشروبات تشك في مشروعيتها؟',
+      french: 'Consommez-vous des aliments ou des boissons dont vous doutez de la licéité ?'
+    }
+  },
+  {
+    id: 'stomach_10',
+    text: 'Do you find it difficult to fast or control your eating during Ramadan?',
+    category: 'stomach',
+    section: 'Ramadan Struggles',
+    translations: {
+      english: 'Do you find it difficult to fast or control your eating during Ramadan?',
+      arabic: 'هل تجد صعوبة في ضبط شهيتك خلال شهر رمضان؟',
+      french: 'Avez-vous du mal à contrôler votre appétit pendant le Ramadan ?'
+    }
+  },
+  {
+    id: 'stomach_11',
+    text: 'Do you over-prioritise food when planning your day or social interactions?',
+    category: 'stomach',
+    section: 'Food Prioritization',
+    translations: {
+      english: 'Do you over-prioritise food when planning your day or social interactions?',
+      arabic: 'هل تعطي الأولوية للطعام على العبادة أو الواجبات الأخرى؟',
+      french: 'Donnez-vous la priorité à la nourriture plutôt qu\'à l\'adoration ou aux autres devoirs ?'
+    }
+  },
+  {
+    id: 'stomach_12',
+    text: 'Do you feel emotionally dependent on eating to feel better?',
+    category: 'stomach',
+    section: 'Emotional Eating',
+    translations: {
+      english: 'Do you feel emotionally dependent on eating to feel better?',
+      arabic: 'هل تأكل عندما تكون متوترًا أو حزينًا؟',
+      french: 'Mangez-vous lorsque vous êtes stressé ou triste ?'
+    }
+  },
+  {
+    id: 'stomach_13',
+    text: 'Do you pursue culinary experiences purely for indulgence, rather than sustenance or gratitude?',
+    category: 'stomach',
+    section: 'Indulgent Consumption',
+    translations: {
+      english: 'Do you pursue culinary experiences purely for indulgence, rather than sustenance or gratitude?',
+      arabic: 'هل تستسلم بسهولة للرغبة في تناول الأطعمة المفضلة؟',
+      french: 'Cédez-vous facilement à l\'envie de manger vos aliments préférés ?'
+    }
+  },
+  {
+    id: 'stomach_14',
+    text: 'Do you struggle to say "no" to treats even when you know you should?',
+    category: 'stomach',
+    section: 'Inability to Refuse',
+    translations: {
+      english: 'Do you struggle to say "no" to treats even when you know you should?',
+      arabic: 'هل تجد صعوبة في رفض الطعام حتى عندما تكون ممتلئًا؟',
+      french: 'Avez-vous du mal à refuser de la nourriture même lorsque vous êtes rassasié ?'
+    }
+  },
+  {
+    id: 'stomach_15',
+    text: 'Do you let food waste occur without concern?',
+    category: 'stomach',
+    section: 'Food Waste',
+    translations: {
+      english: 'Do you let food waste occur without concern?',
+      arabic: 'هل تهدر الطعام بشكل منتظم أو تتجاهل ما يتبقى؟',
+      french: 'Gaspillez-vous régulièrement de la nourriture ou ignorez-vous les restes ?'
+    }
+  },
+  {
+    id: 'stomach_16',
+    text: 'Do you eat quickly without gratitude or reflection?',
+    category: 'stomach',
+    section: 'Ungrateful Eating',
+    translations: {
+      english: 'Do you eat quickly without gratitude or reflection?',
+      arabic: 'هل تأكل دون شكر أو استحضار نعمة الطعام؟',
+      french: 'Mangez-vous sans gratitude ni conscience de la bénédiction de la nourriture ?'
+    }
+  },
+  {
+    id: 'stomach_17',
+    text: 'Do you use food to reward yourself for unrelated behaviours?',
+    category: 'stomach',
+    section: 'Food as Reward',
+    translations: {
+      english: 'Do you use food to reward yourself for unrelated behaviours?',
+      arabic: 'هل تستخدم الطعام كمكافأة لنفسك؟',
+      french: 'Utilisez-vous la nourriture comme une récompense personnelle ?'
+    }
+  },
+  {
+    id: 'stomach_18',
+    text: 'Do you ignore or suppress guilt about your food habits?',
+    category: 'stomach',
+    section: 'Suppressing Guilt',
+    translations: {
+      english: 'Do you ignore or suppress guilt about your food habits?',
+      arabic: 'هل تقمع شعور الذنب تجاه عاداتك الغذائية؟',
+      french: 'Réprimez-vous votre culpabilité liée à vos habitudes alimentaires ?'
+    }
+  },
+  {
+    id: 'stomach_19',
+    text: 'Do you prioritise food purchases over more important or spiritual needs?',
+    category: 'stomach',
+    section: 'Misplaced Priorities',
+    translations: {
+      english: 'Do you prioritise food purchases over more important or spiritual needs?',
+      arabic: 'هل تعطي الأولوية للطعام على حساب أهدافك الروحية؟',
+      french: 'Donnez-vous la priorité à la nourriture au détriment de vos objectifs spirituels ?'
+    }
+  },
+  {
+    id: 'stomach_20',
+    text: 'Do you forget to say Bismillah or Alhamdulillah when eating and finishing meals?',
+    category: 'stomach',
+    section: 'Forgotten Gratitude',
+    translations: {
+      english: 'Do you forget to say Bismillah or Alhamdulillah when eating and finishing meals?',
+      arabic: 'هل تنسى شكر الله بعد الأكل أو الشرب؟',
+      french: 'Oubliez-vous de remercier Dieu après avoir mangé ou bu ?'
+    }
+  },
+  {
+    id: 'zina_1',
+    text: 'Do you engage in conversations that become emotionally or sexually suggestive?',
+    category: 'zina',
+    section: 'Suggestive Conversations',
+    translations: {
+      english: 'Do you engage in conversations that become emotionally or sexually suggestive?',
+      arabic: 'هل تشارك في محادثات تتحول إلى ارتباط عاطفي أو جنسي؟',
+      french: 'Participez-vous à des conversations qui deviennent émotionnelles ou sexuelles ?'
+    }
+  },
+  {
+    id: 'zina_2',
+    text: 'Do you maintain private or secretive messaging with someone you\',
+    category: 'zina',
+    section: 'Private Messaging'
+  },
+  {
+    id: 'zina_3',
+    text: 'Do you dwell on romantic or physical fantasies about someone who is not your spouse?',
+    category: 'zina',
+    section: 'Fantasy',
+    translations: {
+      english: 'Do you dwell on romantic or physical fantasies about someone who is not your spouse?',
+      arabic: 'هل تستغرق في تخيلات رومانسية أو جسدية؟',
+      french: 'Vous attardez-vous sur des fantasmes romantiques ou physiques ?'
+    }
+  },
+  {
+    id: 'zina_4',
+    text: 'Do you watch films, videos, or shows that depict or normalise sexual behaviour outside of marriage?',
+    category: 'zina',
+    section: 'Sexual Content',
+    translations: {
+      english: 'Do you watch films, videos, or shows that depict or normalise sexual behaviour outside of marriage?',
+      arabic: 'هل تشاهد أفلامًا أو مقاطع تظهر علاقات غير مشروعة؟',
+      french: 'Regardez-vous des films, vidéos ou émissions montrant des relations illicites ?'
+    }
+  },
+  {
+    id: 'zina_5',
+    text: 'Do you return to certain content or apps that lead you into temptation?',
+    category: 'zina',
+    section: 'Returning to Temptation',
+    translations: {
+      english: 'Do you return to certain content or apps that lead you into temptation?',
+      arabic: 'هل تعود إلى محتوى أو تطبيقات تعلم أنها تثير شهواتك؟',
+      french: 'Revenez-vous à du contenu ou des applications que vous savez être source de tentation ?'
+    }
+  },
+  {
+    id: 'zina_6',
+    text: 'Do you find yourself spending time in environments that weaken your self-control?',
+    category: 'zina',
+    section: 'Compromising Environments',
+    translations: {
+      english: 'Do you find yourself spending time in environments that weaken your self-control?',
+      arabic: 'هل تقضي وقتًا في بيئات تزيد من احتمالية الوقوع في الحرام؟',
+      french: 'Passez-vous du temps dans des environnements propices à la tentation ?'
+    }
+  },
+  {
+    id: 'zina_7',
+    text: 'Do you struggle to control your gaze when encountering someone you find attractive?',
+    category: 'zina',
+    section: 'Gaze Control',
+    translations: {
+      english: 'Do you struggle to control your gaze when encountering someone you find attractive?',
+      arabic: 'هل تجد صعوبة في غضّ بصرك عند رؤية مظاهر التبرج؟',
+      french: 'Avez-vous du mal à contrôler votre regard face à l’impudeur ?'
+    }
+  },
+  {
+    id: 'zina_8',
+    text: 'Do you delay or avoid taking practical steps to guard your modesty?',
+    category: 'zina',
+    section: 'Avoiding Modesty',
+    translations: {
+      english: 'Do you delay or avoid taking practical steps to guard your modesty?',
+      arabic: 'هل تتجنب لباس الحياء أو تتساهل فيه؟',
+      french: 'Évitez-vous de porter des vêtements modestes ou êtes-vous négligent à ce sujet ?'
+    }
+  },
+  {
+    id: 'zina_9',
+    text: 'Do you make excuses for spending time alone with someone of the opposite sex?',
+    category: 'zina',
+    section: 'Alone Time',
+    translations: {
+      english: 'Do you make excuses for spending time alone with someone of the opposite sex?',
+      arabic: 'هل تميل لقضاء وقت طويل بمفردك بطريقة قد تؤدي للضعف؟',
+      french: 'Passez-vous du temps seul d\'une manière qui pourrait mener à la tentation ?'
+    }
+  },
+  {
+    id: 'zina_10',
+    text: 'Do you feel emotional attachment growing with someone who is not lawful for you?',
+    category: 'zina',
+    section: 'Emotional Attachment',
+    translations: {
+      english: 'Do you feel emotional attachment growing with someone who is not lawful for you?',
+      arabic: 'هل ترتبط عاطفيًا بأشخاص ليسوا من المحارم؟',
+      french: 'Développez-vous des attachements émotionnels envers des personnes non-mahram ?'
+    }
+  },
+  {
+    id: 'zina_11',
+    text: 'Do you rationalise physical touch or closeness with someone outside of marriage?',
+    category: 'zina',
+    section: 'Physical Contact',
+    translations: {
+      english: 'Do you rationalise physical touch or closeness with someone outside of marriage?',
+      arabic: 'هل تسمح بوجود لمسات جسدية غير مشروعة؟',
+      french: 'Autorisez-vous un contact physique inapproprié ?'
+    }
+  },
+  {
+    id: 'zina_12',
+    text: 'Do you revisit or follow people on social media who stimulate lustful thoughts?',
+    category: 'zina',
+    section: 'Social Media Temptation',
+    translations: {
+      english: 'Do you revisit or follow people on social media who stimulate lustful thoughts?',
+      arabic: 'هل تنجذب لمتابعة أشخاص جاذبين على وسائل التواصل؟',
+      french: 'Êtes-vous attiré par le suivi de personnes séduisantes sur les réseaux sociaux ?'
+    }
+  },
+  {
+    id: 'zina_13',
+    text: 'Do you believe your private actions don\',
+    category: 'zina',
+    section: 'Private Actions'
+  },
+  {
+    id: 'zina_14',
+    text: 'Do you engage in behaviour that you would be ashamed of if others knew?',
+    category: 'zina',
+    section: 'Shameful Behaviour',
+    translations: {
+      english: 'Do you engage in behaviour that you would be ashamed of if others knew?',
+      arabic: 'هل تشارك في سلوكيات تخجل منها لاحقًا؟',
+      french: 'Adoptez-vous des comportements dont vous avez honte par la suite ?'
+    }
+  },
+  {
+    id: 'zina_15',
+    text: 'Do you seek out opportunities for inappropriate interaction with the opposite sex?',
+    category: 'zina',
+    section: 'Seeking Interaction',
+    translations: {
+      english: 'Do you seek out opportunities for inappropriate interaction with the opposite sex?',
+      arabic: 'هل تبحث عن تفاعل مع الجنس الآخر دون سبب مشروع؟',
+      french: 'Recherchez-vous des interactions avec le sexe opposé sans raison valable ?'
+    }
+  },
+  {
+    id: 'zina_16',
+    text: 'Do you justify your actions by comparing them to "worse" behaviours?',
+    category: 'zina',
+    section: 'Justification',
+    translations: {
+      english: 'Do you justify your actions by comparing them to "worse" behaviours?',
+      arabic: 'هل تبرر تصرفاتك بالقول إنها مجرد تسلية أو فضول؟',
+      french: 'Justifiez-vous vos actes en disant que ce n\'est que par curiosité ou pour le plaisir ?'
+    }
+  },
+  {
+    id: 'zina_17',
+    text: 'Do you find yourself making compromises in your boundaries over time?',
+    category: 'zina',
+    section: 'Boundary Erosion',
+    translations: {
+      english: 'Do you find yourself making compromises in your boundaries over time?',
+      arabic: 'هل تتجاوز الحدود تدريجيًا دون أن تشعر؟',
+      french: 'Franchissez-vous progressivement les limites sans vous en rendre compte ?'
+    }
+  },
+  {
+    id: 'zina_18',
+    text: 'Do you ignore warning signs that a relationship or situation is becoming inappropriate?',
+    category: 'zina',
+    section: 'Ignoring Warning Signs',
+    translations: {
+      english: 'Do you ignore warning signs that a relationship or situation is becoming inappropriate?',
+      arabic: 'هل تتجاهل العلامات التي تشير إلى خطر الوقوع في الحرام؟',
+      french: 'Ignorez-vous les signes indiquant un risque de tomber dans le péché ?'
+    }
+  },
+  {
+    id: 'zina_19',
+    text: 'Do you feel guilty after certain interactions but continue the behaviour?',
+    category: 'zina',
+    section: 'Guilt and Continuation',
+    translations: {
+      english: 'Do you feel guilty after certain interactions but continue the behaviour?',
+      arabic: 'هل تشعر بالذنب بعد الفعل ولكنك تستمر فيه؟',
+      french: 'Ressentez-vous de la culpabilité après l\'acte mais continuez tout de même ?'
+    }
+  },
+  {
+    id: 'zina_20',
+    text: 'Do you hide your interactions or relationships from family or close friends?',
+    category: 'zina',
+    section: 'Secrecy',
+    translations: {
+      english: 'Do you hide your interactions or relationships from family or close friends?',
+      arabic: 'هل تحافظ على سرية أفعالك خوفًا من انكشافها؟',
+      french: 'Gardez-vous vos actes secrets par peur qu\'ils ne soient révélés ?'
+    }
+  },
+  {
+    id: 'heart_1',
+    text: 'Do you feel disturbed or unhappy when others receive blessings or recognition?',
+    category: 'heart',
+    section: 'Envy',
+    translations: {
+      english: 'Do you feel disturbed or unhappy when others receive blessings or recognition?',
+      arabic: 'هل تشعر بالضيق أو الانزعاج عندما يُرزق الآخرون بنِعَم؟',
+      french: 'Vous sentez-vous troublé ou mal à l\'aise lorsque les autres reçoivent des bénédictions ?'
+    }
+  },
+  {
+    id: 'heart_2',
+    text: 'Do you struggle to genuinely wish well for people you envy?',
+    category: 'heart',
+    section: 'Envy',
+    translations: {
+      english: 'Do you struggle to genuinely wish well for people you envy?',
+      arabic: 'هل تجد صعوبة في تمني الخير للآخرين بصدق؟',
+      french: 'Avez-vous du mal à souhaiter sincèrement du bien aux autres ?'
+    }
+  },
+  {
+    id: 'heart_3',
+    text: 'Do you carry resentment or grudges long after a conflict has ended?',
+    category: 'heart',
+    section: 'Resentment',
+    translations: {
+      english: 'Do you carry resentment or grudges long after a conflict has ended?',
+      arabic: 'هل تحتفظ بالحقد أو الضغينة لفترة طويلة بعد الأذى؟',
+      french: 'Gardez-vous rancune ou ressentiment longtemps après avoir été blessé ?'
+    }
+  },
+  {
+    id: 'heart_4',
+    text: 'Do you hope that someone who wronged you experiences misfortune?',
+    category: 'heart',
+    section: 'Resentment',
+    translations: {
+      english: 'Do you hope that someone who wronged you experiences misfortune?',
+      arabic: 'هل تتمنى أن يواجه من ظلمك أذى أو عقوبة؟',
+      french: 'Souhaitez-vous que celui qui vous a fait du tort souffre ou soit puni ?'
+    }
+  },
+  {
+    id: 'heart_5',
+    text: 'Do you struggle to forgive others, even for small mistakes?',
+    category: 'heart',
+    section: 'Forgiveness',
+    translations: {
+      english: 'Do you struggle to forgive others, even for small mistakes?',
+      arabic: 'هل تجد صعوبة في مسامحة الآخرين حتى على أخطاء صغيرة؟',
+      french: 'Avez-vous du mal à pardonner aux autres, même pour de petites fautes ?'
+    }
+  },
+  {
+    id: 'heart_6',
+    text: 'Do you perform good deeds hoping others will notice or praise you?',
+    category: 'heart',
+    section: 'Show-off',
+    translations: {
+      english: 'Do you perform good deeds hoping others will notice or praise you?',
+      arabic: 'هل تفرح سرًا عندما يفشل شخص لا تحبه؟',
+      french: 'Ressentez-vous une joie secrète lorsque quelqu\'un que vous n\'aimez pas échoue ?'
+    }
+  },
+  {
+    id: 'heart_7',
+    text: 'Do you feel your religious actions make you better than others?',
+    category: 'heart',
+    section: 'Religious Pride',
+    translations: {
+      english: 'Do you feel your religious actions make you better than others?',
+      arabic: 'هل تحكم على الآخرين من غير أن تعرف نواياهم؟',
+      french: 'Jugez-vous les autres sans connaître leurs intentions ?'
+    }
+  },
+  {
+    id: 'heart_8',
+    text: 'Do you feel spiritually hopeless because of your past mistakes?',
+    category: 'heart',
+    section: 'Despair',
+    translations: {
+      english: 'Do you feel spiritually hopeless because of your past mistakes?',
+      arabic: 'هل تفتقر إلى الرحمة أو التعاطف تجاه الناس؟',
+      french: 'Manquez-vous de compassion ou d’empathie envers les autres ?'
+    }
+  },
+  {
+    id: 'heart_9',
+    text: 'Do you sometimes believe your sins are too great to be forgiven?',
+    category: 'heart',
+    section: 'Despair',
+    translations: {
+      english: 'Do you sometimes believe your sins are too great to be forgiven?',
+      arabic: 'هل تسخر من الآخرين في قلبك حتى لو لم تُظهر ذلك؟',
+      french: 'Vous moquez-vous intérieurement des autres même si vous ne le montrez pas ?'
+    }
+  },
+  {
+    id: 'heart_10',
+    text: 'Do you feel overwhelmed with regret or despair when thinking about your spiritual shortcomings?',
+    category: 'heart',
+    section: 'Despair',
+    translations: {
+      english: 'Do you feel overwhelmed with regret or despair when thinking about your spiritual shortcomings?',
+      arabic: 'هل تشعر بالفوقية الروحية تجاه من هم أقل التزامًا؟',
+      french: 'Vous sentez-vous spirituellement supérieur à ceux qui sont moins pratiquants ?'
+    }
+  },
+  {
+    id: 'heart_11',
+    text: 'Do you constantly feel the need to prove your worth to others?',
+    category: 'heart',
+    section: 'Self-Worth',
+    translations: {
+      english: 'Do you constantly feel the need to prove your worth to others?',
+      arabic: 'هل تظن أن عباداتك تجعل منك أفضل من الآخرين؟',
+      french: 'Pensez-vous que vos actes de piété vous rendent meilleur que les autres ?'
+    }
+  },
+  {
+    id: 'heart_12',
+    text: 'Do you experience frequent self-admiration or thoughts of superiority?',
+    category: 'heart',
+    section: 'Self-Admiration',
+    translations: {
+      english: 'Do you experience frequent self-admiration or thoughts of superiority?',
+      arabic: 'هل تشعر باليأس من رحمة الله عندما تخطئ؟',
+      french: 'Désespérez-vous de la miséricorde de Dieu lorsque vous péchez ?'
+    }
+  },
+  {
+    id: 'heart_13',
+    text: 'Do you often find yourself judging the intentions or sincerity of others?',
+    category: 'heart',
+    section: 'Judgment',
+    translations: {
+      english: 'Do you often find yourself judging the intentions or sincerity of others?',
+      arabic: 'هل تشك في قيمتك الذاتية بسبب أخطائك؟',
+      french: 'Doutez-vous de votre propre valeur à cause de vos erreurs ?'
+    }
+  },
+  {
+    id: 'heart_14',
+    text: 'Do you struggle to show empathy or compassion for those who are suffering?',
+    category: 'heart',
+    section: 'Lack of Compassion',
+    translations: {
+      english: 'Do you struggle to show empathy or compassion for those who are suffering?',
+      arabic: 'هل تعجب بنفسك بسبب إنجازاتك أو صفاتك؟',
+      french: 'Éprouvez-vous de l’admiration pour vous-même en raison de vos réalisations ou qualités ?'
+    }
+  },
+  {
+    id: 'heart_15',
+    text: 'Do you feel annoyed or disconnected when others talk about emotional or spiritual struggles?',
+    category: 'heart',
+    section: 'Lack of Compassion',
+    translations: {
+      english: 'Do you feel annoyed or disconnected when others talk about emotional or spiritual struggles?',
+      arabic: 'هل تحكم على الناس بحسب مظهرهم أو ممتلكاتهم؟',
+      french: 'Jugez-vous les gens selon leur apparence ou leurs possessions ?'
+    }
+  },
+  {
+    id: 'heart_16',
+    text: 'Do you value yourself more than others because of your wealth, intelligence, or appearance?',
+    category: 'heart',
+    section: 'Material Pride',
+    translations: {
+      english: 'Do you value yourself more than others because of your wealth, intelligence, or appearance?',
+      arabic: 'هل تفعل أمورًا لإرضاء الناس أكثر من رضا الله؟',
+      french: 'Faites-vous des choses pour plaire aux gens plus que pour plaire à Dieu ?'
+    }
+  },
+  {
+    id: 'heart_17',
+    text: 'Do you fear losing status, control, or praise more than you fear losing spiritual sincerity?',
+    category: 'heart',
+    section: 'Misplaced Priorities',
+    translations: {
+      english: 'Do you fear losing status, control, or praise more than you fear losing spiritual sincerity?',
+      arabic: 'هل تشعر بالغيرة الروحية من مكانة الآخرين عند الله؟',
+      french: 'Ressentez-vous de l’envie spirituelle envers la proximité d’autrui avec Dieu ?'
+    }
+  },
+  {
+    id: 'heart_18',
+    text: 'Do you often think about how others perceive you rather than how Allah sees you?',
+    category: 'heart',
+    section: 'People-Pleasing',
+    translations: {
+      english: 'Do you often think about how others perceive you rather than how Allah sees you?',
+      arabic: 'هل تتهرب من محاسبة نفسك أو تأمل أخطائك؟',
+      french: 'Évitez-vous l’auto-évaluation ou la réflexion sur vos fautes ?'
+    }
+  },
+  {
+    id: 'heart_19',
+    text: 'Do you feel frustrated when others achieve spiritual or personal growth before you?',
+    category: 'heart',
+    section: 'Spiritual Envy',
+    translations: {
+      english: 'Do you feel frustrated when others achieve spiritual or personal growth before you?',
+      arabic: 'هل تبرر أفعالك بدلًا من الاعتراف بخطئك؟',
+      french: 'Justifiez-vous vos actes au lieu d’admettre vos torts ?'
+    }
+  },
+  {
+    id: 'heart_20',
+    text: 'Do you neglect to reflect on your intentions before performing good actions?',
+    category: 'heart',
+    section: 'Lack of Self-Reflection',
+    translations: {
+      english: 'Do you neglect to reflect on your intentions before performing good actions?',
+      arabic: 'هل تخاف مواجهة عيوبك أو إظهار ضعفك؟',
+      french: 'Craignez-vous de faire face à vos défauts ou de montrer votre vulnérabilité ?'
+    }
+  }
+];
+
+// Response options for self-assessment
+export const selfAssessmentResponseOptions = [
+  { id: 'never', text: 'Never', value: 1 },
+  { id: 'rarely', text: 'Rarely', value: 2 },
+  { id: 'sometimes', text: 'Sometimes', value: 3 },
+  { id: 'often', text: 'Often', value: 4 },
+  { id: 'always', text: 'Always', value: 5 }
+];
+
+// Helper function to get question text by language
+export function getQuestionText(question: QuestionType, language: 'en' | 'ar' | 'fr' = 'en'): string {
+  if (!question.translations) return question.text;
+  
+  switch (language) {
+    case 'ar':
+      return question.translations.arabic || question.text;
+    case 'fr':
+      return question.translations.french || question.text;
+    default:
+      return question.translations.english || question.text;
+  }
+}
+
+// Helper function to get all available languages for a question
+export function getAvailableLanguages(question: QuestionType): string[] {
+  const languages = ['en'];
+  if (question.translations?.arabic) languages.push('ar');
+  if (question.translations?.french) languages.push('fr');
+  return languages;
+}
+
+// Statistics about translation coverage
+export const translationStats = {
+  totalQuestions: 140,
+  questionsWithArabic: 125,
+  questionsWithFrench: 125,
+  fullyTranslated: 125
+};

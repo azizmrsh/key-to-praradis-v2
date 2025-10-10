@@ -1,0 +1,170 @@
+[
+  {
+    "id": "challenge-ears-backbiting-01",
+    "category": "ears",
+    "subcategory": "listening_to_backbiting",
+    "title": "Walk Away from Gossip",
+    "description": "Today, politely leave any group or space where backbiting starts — even if it’s subtle.",
+    "duration_days": 1
+  },
+  {
+    "id": "challenge-ears-backbiting-02",
+    "category": "ears",
+    "subcategory": "listening_to_backbiting",
+    "title": "3-Day Backbiting Filter",
+    "description": "If anyone speaks ill of someone absent, change the subject or excuse yourself for 3 days.",
+    "duration_days": 3
+  },
+  {
+    "id": "challenge-ears-backbiting-03",
+    "category": "ears",
+    "subcategory": "listening_to_backbiting",
+    "title": "Gossip-Free Week",
+    "description": "Avoid listening to backbiting in any form (in-person or digital) for 7 days.",
+    "duration_days": 7
+  },
+  {
+    "id": "challenge-ears-gossip-01",
+    "category": "ears",
+    "subcategory": "enjoying_gossip",
+    "title": "Turn It Off",
+    "description": "Don’t listen to or click on any content that involves drama, scandals, or celebrity gossip today.",
+    "duration_days": 1
+  },
+  {
+    "id": "challenge-ears-gossip-02",
+    "category": "ears",
+    "subcategory": "enjoying_gossip",
+    "title": "7-Day Gossip Detox",
+    "description": "For 1 week, avoid all audio content that shames, exposes, or mocks others.",
+    "duration_days": 7
+  },
+  {
+    "id": "challenge-ears-gossip-03",
+    "category": "ears",
+    "subcategory": "enjoying_gossip",
+    "title": "14-Day Honour Guard",
+    "description": "For 2 weeks, do not entertain any talk or audio that humiliates or mocks people.",
+    "duration_days": 14
+  },
+  {
+    "id": "challenge-ears-harmful-01",
+    "category": "ears",
+    "subcategory": "tolerating_harmful_speech",
+    "title": "Speak Up or Exit",
+    "description": "Today, if someone uses harmful speech in your presence, kindly redirect or leave.",
+    "duration_days": 1
+  },
+  {
+    "id": "challenge-ears-harmful-02",
+    "category": "ears",
+    "subcategory": "tolerating_harmful_speech",
+    "title": "3-Day Harm-Free Space",
+    "description": "Create an environment around you where no foul or harmful speech is tolerated.",
+    "duration_days": 3
+  },
+  {
+    "id": "challenge-ears-harmful-03",
+    "category": "ears",
+    "subcategory": "tolerating_harmful_speech",
+    "title": "7 Days of Listening With Dignity",
+    "description": "For 7 days, avoid any gathering where speech is cruel, sarcastic, or vulgar.",
+    "duration_days": 7
+  },
+  {
+    "id": "challenge-ears-inappropriate-01",
+    "category": "ears",
+    "subcategory": "inappropriate_content",
+    "title": "Mute the Profanity",
+    "description": "No music, shows, or clips with cursing or indecent jokes today.",
+    "duration_days": 1
+  },
+  {
+    "id": "challenge-ears-inappropriate-02",
+    "category": "ears",
+    "subcategory": "inappropriate_content",
+    "title": "7-Day Sound Purification",
+    "description": "Avoid indecent audio: music, podcasts, or anything vulgar — for 1 week.",
+    "duration_days": 7
+  },
+  {
+    "id": "challenge-ears-inappropriate-03",
+    "category": "ears",
+    "subcategory": "inappropriate_content",
+    "title": "14-Day Clean Feed",
+    "description": "Silence all platforms or channels that use mocking, obscene, or crass audio.",
+    "duration_days": 14
+  },
+  {
+    "id": "challenge-ears-eavesdrop-01",
+    "category": "ears",
+    "subcategory": "eavesdropping",
+    "title": "Respect the Boundary",
+    "description": "If you overhear something private, resist engaging or remembering it.",
+    "duration_days": 1
+  },
+  {
+    "id": "challenge-ears-eavesdrop-02",
+    "category": "ears",
+    "subcategory": "eavesdropping",
+    "title": "3-Day Ears of Trust",
+    "description": "Walk away from any private conversation that you’re not invited into.",
+    "duration_days": 3
+  },
+  {
+    "id": "challenge-ears-eavesdrop-03",
+    "category": "ears",
+    "subcategory": "eavesdropping",
+    "title": "7-Day Eavesdropping Fast",
+    "description": "Avoid all forms of passive eavesdropping, digital or in-person, for a week.",
+    "duration_days": 7
+  },
+  {
+    "id": "challenge-ears-defend-01",
+    "category": "ears",
+    "subcategory": "failing_to_defend",
+    "title": "Say One Good Word",
+    "description": "When you hear someone insulted, say one positive thing about them in response.",
+    "duration_days": 1
+  },
+  {
+    "id": "challenge-ears-defend-02",
+    "category": "ears",
+    "subcategory": "failing_to_defend",
+    "title": "Voice of Honour – 3 Days",
+    "description": "Speak up kindly whenever you witness someone being verbally diminished.",
+    "duration_days": 3
+  },
+  {
+    "id": "challenge-ears-defend-03",
+    "category": "ears",
+    "subcategory": "failing_to_defend",
+    "title": "14-Day Honour Defender",
+    "description": "Actively defend the dignity of others — especially the absent — for 2 full weeks.",
+    "duration_days": 14
+  },
+  {
+    "id": "challenge-ears-beneficial-01",
+    "category": "ears",
+    "subcategory": "neglecting_beneficial_speech",
+    "title": "One Hadith, One Reflection",
+    "description": "Listen to one hadith or Qur'anic audio today and reflect on it.",
+    "duration_days": 1
+  },
+  {
+    "id": "challenge-ears-beneficial-02",
+    "category": "ears",
+    "subcategory": "neglecting_beneficial_speech",
+    "title": "7-Day Wisdom Feed",
+    "description": "For a week, listen to beneficial Islamic content — avoid everything else during that time.",
+    "duration_days": 7
+  },
+  {
+    "id": "challenge-ears-beneficial-03",
+    "category": "ears",
+    "subcategory": "neglecting_beneficial_speech",
+    "title": "14-Day Learning Audio Habit",
+    "description": "Replace idle listening with Islamic podcasts or Qur’an recitation for 14 days.",
+    "duration_days": 14
+  }
+]

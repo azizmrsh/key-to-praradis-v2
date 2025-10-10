@@ -1,0 +1,160 @@
+{
+  "goals": [
+    {
+      "goal_id": "tongue-avoid-backbiting",
+      "title": "Avoid Backbiting",
+      "description": "Commit to not speaking about others in their absence in ways they would dislike",
+      "category": "tongue",
+      "islamic_guidance": "The Prophet ﷺ said: 'Do you know what backbiting is? It is to mention your brother in a manner which he does not like.'",
+      "benefits": ["Purifies the heart", "Improves relationships", "Builds trust in community"],
+      "daily_actions": [
+        "Before speaking about someone, ask: Would they be comfortable hearing this?",
+        "Redirect conversations away from gossip",
+        "Practice speaking positively about others"
+      ]
+    },
+    {
+      "goal_id": "tongue-speak-truthfully",
+      "title": "Speak Only Truth",
+      "description": "Commit to complete honesty in all speech, avoiding lies both big and small",
+      "category": "tongue",
+      "islamic_guidance": "Allah says: 'So shun the filth of idols and shun lying speech.' (22:30)",
+      "benefits": ["Builds character", "Increases trust", "Brings barakah to speech"],
+      "daily_actions": [
+        "Pause before speaking to ensure truthfulness",
+        "Avoid exaggerations and embellishments",
+        "Admit mistakes honestly when they occur"
+      ]
+    },
+    {
+      "goal_id": "tongue-reduce-arguments",
+      "title": "Avoid Unnecessary Arguments",
+      "description": "Practice restraint in debates and conflicts, choosing peace over being right",
+      "category": "tongue",
+      "islamic_guidance": "The Prophet ﷺ said: 'I guarantee a house in Paradise for one who gives up arguing, even if he is right.'",
+      "benefits": ["Reduces stress", "Preserves relationships", "Develops humility"],
+      "daily_actions": [
+        "Count to 10 before responding in disagreements",
+        "Ask: Is this argument necessary?",
+        "Practice saying 'You may be right' and moving on"
+      ]
+    },
+    {
+      "goal_id": "eyes-lower-gaze",
+      "title": "Lower the Gaze",
+      "description": "Practice modesty by lowering the gaze from inappropriate sights",
+      "category": "eyes",
+      "islamic_guidance": "Allah says: 'Tell the believing men to reduce some of their vision and guard their private parts.' (24:30)",
+      "benefits": ["Purifies the heart", "Increases focus", "Develops self-control"],
+      "daily_actions": [
+        "Practice the 3-second rule: look away after 3 seconds",
+        "Focus on people's faces during conversations",
+        "Avoid lingering looks at inappropriate content"
+      ]
+    },
+    {
+      "goal_id": "eyes-mindful-media",
+      "title": "Mindful Media Consumption",
+      "description": "Be selective about visual content, avoiding harmful or inappropriate material",
+      "category": "eyes",
+      "islamic_guidance": "The Prophet ﷺ said: 'The glance is a poisoned arrow from the arrows of Iblis.'",
+      "benefits": ["Protects spiritual state", "Improves concentration", "Reduces negative influences"],
+      "daily_actions": [
+        "Set specific times for media consumption",
+        "Use content filters and parental controls",
+        "Choose educational or spiritually beneficial content"
+      ]
+    },
+    {
+      "goal_id": "pride-practice-humility",
+      "title": "Practice Daily Humility",
+      "description": "Actively work to reduce arrogance and develop genuine humility",
+      "category": "pride",
+      "islamic_guidance": "The Prophet ﷺ said: 'No one will enter Paradise who has an atom's weight of pride in his heart.'",
+      "benefits": ["Opens the heart to learning", "Improves relationships", "Increases spiritual awareness"],
+      "daily_actions": [
+        "Acknowledge others' contributions publicly",
+        "Ask for advice even in areas of expertise",
+        "Practice serving others without recognition"
+      ]
+    },
+    {
+      "goal_id": "pride-accept-criticism",
+      "title": "Accept Constructive Criticism",
+      "description": "Learn to receive feedback gracefully without defensiveness",
+      "category": "pride",
+      "islamic_guidance": "Omar (RA) said: 'May Allah have mercy on the person who shows me my faults.'",
+      "benefits": ["Accelerates personal growth", "Builds stronger relationships", "Develops emotional maturity"],
+      "daily_actions": [
+        "Thank people for feedback before responding",
+        "Ask clarifying questions instead of defending",
+        "Implement one piece of feedback each day"
+      ]
+    },
+    {
+      "goal_id": "stomach-mindful-eating",
+      "title": "Mindful Eating Practice",
+      "description": "Eat only what is necessary, avoiding excess and waste",
+      "category": "stomach",
+      "islamic_guidance": "The Prophet ﷺ said: 'No human ever filled a vessel worse than the stomach.'",
+      "benefits": ["Improves health", "Increases gratitude", "Develops self-discipline"],
+      "daily_actions": [
+        "Stop eating when 80% full",
+        "Eat slowly and mindfully",
+        "Begin meals with Bismillah and end with gratitude"
+      ]
+    },
+    {
+      "goal_id": "stomach-avoid-waste",
+      "title": "Eliminate Food Waste",
+      "description": "Take only what you can finish and use all food purchased",
+      "category": "stomach",
+      "islamic_guidance": "Allah says: 'And eat and drink but be not excessive. Indeed, He likes not those who commit excess.' (7:31)",
+      "benefits": ["Reduces environmental impact", "Increases gratitude", "Develops mindfulness"],
+      "daily_actions": [
+        "Plan meals in advance",
+        "Use leftovers creatively",
+        "Share excess food with those in need"
+      ]
+    },
+    {
+      "goal_id": "heart-remove-envy",
+      "title": "Overcome Envy",
+      "description": "Actively work to remove jealousy and envy from the heart",
+      "category": "heart",
+      "islamic_guidance": "The Prophet ﷺ said: 'Do not envy one another, do not hate one another, and be servants of Allah as brothers.'",
+      "benefits": ["Brings inner peace", "Improves relationships", "Increases contentment"],
+      "daily_actions": [
+        "Make dua for those you feel envious of",
+        "Practice gratitude for your own blessings",
+        "Celebrate others' successes genuinely"
+      ]
+    },
+    {
+      "goal_id": "heart-increase-gratitude",
+      "title": "Daily Gratitude Practice",
+      "description": "Actively count and appreciate Allah's blessings each day",
+      "category": "heart",
+      "islamic_guidance": "Allah says: 'If you are grateful, I will certainly give you more.' (14:7)",
+      "benefits": ["Increases happiness", "Strengthens faith", "Improves perspective"],
+      "daily_actions": [
+        "List 3 things you're grateful for each morning",
+        "Thank someone daily for their kindness",
+        "Reflect on blessings during difficult moments"
+      ]
+    },
+    {
+      "goal_id": "heart-purify-intentions",
+      "title": "Purify Daily Intentions",
+      "description": "Check and correct intentions regularly to seek only Allah's pleasure",
+      "category": "heart",
+      "islamic_guidance": "The Prophet ﷺ said: 'Actions are but by intention, and every person will have only what they intended.'",
+      "benefits": ["Increases reward for actions", "Develops sincerity", "Brings spiritual clarity"],
+      "daily_actions": [
+        "Begin each task by checking your intention",
+        "Renew intention for worship throughout the day",
+        "Reflect on motivations before major decisions"
+      ]
+    }
+  ]
+}

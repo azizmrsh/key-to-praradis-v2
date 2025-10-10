@@ -1,0 +1,67 @@
+Request for Quotation (RFQ): Development of "Keys to Paradise" Mobile Application
+Introduction
+We are requesting quotations from experienced software development firms or qualified developers for the technical implementation of the "Keys to Paradise" mobile application, a structured and privacy-focused tool designed to assist users in overcoming moral and behavioural challenges in alignment with Islamic teachings.
+Project Overview
+The "Keys to Paradise" app is an interactive self-improvement platform emphasizing privacy, comprehensive spiritual guidance, user engagement, and behavioural analytics, without reliance on traditional server architecture.
+Technical Features Required
+Core Functionalities
+•	User Onboarding Module
+o	Secure and confidential questionnaire system
+o	Personalised user pathways based on onboarding assessments
+o	UI/UX design will be developed in collaboration with the selected firm, with final approval by HRH Prince Ghazi
+•	Daily Tracking and Accountability
+o	Local data encryption and secure daily activity logging
+o	Streak tracking, achievement badges, and progress visualization
+•	Educational and Reflective Content
+o	Integration of multimedia (audio, video, text)
+o	Video content will be hosted on YouTube or other free platforms
+o	Textual content will be stored and distributed via lightweight, serverless-compatible updates
+o	Regular content updates are essential to keep the app active and engaging
+•	Behavioural Pattern Recognition
+o	Simple, privacy-preserving logic for detecting and responding to usage patterns (e.g., missed check-ins)
+o	No collection or transmission of sensitive behavioural data
+•	Emergency SOS Feature
+o	Instant, locally-stored access to coping mechanisms and crisis support
+o	Immediate engagement features (spiritual guidance, practical exercises)
+Privacy and Security Specifications
+•	Robust on-device data encryption
+•	Absolute minimal external data communication (aggregate, anonymized analytics only)
+•	No personal data stored externally or on servers
+•	Dedicated "Delete Profile" feature enabling full data removal at user discretion
+Serverless Technical Architecture
+•	Utilization of Firebase (or equivalent) backend-as-a-service infrastructure:
+o	Firebase Authentication
+o	Firebase Cloud Functions
+o	Firebase Cloud Storage for anonymized content updates
+•	Comprehensive offline functionality
+•	Designed to minimise reliance on server infrastructure wherever possible
+Gamification and User Motivation
+•	On-device gamification elements (badges, points, achievements)
+•	Visual dashboards and interactive progress trackers
+•	Badge and milestone logic must be configurable via an admin interface
+Multi-language Capability
+•	Initial support for English and Arabic, with appropriate right-to-left support for Arabic content
+Additional Requirements
+•	Scalable and modular architecture for future feature expansions
+•	Compliance with applicable data privacy regulations
+Vendor Responsibilities
+•	Develop and deliver a fully functional mobile app compatible with Android and iOS platforms
+•	Provide UI/UX design resources and collaborate with our team; all final design approval rests with HRH Prince Ghazi
+•	Complete and thorough documentation of technical architecture, codebase, and maintenance procedures
+•	Adherence to project timelines and regular milestone updates
+•	Provide maintenance and support for a minimum of five (5) years
+Submission Guidelines
+Interested parties must submit the following:
+•	Company profile including relevant past project experience
+•	Technical approach and preliminary timeline for development
+•	Detailed quotation with cost breakdown
+•	References from previous similar projects (preferably related to secure, privacy-focused apps)
+Evaluation Criteria
+Quotations will be evaluated based on:
+•	Technical expertise and relevant experience
+•	Quality and clarity of the proposed development approach
+•	Cost-effectiveness and transparent budget presentation
+•	Ability to adhere to timeline and deliver milestones promptly
+Submission Deadline
+All quotations must be submitted by 30 April 2025.
+

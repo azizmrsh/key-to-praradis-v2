@@ -1,0 +1,940 @@
+{
+  "goals": [
+    {
+      "goal_id": "tongue-lying-radical-honesty",
+      "category": "tongue",
+      "translations": {
+        "en": {
+          "title": "Radical Honesty",
+          "description": "Commit to speaking truthfully in all situations. No lies, exaggeration, or omissions — even to protect yourself.",
+          "islamic_guidance": "Allah says: 'So shun the filth of idols and shun lying speech.' (22:30)",
+          "benefits": [
+            "Builds unshakeable character",
+            "Increases trust from others",
+            "Brings barakah to your speech"
+          ],
+          "daily_actions": [
+            "Pause before speaking to ensure complete truthfulness",
+            "Avoid all exaggerations and embellishments",
+            "Admit mistakes honestly without excuses"
+          ]
+        },
+        "ar": {
+          "title": "الصدق التام",
+          "description": "التزم بالتحدث بصدق في جميع المواقف. لا أكاذيب أو مبالغات أو إخفاء للحقيقة — حتى لحماية نفسك.",
+          "islamic_guidance": "قال الله تعالى: 'فاجتنبوا الرجس من الأوثان واجتنبوا قول الزور' (22:30)",
+          "benefits": [
+            "يبني شخصية لا تتزعزع",
+            "يزيد من ثقة الآخرين",
+            "يجلب البركة في الكلام"
+          ],
+          "daily_actions": [
+            "توقف قبل الكلام لضمان الصدق التام",
+            "تجنب كل المبالغات والتزيينات",
+            "اعترف بالأخطاء بصراحة دون أعذار"
+          ]
+        },
+        "fr": {
+          "title": "Honnêteté radicale",
+          "description": "Engagez-vous à parler avec vérité en toutes circonstances. Aucun mensonge, aucune exagération ni omission — même pour vous protéger.",
+          "islamic_guidance": "Allah dit: 'Évitez donc la souillure des idoles et évitez les paroles mensongères' (22:30)",
+          "benefits": [
+            "Construit un caractère inébranlable",
+            "Augmente la confiance des autres",
+            "Apporte la bénédiction dans la parole"
+          ],
+          "daily_actions": [
+            "Faites une pause avant de parler pour assurer la vérité complète",
+            "Évitez toutes exagérations et embellissements",
+            "Admettez les erreurs honnêtement sans excuses"
+          ]
+        }
+      },
+      "duration_options": [7, 14, 21, 40]
+    },
+    {
+      "goal_id": "tongue-lying-clean-record",
+      "category": "tongue",
+      "translations": {
+        "en": {
+          "title": "Clean Your Record",
+          "description": "Actively correct misstatements when you notice them and log them in your journal.",
+          "islamic_guidance": "The Prophet ﷺ said: 'Whoever conceals the faults of a Muslim, Allah will conceal his faults in this world and the Hereafter.'",
+          "benefits": [
+            "Purifies past mistakes",
+            "Builds accountability habit",
+            "Strengthens moral compass"
+          ],
+          "daily_actions": [
+            "Immediately correct any false statements you made",
+            "Write down corrections in your journal",
+            "Apologize sincerely for any misinformation"
+          ]
+        },
+        "ar": {
+          "title": "تنقية سجلك",
+          "description": "صحح أي بيانات غير صحيحة عند ملاحظتها، ودونها في مفكرتك.",
+          "islamic_guidance": "قال النبي ﷺ: 'من ستر مسلماً ستره الله في الدنيا والآخرة'",
+          "benefits": [
+            "يطهر الأخطاء السابقة",
+            "يبني عادة المساءلة",
+            "يقوي البوصلة الأخلاقية"
+          ],
+          "daily_actions": [
+            "صحح فوراً أي بيانات خاطئة قلتها",
+            "اكتب التصحيحات في مذكرتك",
+            "اعتذر بصدق عن أي معلومات خاطئة"
+          ]
+        },
+        "fr": {
+          "title": "Nettoyez votre dossier",
+          "description": "Corrigez activement toute déclaration inexacte et consignez-la dans votre journal.",
+          "islamic_guidance": "Le Prophète ﷺ a dit: 'Celui qui cache les défauts d'un musulman, Allah cachera ses défauts dans ce monde et dans l'au-delà.'",
+          "benefits": [
+            "Purifie les erreurs passées",
+            "Développe l'habitude de responsabilité",
+            "Renforce la boussole morale"
+          ],
+          "daily_actions": [
+            "Corrigez immédiatement toute fausse déclaration",
+            "Notez les corrections dans votre journal",
+            "Excusez-vous sincèrement pour toute désinformation"
+          ]
+        }
+      },
+      "duration_options": [7, 14, 21, 40]
+    },
+    {
+      "goal_id": "tongue-lying-speak-integrity",
+      "category": "tongue",
+      "translations": {
+        "en": {
+          "title": "Speak With Integrity",
+          "description": "Pause before you speak. Reflect on truth versus convenience.",
+          "islamic_guidance": "The Prophet ﷺ said: 'Let him who believes in Allah and the Last Day speak good or keep silent.'",
+          "benefits": [
+            "Develops mindful speech",
+            "Builds inner strength",
+            "Enhances decision-making"
+          ],
+          "daily_actions": [
+            "Take a breath before responding",
+            "Ask yourself: Is this true and necessary?",
+            "Choose truth even when it's difficult"
+          ]
+        },
+        "ar": {
+          "title": "تحدث بنزاهة",
+          "description": "توقف قبل الكلام. تأمل في الصدق مقابل الراحة.",
+          "islamic_guidance": "قال النبي ﷺ: 'من كان يؤمن بالله واليوم الآخر فليقل خيراً أو ليصمت'",
+          "benefits": [
+            "يطور الكلام الواعي",
+            "يبني القوة الداخلية",
+            "يحسن اتخاذ القرارات"
+          ],
+          "daily_actions": [
+            "خذ نفساً قبل الرد",
+            "اسأل نفسك: هل هذا صحيح وضروري؟",
+            "اختر الصدق حتى لو كان صعباً"
+          ]
+        },
+        "fr": {
+          "title": "Parlez avec intégrité",
+          "description": "Faites une pause avant de parler. Réfléchissez à la vérité contre la commodité.",
+          "islamic_guidance": "Le Prophète ﷺ a dit: 'Que celui qui croit en Allah et au Jour dernier dise du bien ou se taise.'",
+          "benefits": [
+            "Développe une parole consciente",
+            "Construit la force intérieure",
+            "Améliore la prise de décision"
+          ],
+          "daily_actions": [
+            "Respirez avant de répondre",
+            "Demandez-vous: Est-ce vrai et nécessaire?",
+            "Choisissez la vérité même quand c'est difficile"
+          ]
+        }
+      },
+      "duration_options": [7, 14, 21, 40]
+    },
+    {
+      "goal_id": "tongue-backbiting-avoid",
+      "category": "tongue",
+      "translations": {
+        "en": {
+          "title": "Avoid Backbiting",
+          "description": "Avoid all talk about others in their absence — even if it's true.",
+          "islamic_guidance": "The Prophet ﷺ said: 'Do you know what backbiting is? It is to mention your brother in a manner which he does not like.'",
+          "benefits": [
+            "Purifies the heart",
+            "Improves relationships",
+            "Builds trust in community"
+          ],
+          "daily_actions": [
+            "Before speaking about someone, ask: Would they be comfortable?",
+            "Redirect conversations away from gossip",
+            "Practice speaking positively about others"
+          ]
+        },
+        "ar": {
+          "title": "تجنب الغيبة",
+          "description": "تجنب الحديث عن الآخرين في غيابهم — حتى لو كان الكلام صحيحاً.",
+          "islamic_guidance": "قال النبي ﷺ: 'أتدرون ما الغيبة؟ ذكرك أخاك بما يكره'",
+          "benefits": [
+            "يطهر القلب",
+            "يحسن العلاقات",
+            "يبني الثقة في المجتمع"
+          ],
+          "daily_actions": [
+            "قبل التحدث عن شخص، اسأل: هل سيكون مرتاحاً؟",
+            "وجه المحادثات بعيداً عن النميمة",
+            "مارس التحدث بإيجابية عن الآخرين"
+          ]
+        },
+        "fr": {
+          "title": "Évitez la médisance",
+          "description": "Évitez de parler des autres en leur absence — même si c'est vrai.",
+          "islamic_guidance": "Le Prophète ﷺ a dit: 'Savez-vous ce qu'est la médisance? C'est mentionner votre frère d'une manière qu'il n'aime pas.'",
+          "benefits": [
+            "Purifie le cœur",
+            "Améliore les relations",
+            "Renforce la confiance dans la communauté"
+          ],
+          "daily_actions": [
+            "Avant de parler de quelqu'un, demandez: Serait-il à l'aise?",
+            "Dirigez les conversations loin des commérages",
+            "Pratiquez à parler positivement des autres"
+          ]
+        }
+      },
+      "duration_options": [7, 14, 21, 40]
+    },
+    {
+      "goal_id": "tongue-backbiting-cover-faults",
+      "category": "tongue",
+      "translations": {
+        "en": {
+          "title": "Cover the Faults of Others",
+          "description": "Whenever you hear backbiting, counter it with a positive remark or silence.",
+          "islamic_guidance": "The Prophet ﷺ said: 'Whoever conceals the faults of a Muslim, Allah will conceal his faults in this world and the Hereafter.'",
+          "benefits": [
+            "Protects others' dignity",
+            "Builds good character",
+            "Earns Allah's protection"
+          ],
+          "daily_actions": [
+            "When hearing gossip, say something positive about the person",
+            "Remain silent if you can't defend them",
+            "Change the subject to something beneficial"
+          ]
+        },
+        "ar": {
+          "title": "استر عيوب الآخرين",
+          "description": "كلما سمعت غيبة، قابلها بكلمة طيبة أو بالصمت.",
+          "islamic_guidance": "قال النبي ﷺ: 'من ستر مسلماً ستره الله في الدنيا والآخرة'",
+          "benefits": [
+            "يحمي كرامة الآخرين",
+            "يبني حسن الخلق",
+            "يكسب حماية الله"
+          ],
+          "daily_actions": [
+            "عند سماع النميمة، قل شيئاً إيجابياً عن الشخص",
+            "اصمت إذا لم تستطع الدفاع عنه",
+            "غير الموضوع إلى شيء مفيد"
+          ]
+        },
+        "fr": {
+          "title": "Couvrez les défauts des autres",
+          "description": "Chaque fois que vous entendez une médisance, répondez par une remarque positive ou par le silence.",
+          "islamic_guidance": "Le Prophète ﷺ a dit: 'Celui qui cache les défauts d'un musulman, Allah cachera ses défauts dans ce monde et dans l'au-delà.'",
+          "benefits": [
+            "Protège la dignité des autres",
+            "Développe le bon caractère",
+            "Mérite la protection d'Allah"
+          ],
+          "daily_actions": [
+            "En entendant des ragots, dites quelque chose de positif sur la personne",
+            "Restez silencieux si vous ne pouvez pas les défendre",
+            "Changez le sujet vers quelque chose de bénéfique"
+          ]
+        }
+      },
+      "duration_options": [7, 14, 21, 40]
+    },
+    {
+      "goal_id": "tongue-backbiting-guard-honour",
+      "category": "tongue",
+      "translations": {
+        "en": {
+          "title": "Guard the Honour of Believers",
+          "description": "Make it a habit to defend the reputation of others when absent.",
+          "islamic_guidance": "The Prophet ﷺ said: 'Whoever defends the honour of his brother in his absence, Allah will defend his face from the Fire on the Day of Judgment.'",
+          "benefits": [
+            "Builds loyal relationships",
+            "Earns divine protection",
+            "Strengthens Muslim unity"
+          ],
+          "daily_actions": [
+            "Actively defend others when they're criticized unfairly",
+            "Remind people of others' good qualities",
+            "Stand up for those who cannot defend themselves"
+          ]
+        },
+        "ar": {
+          "title": "حافظ على شرف المؤمنين",
+          "description": "اجعل من عادتك الدفاع عن سمعة الآخرين في غيابهم.",
+          "islamic_guidance": "قال النبي ﷺ: 'من رد عن عرض أخيه رد الله عن وجهه النار يوم القيامة'",
+          "benefits": [
+            "يبني علاقات وفية",
+            "يكسب الحماية الإلهية",
+            "يقوي وحدة المسلمين"
+          ],
+          "daily_actions": [
+            "ادافع بنشاط عن الآخرين عند انتقادهم بظلم",
+            "ذكر الناس بصفات الآخرين الحسنة",
+            "قف مع من لا يستطيع الدفاع عن نفسه"
+          ]
+        },
+        "fr": {
+          "title": "Protégez l'honneur des croyants",
+          "description": "Prenez l'habitude de défendre la réputation des autres en leur absence.",
+          "islamic_guidance": "Le Prophète ﷺ a dit: 'Celui qui défend l'honneur de son frère en son absence, Allah défendra son visage du Feu au Jour du Jugement.'",
+          "benefits": [
+            "Construit des relations loyales",
+            "Mérite la protection divine",
+            "Renforce l'unité musulmane"
+          ],
+          "daily_actions": [
+            "Défendez activement les autres quand ils sont critiqués injustement",
+            "Rappelez aux gens les bonnes qualités des autres",
+            "Soutenez ceux qui ne peuvent se défendre"
+          ]
+        }
+      },
+      "duration_options": [7, 14, 21, 40]
+    },
+    {
+      "goal_id": "tongue-slander-verify-speak",
+      "category": "tongue",
+      "translations": {
+        "en": {
+          "title": "Verify Before You Speak",
+          "description": "Commit to verifying any negative news or rumours before repeating them.",
+          "islamic_guidance": "Allah says: 'O you who believe! If a sinner comes to you with a report, verify it, lest you harm people in ignorance.' (49:6)",
+          "benefits": [
+            "Prevents spreading falsehood",
+            "Builds reputation for reliability",
+            "Protects community harmony"
+          ],
+          "daily_actions": [
+            "Always check sources before sharing news",
+            "Ask yourself: Is this verified information?",
+            "Refuse to spread unconfirmed rumors"
+          ]
+        },
+        "ar": {
+          "title": "تحقق قبل الكلام",
+          "description": "الزم التحقق من أي أخبار سلبية قبل ترديدها.",
+          "islamic_guidance": "قال الله تعالى: 'يا أيها الذين آمنوا إن جاءكم فاسق بنبأ فتبينوا أن تصيبوا قوماً بجهالة' (49:6)",
+          "benefits": [
+            "يمنع نشر الباطل",
+            "يبني سمعة الموثوقية",
+            "يحمي انسجام المجتمع"
+          ],
+          "daily_actions": [
+            "تحقق دائماً من المصادر قبل مشاركة الأخبار",
+            "اسأل نفسك: هل هذه معلومات موثقة؟",
+            "ارفض نشر الشائعات غير المؤكدة"
+          ]
+        },
+        "fr": {
+          "title": "Vérifiez avant de parler",
+          "description": "Engagez-vous à vérifier toute information négative avant de la répéter.",
+          "islamic_guidance": "Allah dit: 'Ô vous qui croyez! Si un pervers vous apporte une nouvelle, vérifiez-la, de peur que vous ne causiez du tort à des gens par ignorance.' (49:6)",
+          "benefits": [
+            "Empêche la propagation du mensonge",
+            "Construit une réputation de fiabilité",
+            "Protège l'harmonie communautaire"
+          ],
+          "daily_actions": [
+            "Vérifiez toujours les sources avant de partager des nouvelles",
+            "Demandez-vous: Est-ce une information vérifiée?",
+            "Refusez de propager des rumeurs non confirmées"
+          ]
+        }
+      },
+      "duration_options": [7, 14, 21, 40]
+    },
+    {
+      "goal_id": "tongue-slander-speak-no-harm",
+      "category": "tongue",
+      "translations": {
+        "en": {
+          "title": "Speak No Harm",
+          "description": "Avoid all speech that could harm someone's honour — directly or indirectly.",
+          "islamic_guidance": "The Prophet ﷺ said: 'A Muslim is one from whose tongue and hand other Muslims are safe.'",
+          "benefits": [
+            "Protects others' dignity",
+            "Builds trustworthy character",
+            "Creates positive environment"
+          ],
+          "daily_actions": [
+            "Before speaking, ask: Could this harm someone?",
+            "Avoid implications and subtle criticisms",
+            "Choose words that build rather than destroy"
+          ]
+        },
+        "ar": {
+          "title": "لا تنطق بما يضر",
+          "description": "تجنب كل الكلام الذي قد يسيء إلى كرامة الآخرين — مباشرة أو غير مباشرة.",
+          "islamic_guidance": "قال النبي ﷺ: 'المسلم من سلم المسلمون من لسانه ويده'",
+          "benefits": [
+            "يحمي كرامة الآخرين",
+            "يبني شخصية جديرة بالثقة",
+            "يخلق بيئة إيجابية"
+          ],
+          "daily_actions": [
+            "قبل الكلام، اسأل: هل يمكن أن يضر هذا بأحد؟",
+            "تجنب التلميحات والانتقادات الخفية",
+            "اختر كلمات تبني ولا تهدم"
+          ]
+        },
+        "fr": {
+          "title": "Ne parlez d'aucun mal",
+          "description": "Évitez tout discours pouvant nuire à l'honneur d'autrui — directement ou indirectement.",
+          "islamic_guidance": "Le Prophète ﷺ a dit: 'Un musulman est celui dont les autres musulmans sont en sécurité face à sa langue et à sa main.'",
+          "benefits": [
+            "Protège la dignité des autres",
+            "Construit un caractère digne de confiance",
+            "Crée un environnement positif"
+          ],
+          "daily_actions": [
+            "Avant de parler, demandez: Cela pourrait-il nuire à quelqu'un?",
+            "Évitez les implications et critiques subtiles",
+            "Choisissez des mots qui construisent plutôt que détruisent"
+          ]
+        }
+      },
+      "duration_options": [7, 14, 21, 40]
+    },
+    {
+      "goal_id": "tongue-mockery-no-mockery",
+      "category": "tongue",
+      "translations": {
+        "en": {
+          "title": "No Mockery",
+          "description": "Refrain from mocking, sarcastic remarks, or jokes at others' expense.",
+          "islamic_guidance": "Allah says: 'O you who believe! Let not some people mock others, it may be that they are better than them.' (49:11)",
+          "benefits": [
+            "Shows respect for human dignity",
+            "Builds mature character",
+            "Creates supportive environment"
+          ],
+          "daily_actions": [
+            "Avoid sarcasm and mocking tone",
+            "Resist the urge to make jokes at others' expense",
+            "Treat everyone with dignity and respect"
+          ]
+        },
+        "ar": {
+          "title": "لا سخرية",
+          "description": "امتنع عن السخرية أو التعليقات اللاذعة أو النكات على حساب الآخرين.",
+          "islamic_guidance": "قال الله تعالى: 'يا أيها الذين آمنوا لا يسخر قوم من قوم عسى أن يكونوا خيراً منهم' (49:11)",
+          "benefits": [
+            "يظهر احترام الكرامة الإنسانية",
+            "يبني شخصية ناضجة",
+            "يخلق بيئة داعمة"
+          ],
+          "daily_actions": [
+            "تجنب السخرية والنبرة الاستهزائية",
+            "قاوم الرغبة في النكات على حساب الآخرين",
+            "عامل الجميع بكرامة واحترام"
+          ]
+        },
+        "fr": {
+          "title": "Aucune moquerie",
+          "description": "Abstenez-vous de moqueries, de sarcasmes ou de plaisanteries aux dépens d'autrui.",
+          "islamic_guidance": "Allah dit: 'Ô vous qui croyez! Qu'un peuple ne se moque pas d'un autre, il se peut qu'ils soient meilleurs qu'eux.' (49:11)",
+          "benefits": [
+            "Montre le respect pour la dignité humaine",
+            "Développe un caractère mature",
+            "Crée un environnement de soutien"
+          ],
+          "daily_actions": [
+            "Évitez le sarcasme et le ton moqueur",
+            "Résistez à l'envie de faire des blagues aux dépens des autres",
+            "Traitez tout le monde avec dignité et respect"
+          ]
+        }
+      },
+      "duration_options": [7, 14, 21, 40]
+    },
+    {
+      "goal_id": "tongue-mockery-speak-dignity",
+      "category": "tongue",
+      "translations": {
+        "en": {
+          "title": "Speak With Dignity",
+          "description": "Use your tongue to uplift, not shame. Practise restraint and kindness.",
+          "islamic_guidance": "The Prophet ﷺ said: 'A good word is charity.'",
+          "benefits": [
+            "Inspires positive change in others",
+            "Builds strong relationships",
+            "Develops noble character"
+          ],
+          "daily_actions": [
+            "Choose words that encourage and uplift",
+            "Practice restraint in difficult conversations",
+            "Speak with kindness even when correcting"
+          ]
+        },
+        "ar": {
+          "title": "تحدث بكرامة",
+          "description": "استخدم لسانك للرفع لا للهدم. مارس اللطف وضبط النفس.",
+          "islamic_guidance": "قال النبي ﷺ: 'والكلمة الطيبة صدقة'",
+          "benefits": [
+            "يلهم التغيير الإيجابي في الآخرين",
+            "يبني علاقات قوية",
+            "يطور شخصية نبيلة"
+          ],
+          "daily_actions": [
+            "اختر كلمات تشجع وترفع",
+            "مارس ضبط النفس في المحادثات الصعبة",
+            "تحدث بلطف حتى عند التصحيح"
+          ]
+        },
+        "fr": {
+          "title": "Parlez avec dignité",
+          "description": "Utilisez votre langue pour élever, pas pour blesser. Pratiquez la gentillesse et la retenue.",
+          "islamic_guidance": "Le Prophète ﷺ a dit: 'Une bonne parole est une aumône.'",
+          "benefits": [
+            "Inspire un changement positif chez les autres",
+            "Construit des relations solides",
+            "Développe un caractère noble"
+          ],
+          "daily_actions": [
+            "Choisissez des mots qui encouragent et élèvent",
+            "Pratiquez la retenue dans les conversations difficiles",
+            "Parlez avec gentillesse même en corrigeant"
+          ]
+        }
+      },
+      "duration_options": [7, 14, 21, 40]
+    },
+    {
+      "goal_id": "tongue-idle-beneficial-only",
+      "category": "tongue",
+      "translations": {
+        "en": {
+          "title": "Speak Only When Beneficial",
+          "description": "Reduce idle talk. Speak only when it adds value to your day or others' hearts.",
+          "islamic_guidance": "The Prophet ﷺ said: 'Let him who believes in Allah and the Last Day speak good or keep silent.'",
+          "benefits": [
+            "Increases mindfulness",
+            "Improves quality of conversation",
+            "Develops inner peace"
+          ],
+          "daily_actions": [
+            "Before speaking, ask: Is this beneficial?",
+            "Avoid meaningless chatter",
+            "Choose quality over quantity in speech"
+          ]
+        },
+        "ar": {
+          "title": "تحدث فقط عند الفائدة",
+          "description": "قلل من الكلام الفارغ. تحدث فقط إذا كان فيه فائدة لك أو لغيرك.",
+          "islamic_guidance": "قال النبي ﷺ: 'من كان يؤمن بالله واليوم الآخر فليقل خيراً أو ليصمت'",
+          "benefits": [
+            "يزيد الوعي",
+            "يحسن جودة المحادثة",
+            "يطور السلام الداخلي"
+          ],
+          "daily_actions": [
+            "قبل الكلام، اسأل: هل هذا مفيد؟",
+            "تجنب الثرثرة الفارغة",
+            "اختر الجودة على الكمية في الكلام"
+          ]
+        },
+        "fr": {
+          "title": "Parlez seulement si c'est bénéfique",
+          "description": "Réduisez les bavardages inutiles. Parlez seulement si cela apporte de la valeur.",
+          "islamic_guidance": "Le Prophète ﷺ a dit: 'Que celui qui croit en Allah et au Jour dernier dise du bien ou se taise.'",
+          "benefits": [
+            "Augmente la conscience",
+            "Améliore la qualité de conversation",
+            "Développe la paix intérieure"
+          ],
+          "daily_actions": [
+            "Avant de parler, demandez: Est-ce bénéfique?",
+            "Évitez les bavardages insignifiants",
+            "Choisissez la qualité sur la quantité dans la parole"
+          ]
+        }
+      },
+      "duration_options": [7, 14, 21, 40]
+    },
+    {
+      "goal_id": "tongue-idle-silent-reflection",
+      "category": "tongue",
+      "translations": {
+        "en": {
+          "title": "Silent Reflection Habit",
+          "description": "Practise daily silence and inward reflection.",
+          "islamic_guidance": "The Prophet ﷺ said: 'Whoever remains silent will be saved.'",
+          "benefits": [
+            "Develops inner awareness",
+            "Reduces speech errors",
+            "Increases spiritual focus"
+          ],
+          "daily_actions": [
+            "Set aside time for silent reflection",
+            "Practice listening more than speaking",
+            "Reflect on your words before sleep"
+          ]
+        },
+        "ar": {
+          "title": "عادة التأمل الصامت",
+          "description": "مارس الصمت والتأمل الداخلي يومياً.",
+          "islamic_guidance": "قال النبي ﷺ: 'من صمت نجا'",
+          "benefits": [
+            "يطور الوعي الداخلي",
+            "يقلل أخطاء الكلام",
+            "يزيد التركيز الروحي"
+          ],
+          "daily_actions": [
+            "خصص وقتاً للتأمل الصامت",
+            "مارس الاستماع أكثر من الكلام",
+            "تأمل في كلماتك قبل النوم"
+          ]
+        },
+        "fr": {
+          "title": "Habitude de la réflexion silencieuse",
+          "description": "Pratiquez le silence et la réflexion intérieure chaque jour.",
+          "islamic_guidance": "Le Prophète ﷺ a dit: 'Celui qui reste silencieux sera sauvé.'",
+          "benefits": [
+            "Développe la conscience intérieure",
+            "Réduit les erreurs de parole",
+            "Augmente la concentration spirituelle"
+          ],
+          "daily_actions": [
+            "Réservez du temps pour la réflexion silencieuse",
+            "Pratiquez l'écoute plus que la parole",
+            "Réfléchissez à vos mots avant de dormir"
+          ]
+        }
+      },
+      "duration_options": [7, 14, 21, 40]
+    },
+    {
+      "goal_id": "tongue-flattery-sincere-praise",
+      "category": "tongue",
+      "translations": {
+        "en": {
+          "title": "Sincere Praise Only",
+          "description": "Offer praise only when genuine and purposeful.",
+          "islamic_guidance": "The Prophet ﷺ said: 'Throw dust in the faces of those who praise you.'",
+          "benefits": [
+            "Builds authentic relationships",
+            "Develops honest character",
+            "Avoids manipulation"
+          ],
+          "daily_actions": [
+            "Check your intention before giving praise",
+            "Offer compliments only when truly meant",
+            "Avoid flattery for personal gain"
+          ]
+        },
+        "ar": {
+          "title": "مدح صادق فقط",
+          "description": "امدح الآخرين بصدق فقط وليس بهدف المنفعة أو المجاملة الزائفة.",
+          "islamic_guidance": "قال النبي ﷺ: 'احثوا في وجوه المداحين التراب'",
+          "benefits": [
+            "يبني علاقات حقيقية",
+            "يطور شخصية صادقة",
+            "يتجنب التلاعب"
+          ],
+          "daily_actions": [
+            "تحقق من نيتك قبل المدح",
+            "امدح فقط عندما تقصد ذلك حقاً",
+            "تجنب المجاملة للمصلحة الشخصية"
+          ]
+        },
+        "fr": {
+          "title": "Louange sincère uniquement",
+          "description": "Ne donnez des éloges que sincères, jamais manipulateurs ou faux.",
+          "islamic_guidance": "Le Prophète ﷺ a dit: 'Jetez de la poussière au visage de ceux qui vous louent.'",
+          "benefits": [
+            "Construit des relations authentiques",
+            "Développe un caractère honnête",
+            "Évite la manipulation"
+          ],
+          "daily_actions": [
+            "Vérifiez votre intention avant de louer",
+            "Offrez des compliments seulement quand c'est sincère",
+            "Évitez la flatterie pour un gain personnel"
+          ]
+        }
+      },
+      "duration_options": [7, 14, 21, 40]
+    },
+    {
+      "goal_id": "tongue-flattery-intention-check",
+      "category": "tongue",
+      "translations": {
+        "en": {
+          "title": "Intention Check Before Praise",
+          "description": "Pause before praising others. Reflect on your intention.",
+          "islamic_guidance": "The Prophet ﷺ said: 'Actions are but by intention.'",
+          "benefits": [
+            "Develops self-awareness",
+            "Purifies intentions",
+            "Builds sincere character"
+          ],
+          "daily_actions": [
+            "Pause before giving compliments",
+            "Ask yourself: Why am I saying this?",
+            "Ensure your praise serves a good purpose"
+          ]
+        },
+        "ar": {
+          "title": "تحقق من النية قبل المدح",
+          "description": "توقف قبل مدح الآخرين. تأمل نيتك.",
+          "islamic_guidance": "قال النبي ﷺ: 'إنما الأعمال بالنيات'",
+          "benefits": [
+            "يطور الوعي الذاتي",
+            "يطهر النيات",
+            "يبني شخصية صادقة"
+          ],
+          "daily_actions": [
+            "توقف قبل إعطاء المجاملات",
+            "اسأل نفسك: لماذا أقول هذا؟",
+            "تأكد أن مدحك يخدم غرضاً حسناً"
+          ]
+        },
+        "fr": {
+          "title": "Vérifiez votre intention avant de louer",
+          "description": "Faites une pause avant de louer. Réfléchissez à votre intention.",
+          "islamic_guidance": "Le Prophète ﷺ a dit: 'Les actions ne valent que par les intentions.'",
+          "benefits": [
+            "Développe la conscience de soi",
+            "Purifie les intentions",
+            "Construit un caractère sincère"
+          ],
+          "daily_actions": [
+            "Pausez avant de donner des compliments",
+            "Demandez-vous: Pourquoi dis-je cela?",
+            "Assurez-vous que votre louange sert un bon but"
+          ]
+        }
+      },
+      "duration_options": [7, 14, 21, 40]
+    },
+    {
+      "goal_id": "tongue-secrets-protect-private",
+      "category": "tongue",
+      "translations": {
+        "en": {
+          "title": "Protect What's Private",
+          "description": "Do not share anything personal or private that was entrusted to you.",
+          "islamic_guidance": "The Prophet ﷺ said: 'When a man speaks and then looks around, it is a trust.'",
+          "benefits": [
+            "Builds unbreakable trust",
+            "Protects relationships",
+            "Develops noble character"
+          ],
+          "daily_actions": [
+            "Never share private information",
+            "Keep confidences even after conflicts",
+            "Treat others' secrets as sacred"
+          ]
+        },
+        "ar": {
+          "title": "حافظ على خصوصية الآخرين",
+          "description": "لا تشارك أي معلومات شخصية أو خاصة تم ائتمانك بها.",
+          "islamic_guidance": "قال النبي ﷺ: 'إذا حدث الرجل بالحديث ثم التفت فهي أمانة'",
+          "benefits": [
+            "يبني ثقة لا تنكسر",
+            "يحمي العلاقات",
+            "يطور شخصية نبيلة"
+          ],
+          "daily_actions": [
+            "لا تشارك المعلومات الخاصة أبداً",
+            "احفظ الأسرار حتى بعد الخلافات",
+            "اعتبر أسرار الآخرين مقدسة"
+          ]
+        },
+        "fr": {
+          "title": "Protégez ce qui est privé",
+          "description": "Ne partagez aucune information personnelle ou confidentielle.",
+          "islamic_guidance": "Le Prophète ﷺ a dit: 'Quand un homme parle puis regarde autour de lui, c'est une confiance.'",
+          "benefits": [
+            "Construit une confiance incassable",
+            "Protège les relations",
+            "Développe un caractère noble"
+          ],
+          "daily_actions": [
+            "Ne partagez jamais d'informations privées",
+            "Gardez les confidences même après les conflits",
+            "Traitez les secrets des autres comme sacrés"
+          ]
+        }
+      },
+      "duration_options": [7, 14, 21, 40]
+    },
+    {
+      "goal_id": "tongue-secrets-vault-trust",
+      "category": "tongue",
+      "translations": {
+        "en": {
+          "title": "Become a Vault of Trust",
+          "description": "Protect others' trust as your own honour.",
+          "islamic_guidance": "The Prophet ﷺ said: 'There is no faith for one who cannot be trusted.'",
+          "benefits": [
+            "Builds reputation for reliability",
+            "Strengthens all relationships",
+            "Develops inner integrity"
+          ],
+          "daily_actions": [
+            "Guard others' secrets with your life",
+            "Never betray confidences for any reason",
+            "Be known as completely trustworthy"
+          ]
+        },
+        "ar": {
+          "title": "كن مستودع الثقة",
+          "description": "احفظ أسرار الآخرين كأنها شرفك.",
+          "islamic_guidance": "قال النبي ﷺ: 'لا إيمان لمن لا أمانة له'",
+          "benefits": [
+            "يبني سمعة الموثوقية",
+            "يقوي جميع العلاقات",
+            "يطور النزاهة الداخلية"
+          ],
+          "daily_actions": [
+            "احفظ أسرار الآخرين بحياتك",
+            "لا تخن الثقة لأي سبب",
+            "كن معروفاً بالموثوقية التامة"
+          ]
+        },
+        "fr": {
+          "title": "Soyez un coffre-fort de confiance",
+          "description": "Protégez les secrets des autres comme votre propre honneur.",
+          "islamic_guidance": "Le Prophète ﷺ a dit: 'Il n'y a pas de foi pour celui qui ne peut être digne de confiance.'",
+          "benefits": [
+            "Construit une réputation de fiabilité",
+            "Renforce toutes les relations",
+            "Développe l'intégrité intérieure"
+          ],
+          "daily_actions": [
+            "Gardez les secrets des autres avec votre vie",
+            "Ne trahissez jamais la confiance pour aucune raison",
+            "Soyez connu comme entièrement digne de confiance"
+          ]
+        }
+      },
+      "duration_options": [7, 14, 21, 40]
+    },
+    {
+      "goal_id": "tongue-vulgar-clean-speech",
+      "category": "tongue",
+      "translations": {
+        "en": {
+          "title": "Clean Speech",
+          "description": "Eliminate all foul or aggressive language. Speak with dignity.",
+          "islamic_guidance": "The Prophet ﷺ said: 'A believer is not one who taunts others, curses, or speaks obscenely.'",
+          "benefits": [
+            "Reflects inner purity",
+            "Commands respect from others",
+            "Creates peaceful environment"
+          ],
+          "daily_actions": [
+            "Avoid all vulgar and offensive words",
+            "Replace harsh words with gentle ones",
+            "Speak as if addressing respected elders"
+          ]
+        },
+        "ar": {
+          "title": "كلام طاهر",
+          "description": "امتنع عن كل الكلام الفاحش أو العدواني. تحدث بكرامة.",
+          "islamic_guidance": "قال النبي ﷺ: 'ليس المؤمن بالطعان ولا اللعان ولا الفاحش البذيء'",
+          "benefits": [
+            "يعكس الطهارة الداخلية",
+            "يكسب احترام الآخرين",
+            "يخلق بيئة هادئة"
+          ],
+          "daily_actions": [
+            "تجنب كل الكلمات الفاحشة والمسيئة",
+            "استبدل الكلمات القاسية بالرقيقة",
+            "تحدث كأنك تخاطب كبار السن المحترمين"
+          ]
+        },
+        "fr": {
+          "title": "Paroles pures",
+          "description": "Éliminez tout langage vulgaire ou agressif. Parlez avec dignité.",
+          "islamic_guidance": "Le Prophète ﷺ a dit: 'Un croyant n'est pas celui qui se moque, maudit ou parle de manière obscène.'",
+          "benefits": [
+            "Reflète la pureté intérieure",
+            "Commande le respect des autres",
+            "Crée un environnement paisible"
+          ],
+          "daily_actions": [
+            "Évitez tous les mots vulgaires et offensants",
+            "Remplacez les mots durs par des mots doux",
+            "Parlez comme si vous vous adressiez à des aînés respectés"
+          ]
+        }
+      },
+      "duration_options": [7, 14, 21, 40]
+    },
+    {
+      "goal_id": "tongue-arguing-choose-peace",
+      "category": "tongue",
+      "translations": {
+        "en": {
+          "title": "Choose Peace Over Victory",
+          "description": "Avoid unnecessary arguments, debates, and ego-driven exchanges.",
+          "islamic_guidance": "The Prophet ﷺ said: 'I guarantee a house in the middle of Paradise for one who abandons argument even if he is right.'",
+          "benefits": [
+            "Preserves relationships",
+            "Develops humility",
+            "Brings inner peace"
+          ],
+          "daily_actions": [
+            "Walk away from pointless arguments",
+            "Choose harmony over being right",
+            "Respond with kindness to provocation"
+          ]
+        },
+        "ar": {
+          "title": "اختر السلام على الانتصار",
+          "description": "تجنب الجدال والنقاشات العقيمة والتنافس الذاتي.",
+          "islamic_guidance": "قال النبي ﷺ: 'أنا زعيم ببيت في وسط الجنة لمن ترك المراء وإن كان محقاً'",
+          "benefits": [
+            "يحافظ على العلاقات",
+            "يطور التواضع",
+            "يجلب السلام الداخلي"
+          ],
+          "daily_actions": [
+            "ابتعد عن الجدال العقيم",
+            "اختر الانسجام على كونك محقاً",
+            "اردد بلطف على الاستفزاز"
+          ]
+        },
+        "fr": {
+          "title": "Choisissez la paix plutôt que la victoire",
+          "description": "Évitez les disputes et débats inutiles. Choisissez la paix plutôt que la victoire.",
+          "islamic_guidance": "Le Prophète ﷺ a dit: 'Je garantis une maison au milieu du Paradis pour celui qui abandonne l'argument même s'il a raison.'",
+          "benefits": [
+            "Préserve les relations",
+            "Développe l'humilité",
+            "Apporte la paix intérieure"
+          ],
+          "daily_actions": [
+            "Éloignez-vous des disputes inutiles",
+            "Choisissez l'harmonie plutôt que d'avoir raison",
+            "Répondez avec gentillesse à la provocation"
+          ]
+        }
+      },
+      "duration_options": [7, 14, 21, 40]
+    }
+  ]
+}

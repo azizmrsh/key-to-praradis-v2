@@ -1,0 +1,574 @@
+## Microservice Specification – Keys to Paradise App
+
+**Design Philosophy:** Each module in this app is designed to function as a **standalone feature unit**, with clearly defined inputs, outputs, and data responsibilities. This structure supports isolated development and testing within platforms like Replit, where modules can be prototyped independently and later integrated.
+
+* Each module should:
+
+  * Operate independently with minimal coupling
+  * Accept structured input parameters (e.g. `focus_sin`, `streak_days`)
+  * Return outputs (e.g. updated local storage, badges earned, trigger events)
+  * Be callable from any screen, including from within specific sin-focused user flows
+  * Update or retrieve from local storage as needed without requiring a server
+
+**Justification:** In our experience, AI coders (including Replit agents) are most effective when building clear, single-purpose applications. Structuring modules as autonomous units allows us to:
+
+* Develop and debug each module in isolation
+* Selectively activate modules based on the type of sin a user is working on
+* Maintain modularity and improve testability
+* Make the system extensible for future features or community-contributed modules
+
+**Purpose:** This document outlines the core microservices used in the Keys to Paradise mobile application. Each microservice operates independently with its own contract of inputs and outputs, allowing them to be developed, tested, and reused across sin-specific flows.
+
+**Microservice Architecture Note:** Each functional unit described here is designed as a self-contained microservice. These microservices should:
+
+* Receive and return structured data (e.g. JSON)
+* Perform their logic in isolation
+* Store or retrieve data from encrypted local storage
+* Be triggered individually from user flows (e.g. during check-in, journaling, or viewing lessons)
+
+This approach enables:
+
+* Efficient development (especially with AI tools like Replit)
+* Testing and debugging in isolation
+* Selective module loading per sin type
+* Scalability for future features
+
+---
+
+### 1. Daily Check-in & Accountability Module
+
+* Purpose: Help users build spiritual awareness and consistency through gentle, daily reflection.
+
+* Inputs:
+
+  * `focus_sin` (string)
+  * `reminder_time` (optional string in HH\:MM format)
+  * `response` (boolean: true for success, false for slip)
+  * `note` (optional string)
+
+* Function Call Example:
+
+  ```ts
+  callModule("dailyCheckIn", {
+    focus_sin: "tongue",
+    reminder_time: "20:00",
+    response: true,
+    note: "Resisted gossip."
+  });
+  ```
+
+* User Flow:
+
+  1. App sends a local notification (if enabled): "Your daily check-in is ready."
+  2. User opens check-in screen.
+  3. Primary question displayed: *"Did you stay mindful of your intention today?"* (Yes/No toggle)
+  4. Optional journal prompt: *"Would you like to reflect on today?"* (text area input)
+  5. User submits response. App stores the entry locally.
+
+* Features:
+
+  * Simple daily binary check-in (Yes/No or Success/Slip)
+  * Optional private journal note field
+  * Daily streak tracker (visual display of consecutive successful days)
+  * Custom daily reminders (optional scheduling by user)
+
+* Scoring Logic:
+
+  * `streak_days` incremented on consecutive Yes responses
+  * `failure_count` updated for analytics and trigger system
+  * All responses are timestamped and encrypted in local storage
+
+* Output:
+
+  * Returns: `streak_days`, `failure_count`, `daily_log[]`
+  * Data stored as a local JSON or SQLite structure:
+
+    ```json
+    {
+      "daily_log": [
+        {
+          "date": "2025-05-07",
+          "success": true,
+          "note": "Remembered to avoid gossip in the meeting."
+        },
+        {
+          "date": "2025-05-06",
+          "success": false,
+          "note": "Spoke impatiently at home."
+        }
+      ],
+      "streak_days": 5,
+      "failure_count": 2
+    }
+    ```
+  * Journal is stored securely and never synced
+
+---
+
+### 2. Content & Reflection Module
+
+* Purpose: Serve educational and reflective content based on the user’s selected focus sin or spiritual struggle.
+
+* Data Storage:
+
+  * All content consumption logs are saved locally using SecureStore or EncryptedStorage.
+  * Content is accessed from either pre-bundled `content.json` or read-only Firebase-hosted `content.json`.
+  * No user-generated data is transmitted externally.
+  * Logs are stored under `content_log` and used solely for in-app tracking (e.g. badge eligibility, completion tracking).
+
+* Inputs:
+
+  * `focus_sin` (string)
+  * `content_type` (optional string: "video", "text", "audio")
+
+* Function Call Example:
+
+  ```ts
+  callModule("contentAndReflection", {
+    focus_sin: "tongue",
+    content_type: "text"
+  });
+  ```
+
+* Features:
+
+  * Display content (e.g. short readings, hadith, explanatory audio, or embedded YouTube video)
+  * Content selection filters by `focus_sin` and optionally by type or daily sequence
+  * Pulls content from either:
+
+    * Local bundled `content.json`, or
+    * Remote Firebase-hosted static `content.json` (read-only)
+  * If user completes viewing/reading/listening, log interaction locally for analytics or gamification
+
+* Output:
+
+  * Returns: `content_id`, `viewed` (boolean), `timestamp`
+  * Data structure example:
+
+    ```json
+    {
+      "content_log": [
+        {
+          "content_id": "tongue-lesson-1",
+          "viewed": true,
+          "timestamp": "2025-05-07T14:32:00Z"
+        }
+      ]
+    }
+    ```
+
+---
+
+### 3. Badge & Gamification Module
+
+* Purpose: Motivate users through visual rewards, milestones, and achievement tracking.
+
+* Badge Rule Storage:
+
+  * All badge logic is defined locally in a file called `badges.json`.
+  * This file contains condition expressions evaluated at runtime.
+  * No server is required to check badge eligibility.
+  * Future badge definitions can be added by updating this file via a content update.
+
+* Example `badges.json` entry:
+
+  ```json
+  [
+    {
+      "badge_id": "first-victory",
+      "title": "First Victory",
+      "condition": "streak_days >= 7",
+      "description": "You stayed consistent for 7 days.",
+      "type": "streak"
+    },
+    {
+      "badge_id": "heart-commitment",
+      "title": "Heart Commitment",
+      "condition": "completed_challenges.includes('heart-1-week')",
+      "description": "You completed your first 7-day challenge.",
+      "type": "challenge"
+    }
+  ]
+  ```
+
+* Inputs:
+
+  * `streak_days` (integer)
+  * `consistency_score` (float or derived value)
+  * `completed_challenges` (integer or array of challenge IDs)
+
+* Function Call Example:
+
+  ```ts
+  callModule("badgeGamification", {
+    streak_days: 7,
+    consistency_score: 0.92,
+    completed_challenges: ["tongue-3-day", "heart-1-week"]
+  });
+  ```
+
+* Features:
+
+  * Reads logic from local `badges.json`
+  * Badges may be tied to:
+
+    * Streaks (e.g. 7-day, 14-day, 40-day)
+    * Challenge completion
+    * First-time behaviours (e.g. first journal entry, first week completed)
+  * Optionally shows a modal animation when badge is earned
+  * Stores earned badges locally
+
+* Output:
+
+  * Returns: updated `badges_unlocked[]`
+  * Example storage structure:
+
+    ```json
+    {
+      "badges_unlocked": [
+        {
+          "badge_id": "first-victory",
+          "earned_on": "2025-05-07",
+          "condition": "7_day_streak"
+        },
+        {
+          "badge_id": "heart-commitment",
+          "earned_on": "2025-05-14",
+          "condition": "completed_7_day_challenge"
+        }
+      ]
+    }
+    ```
+
+---
+
+### 4. Trigger & Pattern Recognition Module
+
+* Purpose: Detect patterns of struggle and gently encourage spiritual resilience through timely support.
+
+* Inputs:
+
+  * `daily_log[]` (array of objects with `date`, `success`)
+  * `failure_count` (integer, calculated over 7-day rolling window)
+
+* Function Call Example:
+
+  ```ts
+  callModule("triggerPatternRecognition", {
+    daily_log: daily_log_array,
+    failure_count: 3
+  });
+  ```
+
+* Logic:
+
+  * Count failures in the past 7 days from `daily_log`
+  * If `failure_count >= 3`, trigger a `support_prompt`
+  * `support_prompt` may include:
+
+    * A motivational quote or hadith
+    * A reminder of Allah’s Mercy
+    * A button to open Emergency SOS Module
+  * Prevent repeat prompts more than once every 72 hours
+
+* Features:
+
+  * Entirely local and privacy-preserving
+  * All logic evaluated on-device
+  * Designed for compassion, not guilt
+
+* Output:
+
+  * Returns: `trigger_event` (boolean), `trigger_message_id`, `timestamp`
+  * Data structure example:
+
+    ```json
+    {
+      "trigger_event": true,
+      "trigger_message_id": "encouragement-001",
+      "timestamp": "2025-05-07T09:45:00Z"
+    }
+    ```
+
+---
+
+### 5. Emergency SOS & Support Module
+
+* Purpose: Provide immediate emotional and spiritual reinforcement during moments of temptation or distress.
+
+* Inputs:
+
+  * `trigger_source` (string: "manual", "triggerPatternRecognition", or other module ID)
+
+* Function Call Example:
+
+  ```ts
+  callModule("emergencySOS", {
+    trigger_source: "triggerPatternRecognition"
+  });
+  ```
+
+* Features:
+
+  * Offer user 2–3 support options:
+
+    * Preloaded dhikr audio loop (e.g. "Lā ilāha illā Allāh")
+    * Short motivational hadith, Qur’anic verse, or prayer
+    * Visual calming aid: breathing circle or 90-second focus timer
+  * Positive reinforcement shown upon completion:
+
+    * “You’ve taken a blessed step toward healing.”
+    * “Allah is with those who are patient.”
+  * Optional tracking of successful SOS uses to encourage habit-building
+  * Simple UI, one-tap return to home
+  * No data logging beyond local progress; fully private experience
+
+* Output:
+
+  * Returns: `support_accessed` (boolean), `method_used` (string), `timestamp`, `affirmation_shown` (boolean), `sos_use_success` (integer)
+  * Example:
+
+    ```json
+    {
+      "support_accessed": true,
+      "method_used": "dhikr",
+      "timestamp": "2025-05-07T21:10:00Z",
+      "affirmation_shown": true,
+      "sos_use_success": 1
+    }
+    ```
+
+---
+
+### 6. User Profile & Progress Overview Module
+
+* Purpose: Provide the user with a central dashboard to visualise progress, reflect on spiritual growth, and manage app settings.
+
+* Inputs:
+
+  * `focus_sin` (string)
+  * `streak_days` (integer)
+  * `badges_unlocked[]` (array of badge objects)
+  * `daily_log[]` (array of check-in entries)
+
+* Function Call Example:
+
+  ```ts
+  callModule("userProfileOverview", {
+    focus_sin: "tongue",
+    streak_days: 5,
+    badges_unlocked: badges_array,
+    daily_log: daily_log_array
+  });
+  ```
+
+* Features:
+
+  * Display active focus sin and ability to change focus manually
+  * Visualise progress via:
+
+    * Streak counter and calendar heatmap of activity
+    * Summary stats (e.g. "12 days of mindfulness")
+    * Badge wall showing earned achievements
+  * Include optional access to journal reflections by date
+  * Option to clear app data or delete profile (resets all local storage)
+
+* Output:
+
+  * Purely UI-rendered module
+  * All input derived from local storage and updated data modules
+  * Example UI elements include charts, toggle menus, and badges grid
+
+---
+
+### 7. Language and RTL Support Module
+
+* Purpose: Ensure a smooth and intuitive multilingual user experience, with full support for right-to-left (RTL) script rendering and layout adjustments.
+
+* Inputs:
+
+  * `device_language` (string)
+  * `user_override` (optional string: "en" or "ar")
+
+* Function Call Example:
+
+  ```ts
+  callModule("languageSupport", {
+    device_language: "ar",
+    user_override: "en"
+  });
+  ```
+
+* Features:
+
+  * Auto-detect device language settings on first launch
+  * Allow user to switch manually via settings
+  * Dynamically switch layout direction (LTR/RTL)
+  * Ensure UI components, fonts, and spacing are appropriate for Arabic
+  * Language selection affects all text strings, alerts, content metadata
+
+* Output:
+
+  * Returns: `active_language`, `rtl_enabled`
+  * Example:
+
+    ```json
+    {
+      "active_language": "ar",
+      "rtl_enabled": true
+    }
+    ```
+
+---
+
+### 8. Content Management & Update Engine
+
+* Purpose: Serve periodic content updates to the app (text, lessons, badges) in a privacy-preserving and efficient way, without user data ever leaving the device.
+
+* Inputs:
+
+  * `last_update_check` (timestamp)
+  * `current_version_hash` (string)
+
+* Function Call Example:
+
+  ```ts
+  callModule("contentUpdateEngine", {
+    last_update_check: "2025-05-01T00:00:00Z",
+    current_version_hash: "a2c7e3f"
+  });
+  ```
+
+* Features:
+
+  * Check Firebase or a static CDN endpoint for updated versions of:
+
+    * `content.json` (spiritual lessons, dhikr)
+    * `badges.json` (achievement rules)
+  * Perform version/hash comparison before downloading
+  * Download and replace only delta files
+  * Store updates in local encrypted storage
+  * No analytics, telemetry, or identifiable data is sent
+
+* Output:
+
+  * Returns: `update_available` (boolean), `files_updated[]` (array), `next_check_suggested`
+  * Example:
+
+    ```json
+    {
+      "update_available": true,
+      "files_updated": ["badges.json", "content.json"],
+      "next_check_suggested": "2025-05-14T00:00:00Z"
+    }
+    ```
+
+---
+
+### 9. Privacy & Local Data Module
+
+* Purpose: Ensure that all user data remains fully private, secure, and exclusively stored on the user’s device.
+
+* Inputs:
+
+  * `action` (string: "save", "load", "delete")
+  * `data_type` (string: e.g. "daily\_log", "badges\_unlocked", "journal")
+  * `payload` (optional, depending on action)
+
+* Function Call Example:
+
+  ```ts
+  callModule("privacyLocalData", {
+    action: "delete",
+    data_type: "profile"
+  });
+  ```
+
+* Features:
+
+  * Uses SecureStore / EncryptedStorage (React Native) or equivalent secure local database
+  * No authentication, server syncing, or background telemetry
+  * DELETE PROFILE button deletes all local records (irreversible)
+  * All modules interact with this module when storing or retrieving data
+  * Optional local backup prompt (encrypted export to device-only storage)
+
+* Output:
+
+  * Returns: `status` (success/fail), `timestamp`, `affected_data`
+  * Example:
+
+    ```json
+    {
+      "status": "success",
+      "timestamp": "2025-05-08T12:00:00Z",
+      "affected_data": ["daily_log", "badges_unlocked"]
+    }
+    ```
+
+---
+
+### 10. Spiritual Journal / Reflection Module
+
+* Purpose: Allow users to write and privately reflect on their inner thoughts, struggles, intentions, and victories in a spiritual context.
+
+* Inputs:
+
+  * `entry_date` (ISO date string)
+  * `focus_sin` (optional string)
+  * `journal_text` (string)
+
+* Function Call Example:
+
+  ```ts
+  callModule("spiritualJournal", {
+    entry_date: "2025-05-08",
+    focus_sin: "heart",
+    journal_text: "Today I realised my anger comes from fear of losing control."
+  });
+  ```
+
+* Features:
+
+  * Freeform text entry with optional tagging to a sin or date
+  * Journal entries are stored locally and encrypted
+  * Search and filter entries by date or associated sin
+  * Option to display encouragements like: "Your words are sacred. Your reflection is healing."
+  * No autosync or cloud storage — 100% device-bound
+
+* Output:
+
+  * Returns: `entry_saved` (boolean), `entry_id`, `timestamp`
+  * Example:
+
+    ```json
+    {
+      "entry_saved": true,
+      "entry_id": "journal-2025-05-08",
+      "timestamp": "2025-05-08T23:12:00Z"
+    }
+    ```
+
+\---- Features:
+
+* Uses SecureStore / EncryptedStorage (React Native) or equivalent secure local database
+
+* No authentication, server syncing, or background telemetry
+
+* DELETE PROFILE button deletes all local records (irreversible)
+
+* All modules interact with this module when storing or retrieving data
+
+* Optional local backup prompt (encrypted export to device-only storage)
+
+* Output:
+
+  * Returns: `status` (success/fail), `timestamp`, `affected_data`
+  * Example:
+
+    ```json
+    {
+      "status": "success",
+      "timestamp": "2025-05-08T12:00:00Z",
+      "affected_data": ["daily_log", "badges_unlocked"]
+    }
+    ```

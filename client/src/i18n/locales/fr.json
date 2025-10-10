@@ -1,0 +1,382 @@
+{
+  "common": {
+    "loading": "Chargement...",
+    "error": "Erreur",
+    "success": "Succès",
+    "save": "Enregistrer",
+    "cancel": "Annuler",
+    "delete": "Supprimer",
+    "edit": "Modifier",
+    "add": "Ajouter",
+    "back": "Retour",
+    "next": "Suivant",
+    "previous": "Précédent",
+    "continue": "Continuer",
+    "finish": "Terminer",
+    "close": "Fermer",
+    "yes": "Oui",
+    "no": "Non",
+    "confirm": "Confirmer"
+  },
+  "onboarding": {
+    "welcome": "Bienvenue dans votre voyage d'amélioration personnelle",
+    "personalGrowth": "Croissance personnelle",
+    "getStarted": "Commencer",
+    "chooseFocusAreas": "Choisissez vos domaines de concentration",
+    "welcomeDescription": "L'application Keys to Paradise est une application mobile axée sur la confidentialité et le fonctionnement hors ligne qui aide les utilisateurs à surmonter les défis moraux et spirituels basés sur les enseignements de l'Imam Al-Ghazali.\n\nElle guide les utilisateurs à travers l'auto-évaluation, le suivi quotidien, la réflexion spirituelle et le développement d'habitudes. Toutes les données utilisateur restent sur l'appareil. L'application prend en charge l'anglais et l'arabe.",
+    "personalGrowthDescription": "Suivez votre progrès spirituel, développez de meilleures habitudes et surmontez les défis grâce à des évaluations guidées, des réflexions quotidiennes et des défis personnalisés.\n\nCommencez votre voyage avec une auto-évaluation complète ou choisissez des domaines spécifiques sur lesquels vous concentrer.",
+    "continueButton": "Continuer »»",
+    "getStartedButton": "Commencer »»"
+  },
+  "navigation": {
+    "dashboard": "Tableau de bord",
+    "assessment": "Évaluation",
+    "challenges": "Défis",
+    "content": "Contenu",
+    "profile": "Profil",
+    "settings": "Paramètres",
+    "sos": "SOS",
+    "yourPath": "Votre Chemin",
+    "prayers": "Prières",
+    "aboutUs": "À Propos"
+  },
+  "dashboard": {
+    "title": "Tableau de bord du voyage spirituel",
+    "welcomeBack": "Bon retour",
+    "todaysProgress": "Progrès d'aujourd'hui",
+    "activeChallenges": "Défis actifs",
+    "recentLessons": "Leçons récentes",
+    "spiritualGoals": "Objectifs spirituels",
+    "quickActions": "Actions rapides",
+    "emergencySupport": "Support d'urgence"
+  },
+  "assessment": {
+    "title": "Auto-évaluation",
+    "selfAssessment": "Auto-évaluation",
+    "welcome": "Bienvenue à votre évaluation spirituelle",
+    "description": "Cette évaluation vous aidera à identifier les domaines de croissance spirituelle",
+    "startAssessment": "Commencer l'évaluation",
+    "takeFullAssessment": "Faire une évaluation complète",
+    "selectSpecificArea": "Sélectionner un domaine spécifique",
+    "question": "Question {{number}} sur {{total}}",
+    "questionLabel": "Question",
+    "of": "sur",
+    "category": "Catégorie",
+    "answered": "Répondu",
+    "complete": "Terminé",
+    "manualSelection": {
+      "title": "Choisissez vos domaines de concentration",
+      "subtitle": "Sélectionnez manuellement vos domaines de concentration spirituelle",
+      "header": "SÉLECTIONNEZ VOS DOMAINES DE CONCENTRATION SPIRITUELLE",
+      "description": "Choisissez les défis spirituels sur lesquels vous souhaitez vous concentrer pour vous améliorer.",
+      "primaryLabel": "DOMAINE DE CONCENTRATION PRINCIPAL (Requis)",
+      "secondaryLabel": "DOMAINE DE CONCENTRATION SECONDAIRE (Optionnel)",
+      "selectPlaceholder": "Sélectionner le domaine de concentration",
+      "continueButton": "Continuer avec la sélection",
+      "takeAssessmentInstead": "Faire l'évaluation à la place »»",
+      "selectionRequired": "Sélection requise",
+      "selectionRequiredMessage": "Veuillez sélectionner votre domaine de concentration principal pour continuer"
+    },
+    "scale": {
+      "never": "Jamais",
+      "rarely": "Rarement",
+      "sometimes": "Parfois",
+      "often": "Souvent",
+      "always": "Toujours"
+    },
+    "results": {
+      "title": "Vos résultats d'évaluation",
+      "primaryArea": "Domaine principal de concentration",
+      "secondaryArea": "Domaine secondaire de concentration",
+      "setGoals": "Définir vos objectifs",
+      "startJourney": "Commencer votre voyage"
+    },
+    "review": {
+      "title": "Révision de l'évaluation",
+      "noAssessmentFound": "Aucune évaluation trouvée",
+      "noAssessmentMessage": "Vous n'avez pas encore terminé d'auto-évaluation.",
+      "dataError": "Erreur de données d'évaluation",
+      "dataErrorMessage": "Une erreur s'est produite lors du chargement de vos données d'évaluation. Veuillez essayer de commencer une nouvelle évaluation.",
+      "startNewAssessment": "Commencer une nouvelle évaluation",
+      "assessmentStatus": "État de l'évaluation",
+      "completed": "Terminé",
+      "inProgress": "En cours",
+      "skipped": "Ignoré",
+      "totalQuestions": "Questions totales",
+      "started": "Commencé",
+      "completedDate": "Terminé",
+      "skippedQuestions": "Questions ignorées",
+      "yourAnswers": "Vos réponses",
+      "answerNow": "Répondre maintenant",
+      "changeAnswer": "Changer la réponse",
+      "saving": "Enregistrement...",
+      "cancel": "Annuler",
+      "continueAssessment": "Continuer l'évaluation",
+      "backToDashboard": "Retour au tableau de bord",
+      "retakeAssessment": "Refaire l'évaluation"
+    }
+  },
+  "challenges": {
+    "title": "Défis",
+    "active": "Défis actifs",
+    "completed": "Terminés",
+    "abandoned": "Abandonnés",
+    "history": "Historique des défis",
+    "selectNew": "Sélectionner un nouveau défi",
+    "logSuccess": "Enregistrer le succès",
+    "logIssue": "Enregistrer un problème",
+    "abandon": "Abandonner",
+    "viewDetails": "Voir les détails",
+    "progress": "Progrès",
+    "streak": "Série",
+    "types": {
+      "micro": "Micro défi (1 jour)",
+      "habit": "Défi d'habitude (7-40 jours)",
+      "seasonal": "Défi saisonnier"
+    },
+    "status": {
+      "active": "Actif",
+      "completed": "Terminé",
+      "abandoned": "Abandonné",
+      "failed": "Échoué"
+    },
+    "messages": {
+      "successLogged": "Succès enregistré !",
+      "issueLogged": "Problème enregistré",
+      "challengeCompleted": "🎉 Défi terminé !",
+      "oneDayCompleted": "🎉 Défi d'un jour terminé !",
+      "challengeAbandoned": "Défi abandonné",
+      "progressMessage": "Excellent progrès ! Continuez cet élan dans votre voyage spirituel.",
+      "growthMessage": "Rappelez-vous, chaque défi est une chance de devenir plus fort. Continuez !",
+      "completedDescription": "Alhamdulillah ! \"{{title}}\" terminé et archivé.",
+      "abandonedDescription": "\"{{title}}\" a été archivé dans votre historique. Vous pouvez toujours réessayer !"
+    }
+  },
+  "content": {
+    "title": "Contenu spirituel",
+    "lessons": "Leçons",
+    "videos": "Vidéos",
+    "audio": "Audio",
+    "articles": "Articles",
+    "categories": "Catégories",
+    "progress": "Progrès",
+    "continue": "Continuer l'apprentissage",
+    "startLesson": "Commencer la leçon",
+    "completeLesson": "Terminer la leçon",
+    "reflection": "Réflexion",
+    "keyPoints": "Points clés",
+    "practicalSteps": "Étapes pratiques"
+  },
+  "profile": {
+    "title": "Profil",
+    "userInfo": "Informations utilisateur",
+    "preferences": "Préférences",
+    "language": "Langue",
+    "theme": "Thème",
+    "notifications": "Notifications",
+    "progress": "Aperçu des progrès",
+    "achievements": "Réalisations",
+    "statistics": "Statistiques",
+    "streak": "Série actuelle",
+    "totalDays": "Total des jours actifs",
+    "completedLessons": "Leçons terminées",
+    "activeChallenges": "Défis actifs"
+  },
+  "sinCategories": {
+    "tongue": {
+      "name": "Langue",
+      "description": "Péchés de parole et de communication"
+    },
+    "eyes": {
+      "name": "Yeux",
+      "description": "Péchés liés à la vision et au regard"
+    },
+    "ears": {
+      "name": "Oreilles",
+      "description": "Péchés liés à l'écoute et à l'ouïe"
+    },
+    "heart": {
+      "name": "Cœur",
+      "description": "État spirituel interne et intentions"
+    },
+    "pride": {
+      "name": "Orgueil",
+      "description": "Péchés liés à l'arrogance et à l'ego"
+    },
+    "stomach": {
+      "name": "Estomac",
+      "description": "Péchés liés à la nourriture et à la consommation"
+    },
+    "zina": {
+      "name": "Zina",
+      "description": "Questions liées à la chasteté et à la pureté"
+    }
+  },
+  "sos": {
+    "title": "SOS - Support d'urgence",
+    "description": "Quand vous avez besoin d'un soutien spirituel immédiat",
+    "dhikr": "Dhikr",
+    "prayers": "Prières d'urgence",
+    "reminders": "Rappels spirituels",
+    "contact": "Contacter le support",
+    "breathing": "Exercice de respiration",
+    "guidance": "Guidance immédiate"
+  },
+  "settings": {
+    "title": "Paramètres",
+    "language": "Langue",
+    "theme": "Thème",
+    "notifications": "Notifications",
+    "privacy": "Confidentialité",
+    "about": "À propos",
+    "help": "Aide",
+    "resetData": "Réinitialiser les données",
+    "exportData": "Exporter mes données",
+    "dataExported": "Données exportées avec succès",
+    "dataExportedDescription": "Les données de votre parcours spirituel ont été téléchargées. Gardez-les en sécurité!",
+    "exportFailed": "Échec de l'exportation",
+    "exportFailedDescription": "Une erreur s'est produite lors de l'exportation de vos données. Veuillez réessayer.",
+    "dataPrivacy": "Données et confidentialité",
+    "dataPrivacyDescription": "Gérez vos données personnelles et vos paramètres de confidentialité",
+    "resetAllData": "Réinitialiser toutes les données",
+    "resetDataConfirmation": "Cela supprimera définitivement toutes vos données, y compris les objectifs, les défis, les entrées de journal et les progrès. Cette action ne peut pas être annulée.",
+    "confirmDeleteData": "Oui, tout supprimer",
+    "cancel": "Annuler",
+    "allDataDeleted": "Toutes les données supprimées",
+    "allDataDeletedDescription": "Vos données ont été effacées de cet appareil",
+    "settingsSaved": "Paramètres enregistrés",
+    "settingsSavedDescription": "Vos préférences ont été mises à jour",
+    "languageDescription": "Choisissez votre langue préférée pour l'application",
+    "themeDescription": "Personnalisez l'apparence de l'application",
+    "notificationDescription": "Gérez vos préférences de notification",
+    "prayerTimeNotifications": "Notifications d'heures de prière",
+    "prayerTimeNotificationDescription": "Recevoir des rappels pour les heures de prière",
+    "challengeReminders": "Rappels de défis",
+    "challengeReminderDescription": "Soyez informé des défis actifs",
+    "goalReminders": "Rappels d'objectifs",
+    "goalReminderDescription": "Recevez des rappels pour vos objectifs spirituels",
+    "streakReminders": "Rappels de série",
+    "streakReminderDescription": "Soyez informé pour maintenir vos séries",
+    "sound": "Son",
+    "soundDescription": "Activer les sons de notification",
+    "vibration": "Vibration",
+    "vibrationDescription": "Activer la vibration pour les notifications",
+    "selectTheme": "Sélectionnez un thème",
+    "light": "Clair",
+    "dark": "Sombre",
+    "appVersion": "Version 0.1.1 (Alpha)",
+    "saveSettings": "Enregistrer les paramètres"
+  },
+  "goals": {
+    "title": "Objectifs spirituels",
+    "set": "Définir un objectif",
+    "edit": "Modifier l'objectif",
+    "delete": "Supprimer l'objectif",
+    "complete": "Terminer l'objectif",
+    "progress": "Progrès de l'objectif",
+    "types": {
+      "content": "Réflexion sur le contenu",
+      "behavioral": "Série comportementale",
+      "reflection": "Réflexion",
+      "spiritual": "Croissance spirituelle"
+    }
+  },
+  "notifications": {
+    "prayerTime": "Rappel de l'heure de prière",
+    "challengeReminder": "Rappel de défi",
+    "goalReminder": "Rappel d'objectif",
+    "lessonAvailable": "Nouvelle leçon disponible",
+    "streakMaintenance": "Maintenez votre série"
+  },
+  "prayers": {
+    "fajr": "Fajr",
+    "sunrise": "Lever du soleil",
+    "dhuhr": "Dhuhr",
+    "asr": "Asr",
+    "maghrib": "Maghrib",
+    "isha": "Isha",
+    "nextPrayer": "Prochaine prière",
+    "timeRemaining": "Temps restant",
+    "prayedOnTime": "Prié à l'heure",
+    "recordPrayer": "Enregistrer la prière",
+    "missedPrayer": "Marquer comme manquée",
+    "prayerRecorded": "Prière enregistrée!",
+    "todaysPrayerTimes": "Horaires de prière d'aujourd'hui"
+  },
+  "myPath": {
+    "title": "Mon Chemin",
+    "subtitle": "Suivez votre parcours spirituel",
+    "challenges": {
+      "title": "Défis",
+      "description": "Actions à court terme pour développer de meilleures habitudes"
+    },
+    "goals": {
+      "title": "Objectifs",
+      "description": "Objectifs à long terme pour la croissance spirituelle"
+    },
+    "journal": {
+      "title": "Entrées de journal",
+      "description": "Réfléchissez à votre parcours spirituel"
+    }
+  },
+  "journal": {
+    "title": "Mon Journal",
+    "noEntries": "Pas encore d'entrées de journal",
+    "noEntriesDescription": "Commencez à documenter vos réflexions et votre croissance spirituelle",
+    "createEntry": "Créer une entrée de journal",
+    "editEntry": "Modifier l'entrée de journal",
+    "addEntry": "Ajouter une entrée de journal",
+    "entryContent": "Contenu de l'entrée",
+    "entryPlaceholder": "Écrivez vos pensées, réflexions ou idées...",
+    "area": "Domaine",
+    "selectArea": "Sélectionnez le domaine",
+    "areas": {
+      "primary": "Primaire",
+      "secondary": "Secondaire",
+      "misc": "Divers"
+    },
+    "emotion": "Émotion",
+    "selectEmotion": "Sélectionnez votre émotion",
+    "mood": "Humeur (Optionnel)",
+    "selectMood": "Sélectionnez votre humeur",
+    "moods": {
+      "happy": "Heureux",
+      "grateful": "Reconnaissant",
+      "peaceful": "Paisible",
+      "hopeful": "Plein d'espoir",
+      "reflective": "Réfléchi",
+      "struggling": "En difficulté",
+      "determined": "Déterminé"
+    },
+    "origins": {
+      "goal": "Objectif",
+      "challenge": "Défi",
+      "lesson": "Leçon",
+      "checkIn": "Enregistrement",
+      "checkin": "Enregistrement",
+      "manual": "Manuel"
+    },
+    "filterEntries": "Filtrer les entrées",
+    "allAreas": "Tous les domaines",
+    "origin": "Source",
+    "allOrigins": "Toutes les sources",
+    "allEmotions": "Toutes les émotions",
+    "locked": "Verrouillé",
+    "defaultEmotions": "Émotions par défaut",
+    "noCustomEmotions": "Aucune émotion personnalisée pour le moment. Ajoutez-en une ci-dessous.",
+    "addCustomEmotionPlaceholder": "Ajouter une émotion personnalisée...",
+    "deleteConfirmTitle": "Supprimer l'entrée de journal?",
+    "deleteConfirmDescription": "Cette action est irréversible. Votre entrée de journal sera définitivement supprimée."
+  },
+  "common": {
+    "save": "Enregistrer",
+    "cancel": "Annuler",
+    "delete": "Supprimer",
+    "edit": "Modifier",
+    "back": "Retour",
+    "next": "Suivant",
+    "previous": "Précédent",
+    "close": "Fermer",
+    "confirm": "Confirmer"
+  }
+}

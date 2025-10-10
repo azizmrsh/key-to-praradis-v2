@@ -1,0 +1,233 @@
+[
+  {
+    "id": "goal-pride-religious-01",
+    "category": "nose",
+    "subcategory": "religious_arrogance",
+    "title": "Hidden Deeds",
+    "title_ar": "الأعمال الخفية",
+    "title_fr": "Les actes cachés",
+    "description": "Do good deeds in secret, seeking Allah’s pleasure only.",
+    "description_ar": "قم بالأعمال الصالحة في السر طلباً لرضا الله وحده.",
+    "description_fr": "Faites de bonnes actions en secret, cherchant uniquement la satisfaction d’Allah."
+  },
+  {
+    "id": "goal-pride-religious-02",
+    "category": "nose",
+    "subcategory": "religious_arrogance",
+    "title": "Focus on Personal Flaws",
+    "title_ar": "التركيز على عيوب النفس",
+    "title_fr": "Se concentrer sur ses propres défauts",
+    "description": "Reflect on your shortcomings instead of judging others’ religious practice.",
+    "description_ar": "تأمل في عيوبك بدلاً من الحكم على تدين الآخرين.",
+    "description_fr": "Réfléchissez à vos propres défauts au lieu de juger la pratique religieuse des autres."
+  },
+  {
+    "id": "goal-pride-religious-03",
+    "category": "nose",
+    "subcategory": "religious_arrogance",
+    "title": "Humility in Worship",
+    "title_ar": "التواضع في العبادة",
+    "title_fr": "Humilité dans l'adoration",
+    "description": "Remind yourself that your worship is only by Allah’s guidance and mercy.",
+    "description_ar": "ذكر نفسك أن عبادتك ليست إلا بتوفيق ورحمة من الله.",
+    "description_fr": "Rappelez-vous que votre adoration n’est possible que grâce à la guidance et à la miséricorde d’Allah."
+  },
+  {
+    "id": "goal-pride-social-01",
+    "category": "nose",
+    "subcategory": "social_superiority",
+    "title": "Honour Everyone",
+    "title_ar": "أكرم الجميع",
+    "title_fr": "Honorez tout le monde",
+    "description": "Treat people of every background with equal respect.",
+    "description_ar": "عامل الناس من جميع الخلفيات باحترام متساوٍ.",
+    "description_fr": "Traitez les personnes de tous horizons avec un respect égal."
+  },
+  {
+    "id": "goal-pride-social-02",
+    "category": "nose",
+    "subcategory": "social_superiority",
+    "title": "Break Social Barriers",
+    "title_ar": "اكسر الحواجز الاجتماعية",
+    "title_fr": "Brisez les barrières sociales",
+    "description": "Engage kindly with those society neglects.",
+    "description_ar": "تواصل بلطف مع من يهملهم المجتمع.",
+    "description_fr": "Engagez-vous aimablement avec ceux que la société néglige."
+  },
+  {
+    "id": "goal-pride-social-03",
+    "category": "nose",
+    "subcategory": "social_superiority",
+    "title": "Speak to the Humble",
+    "title_ar": "تحدث مع المتواضعين",
+    "title_fr": "Parlez aux humbles",
+    "description": "Start conversations with those who seem overlooked.",
+    "description_ar": "ابدأ المحادثة مع من يبدو أنهم مهمشون.",
+    "description_fr": "Engagez la conversation avec ceux qui semblent oubliés."
+  },
+  {
+    "id": "goal-pride-appearance-01",
+    "category": "nose",
+    "subcategory": "appearance_pride",
+    "title": "Simplicity Over Vanity",
+    "title_ar": "البساطة بدلاً من التفاخر",
+    "title_fr": "La simplicité plutôt que la vanité",
+    "description": "Choose simple clothing to check your ego.",
+    "description_ar": "اختر ملابس بسيطة لكبح غرورك.",
+    "description_fr": "Choisissez des vêtements simples pour maîtriser votre égo."
+  },
+  {
+    "id": "goal-pride-appearance-02",
+    "category": "nose",
+    "subcategory": "appearance_pride",
+    "title": "Praise Allah for Beauty",
+    "title_ar": "احمد الله على الجمال",
+    "title_fr": "Remerciez Allah pour la beauté",
+    "description": "Thank Allah for your physical blessings instead of boasting.",
+    "description_ar": "احمد الله على نعمك الجسدية بدلاً من التفاخر.",
+    "description_fr": "Remerciez Allah pour vos bienfaits physiques au lieu de vous en vanter."
+  },
+  {
+    "id": "goal-pride-appearance-03",
+    "category": "nose",
+    "subcategory": "appearance_pride",
+    "title": "Value Inner Beauty",
+    "title_ar": "قيم الجمال الداخلي",
+    "title_fr": "Valorisez la beauté intérieure",
+    "description": "Focus on developing character over looks.",
+    "description_ar": "ركز على تنمية شخصيتك بدلاً من المظهر الخارجي.",
+    "description_fr": "Concentrez-vous sur le développement du caractère plutôt que sur l'apparence."
+  },
+  {
+    "id": "goal-pride-advice-01",
+    "category": "nose",
+    "subcategory": "refusing_advice",
+    "title": "Accept Correction",
+    "title_ar": "تقبل التصحيح",
+    "title_fr": "Acceptez la correction",
+    "description": "Welcome sincere advice without defending yourself.",
+    "description_ar": "ارحب بالنصيحة الصادقة دون الدفاع عن نفسك.",
+    "description_fr": "Accueillez les conseils sincères sans vous justifier."
+  },
+  {
+    "id": "goal-pride-advice-02",
+    "category": "nose",
+    "subcategory": "refusing_advice",
+    "title": "Seek Feedback",
+    "title_ar": "اطلب الملاحظات",
+    "title_fr": "Demandez des retours",
+    "description": "Ask trusted people for honest feedback on your behaviour.",
+    "description_ar": "اطلب من أشخاص تثق بهم ملاحظاتهم الصادقة حول سلوكك.",
+    "description_fr": "Demandez à des personnes de confiance un retour honnête sur votre comportement."
+  },
+  {
+    "id": "goal-pride-advice-03",
+    "category": "nose",
+    "subcategory": "refusing_advice",
+    "title": "Reflect Before Reacting",
+    "title_ar": "فكر قبل الرد",
+    "title_fr": "Réfléchissez avant de réagir",
+    "description": "Pause before rejecting criticism.",
+    "description_ar": "توقف قبل رفض النقد.",
+    "description_fr": "Faites une pause avant de rejeter la critique."
+  },
+  {
+    "id": "goal-pride-apologise-01",
+    "category": "nose",
+    "subcategory": "refusing_to_apologise",
+    "title": "Admit Fault",
+    "title_ar": "اعترف بالخطأ",
+    "title_fr": "Admettez vos fautes",
+    "description": "When wrong, say “I’m sorry” without excuses.",
+    "description_ar": "عندما تخطئ، قل \"أنا آسف\" دون أعذار.",
+    "description_fr": "Lorsque vous avez tort, dites « Je suis désolé » sans excuses."
+  },
+  {
+    "id": "goal-pride-apologise-02",
+    "category": "nose",
+    "subcategory": "refusing_to_apologise",
+    "title": "Soften the Heart",
+    "title_ar": "ليّن قلبك",
+    "title_fr": "Adoucissez votre cœur",
+    "description": "Practice humility by acknowledging mistakes.",
+    "description_ar": "مارس التواضع بالاعتراف بأخطائك.",
+    "description_fr": "Pratiquez l'humilité en reconnaissant vos erreurs."
+  },
+  {
+    "id": "goal-pride-apologise-03",
+    "category": "nose",
+    "subcategory": "refusing_to_apologise",
+    "title": "Reconcile Quickly",
+    "title_ar": "سارع بالمصالحة",
+    "title_fr": "Réconciliez-vous rapidement",
+    "description": "Restore relationships rather than hold onto pride.",
+    "description_ar": "أصلح علاقاتك بدلاً من التمسك بالكبرياء.",
+    "description_fr": "Réparez les relations plutôt que de rester prisonnier de votre orgueil."
+  },
+  {
+    "id": "goal-pride-praise-01",
+    "category": "nose",
+    "subcategory": "seeking_praise",
+    "title": "Hide Good Deeds",
+    "title_ar": "أخفِ أعمالك الصالحة",
+    "title_fr": "Cachez vos bonnes actions",
+    "description": "Do acts of worship privately.",
+    "description_ar": "قم بالأعمال الصالحة سراً.",
+    "description_fr": "Faites vos actes pieux en privé."
+  },
+  {
+    "id": "goal-pride-praise-02",
+    "category": "nose",
+    "subcategory": "seeking_praise",
+    "title": "Purify Intentions",
+    "title_ar": "طهر نيتك",
+    "title_fr": "Purifiez vos intentions",
+    "description": "Do good for Allah alone, not praise.",
+    "description_ar": "افعل الخير لوجه الله وحده وليس طلباً للمدح.",
+    "description_fr": "Faites le bien uniquement pour Allah, non pour la louange des gens."
+  },
+  {
+    "id": "goal-pride-praise-03",
+    "category": "nose",
+    "subcategory": "seeking_praise",
+    "title": "Resist Social Media Validation",
+    "title_ar": "قاوم السعي للتقدير على وسائل التواصل",
+    "title_fr": "Résistez à la validation sur les réseaux sociaux",
+    "description": "Post less and reflect more.",
+    "description_ar": "قلل من منشوراتك وتأمل أكثر.",
+    "description_fr": "Publiez moins et réfléchissez davantage."
+  },
+  {
+    "id": "goal-pride-condescension-01",
+    "category": "nose",
+    "subcategory": "condescension",
+    "title": "See Others as Better",
+    "title_ar": "اعتبر الآخرين أفضل منك",
+    "title_fr": "Considérez les autres comme meilleurs que vous",
+    "description": "Assume others are spiritually higher than you.",
+    "description_ar": "افترض أن الآخرين أعلى منك روحياً.",
+    "description_fr": "Considérez les autres comme spirituellement supérieurs à vous."
+  },
+  {
+    "id": "goal-pride-condescension-02",
+    "category": "nose",
+    "subcategory": "condescension",
+    "title": "Avoid Belittling",
+    "title_ar": "تجنب التقليل من الآخرين",
+    "title_fr": "Évitez de rabaisser les autres",
+    "description": "Speak gently and avoid sarcastic tones.",
+    "description_ar": "تكلم بلطف وتجنب النبرة الساخرة.",
+    "description_fr": "Parlez avec douceur et évitez les tons sarcastiques."
+  },
+  {
+    "id": "goal-pride-condescension-03",
+    "category": "nose",
+    "subcategory": "condescension",
+    "title": "Treat All With Dignity",
+    "title_ar": "عامل الجميع بكرامة",
+    "title_fr": "Traitez tout le monde avec dignité",
+    "description": "Show respect regardless of status.",
+    "description_ar": "أظهر الاحترام بغض النظر عن المكانة.",
+    "description_fr": "Montrez du respect quelle que soit la position sociale."
+  }
+]

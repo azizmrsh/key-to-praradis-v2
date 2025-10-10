@@ -1,0 +1,53 @@
+KEYS TO PARADISE - QUICK BUILD COMMANDS
+========================================
+
+App: Keys to Paradise
+Bundle ID: com.rutab.keystoparadise
+Version: 0.1.1
+
+PREREQUISITES (One-time setup):
+- Node.js 18+
+- Xcode 16+ (for iOS)
+- Android Studio (for Android)
+- CocoaPods: sudo gem install cocoapods
+
+STEP 1: Download project from Replit and extract to your Mac
+
+STEP 2: Install dependencies
+  cd ~/Documents/KeysToParadise/mobile
+  npm install
+
+STEP 3: Initialize native projects (see DEPLOYMENT_GUIDE.md for details)
+  npx react-native init KeysToParadise --version 0.76.5 --directory temp_project
+  cp -r temp_project/ios ./
+  cp -r temp_project/android ./
+  rm -rf temp_project
+
+STEP 4: Configure (see DEPLOYMENT_GUIDE.md sections 6-7)
+  - Update Android Bundle ID in build.gradle
+  - Update iOS Bundle ID in Xcode
+  - Set version to 0.1.1
+
+STEP 5: Build Android
+  cd android
+  ./gradlew clean
+  ./gradlew bundleRelease
+  
+  Output: android/app/build/outputs/bundle/release/app-release.aab
+
+STEP 6: Build iOS
+  cd ios
+  pod install
+  open KeysToParadise.xcworkspace
+  
+  In Xcode:
+  - Select "Any iOS Device"
+  - Product → Archive
+  - Distribute App → App Store Connect → Upload
+
+IMPORTANT FILES:
+- DEPLOYMENT_GUIDE.md: Complete step-by-step instructions
+- app.json: App configuration
+- package.json: Version and dependencies
+
+NEED HELP? See DEPLOYMENT_GUIDE.md for detailed instructions.

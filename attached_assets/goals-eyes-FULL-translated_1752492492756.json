@@ -1,0 +1,167 @@
+[
+  {
+    "id": "goal-eyes-lust-01",
+    "category": "eyes",
+    "subcategory": "lustful_gaze",
+    "title": "Lower the Gaze",
+    "title_ar": "غض البصر",
+    "title_fr": "Baisser le regard",
+    "description": "Practice modesty by lowering your gaze from inappropriate sights. Islamic guidance: 'Tell the believing men to lower their gaze.' (Qur’an 24:30).",
+    "description_ar": "مارس الحياء بغض البصر عن المناظر غير اللائقة. التوجيه الإسلامي: «قُل لِّلْمُؤْمِنِينَ يَغُضُّوا مِنْ أَبْصَارِهِمْ» (النور:30).",
+    "description_fr": "Pratiquez la pudeur en baissant le regard devant des scènes inappropriées. Guidance islamique : « Dis aux croyants de baisser leurs regards. » (Coran 24:30)."
+  },
+  {
+    "id": "goal-eyes-lust-02",
+    "category": "eyes",
+    "subcategory": "lustful_gaze",
+    "title": "Mindful Vision",
+    "title_ar": "رؤية يقظة",
+    "title_fr": "Vision attentive",
+    "description": "Commit to watching where your eyes wander. Shift focus immediately from anything that provokes lust.",
+    "description_ar": "التزم بمراقبة أين تتجه عيناك. حوّل بصرك فوراً عن كل ما يثير الشهوة.",
+    "description_fr": "Engagez-vous à surveiller où se posent vos yeux. Détournez immédiatement le regard de tout ce qui provoque le désir."
+  },
+  {
+    "id": "goal-eyes-lust-03",
+    "category": "eyes",
+    "subcategory": "lustful_gaze",
+    "title": "Purify the Inner Gaze",
+    "title_ar": "تطهير النظر الباطني",
+    "title_fr": "Purifier le regard intérieur",
+    "description": "Seek to purify the eyes and heart together. Replace wrongful looks with dhikr or prayer.",
+    "description_ar": "اسع لتطهير العين والقلب معاً. استبدل النظرات المحرمة بالذكر أو الصلاة.",
+    "description_fr": "Cherchez à purifier les yeux et le cœur ensemble. Remplacez les regards interdits par le dhikr ou la prière."
+  },
+  {
+    "id": "goal-eyes-prolonged-01",
+    "category": "eyes",
+    "subcategory": "prolonged_gaze",
+    "title": "Glance, Don’t Stare",
+    "title_ar": "لمحة بلا إطالة",
+    "title_fr": "Un regard bref, sans fixer",
+    "description": "Cultivate quick, respectful glances instead of lingering looks.",
+    "description_ar": "درب نفسك على نظرات سريعة ومحترمة بدلاً من الإطالة.",
+    "description_fr": "Apprenez à jeter des regards brefs et respectueux au lieu de fixer longuement."
+  },
+  {
+    "id": "goal-eyes-prolonged-02",
+    "category": "eyes",
+    "subcategory": "prolonged_gaze",
+    "title": "Awareness in Social Spaces",
+    "title_ar": "وعي في الأماكن العامة",
+    "title_fr": "Vigilance dans les lieux publics",
+    "description": "Be mindful in public areas. Maintain respectful eye contact without excess.",
+    "description_ar": "كن واعيًا في الأماكن العامة. حافظ على تواصل بصري محترم دون مبالغة.",
+    "description_fr": "Soyez attentif dans les lieux publics. Maintenez un contact visuel respectueux sans excès."
+  },
+  {
+    "id": "goal-eyes-prolonged-03",
+    "category": "eyes",
+    "subcategory": "prolonged_gaze",
+    "title": "Control the Curious Eye",
+    "title_ar": "ضبط العين الفضولية",
+    "title_fr": "Contrôler l'œil curieux",
+    "description": "Avoid prolonged observation of anyone’s body, dress, or private space.",
+    "description_ar": "تجنب التحديق الطويل في جسم أو لباس أو خصوصية أي شخص.",
+    "description_fr": "Évitez d'observer longuement le corps, la tenue ou l'espace privé de quiconque."
+  },
+  {
+    "id": "goal-eyes-images-01",
+    "category": "eyes",
+    "subcategory": "prohibited_images",
+    "title": "Visual Cleanse",
+    "title_ar": "تطهير بصري",
+    "title_fr": "Nettoyage visuel",
+    "description": "Stay away from images, videos, or ads that promote indecency or temptation.",
+    "description_ar": "ابتعد عن الصور أو المقاطع أو الإعلانات التي تروج للفحش أو الإثارة.",
+    "description_fr": "Éloignez-vous des images, vidéos ou publicités qui incitent à l'indécence ou à la tentation."
+  },
+  {
+    "id": "goal-eyes-images-02",
+    "category": "eyes",
+    "subcategory": "prohibited_images",
+    "title": "Choose Halal Entertainment",
+    "title_ar": "اختر ترفيهاً حلالاً",
+    "title_fr": "Choisissez un divertissement halal",
+    "description": "Replace harmful media with beneficial or spiritually uplifting content.",
+    "description_ar": "استبدل الوسائط الضارة بمحتوى مفيد أو يرفع روحك.",
+    "description_fr": "Remplacez les médias nuisibles par du contenu bénéfique ou spirituellement édifiant."
+  },
+  {
+    "id": "goal-eyes-images-03",
+    "category": "eyes",
+    "subcategory": "prohibited_images",
+    "title": "Social Media Guard",
+    "title_ar": "حراسة وسائل التواصل",
+    "title_fr": "Surveillance des réseaux sociaux",
+    "description": "Avoid pages, accounts, or channels filled with immodest or provocative visuals.",
+    "description_ar": "تجنب الصفحات أو الحسابات المليئة بصور غير محتشمة أو مثيرة.",
+    "description_fr": "Évitez les pages, comptes ou chaînes remplis d'images provocantes ou indécentes."
+  },
+  {
+    "id": "goal-eyes-judgement-01",
+    "category": "eyes",
+    "subcategory": "judging_by_appearance",
+    "title": "See Souls, Not Faces",
+    "title_ar": "انظر إلى الأرواح لا إلى الوجوه",
+    "title_fr": "Voir les âmes, pas seulement les visages",
+    "description": "Judge people by their character, not looks.",
+    "description_ar": "احكم على الناس بأخلاقهم لا بمظهرهم.",
+    "description_fr": "Jugez les gens sur leur caractère, pas sur leur apparence."
+  },
+  {
+    "id": "goal-eyes-judgement-02",
+    "category": "eyes",
+    "subcategory": "judging_by_appearance",
+    "title": "Avoid Superficial Thoughts",
+    "title_ar": "تجنب الأفكار السطحية",
+    "title_fr": "Éviter les pensées superficielles",
+    "description": "When meeting anyone, remind yourself: 'Allah sees the hearts.'",
+    "description_ar": "عند لقاء أي شخص، ذكر نفسك: «إن الله ينظر إلى القلوب».",
+    "description_fr": "Quand vous rencontrez quelqu'un, rappelez-vous : « Allah regarde les cœurs. »"
+  },
+  {
+    "id": "goal-eyes-judgement-03",
+    "category": "eyes",
+    "subcategory": "judging_by_appearance",
+    "title": "Kindness Before Judgement",
+    "title_ar": "اللطف قبل الحكم",
+    "title_fr": "La bienveillance avant le jugement",
+    "description": "Focus on being kind before forming opinions based on clothing or style.",
+    "description_ar": "ركز على اللطف قبل تكوين رأي مبني على اللباس أو الأسلوب.",
+    "description_fr": "Concentrez-vous sur la bienveillance avant de former une opinion basée sur l'apparence."
+  },
+  {
+    "id": "goal-eyes-envy-01",
+    "category": "eyes",
+    "subcategory": "envy_visual_comparison",
+    "title": "Gratitude over Comparison",
+    "title_ar": "الشكر بدلاً من المقارنة",
+    "title_fr": "La gratitude plutôt que la comparaison",
+    "description": "When you see someone’s blessings, say Alhamdulillah instead of wishing for what they have.",
+    "description_ar": "عندما ترى نعم الآخرين، قل الحمد لله بدلاً من تمني ما لديهم.",
+    "description_fr": "Lorsque vous voyez les bénédictions d'autrui, dites Alhamdulillah au lieu d'envier ce qu'ils possèdent."
+  },
+  {
+    "id": "goal-eyes-envy-02",
+    "category": "eyes",
+    "subcategory": "envy_visual_comparison",
+    "title": "Celebrate Others",
+    "title_ar": "احتفل بإنجازات الآخرين",
+    "title_fr": "Célébrez les autres",
+    "description": "Consciously feel joy for others’ success and beauty.",
+    "description_ar": "اشعر بفرح حقيقي تجاه نجاح وجمال الآخرين.",
+    "description_fr": "Ressentez consciemment de la joie pour le succès et la beauté des autres."
+  },
+  {
+    "id": "goal-eyes-envy-03",
+    "category": "eyes",
+    "subcategory": "envy_visual_comparison",
+    "title": "Lower the Eye of Envy",
+    "title_ar": "خفض عين الحسد",
+    "title_fr": "Baisser l'œil de l'envie",
+    "description": "Train your eyes to look away when you sense envy growing.",
+    "description_ar": "درب عينيك على الابتعاد حين تشعر بالحسد يتسلل إليك.",
+    "description_fr": "Entraînez vos yeux à détourner le regard lorsque vous ressentez de l'envie."
+  }
+]

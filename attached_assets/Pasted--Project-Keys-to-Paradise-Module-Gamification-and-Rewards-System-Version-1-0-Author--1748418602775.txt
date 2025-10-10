@@ -1,0 +1,131 @@
+**Project: Keys to Paradise**
+**Module: Gamification and Rewards System**
+**Version: 1.0**
+**Author: Sulayman Hart**
+
+---
+
+## 1. Purpose and Scope
+
+This module adds motivational structure and spiritual celebration to the user's journey by recognising progress through badges, streaks, and milestone rewards. It reinforces positive habits without undermining the sincerity or dignity of the spiritual path. All elements are designed to support reflection, istiqāmah (consistency), and personal discipline.
+
+---
+
+## 2. Functional Requirements
+
+### 2.1 Badge System
+
+* Awarded for specific spiritual milestones. The list below provides representative examples only and is not exhaustive. Additional badges may be added as new behaviours, modules, or spiritual metrics are developed:
+
+  * Completed 40-day challenge in a sin category
+  * Maintained 7-day streak in prayer tracking
+  * Logged 10 journal entries in a single category
+  * Finished all active goals within 30 days
+* Each badge includes:
+
+  * Title (e.g., "Ghibah Cleanse - 40 Days")
+  * Icon (thematically designed)
+  * Category tag (e.g., Anger, Prayer, Reflection)
+  * Date achieved
+
+### 2.2 Streak Celebrations
+
+* Triggered for:
+
+  * Daily prayer completion (e.g., “5/5 prayers for 7 days”)
+  * Behavioural success (e.g., 14-day clean streak)
+  * Challenge consistency (e.g., completing multiple challenges consecutively)
+  * Goal completion streaks (e.g., completing 3 or more goals consecutively without missing targets)
+* Displayed visually on the dashboard with:
+
+  * Animated ring or flame icon
+  * Optional motivational message ("May Allah continue to strengthen your resolve")
+  * Animated ring or flame icon
+  * Optional motivational message ("May Allah continue to strengthen your resolve")
+
+### 2.3 Mastery Milestones
+
+* Awarded for:
+
+  * Completing multiple challenges in the same sin category (e.g., 3 x Anger)
+  * Completing 5 full 30-day goals
+  * Sustaining any 40-day streak more than once
+* Unlocks a deeper badge tier (e.g., Bronze, Silver, Gold, Sincere)
+
+### 2.4 Visual Elements
+
+* Dashboard display:
+
+  * Compact streak bar for current sin focus
+  * “Your Progress” badge carousel
+  * Optional tap-to-expand for full reward library
+* Profile tab:
+
+  * History of earned rewards
+  * Optional reflections written by user at time of completion
+
+### 2.5 Unlockable Content
+
+* Upon badge completion, unlock access to:
+
+  * Special quote, hadith, or dua (stored in a "Gift Library")
+  * Optional short video or voice clip (future support)
+  * Option to set the badge as a "Motivational Reminder" on dashboard
+
+---
+
+## 3. Non-Functional Requirements
+
+### 3.1 Privacy
+
+* All rewards are visible only to the user.
+* No public profiles, sharing, or rankings.
+
+### 3.2 Offline Support
+
+* Badges and progress logic operate offline.
+* Sync occurs once internet is restored.
+
+### 3.3 Performance
+
+* Reward logic should execute within 200ms of qualifying action.
+* Visual animations must not block input or slow navigation.
+
+---
+
+## 4. UI Requirements
+
+### 4.1 Badge Award Flow
+
+* User completes action
+* Animation: glow + “You’ve earned a badge!” pop-up
+* Shows badge image + title + optional dua or quote
+* \[View My Progress] button takes user to reward section
+
+### 4.2 Streak Visuals
+
+* Dynamic element (e.g., circle fill, soft glow)
+* Changes colour when thresholds are reached
+* Tap for breakdown: number of successful days, associated category
+
+### 4.3 Gift Library
+
+* Scrollable list of unlocked spiritual content
+* Tag filters (by sin, by source, by theme)
+* Each item shows:
+
+  * Source (e.g., Qur’an, Hadith, Scholar)
+  * Short description
+  * \[Reflect] button (optional journal entry)
+
+---
+
+## 5. Sample Reward Triggers
+
+| Reward Title             | Trigger Description                                   | Category   |
+| ------------------------ | ----------------------------------------------------- | ---------- |
+| Ghibah Cleanse - 40 Days | No infractions for backbiting for 40 consecutive days | Backbiting |
+| 5/5 Salat Week           | All five prayers logged daily for 7 days              | Prayer     |
+| Reflective Seeker        | 10 journal entries written in one sin category        | Reflection |
+| Sincere Overcomer        | Completed 3 mastery-tier challenges                   | Mastery    |
+| Gift of Dhikr            | Earned after 30-day spiritual growth streak           | General    |

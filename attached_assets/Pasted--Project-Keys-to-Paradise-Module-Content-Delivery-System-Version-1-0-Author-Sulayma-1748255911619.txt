@@ -1,0 +1,115 @@
+**Project: Keys to Paradise**
+**Module: Content Delivery System**
+**Version: 1.0**
+**Author: Sulayman Hart**
+
+
+## 1. Purpose and Scope
+
+The Content Delivery System is one of the core modules within the Keys to Paradise app. It provides structured, personalized educational content to users based on their self-assessment results. It is designed to guide users in spiritual growth by helping them overcome specific moral failings, particularly the sins of the tongue, through sequenced content grounded in Qur'anic teachings, hadith, and the works of Imam Al-Ghazali. This module will be fully functional offline and maintain complete user privacy.
+
+
+## 2. Functional Requirements
+
+### 2.1 Content Structure
+
+* Organised by sin category (e.g. Backbiting, Gossip, Lying, Anger).
+* Each category includes:
+
+  * Introductory theological overview.
+  * Subtopics grouped thematically (e.g. Causes, Consequences, Remedies).
+  * Daily structured lessons.
+  * Option for user to manually swap one of their two active sin categories with another from the module list.
+  * Short-term content-based challenges may be offered in future, but these will be handled within the separate Challenges Module, not this Content Delivery System.
+
+### 2.2 Content Types
+
+* Textual lessons (structured, sequential).
+* Audio guidance (dhikr, brief talks).
+* Video reflections (optional).
+* Infographics or diagrammatic aids (optional).
+
+### 2.3 Learning Pathways
+
+* The Content Delivery System does not dictate user progression directly. Instead, it serves as a structured repository of content aligned with specific moral failings (sin categories), drawn from Qur'an, hadith, classical scholarship, and trusted digital sources (articles, videos, etc.).
+* Other modules—such as the self-assessment engine, habit tracker, or daily prompt system—serve content dynamically from this repository based on user need.
+* Content is tagged and indexed to support two usage modes:
+
+  * **Self-Assessment Mode**: Automatically selects and displays lessons linked to the user's top two sins identified through the diagnostic.
+  * **Manual Mode**: Allows the user to manually select or swap one of the two active focus areas. The app then draws content from the repository according to that selection.
+* Each sin category is organised to support a step-by-step lesson flow, with milestones available after completing a set number of lessons (e.g., five). However, the logic that determines when and how these lessons are shown is handled by the module that requests them—not by the Content Delivery System itself.
+
+### 2.4 Content Presentation
+
+* After self-assessment or manual sin selection, the relevant sin categories are displayed on the user's dashboard.
+* Each sin is represented in its own content box.
+* Within each box, users have access to:
+
+  1. A stream of educational content (drawn from the repository) including lessons, articles, links to trusted videos, and sourced advice from Qur'an and hadith.
+  2. A button to record an infraction for that sin.
+  3. A button to mark a successful day with no infractions.
+  4. Any supplementary materials or content items related to that sin.
+  5. A button that opens a journaling popup for that sin. After submitting or closing the journal entry, the user is returned to their profile page.
+* Each lesson still includes:
+
+  * Title, duration estimate, and core takeaway.
+  * Completion toggle: "Mark as Read" or "I have Reflected".
+  * Option to review completed content.
+
+### 2.5 Progress Tracking
+
+* Status indicators for each lesson.
+* Dashboard metrics:
+
+  * Total lessons completed.
+  * Success rate by category.
+  * Days engaged.
+* Visual streak and badge indicators.
+* Visual representation of behavioural progress for each sin category (e.g., "28 days out of 40 with no Ghiba"). Displayed as a progress bar or ring within each sin's dashboard box to help users clearly see how far along they are in their current behavioural goal.
+
+### 2.6 Personalisation
+
+* Automatically assigns modules based on self-assessment results.
+* Users may only focus on two sin categories at any one time. They can swap these as needed, but cannot exceed this limit.
+* Users may engage with an unlimited number of short-term content-based challenges, which are managed by the separate Challenges Module.
+* A dedicated context box for active challenges is displayed on the profile page, allowing users to track and access them independently of their two main focus areas.
+* Learning suggestions based on journal triggers or time-based usage (future enhancement).
+
+---
+
+## 3. Non-Functional Requirements
+
+### 3.1 Privacy
+
+* All content and user data stored locally.
+* No third-party analytics or external APIs.
+* Passcode or biometric lock for lesson history.
+
+### 3.2 Accessibility
+
+* Font scaling and contrast settings.
+* Voice-over compatible.
+* Audio alternatives for all text.
+
+### 3.3 Offline Capability
+
+* Lessons, audio content, and progress operate offline.
+* Video content will be embedded (e.g., YouTube) and streamed when online; downloads for video will not be supported.
+
+### 3.4 Maintainability
+
+* Content stored in modular JSON format.
+* Lessons and categories independently updatable.
+* Admin-only content injection system (future feature).
+
+---
+
+## 4. Example User Flow
+
+1. User completes assessment.
+2. Relevant categories activate on dashboard.
+3. User views and completes Lesson 1.
+4. Completion tracked; user receives gentle encouragement.
+5. After 5 lessons, a milestone badge is unlocked.
+
+---

@@ -1,0 +1,233 @@
+[
+  {
+    "id": "goal-stomach-overeating-01",
+    "category": "stomach",
+    "subcategory": "overeating",
+    "title": "Eat in Moderation",
+    "title_ar": "كل باعتدال",
+    "title_fr": "Mangez avec modération",
+    "description": "Stop eating before feeling completely full.",
+    "description_ar": "توقف عن الأكل قبل أن تشعر بالشبع الكامل.",
+    "description_fr": "Arrêtez de manger avant d'être complètement rassasié."
+  },
+  {
+    "id": "goal-stomach-overeating-02",
+    "category": "stomach",
+    "subcategory": "overeating",
+    "title": "Smaller Portions",
+    "title_ar": "حصص أصغر",
+    "title_fr": "Portions plus petites",
+    "description": "Serve yourself smaller portions to avoid excess.",
+    "description_ar": "ضع لنفسك حصصاً أصغر لتجنب الإفراط.",
+    "description_fr": "Servez-vous de plus petites portions pour éviter les excès."
+  },
+  {
+    "id": "goal-stomach-overeating-03",
+    "category": "stomach",
+    "subcategory": "overeating",
+    "title": "Listen to Your Body",
+    "title_ar": "استمع إلى جسدك",
+    "title_fr": "Écoutez votre corps",
+    "description": "Eat only when hungry, not out of habit.",
+    "description_ar": "كل فقط عندما تكون جائعاً، وليس بدافع العادة.",
+    "description_fr": "Mangez seulement quand vous avez faim, pas par habitude."
+  },
+  {
+    "id": "goal-stomach-distracted-01",
+    "category": "stomach",
+    "subcategory": "eating_while_distracted",
+    "title": "Screen-Free Meals",
+    "title_ar": "تناول الطعام بدون شاشات",
+    "title_fr": "Repas sans écran",
+    "description": "Avoid devices during meals to eat mindfully.",
+    "description_ar": "تجنب استخدام الأجهزة أثناء تناول الطعام لتأكل بتركيز.",
+    "description_fr": "Évitez les appareils pendant les repas afin de manger en pleine conscience."
+  },
+  {
+    "id": "goal-stomach-distracted-02",
+    "category": "stomach",
+    "subcategory": "eating_while_distracted",
+    "title": "Gratitude Before Eating",
+    "title_ar": "الشكر قبل الأكل",
+    "title_fr": "La gratitude avant de manger",
+    "description": "Pause and give thanks before your first bite.",
+    "description_ar": "توقف واشكر الله قبل أول لقمة.",
+    "description_fr": "Faites une pause et remerciez avant la première bouchée."
+  },
+  {
+    "id": "goal-stomach-distracted-03",
+    "category": "stomach",
+    "subcategory": "eating_while_distracted",
+    "title": "Focus on Each Bite",
+    "title_ar": "التركيز في كل لقمة",
+    "title_fr": "Concentrez-vous sur chaque bouchée",
+    "description": "Chew slowly and appreciate flavours.",
+    "description_ar": "امضغ ببطء واستمتع بالنكهات.",
+    "description_fr": "Mastiquez lentement et appréciez les saveurs."
+  },
+  {
+    "id": "goal-stomach-halal-01",
+    "category": "stomach",
+    "subcategory": "halal_income_neglect",
+    "title": "Reflect on Your Income",
+    "title_ar": "تأمل في مصدر دخلك",
+    "title_fr": "Réfléchissez à vos revenus",
+    "description": "Think about whether your earnings are halal before buying food.",
+    "description_ar": "تأمل إذا كان دخلك حلالاً قبل شراء الطعام.",
+    "description_fr": "Réfléchissez à la licéité de vos revenus avant d'acheter de la nourriture."
+  },
+  {
+    "id": "goal-stomach-halal-02",
+    "category": "stomach",
+    "subcategory": "halal_income_neglect",
+    "title": "Purify Your Rizq",
+    "title_ar": "طهر رزقك",
+    "title_fr": "Purifiez votre subsistance",
+    "description": "Pray for purification of your income before meals.",
+    "description_ar": "ادعُ الله لتطهير رزقك قبل تناول الطعام.",
+    "description_fr": "Priez pour la purification de vos revenus avant de manger."
+  },
+  {
+    "id": "goal-stomach-halal-03",
+    "category": "stomach",
+    "subcategory": "halal_income_neglect",
+    "title": "Seek Lawful Provision",
+    "title_ar": "اطلب رزقاً حلالاً",
+    "title_fr": "Cherchez une subsistance licite",
+    "description": "Strive to ensure your income sources are permissible.",
+    "description_ar": "اسعَ لضمان أن تكون مصادر دخلك حلالاً.",
+    "description_fr": "Efforcez-vous de vous assurer que vos sources de revenus sont licites."
+  },
+  {
+    "id": "goal-stomach-doubtful-01",
+    "category": "stomach",
+    "subcategory": "doubtful_ingredients",
+    "title": "Check the Label",
+    "title_ar": "افحص المكونات",
+    "title_fr": "Vérifiez les ingrédients",
+    "description": "Read ingredients carefully before buying.",
+    "description_ar": "اقرأ المكونات بعناية قبل الشراء.",
+    "description_fr": "Lisez attentivement les ingrédients avant d'acheter."
+  },
+  {
+    "id": "goal-stomach-doubtful-02",
+    "category": "stomach",
+    "subcategory": "doubtful_ingredients",
+    "title": "Simplify Your Diet",
+    "title_ar": "بسّط غذاءك",
+    "title_fr": "Simplifiez votre alimentation",
+    "description": "Eat simple foods to avoid doubtful ingredients.",
+    "description_ar": "تناول أطعمة بسيطة لتتجنب المكونات المشكوك فيها.",
+    "description_fr": "Mangez des aliments simples pour éviter les ingrédients douteux."
+  },
+  {
+    "id": "goal-stomach-doubtful-03",
+    "category": "stomach",
+    "subcategory": "doubtful_ingredients",
+    "title": "Seek Knowledge",
+    "title_ar": "اطلب العلم",
+    "title_fr": "Cherchez la connaissance",
+    "description": "Learn about common doubtful additives.",
+    "description_ar": "تعلّم عن المضافات المشكوك فيها الشائعة.",
+    "description_fr": "Renseignez-vous sur les additifs douteux courants."
+  },
+  {
+    "id": "goal-stomach-waste-01",
+    "category": "stomach",
+    "subcategory": "food_waste",
+    "title": "Take Only What You’ll Eat",
+    "title_ar": "خذ ما تحتاجه فقط",
+    "title_fr": "Prenez seulement ce que vous mangerez",
+    "description": "Avoid loading plates with more than needed.",
+    "description_ar": "تجنب ملء طبقك بما يفوق حاجتك.",
+    "description_fr": "Évitez de remplir votre assiette au-delà de vos besoins."
+  },
+  {
+    "id": "goal-stomach-waste-02",
+    "category": "stomach",
+    "subcategory": "food_waste",
+    "title": "Reuse Leftovers",
+    "title_ar": "استخدم البقايا مجدداً",
+    "title_fr": "Réutilisez les restes",
+    "description": "Find creative ways to use leftovers instead of discarding them.",
+    "description_ar": "ابتكر طرقاً لاستخدام البقايا بدلاً من رميها.",
+    "description_fr": "Trouvez des moyens créatifs d'utiliser les restes plutôt que de les jeter."
+  },
+  {
+    "id": "goal-stomach-waste-03",
+    "category": "stomach",
+    "subcategory": "food_waste",
+    "title": "Respect Allah’s Blessings",
+    "title_ar": "احترم نعم الله",
+    "title_fr": "Respectez les bienfaits d'Allah",
+    "description": "Treat food as a divine blessing not to be wasted.",
+    "description_ar": "اعتبر الطعام نعمة إلهية لا يجب إهدارها.",
+    "description_fr": "Considérez la nourriture comme une bénédiction divine à ne pas gaspiller."
+  },
+  {
+    "id": "goal-stomach-emotional-01",
+    "category": "stomach",
+    "subcategory": "emotional_eating",
+    "title": "Identify Emotional Eating",
+    "title_ar": "تمييز الأكل العاطفي",
+    "title_fr": "Identifier la nourriture émotionnelle",
+    "description": "Recognise triggers that cause you to eat emotionally.",
+    "description_ar": "تعرف على المحفزات التي تدفعك للأكل العاطفي.",
+    "description_fr": "Identifiez les déclencheurs qui vous poussent à manger par émotion."
+  },
+  {
+    "id": "goal-stomach-emotional-02",
+    "category": "stomach",
+    "subcategory": "emotional_eating",
+    "title": "Find Alternatives",
+    "title_ar": "ابحث عن بدائل",
+    "title_fr": "Trouvez des alternatives",
+    "description": "Replace eating with prayer, dhikr, or a walk when stressed.",
+    "description_ar": "استبدل الأكل بالصلاة أو الذكر أو المشي عند التوتر.",
+    "description_fr": "Remplacez la nourriture par la prière, le dhikr ou une marche en cas de stress."
+  },
+  {
+    "id": "goal-stomach-emotional-03",
+    "category": "stomach",
+    "subcategory": "emotional_eating",
+    "title": "Journal Your Feelings",
+    "title_ar": "دوّن مشاعرك",
+    "title_fr": "Tenez un journal de vos émotions",
+    "description": "Record your emotions instead of numbing them with food.",
+    "description_ar": "دوّن مشاعرك بدلاً من إخفائها بالطعام.",
+    "description_fr": "Notez vos émotions au lieu de les anesthésier avec la nourriture."
+  },
+  {
+    "id": "goal-stomach-intention-01",
+    "category": "stomach",
+    "subcategory": "neglecting_intention",
+    "title": "Start With Bismillah",
+    "title_ar": "ابدأ ببسم الله",
+    "title_fr": "Commencez par Bismillah",
+    "description": "Always say Bismillah before eating.",
+    "description_ar": "قل دائماً بسم الله قبل الأكل.",
+    "description_fr": "Dites toujours Bismillah avant de manger."
+  },
+  {
+    "id": "goal-stomach-intention-02",
+    "category": "stomach",
+    "subcategory": "neglecting_intention",
+    "title": "Remember the Purpose",
+    "title_ar": "تذكر الهدف من الأكل",
+    "title_fr": "Rappelez-vous l'objectif",
+    "description": "Eat to gain strength for worship and good deeds.",
+    "description_ar": "كل لتقوى على العبادة وفعل الخير.",
+    "description_fr": "Mangez pour gagner des forces afin d’adorer et de faire le bien."
+  },
+  {
+    "id": "goal-stomach-intention-03",
+    "category": "stomach",
+    "subcategory": "neglecting_intention",
+    "title": "Close With Alhamdulillah",
+    "title_ar": "اختم بالحمد لله",
+    "title_fr": "Terminez par Alhamdulillah",
+    "description": "Thank Allah after finishing your meal.",
+    "description_ar": "احمد الله بعد الانتهاء من طعامك.",
+    "description_fr": "Remerciez Allah après avoir terminé votre repas."
+  }
+]

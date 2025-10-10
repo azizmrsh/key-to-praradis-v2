@@ -1,0 +1,1094 @@
+[
+  {
+    "goal_id": "heart-remember-allahs-favour",
+    "category": "heart",
+    "translations": {
+      "en": {
+        "title": "Remember Allah's Favour",
+        "description": "Remind yourself that all virtues and blessings are from Allah.",
+        "islamic_guidance": "Allah says: 'Allah does not love anyone who is proud and boastful.' (57:23) And: 'Whatever good befalls you is from Allah, and whatever evil befalls you is from yourself.' (4:79)",
+        "benefits": [
+          "Develops humility and gratitude to Allah",
+          "Protects from pride and arrogance",
+          "Increases awareness of Allah's constant blessings"
+        ],
+        "daily_actions": [
+          "Begin each day acknowledging Allah's favor upon you",
+          "Attribute your successes to Allah's guidance",
+          "Thank Allah for every blessing you recognize"
+        ]
+      },
+      "ar": {
+        "title": "تذكر فضل الله عليك",
+        "description": "ذكر نفسك أن جميع النعم من عند الله.",
+        "islamic_guidance": "يقول الله: 'إِنَّ اللَّهَ لَا يُحِبُّ كُلَّ مُخْتَالٍ فَخُورٍ' (57:23) و: 'مَّا أَصَابَكَ مِنْ حَسَنَةٍ فَمِنَ اللَّهِ وَمَا أَصَابَكَ مِن سَيِّئَةٍ فَمِن نَّفْسِكَ' (4:79)",
+        "benefits": [
+          "ينمي التواضع والامتنان لله",
+          "يحمي من الكبر والغرور",
+          "يزيد الوعي بنعم الله المستمرة"
+        ],
+        "daily_actions": [
+          "ابدأ كل يوم بالإقرار بفضل الله عليك",
+          "انسب نجاحاتك لهداية الله",
+          "احمد الله على كل نعمة تدركها"
+        ]
+      },
+      "fr": {
+        "title": "Souvenez-vous des faveurs d'Allah",
+        "description": "Rappelez-vous que toutes les vertus viennent d'Allah.",
+        "islamic_guidance": "Allah dit: 'Allah n'aime pas quiconque est plein d'orgueil et de vantardise.' (57:23) Et: 'Tout bien qui t'atteint vient d'Allah, et tout mal qui t'atteint vient de toi-même.' (4:79)",
+        "benefits": [
+          "Développe l'humilité et la gratitude envers Allah",
+          "Protège de l'orgueil et de l'arrogance",
+          "Augmente la conscience des bienfaits constants d'Allah"
+        ],
+        "daily_actions": [
+          "Commencez chaque jour en reconnaissant la faveur d'Allah",
+          "Attribuez vos succès à la guidance d'Allah",
+          "Remerciez Allah pour chaque bienfait que vous reconnaissez"
+        ]
+      }
+    },
+    "duration_options": [7, 14, 21, 40]
+  },
+  {
+    "goal_id": "heart-speak-humbly",
+    "category": "heart",
+    "translations": {
+      "en": {
+        "title": "Speak Humbly",
+        "description": "Avoid boasting and speak with humility.",
+        "islamic_guidance": "The Prophet (ﷺ) said: 'Whoever humbles himself for Allah's sake, Allah will elevate him.' (Muslim) True strength lies in humility, not in boasting.",
+        "benefits": [
+          "Attracts Allah's love and people's respect",
+          "Protects from the sin of pride",
+          "Creates genuine connections with others"
+        ],
+        "daily_actions": [
+          "Avoid mentioning your achievements unnecessarily",
+          "Speak about others' good qualities instead of your own",
+          "Use phrases like 'Alhamdulillah' when discussing successes"
+        ]
+      },
+      "ar": {
+        "title": "تكلم بتواضع",
+        "description": "تجنب التفاخر وتكلم بتواضع.",
+        "islamic_guidance": "قال النبي ﷺ: 'من تواضع لله رفعه الله' (مسلم) القوة الحقيقية في التواضع وليس في التفاخر.",
+        "benefits": [
+          "يجلب محبة الله واحترام الناس",
+          "يحمي من إثم الكبر",
+          "يخلق علاقات حقيقية مع الآخرين"
+        ],
+        "daily_actions": [
+          "تجنب ذكر إنجازاتك دون ضرورة",
+          "تحدث عن صفات الآخرين الجيدة بدلاً من صفاتك",
+          "استخدم عبارات مثل 'الحمد لله' عند الحديث عن النجاحات"
+        ]
+      },
+      "fr": {
+        "title": "Parlez humblement",
+        "description": "Évitez de vous vanter et parlez avec humilité.",
+        "islamic_guidance": "Le Prophète (ﷺ) a dit: 'Quiconque s'humilie pour Allah, Allah l'élèvera.' (Muslim) La vraie force réside dans l'humilité, non dans la vantardise.",
+        "benefits": [
+          "Attire l'amour d'Allah et le respect des gens",
+          "Protège du péché d'orgueil",
+          "Crée des connexions authentiques avec autrui"
+        ],
+        "daily_actions": [
+          "Évitez de mentionner vos réussites inutilement",
+          "Parlez des bonnes qualités des autres plutôt que des vôtres",
+          "Utilisez des phrases comme 'Alhamdulillah' en parlant de succès"
+        ]
+      }
+    },
+    "duration_options": [7, 14, 21, 40]
+  },
+  {
+    "goal_id": "heart-see-others-better",
+    "category": "heart",
+    "translations": {
+      "en": {
+        "title": "See Others as Better",
+        "description": "Assume others may be closer to Allah than you.",
+        "islamic_guidance": "The Prophet (ﷺ) said: 'No one who has an atom's weight of arrogance in his heart will enter Paradise.' (Muslim) Assuming the best in others purifies the heart from pride.",
+        "benefits": [
+          "Protects from the destructive sin of pride",
+          "Increases humility and God-consciousness",
+          "Improves relationships and social interactions"
+        ],
+        "daily_actions": [
+          "When you see someone's faults, remember your own shortcomings",
+          "Assume others have hidden good deeds you don't know about",
+          "Make du'a for others instead of judging them"
+        ]
+      },
+      "ar": {
+        "title": "اعتبر الآخرين أفضل منك",
+        "description": "افترض أن الآخرين قد يكونون أقرب إلى الله منك.",
+        "islamic_guidance": "قال النبي ﷺ: 'لَا يَدْخُلُ الْجَنَّةَ مَنْ كَانَ فِي قَلْبِهِ مِثْقَالُ ذَرَّةٍ مِنْ كِبْرٍ' (مسلم) حسن الظن بالآخرين يطهر القلب من الكبر.",
+        "benefits": [
+          "يحمي من إثم الكبر المدمر",
+          "يزيد التواضع والتقوى",
+          "يحسن العلاقات والتفاعلات الاجتماعية"
+        ],
+        "daily_actions": [
+          "عندما ترى عيوب الآخرين، تذكر عيوبك أنت",
+          "افترض أن للآخرين أعمالاً صالحة خفية لا تعرفها",
+          "ادع للآخرين بدلاً من الحكم عليهم"
+        ]
+      },
+      "fr": {
+        "title": "Considérez les autres comme meilleurs que vous",
+        "description": "Considérez que les autres peuvent être plus proches d'Allah que vous.",
+        "islamic_guidance": "Le Prophète (ﷺ) a dit: 'N'entrera pas au Paradis celui qui a dans son cœur le poids d'un atome d'orgueil.' (Muslim) Penser du bien des autres purifie le cœur de l'orgueil.",
+        "benefits": [
+          "Protège du péché destructeur d'orgueil",
+          "Augmente l'humilité et la piété",
+          "Améliore les relations et interactions sociales"
+        ],
+        "daily_actions": [
+          "Quand vous voyez les défauts d'autrui, souvenez-vous de vos propres faiblesses",
+          "Supposez que les autres ont des bonnes actions cachées que vous ignorez",
+          "Faites du'a pour les autres au lieu de les juger"
+        ]
+      }
+    },
+    "duration_options": [7, 14, 21, 40]
+  },
+  {
+    "goal_id": "heart-pray-for-others",
+    "category": "heart",
+    "translations": {
+      "en": {
+        "title": "Pray for Others",
+        "description": "Make dua even for people you dislike.",
+        "islamic_guidance": "The Prophet (ﷺ) said: 'None of you truly believes until he loves for his brother what he loves for himself.' (Bukhari, Muslim) Praying for others, even those who wrong us, purifies the heart from hatred.",
+        "benefits": [
+          "Purifies heart from hatred and resentment",
+          "Increases love and empathy for fellow Muslims",
+          "Brings Allah's blessings upon you"
+        ],
+        "daily_actions": [
+          "Make du'a for people who have wronged you",
+          "Pray for guidance for those you disagree with",
+          "Ask Allah to forgive and bless your enemies"
+        ]
+      },
+      "ar": {
+        "title": "ادعُ للآخرين",
+        "description": "ادعُ حتى لمن لا تحبهم.",
+        "islamic_guidance": "قال النبي ﷺ: 'لَا يُؤْمِنُ أَحَدُكُمْ حَتَّى يُحِبَّ لأَخِيهِ مَا يُحِبُّ لِنَفْسِهِ' (البخاري، مسلم) الدعاء للآخرين، حتى من ظلمونا، يطهر القلب من الحقد.",
+        "benefits": [
+          "يطهر القلب من الحقد والضغينة",
+          "يزيد المحبة والتعاطف مع المسلمين",
+          "يجلب بركات الله عليك"
+        ],
+        "daily_actions": [
+          "ادع لمن ظلموك",
+          "ادع بالهداية لمن تختلف معهم",
+          "اطلب من الله أن يغفر ويبارك أعداءك"
+        ]
+      },
+      "fr": {
+        "title": "Priez pour les autres",
+        "description": "Faites des dou'as même pour ceux que vous n'aimez pas.",
+        "islamic_guidance": "Le Prophète (ﷺ) a dit: 'Aucun de vous ne croit vraiment tant qu'il n'aime pas pour son frère ce qu'il aime pour lui-même.' (Boukhari, Muslim) Prier pour autrui, même ceux qui nous font du mal, purifie le cœur de la haine.",
+        "benefits": [
+          "Purifie le cœur de la haine et du ressentiment",
+          "Augmente l'amour et l'empathie pour les musulmans",
+          "Attire les bénédictions d'Allah sur vous"
+        ],
+        "daily_actions": [
+          "Faites du'a pour ceux qui vous ont fait du mal",
+          "Priez pour la guidance de ceux avec qui vous êtes en désaccord",
+          "Demandez à Allah de pardonner et bénir vos ennemis"
+        ]
+      }
+    },
+    "duration_options": [7, 14, 21, 40]
+  },
+  {
+    "goal_id": "heart-assume-good-intentions",
+    "category": "heart",
+    "translations": {
+      "en": {
+        "title": "Assume Good Intentions",
+        "description": "Give people the benefit of the doubt.",
+        "islamic_guidance": "Allah says: 'O you who believe! Avoid much suspicion, indeed some suspicions are sins.' (49:12) Assuming good intentions protects from the sin of negative assumptions.",
+        "benefits": [
+          "Protects from the sin of false suspicion",
+          "Improves relationships and reduces conflicts",
+          "Develops a positive and trusting heart"
+        ],
+        "daily_actions": [
+          "When someone acts unexpectedly, think of good reasons first",
+          "Avoid jumping to negative conclusions about others",
+          "Ask for clarification instead of assuming the worst"
+        ]
+      },
+      "ar": {
+        "title": "احسن الظن",
+        "description": "أحسن الظن بالناس.",
+        "islamic_guidance": "يقول الله: 'يَا أَيُّهَا الَّذِينَ آمَنُوا اجْتَنِبُوا كَثِيرًا مِّنَ الظَّنِّ إِنَّ بَعْضَ الظَّنِّ إِثْمٌ' (49:12) حسن الظن يحمي من إثم سوء الظن.",
+        "benefits": [
+          "يحمي من إثم سوء الظن",
+          "يحسن العلاقات ويقلل النزاعات",
+          "ينمي قلباً إيجابياً وواثقاً"
+        ],
+        "daily_actions": [
+          "عندما يتصرف أحد بطريقة غير متوقعة، فكر في أسباب جيدة أولاً",
+          "تجنب القفز للاستنتاجات السلبية عن الآخرين",
+          "اطلب التوضيح بدلاً من افتراض الأسوأ"
+        ]
+      },
+      "fr": {
+        "title": "Ayez de bonnes intentions envers autrui",
+        "description": "Accordez le bénéfice du doute aux autres.",
+        "islamic_guidance": "Allah dit: 'Ô vous qui croyez! Évitez de trop conjecturer [sur autrui] car une partie des conjectures est péché.' (49:12) Avoir de bonnes suppositions protège du péché des mauvaises présomptions.",
+        "benefits": [
+          "Protège du péché de fausse suspicion",
+          "Améliore les relations et réduit les conflits",
+          "Développe un cœur positif et confiant"
+        ],
+        "daily_actions": [
+          "Quand quelqu'un agit de façon inattendue, pensez d'abord aux bonnes raisons",
+          "Évitez de sauter aux conclusions négatives sur autrui",
+          "Demandez des clarifications au lieu de supposer le pire"
+        ]
+      }
+    },
+    "duration_options": [7, 14, 21, 40]
+  },
+  {
+    "goal_id": "heart-practise-active-kindness",
+    "category": "heart",
+    "translations": {
+      "en": {
+        "title": "Practise Active Kindness",
+        "description": "Show compassion through small acts of help.",
+        "islamic_guidance": "The Prophet (ﷺ) said: 'Allah is kind and loves kindness in all matters.' (Bukhari, Muslim) Active kindness softens hard hearts and increases empathy.",
+        "benefits": [
+          "Develops empathy and compassion",
+          "Softens the heart toward others",
+          "Brings Allah's love and mercy upon you"
+        ],
+        "daily_actions": [
+          "Help someone with a small task each day",
+          "Offer assistance to neighbors or colleagues",
+          "Volunteer for community service regularly"
+        ]
+      },
+      "ar": {
+        "title": "مارس اللطف الفعّال",
+        "description": "أظهر التعاطف من خلال أعمال مساعدة بسيطة.",
+        "islamic_guidance": "قال النبي ﷺ: 'إن الله رفيق يحب الرفق في الأمر كله' (البخاري، مسلم) اللطف الفعّال يرقق القلوب ويزيد التعاطف.",
+        "benefits": [
+          "ينمي التعاطف والرحمة",
+          "يرقق القلب تجاه الآخرين",
+          "يجلب محبة الله ورحمته عليك"
+        ],
+        "daily_actions": [
+          "ساعد شخصاً في مهمة صغيرة كل يوم",
+          "اعرض المساعدة على الجيران أو الزملاء",
+          "تطوع في خدمة المجتمع بانتظام"
+        ]
+      },
+      "fr": {
+        "title": "Pratiquez la bienveillance active",
+        "description": "Montrez de la compassion par de petits actes d'aide.",
+        "islamic_guidance": "Le Prophète (ﷺ) a dit: 'Allah est Bienveillant et aime la bienveillance en toute chose.' (Boukhari, Muslim) La bonté active attendrit les cœurs durs et augmente l'empathie.",
+        "benefits": [
+          "Développe l'empathie et la compassion",
+          "Attendrit le cœur envers autrui",
+          "Attire l'amour et la miséricorde d'Allah sur vous"
+        ],
+        "daily_actions": [
+          "Aidez quelqu'un dans une petite tâche chaque jour",
+          "Offrez votre assistance aux voisins ou collègues",
+          "Faites du bénévolat communautaire régulièrement"
+        ]
+      }
+    },
+    "duration_options": [7, 14, 21, 40]
+  },
+  {
+    "goal_id": "heart-say-mashallah",
+    "category": "heart",
+    "translations": {
+      "en": {
+        "title": "Say Masha'Allah",
+        "description": "When seeing blessings in others' lives, say 'Masha'Allah.'",
+        "islamic_guidance": "The Prophet (ﷺ) taught us to say 'Masha'Allah' when we see something we admire to protect from evil eye and envy. This practice purifies the heart from jealousy.",
+        "benefits": [
+          "Protects from evil eye and envy",
+          "Purifies heart from jealousy",
+          "Increases gratitude and contentment"
+        ],
+        "daily_actions": [
+          "Say 'Masha'Allah' when you see others' successes",
+          "Genuinely congratulate others on their achievements",
+          "Thank Allah for others' blessings instead of feeling envious"
+        ]
+      },
+      "ar": {
+        "title": "قل ما شاء الله",
+        "description": "عندما ترى نعم الآخرين قل: ما شاء الله.",
+        "islamic_guidance": "علمنا النبي ﷺ أن نقول 'ما شاء الله' عند رؤية ما يعجبنا للحماية من العين الحاسدة والحسد. هذه الممارسة تطهر القلب من الغيرة.",
+        "benefits": [
+          "يحمي من العين الحاسدة والحسد",
+          "يطهر القلب من الغيرة",
+          "يزيد الامتنان والرضا"
+        ],
+        "daily_actions": [
+          "قل 'ما شاء الله' عند رؤية نجاحات الآخرين",
+          "هنئ الآخرين بصدق على إنجازاتهم",
+          "احمد الله على نعم الآخرين بدلاً من الشعور بالحسد"
+        ]
+      },
+      "fr": {
+        "title": "Dites Masha'Allah",
+        "description": "Lorsque vous voyez les bienfaits chez autrui, dites « Masha'Allah ».",
+        "islamic_guidance": "Le Prophète (ﷺ) nous a enseigné à dire 'Masha'Allah' quand nous voyons quelque chose qui nous plaît pour protéger du mauvais œil et de l'envie. Cette pratique purifie le cœur de la jalousie.",
+        "benefits": [
+          "Protège du mauvais œil et de l'envie",
+          "Purifie le cœur de la jalousie",
+          "Augmente la gratitude et le contentement"
+        ],
+        "daily_actions": [
+          "Dites 'Masha'Allah' en voyant les succès d'autrui",
+          "Félicitez sincèrement les autres pour leurs réussites",
+          "Remerciez Allah pour les bienfaits d'autrui au lieu d'être envieux"
+        ]
+      }
+    },
+    "duration_options": [7, 14, 21, 40]
+  },
+  {
+    "goal_id": "heart-focus-own-path",
+    "category": "heart",
+    "translations": {
+      "en": {
+        "title": "Focus on Your Own Path",
+        "description": "Avoid comparing your life to others'.",
+        "islamic_guidance": "The Prophet (ﷺ) said: 'Look at those who are beneath you and do not look at those who are above you, for it is more suitable that you should not despise the favors of Allah.' (Muslim)",
+        "benefits": [
+          "Increases contentment and gratitude",
+          "Reduces envy and jealousy",
+          "Improves focus on personal spiritual growth"
+        ],
+        "daily_actions": [
+          "Focus on your own progress instead of comparing with others",
+          "Practice gratitude for your unique circumstances",
+          "Set personal goals based on your situation, not others'"
+        ]
+      },
+      "ar": {
+        "title": "ركز على طريقك",
+        "description": "لا تقارن حياتك بحياة الآخرين.",
+        "islamic_guidance": "قال النبي ﷺ: 'انظروا إلى من أسفل منكم ولا تنظروا إلى من هو فوقكم فهو أجدر أن لا تزدروا نعمة الله' (مسلم)",
+        "benefits": [
+          "يزيد الرضا والامتنان",
+          "يقلل الحسد والغيرة",
+          "يحسن التركيز على النمو الروحي الشخصي"
+        ],
+        "daily_actions": [
+          "ركز على تقدمك الشخصي بدلاً من المقارنة مع الآخرين",
+          "مارس الامتنان لظروفك الفريدة",
+          "ضع أهدافاً شخصية بناءً على وضعك وليس على الآخرين"
+        ]
+      },
+      "fr": {
+        "title": "Concentrez-vous sur votre propre chemin",
+        "description": "Évitez de comparer votre vie à celle des autres.",
+        "islamic_guidance": "Le Prophète (ﷺ) a dit: 'Regardez ceux qui sont en dessous de vous et ne regardez pas ceux qui sont au-dessus de vous, car c'est plus approprié pour que vous ne méprisiez pas les faveurs d'Allah.' (Muslim)",
+        "benefits": [
+          "Augmente le contentement et la gratitude",
+          "Réduit l'envie et la jalousie",
+          "Améliore l'attention sur la croissance spirituelle personnelle"
+        ],
+        "daily_actions": [
+          "Concentrez-vous sur votre progrès personnel au lieu de comparer avec autrui",
+          "Pratiquez la gratitude pour vos circonstances uniques",
+          "Fixez des objectifs personnels basés sur votre situation, pas celle d'autrui"
+        ]
+      }
+    },
+    "duration_options": [7, 14, 21, 40]
+  },
+  {
+    "goal_id": "heart-thank-allah-daily",
+    "category": "heart",
+    "translations": {
+      "en": {
+        "title": "Thank Allah Daily",
+        "description": "Write three things you're grateful for each day.",
+        "islamic_guidance": "Allah says: 'If you are grateful, I will certainly give you more.' (14:7) Daily gratitude transforms the heart from focusing on what's missing to appreciating what's present.",
+        "benefits": [
+          "Increases contentment and happiness",
+          "Attracts more blessings from Allah",
+          "Protects from envy and negative emotions"
+        ],
+        "daily_actions": [
+          "Write three blessings you're grateful for each day",
+          "Say 'Alhamdulillah' frequently throughout the day",
+          "Reflect on Allah's countless favors upon you"
+        ]
+      },
+      "ar": {
+        "title": "احمد الله يومياً",
+        "description": "اكتب ثلاثة أشياء تشكر الله عليها كل يوم.",
+        "islamic_guidance": "يقول الله: 'لَئِن شَكَرْتُمْ لَأَزِيدَنَّكُمْ' (14:7) الامتنان اليومي يحول القلب من التركيز على ما ينقص إلى تقدير ما هو موجود.",
+        "benefits": [
+          "يزيد الرضا والسعادة",
+          "يجلب المزيد من البركات من الله",
+          "يحمي من الحسد والمشاعر السلبية"
+        ],
+        "daily_actions": [
+          "اكتب ثلاث نعم تشكر الله عليها كل يوم",
+          "قل 'الحمد لله' بكثرة طوال اليوم",
+          "تأمل في نعم الله التي لا تحصى عليك"
+        ]
+      },
+      "fr": {
+        "title": "Remerciez Allah chaque jour",
+        "description": "Notez trois choses pour lesquelles vous êtes reconnaissant chaque jour.",
+        "islamic_guidance": "Allah dit: 'Si vous êtes reconnaissants, très certainement J'augmenterai [Mes bienfaits] pour vous.' (14:7) La gratitude quotidienne transforme le cœur, passant de ce qui manque à l'appréciation de ce qui est présent.",
+        "benefits": [
+          "Augmente le contentement et le bonheur",
+          "Attire plus de bénédictions d'Allah",
+          "Protège de l'envie et des émotions négatives"
+        ],
+        "daily_actions": [
+          "Notez trois bienfaits pour lesquels vous êtes reconnaissant chaque jour",
+          "Dites 'Alhamdulillah' fréquemment durant la journée",
+          "Réfléchissez aux innombrables faveurs d'Allah sur vous"
+        ]
+      }
+    },
+    "duration_options": [7, 14, 21, 40]
+  },
+  {
+    "goal_id": "heart-hide-good-deeds",
+    "category": "heart",
+    "translations": {
+      "en": {
+        "title": "Hide Good Deeds",
+        "description": "Keep acts of worship private whenever possible.",
+        "islamic_guidance": "The Prophet (ﷺ) said: 'The thing I fear most for my nation is minor shirk: showing off.' (Ahmad) Allah says: 'And whoever desires the life of this world and its adornments... [they] will have no share in the Hereafter.' (11:15)",
+        "benefits": [
+          "Protects from the sin of showing off (riya)",
+          "Increases sincerity in worship",
+          "Earns greater reward from Allah"
+        ],
+        "daily_actions": [
+          "Perform extra prayers privately",
+          "Give charity without others knowing",
+          "Avoid mentioning your acts of worship to others"
+        ]
+      },
+      "ar": {
+        "title": "أخفِ أعمالك الصالحة",
+        "description": "اجعل عبادتك سرية ما استطعت.",
+        "islamic_guidance": "قال النبي ﷺ: 'أخوف ما أخاف على أمتي الشرك الأصغر، الرياء' (أحمد) ويقول الله: 'مَن كَانَ يُرِيدُ الْحَيَاةَ الدُّنْيَا وَزِينَتَهَا... فَلَيْسَ لَهُمْ فِي الْآخِرَةِ إِلَّا النَّارُ' (11:15)",
+        "benefits": [
+          "يحمي من إثم الرياء",
+          "يزيد الإخلاص في العبادة",
+          "يحصل على أجر أعظم من الله"
+        ],
+        "daily_actions": [
+          "أدِّ صلوات إضافية في السر",
+          "تصدق دون أن يعلم الآخرون",
+          "تجنب ذكر أعمالك الصالحة للآخرين"
+        ]
+      },
+      "fr": {
+        "title": "Cachez vos bonnes actions",
+        "description": "Faites vos adorations discrètement.",
+        "islamic_guidance": "Le Prophète (ﷺ) a dit: 'Ce que je crains le plus pour ma communauté, c'est le polythéisme mineur : l'ostentation.' (Ahmad) Allah dit: 'Quiconque veut la vie présente et sa parure... [ils] n'auront aucune part dans l'au-delà.' (11:15)",
+        "benefits": [
+          "Protège du péché d'ostentation (riya)",
+          "Augmente la sincérité dans l'adoration",
+          "Mérite une plus grande récompense d'Allah"
+        ],
+        "daily_actions": [
+          "Accomplissez des prières supplémentaires en privé",
+          "Donnez la charité sans que les autres le sachent",
+          "Évitez de mentionner vos actes d'adoration aux autres"
+        ]
+      }
+    },
+    "duration_options": [7, 14, 21, 40]
+  },
+  {
+    "goal_id": "heart-purify-intentions",
+    "category": "heart",
+    "translations": {
+      "en": {
+        "title": "Purify Intentions",
+        "description": "Regularly check your heart before doing good deeds.",
+        "islamic_guidance": "The Prophet (ﷺ) said: 'Actions are but by intention, and every man shall have only that which he intended.' (Bukhari, Muslim) Pure intention is the foundation of all righteous deeds.",
+        "benefits": [
+          "Ensures actions are for Allah's sake alone",
+          "Increases spiritual reward of deeds",
+          "Protects from spiritual diseases like showing off"
+        ],
+        "daily_actions": [
+          "Ask yourself 'Why am I doing this?' before good deeds",
+          "Renew your intention to please Allah alone",
+          "Seek refuge from showing off before acts of worship"
+        ]
+      },
+      "ar": {
+        "title": "طهر نيتك",
+        "description": "افحص نيتك دائماً قبل الأعمال الصالحة.",
+        "islamic_guidance": "قال النبي ﷺ: 'إنما الأعمال بالنيات وإنما لكل امرئ ما نوى' (البخاري، مسلم) النية الخالصة هي أساس جميع الأعمال الصالحة.",
+        "benefits": [
+          "يضمن أن الأعمال لله وحده",
+          "يزيد الثواب الروحي للأعمال",
+          "يحمي من الأمراض الروحية كالرياء"
+        ],
+        "daily_actions": [
+          "اسأل نفسك 'لماذا أفعل هذا؟' قبل الأعمال الصالحة",
+          "جدد نيتك لإرضاء الله وحده",
+          "استعذ من الرياء قبل العبادات"
+        ]
+      },
+      "fr": {
+        "title": "Purifiez vos intentions",
+        "description": "Vérifiez régulièrement vos intentions avant de faire de bonnes actions.",
+        "islamic_guidance": "Le Prophète (ﷺ) a dit: 'Les actions ne valent que par leurs intentions, et chaque homme n'aura que ce qu'il a eu l'intention de faire.' (Boukhari, Muslim) L'intention pure est le fondement de toutes les bonnes œuvres.",
+        "benefits": [
+          "Assure que les actions sont pour Allah seul",
+          "Augmente la récompense spirituelle des œuvres",
+          "Protège des maladies spirituelles comme l'ostentation"
+        ],
+        "daily_actions": [
+          "Demandez-vous 'Pourquoi fais-je cela?' avant les bonnes actions",
+          "Renouvelez votre intention de plaire à Allah seul",
+          "Cherchez refuge contre l'ostentation avant les actes d'adoration"
+        ]
+      }
+    },
+    "duration_options": [7, 14, 21, 40]
+  },
+  {
+    "goal_id": "heart-seek-allahs-pleasure-alone",
+    "category": "heart",
+    "translations": {
+      "en": {
+        "title": "Seek Allah's Pleasure Alone",
+        "description": "Do acts of worship to please Allah, not people.",
+        "islamic_guidance": "Allah says: 'And they were not commanded except to worship Allah, [being] sincere to Him in religion.' (98:5) True worship seeks only Allah's pleasure, not recognition from people.",
+        "benefits": [
+          "Develops genuine relationship with Allah",
+          "Protects from disappointment when people don't appreciate efforts",
+          "Increases spiritual reward and sincerity"
+        ],
+        "daily_actions": [
+          "Remind yourself before worship: 'This is for Allah alone'",
+          "Don't seek praise or recognition for religious acts",
+          "Feel satisfied with Allah's knowledge of your good deeds"
+        ]
+      },
+      "ar": {
+        "title": "ابتغِ رضا الله وحده",
+        "description": "قم بالعبادة ابتغاء وجه الله، وليس من أجل الناس.",
+        "islamic_guidance": "يقول الله: 'وَمَا أُمِرُوا إِلَّا لِيَعْبُدُوا اللَّهَ مُخْلِصِينَ لَهُ الدِّينَ' (98:5) العبادة الحقة تطلب رضا الله فقط، وليس اعتراف الناس.",
+        "benefits": [
+          "ينمي علاقة حقيقية مع الله",
+          "يحمي من خيبة الأمل عندما لا يقدر الناس الجهود",
+          "يزيد الثواب الروحي والإخلاص"
+        ],
+        "daily_actions": [
+          "ذكر نفسك قبل العبادة: 'هذا لله وحده'",
+          "لا تطلب المدح أو الاعتراف للأعمال الدينية",
+          "اكتفِ بعلم الله بأعمالك الصالحة"
+        ]
+      },
+      "fr": {
+        "title": "Cherchez uniquement l'agrément d'Allah",
+        "description": "Faites vos adorations pour plaire à Allah seul, non pour les gens.",
+        "islamic_guidance": "Allah dit: 'Il ne leur a été commandé, cependant, que d'adorer Allah, Lui vouant un culte exclusif.' (98:5) La vraie adoration ne cherche que l'agrément d'Allah, pas la reconnaissance des gens.",
+        "benefits": [
+          "Développe une relation authentique avec Allah",
+          "Protège de la déception quand les gens n'apprécient pas les efforts",
+          "Augmente la récompense spirituelle et la sincérité"
+        ],
+        "daily_actions": [
+          "Rappelez-vous avant l'adoration: 'Ceci est pour Allah seul'",
+          "Ne cherchez pas les louanges ou reconnaissance pour les actes religieux",
+          "Contentez-vous de la connaissance qu'Allah a de vos bonnes œuvres"
+        ]
+      }
+    },
+    "duration_options": [7, 14, 21, 40]
+  },
+  {
+    "goal_id": "heart-simplify-lifestyle",
+    "category": "heart",
+    "translations": {
+      "en": {
+        "title": "Simplify Your Lifestyle",
+        "description": "Live simply and avoid excess.",
+        "islamic_guidance": "The Prophet (ﷺ) said: 'Be in this world as if you were a stranger or a traveller.' (Bukhari) Simplicity detaches the heart from worldly distractions and increases focus on the Hereafter.",
+        "benefits": [
+          "Reduces attachment to worldly things",
+          "Increases focus on spiritual matters",
+          "Brings peace and contentment to the heart"
+        ],
+        "daily_actions": [
+          "Buy only what you truly need",
+          "Declutter your living space regularly",
+          "Choose quality over quantity in possessions"
+        ]
+      },
+      "ar": {
+        "title": "بسّط حياتك",
+        "description": "عش ببساطة وابتعد عن الإسراف.",
+        "islamic_guidance": "قال النبي ﷺ: 'كن في الدنيا كأنك غريب أو عابر سبيل' (البخاري) البساطة تفصل القلب عن المشتتات الدنيوية وتزيد التركيز على الآخرة.",
+        "benefits": [
+          "يقلل التعلق بالأشياء الدنيوية",
+          "يزيد التركيز على الأمور الروحية",
+          "يجلب السلام والرضا للقلب"
+        ],
+        "daily_actions": [
+          "اشتر ما تحتاجه فعلاً فقط",
+          "نظف مساحة معيشتك بانتظام",
+          "اختر الجودة على الكمية في الممتلكات"
+        ]
+      },
+      "fr": {
+        "title": "Simplifiez votre mode de vie",
+        "description": "Vivez simplement et évitez l'excès.",
+        "islamic_guidance": "Le Prophète (ﷺ) a dit: 'Sois dans ce monde comme un étranger ou un voyageur.' (Boukhari) La simplicité détache le cœur des distractions mondaines et augmente l'attention sur l'au-delà.",
+        "benefits": [
+          "Réduit l'attachement aux choses mondaines",
+          "Augmente l'attention sur les affaires spirituelles",
+          "Apporte paix et contentement au cœur"
+        ],
+        "daily_actions": [
+          "Achetez seulement ce dont vous avez vraiment besoin",
+          "Débarrassez votre espace de vie régulièrement",
+          "Choisissez la qualité plutôt que la quantité dans les possessions"
+        ]
+      }
+    },
+    "duration_options": [7, 14, 21, 40]
+  },
+  {
+    "goal_id": "heart-give-charity",
+    "category": "heart",
+    "translations": {
+      "en": {
+        "title": "Give in Charity",
+        "description": "Donate regularly to detach from materialism.",
+        "islamic_guidance": "Allah says: 'You will never attain righteousness until you spend from that which you love.' (3:92) Charity purifies the heart from greed and excessive love of wealth.",
+        "benefits": [
+          "Purifies heart from greed and materialism",
+          "Increases Allah's blessings on remaining wealth",
+          "Develops empathy for those in need"
+        ],
+        "daily_actions": [
+          "Set aside a fixed amount for charity each month",
+          "Give small amounts regularly rather than large amounts rarely",
+          "Look for opportunities to help those in need"
+        ]
+      },
+      "ar": {
+        "title": "تصدق",
+        "description": "تصدق بانتظام لتتخلص من التعلق بالدنيا.",
+        "islamic_guidance": "يقول الله: 'لَن تَنَالُوا الْبِرَّ حَتَّىٰ تُنفِقُوا مِمَّا تُحِبُّونَ' (3:92) الصدقة تطهر القلب من الطمع والحب المفرط للمال.",
+        "benefits": [
+          "يطهر القلب من الطمع والمادية",
+          "يزيد بركة الله على المال المتبقي",
+          "ينمي التعاطف مع المحتاجين"
+        ],
+        "daily_actions": [
+          "خصص مبلغاً ثابتاً للصدقة كل شهر",
+          "أعط مبالغ صغيرة بانتظام بدلاً من مبالغ كبيرة نادراً",
+          "ابحث عن فرص لمساعدة المحتاجين"
+        ]
+      },
+      "fr": {
+        "title": "Donnez en charité",
+        "description": "Donnez régulièrement en charité pour vous détacher du matérialisme.",
+        "islamic_guidance": "Allah dit: 'Vous n'atteindrez la bonté que si vous faites largesses de ce que vous chérissez.' (3:92) La charité purifie le cœur de l'avarice et de l'amour excessif des richesses.",
+        "benefits": [
+          "Purifie le cœur de l'avarice et du matérialisme",
+          "Augmente les bénédictions d'Allah sur la richesse restante",
+          "Développe l'empathie pour ceux dans le besoin"
+        ],
+        "daily_actions": [
+          "Réservez un montant fixe pour la charité chaque mois",
+          "Donnez de petits montants régulièrement plutôt que de gros montants rarement",
+          "Cherchez des opportunités d'aider ceux dans le besoin"
+        ]
+      }
+    },
+    "duration_options": [7, 14, 21, 40]
+  },
+  {
+    "goal_id": "heart-reflect-hereafter",
+    "category": "heart",
+    "translations": {
+      "en": {
+        "title": "Reflect on the Hereafter",
+        "description": "Spend time thinking about the realities of the next life.",
+        "islamic_guidance": "The Prophet (ﷺ) said: 'Remember often the destroyer of pleasures: death.' (Tirmidhi) Remembering the Hereafter puts worldly matters in proper perspective.",
+        "benefits": [
+          "Puts worldly problems in proper perspective",
+          "Increases motivation for good deeds",
+          "Reduces attachment to temporary pleasures"
+        ],
+        "daily_actions": [
+          "Spend 10 minutes daily reflecting on death and afterlife",
+          "Read about Paradise and Hell in Quran and Hadith",
+          "Ask yourself: 'Will this matter in the Hereafter?'"
+        ]
+      },
+      "ar": {
+        "title": "تذكر الآخرة",
+        "description": "خصص وقتاً للتفكير في حقائق الآخرة.",
+        "islamic_guidance": "قال النبي ﷺ: 'أكثروا ذكر هاذم اللذات: الموت' (الترمذي) تذكر الآخرة يضع الأمور الدنيوية في منظورها الصحيح.",
+        "benefits": [
+          "يضع المشاكل الدنيوية في منظورها الصحيح",
+          "يزيد الدافع للأعمال الصالحة",
+          "يقلل التعلق بالملذات المؤقتة"
+        ],
+        "daily_actions": [
+          "خصص 10 دقائق يومياً للتأمل في الموت والآخرة",
+          "اقرأ عن الجنة والنار في القرآن والحديث",
+          "اسأل نفسك: 'هل هذا سيهم في الآخرة؟'"
+        ]
+      },
+      "fr": {
+        "title": "Réfléchissez à l'au-delà",
+        "description": "Passez du temps à réfléchir aux réalités de l'au-delà.",
+        "islamic_guidance": "Le Prophète (ﷺ) a dit: 'Souvenez-vous souvent du destructeur des plaisirs: la mort.' (Tirmidhi) Se souvenir de l'au-delà met les affaires mondaines en perspective appropriée.",
+        "benefits": [
+          "Met les problèmes mondains en perspective appropriée",
+          "Augmente la motivation pour les bonnes œuvres",
+          "Réduit l'attachement aux plaisirs temporaires"
+        ],
+        "daily_actions": [
+          "Passez 10 minutes quotidiennement à réfléchir sur la mort et l'au-delà",
+          "Lisez sur le Paradis et l'Enfer dans le Coran et les Hadiths",
+          "Demandez-vous: 'Cela aura-t-il de l'importance dans l'au-delà?'"
+        ]
+      }
+    },
+    "duration_options": [7, 14, 21, 40]
+  },
+  {
+    "goal_id": "heart-remember-allahs-names",
+    "category": "heart",
+    "translations": {
+      "en": {
+        "title": "Remember Allah's Names",
+        "description": "Reflect on Allah's names of mercy and forgiveness.",
+        "islamic_guidance": "Allah says: 'Do not despair of the mercy of Allah. Indeed, Allah forgives all sins. Indeed, it is He who is the Forgiving, the Merciful.' (39:53)",
+        "benefits": [
+          "Increases hope and trust in Allah",
+          "Protects from despair and hopelessness",
+          "Strengthens connection with Allah"
+        ],
+        "daily_actions": [
+          "Study one of Allah's beautiful names each day",
+          "Reflect on how Allah's mercy applies to your situation",
+          "Call upon Allah using His names in du'a"
+        ]
+      },
+      "ar": {
+        "title": "تذكر أسماء الله الحسنى",
+        "description": "تأمل في أسماء الله التي تدل على رحمته ومغفرته.",
+        "islamic_guidance": "يقول الله: 'قُلْ يَا عِبَادِيَ الَّذِينَ أَسْرَفُوا عَلَىٰ أَنفُسِهِمْ لَا تَقْنَطُوا مِن رَّحْمَةِ اللَّهِ إِنَّ اللَّهَ يَغْفِرُ الذُّنُوبَ جَمِيعًا إِنَّهُ هُوَ الْغَفُورُ الرَّحِيمُ' (39:53)",
+        "benefits": [
+          "يزيد الأمل والثقة في الله",
+          "يحمي من اليأس والقنوط",
+          "يقوي الصلة بالله"
+        ],
+        "daily_actions": [
+          "ادرس اسماً من أسماء الله الحسنى كل يوم",
+          "تأمل في كيفية انطباق رحمة الله على وضعك",
+          "ادع الله بأسمائه في الدعاء"
+        ]
+      },
+      "fr": {
+        "title": "Souvenez-vous des Noms d'Allah",
+        "description": "Réfléchissez aux Noms d'Allah liés à Sa miséricorde.",
+        "islamic_guidance": "Allah dit: 'Dis: Ô Mes serviteurs qui avez commis des excès à votre propre détriment, ne désespérez pas de la miséricorde d'Allah. Car Allah pardonne tous les péchés. Oui, c'est Lui le Pardonneur, le Très Miséricordieux.' (39:53)",
+        "benefits": [
+          "Augmente l'espoir et la confiance en Allah",
+          "Protège du désespoir et du découragement",
+          "Renforce la connexion avec Allah"
+        ],
+        "daily_actions": [
+          "Étudiez un des beaux noms d'Allah chaque jour",
+          "Réfléchissez à comment la miséricorde d'Allah s'applique à votre situation",
+          "Invoquez Allah en utilisant Ses noms dans le du'a"
+        ]
+      }
+    },
+    "duration_options": [7, 14, 21, 40]
+  },
+  {
+    "goal_id": "heart-recall-past-blessings",
+    "category": "heart",
+    "translations": {
+      "en": {
+        "title": "Recall Past Blessings",
+        "description": "Remember times Allah helped you before.",
+        "islamic_guidance": "Allah says: 'And if you would count the favors of Allah, you could not enumerate them.' (16:18) Remembering Allah's past help builds confidence in His continued support.",
+        "benefits": [
+          "Builds confidence in Allah's continued help",
+          "Increases gratitude and hope",
+          "Strengthens trust during difficult times"
+        ],
+        "daily_actions": [
+          "Write down past instances where Allah helped you",
+          "Remind yourself of difficult times Allah brought you through",
+          "Thank Allah for His previous blessings and support"
+        ]
+      },
+      "ar": {
+        "title": "تذكر نعم الله السابقة",
+        "description": "تذكر الأوقات التي أنقذك الله فيها من قبل.",
+        "islamic_guidance": "يقول الله: 'وَإِن تَعُدُّوا نِعْمَةَ اللَّهِ لَا تُحْصُوهَا' (16:18) تذكر عون الله السابق يبني الثقة في دعمه المستمر.",
+        "benefits": [
+          "يبني الثقة في عون الله المستمر",
+          "يزيد الامتنان والأمل",
+          "يقوي الثقة في الأوقات الصعبة"
+        ],
+        "daily_actions": [
+          "اكتب حالات سابقة ساعدك الله فيها",
+          "ذكر نفسك بالأوقات الصعبة التي أخرجك الله منها",
+          "احمد الله على نعمه ودعمه السابق"
+        ]
+      },
+      "fr": {
+        "title": "Souvenez-vous des bienfaits passés",
+        "description": "Souvenez-vous des moments où Allah vous a aidé auparavant.",
+        "islamic_guidance": "Allah dit: 'Et si vous comptiez les bienfaits d'Allah, vous ne sauriez les dénombrer.' (16:18) Se souvenir de l'aide passée d'Allah renforce la confiance en Son soutien continu.",
+        "benefits": [
+          "Renforce la confiance en l'aide continue d'Allah",
+          "Augmente la gratitude et l'espoir",
+          "Fortifie la confiance durant les moments difficiles"
+        ],
+        "daily_actions": [
+          "Notez les instances passées où Allah vous a aidé",
+          "Rappelez-vous les moments difficiles qu'Allah vous a fait traverser",
+          "Remerciez Allah pour Ses bienfaits et soutien précédents"
+        ]
+      }
+    },
+    "duration_options": [7, 14, 21, 40]
+  },
+  {
+    "goal_id": "heart-make-dua-constantly",
+    "category": "heart",
+    "translations": {
+      "en": {
+        "title": "Make Dua Constantly",
+        "description": "Keep asking Allah for forgiveness and help.",
+        "islamic_guidance": "The Prophet (ﷺ) said: 'Du'a is the essence of worship.' (Tirmidhi) Constant du'a maintains connection with Allah and demonstrates dependence on Him.",
+        "benefits": [
+          "Maintains constant connection with Allah",
+          "Provides comfort and hope during difficulties",
+          "Demonstrates humility and dependence on Allah"
+        ],
+        "daily_actions": [
+          "Make du'a throughout the day, not just during prayers",
+          "Ask Allah for forgiveness frequently",
+          "Turn to Allah immediately when facing any difficulty"
+        ]
+      },
+      "ar": {
+        "title": "أكثر من الدعاء",
+        "description": "استمر في طلب المغفرة والعون من الله.",
+        "islamic_guidance": "قال النبي ﷺ: 'الدعاء هو العبادة' (الترمذي) الدعاء المستمر يحافظ على الصلة بالله ويظهر الاعتماد عليه.",
+        "benefits": [
+          "يحافظ على الصلة المستمرة بالله",
+          "يوفر الراحة والأمل في الصعوبات",
+          "يظهر التواضع والاعتماد على الله"
+        ],
+        "daily_actions": [
+          "ادع طوال اليوم، وليس فقط أثناء الصلوات",
+          "اطلب المغفرة من الله بكثرة",
+          "توجه إلى الله فوراً عند مواجهة أي صعوبة"
+        ]
+      },
+      "fr": {
+        "title": "Faites constamment des dou'as",
+        "description": "Demandez constamment pardon et aide à Allah.",
+        "islamic_guidance": "Le Prophète (ﷺ) a dit: 'Le du'a est l'essence de l'adoration.' (Tirmidhi) Le du'a constant maintient la connexion avec Allah et démontre la dépendance envers Lui.",
+        "benefits": [
+          "Maintient une connexion constante avec Allah",
+          "Fournit réconfort et espoir durant les difficultés",
+          "Démontre l'humilité et la dépendance envers Allah"
+        ],
+        "daily_actions": [
+          "Faites du'a tout au long de la journée, pas seulement durant les prières",
+          "Demandez fréquemment pardon à Allah",
+          "Tournez-vous vers Allah immédiatement face à toute difficulté"
+        ]
+      }
+    },
+    "duration_options": [7, 14, 21, 40]
+  },
+  {
+    "goal_id": "heart-read-quran-reflectively",
+    "category": "heart",
+    "translations": {
+      "en": {
+        "title": "Read Qur'an Reflectively",
+        "description": "Recite and ponder the meanings of Qur'an verses.",
+        "islamic_guidance": "Allah says: '[This is] a blessed Book which We have revealed to you, [O Muhammad], that they might reflect upon its verses.' (38:29) The Qur'an softens hard hearts and provides guidance.",
+        "benefits": [
+          "Softens hard hearts and increases spirituality",
+          "Provides guidance for life's challenges",
+          "Strengthens connection with Allah's words"
+        ],
+        "daily_actions": [
+          "Read Qur'an with translation and reflect on meanings",
+          "Choose one verse daily to contemplate deeply",
+          "Apply Quranic teachings to your daily situations"
+        ]
+      },
+      "ar": {
+        "title": "اقرأ القرآن بتدبر",
+        "description": "اقرأ القرآن وتدبر معانيه.",
+        "islamic_guidance": "يقول الله: 'كِتَابٌ أَنزَلْنَاهُ إِلَيْكَ مُبَارَكٌ لِّيَدَّبَّرُوا آيَاتِهِ' (38:29) القرآن يرقق القلوب القاسية ويوفر الهداية.",
+        "benefits": [
+          "يرقق القلوب القاسية ويزيد الروحانية",
+          "يوفر الهداية لتحديات الحياة",
+          "يقوي الصلة بكلام الله"
+        ],
+        "daily_actions": [
+          "اقرأ القرآن مع الترجمة وتأمل في المعاني",
+          "اختر آية يومياً للتأمل العميق",
+          "طبق التعاليم القرآنية على مواقف حياتك اليومية"
+        ]
+      },
+      "fr": {
+        "title": "Lisez le Coran avec réflexion",
+        "description": "Récitez et méditez sur les versets du Coran.",
+        "islamic_guidance": "Allah dit: '[Voici] un Livre béni que Nous avons fait descendre vers toi, afin qu'ils méditent sur ses versets.' (38:29) Le Coran attendrit les cœurs durs et fournit guidance.",
+        "benefits": [
+          "Attendrit les cœurs durs et augmente la spiritualité",
+          "Fournit guidance pour les défis de la vie",
+          "Renforce la connexion avec les paroles d'Allah"
+        ],
+        "daily_actions": [
+          "Lisez le Coran avec traduction et réfléchissez sur les significations",
+          "Choisissez un verset quotidiennement pour contempler profondément",
+          "Appliquez les enseignements coraniques à vos situations quotidiennes"
+        ]
+      }
+    },
+    "duration_options": [7, 14, 21, 40]
+  },
+  {
+    "goal_id": "heart-attend-gatherings-remembrance",
+    "category": "heart",
+    "translations": {
+      "en": {
+        "title": "Attend Gatherings of Remembrance",
+        "description": "Join classes or groups that remind you of Allah.",
+        "islamic_guidance": "The Prophet (ﷺ) said: 'When a group of people sit together remembering Allah, the angels surround them, mercy covers them, peace descends upon them, and Allah mentions them among those who are with Him.' (Muslim)",
+        "benefits": [
+          "Receives angels' presence and Allah's mercy",
+          "Softens heart through collective remembrance",
+          "Gains spiritual knowledge and motivation"
+        ],
+        "daily_actions": [
+          "Attend Islamic lectures and classes regularly",
+          "Join study circles or religious gatherings",
+          "Participate in community dhikr sessions"
+        ]
+      },
+      "ar": {
+        "title": "احضر مجالس الذكر",
+        "description": "شارك في مجالس أو دروس تذكرك بالله.",
+        "islamic_guidance": "قال النبي ﷺ: 'ما جلس قوم مجلساً يذكرون الله فيه إلا حفتهم الملائكة وغشيتهم الرحمة ونزلت عليهم السكينة وذكرهم الله فيمن عنده' (مسلم)",
+        "benefits": [
+          "ينال حضور الملائكة ورحمة الله",
+          "يرقق القلب من خلال الذكر الجماعي",
+          "يكسب المعرفة الروحية والدافع"
+        ],
+        "daily_actions": [
+          "احضر المحاضرات والدروس الإسلامية بانتظام",
+          "انضم لحلقات الدراسة أو التجمعات الدينية",
+          "شارك في جلسات الذكر المجتمعية"
+        ]
+      },
+      "fr": {
+        "title": "Assistez aux rassemblements de rappel",
+        "description": "Participez à des cours ou rassemblements qui rappellent Allah.",
+        "islamic_guidance": "Le Prophète (ﷺ) a dit: 'Quand un groupe de gens s'assoit ensemble pour se rappeler d'Allah, les anges les entourent, la miséricorde les couvre, la paix descend sur eux, et Allah les mentionne parmi ceux qui sont avec Lui.' (Muslim)",
+        "benefits": [
+          "Reçoit la présence des anges et la miséricorde d'Allah",
+          "Attendrit le cœur par le rappel collectif",
+          "Acquiert connaissance spirituelle et motivation"
+        ],
+        "daily_actions": [
+          "Assistez régulièrement aux conférences et cours islamiques",
+          "Rejoignez des cercles d'étude ou rassemblements religieux",
+          "Participez aux sessions communautaires de dhikr"
+        ]
+      }
+    },
+    "duration_options": [7, 14, 21, 40]
+  },
+  {
+    "goal_id": "heart-help-those-in-need",
+    "category": "heart",
+    "translations": {
+      "en": {
+        "title": "Help Those in Need",
+        "description": "Serve others to soften your heart toward people.",
+        "islamic_guidance": "The Prophet (ﷺ) said: 'The believers in their mutual kindness, compassion, and sympathy are just one body - when a limb suffers, the whole body responds to it with wakefulness and fever.' (Bukhari, Muslim)",
+        "benefits": [
+          "Softens heart toward others' suffering",
+          "Develops empathy and compassion",
+          "Brings Allah's blessings and reward"
+        ],
+        "daily_actions": [
+          "Volunteer to help those less fortunate",
+          "Visit sick people or elderly neighbors",
+          "Donate time or money to charitable causes"
+        ]
+      },
+      "ar": {
+        "title": "ساعد المحتاجين",
+        "description": "اخدم الآخرين لترقق قلبك تجاه الناس.",
+        "islamic_guidance": "قال النبي ﷺ: 'مثل المؤمنين في توادهم وتراحمهم وتعاطفهم مثل الجسد إذا اشتكى منه عضو تداعى له سائر الجسد بالسهر والحمى' (البخاري، مسلم)",
+        "benefits": [
+          "يرقق القلب تجاه معاناة الآخرين",
+          "ينمي التعاطف والرحمة",
+          "يجلب بركات الله وثوابه"
+        ],
+        "daily_actions": [
+          "تطوع لمساعدة الأقل حظاً",
+          "زر المرضى أو الجيران المسنين",
+          "تبرع بالوقت أو المال للأعمال الخيرية"
+        ]
+      },
+      "fr": {
+        "title": "Aidez ceux qui sont dans le besoin",
+        "description": "Servez autrui pour attendrir votre cœur envers les gens.",
+        "islamic_guidance": "Le Prophète (ﷺ) a dit: 'Les croyants dans leur amour mutuel, leur compassion et leur sympathie sont comme un seul corps - quand un membre souffre, tout le corps y répond par l'éveil et la fièvre.' (Boukhari, Muslim)",
+        "benefits": [
+          "Attendrit le cœur envers la souffrance d'autrui",
+          "Développe l'empathie et la compassion",
+          "Attire les bénédictions et récompenses d'Allah"
+        ],
+        "daily_actions": [
+          "Portez-vous volontaire pour aider les moins fortunés",
+          "Visitez les malades ou voisins âgés",
+          "Donnez temps ou argent aux causes charitables"
+        ]
+      }
+    },
+    "duration_options": [7, 14, 21, 40]
+  }
+]

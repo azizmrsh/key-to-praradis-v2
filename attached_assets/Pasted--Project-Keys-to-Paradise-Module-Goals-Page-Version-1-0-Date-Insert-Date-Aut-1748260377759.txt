@@ -1,0 +1,149 @@
+**Project: Keys to Paradise**
+**Module: Goals Page**
+**Version: 1.0**
+**Date: \[Insert Date]**
+**Author: Sulayman Hart**
+
+---
+
+## 1. Purpose and Scope
+
+The Goals Page is a core motivational and tracking module within the Keys to Paradise app. It allows users to set and monitor clearly defined objectives that support their spiritual development. Goals are always tied to one of the user's two active sin categories and are tracked using data from other modules such as Behavioural Tracking, Content Delivery, and Journaling. This module is designed for clarity, precision, and offline functionality.
+
+---
+
+## 2. Functional Requirements
+
+### 2.1 Goal Structure
+
+* Users may have up to **two active sin categories** at any time.
+
+* Each goal must be tied to one of these two sin categories.
+
+* Goals fall into four supported types:
+
+  1. **Content Reflection Goals**: e.g., "Read and reflect on 3 pieces of advice from the Qur'an or hadith this week."
+  2. **Behavioural Streak Goals**: e.g., "Maintain 10 consecutive days without lying."
+  3. **Reflection Goals**: e.g., "Write 3 journal entries for Anger this week."
+  4. **Spiritual Growth Milestones**: e.g., "Reach a 40-day clean streak for any sin."
+
+* Each goal is created from a **predefined template**.
+
+* Each template has adjustable fields such as duration and target count.
+
+### 2.2 Goal Management
+
+* Users may create and maintain **an unlimited number of goals** for each sin category.
+* Goals must define:
+
+  * **Target Type** (lesson count, day count, journal count).
+  * **Target Value** (e.g., 5 lessons).
+  * **Timeframe** (e.g., 7 days, 30 days, or ongoing).
+* Users may only edit or delete goals that are in the "Not Started" or "In Progress" state.
+* **Goal tiers** are defined by target difficulty:
+
+  * Tier 1: 3-day or 3-unit goal
+  * Tier 2: 7-day or 7-unit goal
+  * Tier 3: 14-day or 14-unit goal
+  * Tier 4: 40-day or 40-unit goal (Mastery)
+
+### 2.3 Goal Tracking Logic
+
+* The following modules feed data into this system:
+
+  * **Behavioural Tracking Module**: Success/infraction buttons update behavioural streak goals.
+  * **Content Delivery Module**: Tracked reflections on structured content are logged for content reflection goals.
+  * **Reflection Module**: Journal timestamps validate reflection goals.
+
+* Each goal is represented as a data object with these fields:
+
+  * `goal_id`: Unique identifier
+  * `category`: Sin category (e.g., Gossip)
+  * `type`: One of four supported goal types
+  * `target_value`: Numeric (e.g., 10)
+  * `duration_days`: Integer or null if ongoing
+  * `start_date`: Date object (null if not yet started)
+  * `current_progress`: Integer
+  * `status`: One of \[Not Started, In Progress, Completed, Missed]
+
+* When progress equals target\_value within the timeframe, `status` changes to `Completed`.
+
+* If time expires before completion, `status` becomes `Missed`.
+
+* Behavioural goals reset progress to 0 if an infraction is logged.
+
+### 2.4 Rewards and Feedback
+
+* Upon completing a goal:
+
+  * Trigger animation (confetti, badge unlock, motivational quote or dua).
+  * Assign badge using badge library.
+  * Log goal to user’s spiritual growth history.
+
+---
+
+## 3. Non-Functional Requirements
+
+### 3.1 Offline Support
+
+* All goal definitions, progress tracking, and status logic must function without internet access.
+* All progress is stored locally and synced to the cloud only when the device is online.
+
+### 3.2 Performance
+
+* The system must efficiently handle any number of simultaneously active goals per user, with performance remaining stable regardless of volume.
+* All goal-related updates must process within 150 milliseconds.
+
+### 3.3 Privacy and Data Control
+
+* All goal and journal data must be stored locally by default.
+* User must be able to:
+
+  * View all current and past goals.
+  * Delete any active or completed goal.
+  * Wipe goal history completely.
+
+---
+
+## 4. User Interface Requirements
+
+### 4.1 Profile Page Integration
+
+* The user profile page will display:
+
+  * A box for "Active Goals: Sin Category 1"
+  * A box for "Active Goals: Sin Category 2"
+  * A separate box for "Active Challenge Goals" (linked to the Challenges Module)
+
+### 4.2 Goal Card Structure
+
+Each goal card must include:
+
+* Goal title (e.g., "Maintain 7-day clean streak")
+* Sin category label (e.g., Lying)
+* Goal type icon (Lesson, Behaviour, Reflection, Milestone)
+* Progress bar (visualised as percent complete)
+* Current status (Not Started, In Progress, Completed, Missed)
+* Time remaining (if time-bound)
+* Edit and delete icons (where allowed)
+
+### 4.3 Goal Completion Modal
+
+* Triggered when `status = Completed`
+* Displays:
+
+  * Visual animation (confetti or glow)
+  * Badge earned (if applicable)
+  * Motivational hadith, dua, or quote
+  * Option to return to profile or start new goal
+
+---
+
+## 5. Goal Templates
+
+| Template Name               | Goal Type           | Sin Category | Target        | Duration | Tier |
+| --------------------------- | ------------------- | ------------ | ------------- | -------- | ---- |
+| Backbiting Journal Week     | Reflection          | Backbiting   | 3 entries     | 7 days   | 2    |
+| Lying Clean Streak          | Behavioural Streak  | Lying        | 10 days       | 10 days  | 3    |
+| Gossip Reflection Challenge | Content Reflection  | Gossip       | 3 reflections | 7 days   | 2    |
+| 40-Day Mastery              | Spiritual Milestone | Any          | 40 days       | 40 days  | 4    |

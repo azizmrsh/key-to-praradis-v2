@@ -1,0 +1,170 @@
+[
+  {
+    "id": "challenge-heart-envy-01",
+    "category": "heart",
+    "subcategory": "envy",
+    "title": "Make Du‘a for the Blessed",
+    "description": "Today, make a heartfelt du‘a for someone who has what you desire. Ask Allah to bless them more.",
+    "duration_days": 1
+  },
+  {
+    "id": "challenge-heart-envy-02",
+    "category": "heart",
+    "subcategory": "envy",
+    "title": "Gratitude Over Comparison – 3 Days",
+    "description": "Each day, list 3 things you have that you would never trade. Say Alhamdulillah sincerely.",
+    "duration_days": 3
+  },
+  {
+    "id": "challenge-heart-envy-03",
+    "category": "heart",
+    "subcategory": "envy",
+    "title": "7-Day Envy Cleanse",
+    "description": "For one week, replace every jealous thought with a praise of Allah or positive prayer.",
+    "duration_days": 7
+  },
+  {
+    "id": "challenge-heart-pride-01",
+    "category": "heart",
+    "subcategory": "pride",
+    "title": "Recall Your Origin",
+    "description": "Today, reflect on your creation and ultimate return. Remember your place before Allah.",
+    "duration_days": 1
+  },
+  {
+    "id": "challenge-heart-pride-02",
+    "category": "heart",
+    "subcategory": "pride",
+    "title": "Serve Someone Silently – 3 Days",
+    "description": "Do something humble and unnoticed each day. Let it break your ego softly.",
+    "duration_days": 3
+  },
+  {
+    "id": "challenge-heart-pride-03",
+    "category": "heart",
+    "subcategory": "pride",
+    "title": "7 Days of Sincere Equality",
+    "description": "For 7 days, treat everyone as better than yourself — inwardly and outwardly.",
+    "duration_days": 7
+  },
+  {
+    "id": "challenge-heart-rancour-01",
+    "category": "heart",
+    "subcategory": "rancour",
+    "title": "Let One Grudge Go",
+    "description": "Think of someone who hurt you. Say ‘I forgive them’ for Allah’s sake, even silently.",
+    "duration_days": 1
+  },
+  {
+    "id": "challenge-heart-rancour-02",
+    "category": "heart",
+    "subcategory": "rancour",
+    "title": "Du‘a for the Difficult One – 3 Days",
+    "description": "Each day, make a short du‘a for someone you dislike or avoid. Ask for their good.",
+    "duration_days": 3
+  },
+  {
+    "id": "challenge-heart-rancour-03",
+    "category": "heart",
+    "subcategory": "rancour",
+    "title": "7-Day Grudge Cleanse",
+    "description": "Let go of resentment. For a week, avoid rethinking past pain. Forgive. Move forward.",
+    "duration_days": 7
+  },
+  {
+    "id": "challenge-heart-empathy-01",
+    "category": "heart",
+    "subcategory": "lack_of_empathy",
+    "title": "Call or Check on One Person",
+    "description": "Today, reach out to someone who may be lonely, sick, or struggling.",
+    "duration_days": 1
+  },
+  {
+    "id": "challenge-heart-empathy-02",
+    "category": "heart",
+    "subcategory": "lack_of_empathy",
+    "title": "3-Day Mercy Lens",
+    "description": "For 3 days, try to see everyone through the lens of mercy. Assume they’re fighting battles.",
+    "duration_days": 3
+  },
+  {
+    "id": "challenge-heart-empathy-03",
+    "category": "heart",
+    "subcategory": "lack_of_empathy",
+    "title": "7-Day Compassion Practice",
+    "description": "Actively help or show empathy to someone new each day. Journal what you felt.",
+    "duration_days": 7
+  },
+  {
+    "id": "challenge-heart-riya-01",
+    "category": "heart",
+    "subcategory": "insincerity",
+    "title": "Hide a Good Deed",
+    "description": "Today, do something purely for Allah that no one knows about. Keep it secret.",
+    "duration_days": 1
+  },
+  {
+    "id": "challenge-heart-riya-02",
+    "category": "heart",
+    "subcategory": "insincerity",
+    "title": "Du‘a Before Deeds – 3 Days",
+    "description": "Make intention and du‘a for sincerity before each act of worship for 3 days.",
+    "duration_days": 3
+  },
+  {
+    "id": "challenge-heart-riya-03",
+    "category": "heart",
+    "subcategory": "insincerity",
+    "title": "7 Days of Purified Intention",
+    "description": "Say ‘This is for You, O Allah’ before every public or visible action for one week.",
+    "duration_days": 7
+  },
+  {
+    "id": "challenge-heart-despair-01",
+    "category": "heart",
+    "subcategory": "despair",
+    "title": "Read One Ayah of Mercy",
+    "description": "Today, read and reflect on an ayah that promises Allah’s forgiveness. Let it enter your heart.",
+    "duration_days": 1
+  },
+  {
+    "id": "challenge-heart-despair-02",
+    "category": "heart",
+    "subcategory": "despair",
+    "title": "Du‘a of Hope – 3 Days",
+    "description": "Each day, say: ‘Ya Allah, I believe You love to forgive, so forgive me.’ Say it with hope.",
+    "duration_days": 3
+  },
+  {
+    "id": "challenge-heart-despair-03",
+    "category": "heart",
+    "subcategory": "despair",
+    "title": "7 Days of Hope Practice",
+    "description": "Reject despair for one week. Anytime doubt arises, counter it with a promise of Allah.",
+    "duration_days": 7
+  },
+  {
+    "id": "challenge-heart-hereafter-01",
+    "category": "heart",
+    "subcategory": "neglect_of_hereafter",
+    "title": "Reflect on Death",
+    "description": "Take 2 minutes today to imagine your grave and your meeting with Allah.",
+    "duration_days": 1
+  },
+  {
+    "id": "challenge-heart-hereafter-02",
+    "category": "heart",
+    "subcategory": "neglect_of_hereafter",
+    "title": "3-Day Akhirah Focus",
+    "description": "Each day, read one ayah or hadith about the Hereafter and reflect deeply.",
+    "duration_days": 3
+  },
+  {
+    "id": "challenge-heart-hereafter-03",
+    "category": "heart",
+    "subcategory": "neglect_of_hereafter",
+    "title": "7-Day Death Awareness Practice",
+    "description": "For one week, remind yourself of the Hereafter before each major decision.",
+    "duration_days": 7
+  }
+]

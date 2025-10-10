@@ -1,0 +1,146 @@
+## 1. Purpose and Scope
+
+The Challenges Module provides structured, time-bound motivational tasks to help users build spiritual habits and overcome sins through consistent action. It is designed to complement the existing Behavioural Tracking, Goals, and Content Delivery modules. Challenges may range from 1-day to 40-day durations and are always tied to a specific sin category.
+
+---
+
+## 2. Functional Requirements
+
+### 2.1 Challenge Types
+
+The module supports the following challenge types:
+
+1. **Daily Micro-Challenges**
+
+   * Duration: 1 day
+   * Example: "Do not speak about others today."
+
+2. **Timed Habit Challenges**
+
+   * Duration: 7-day, 30-day, or 40-day
+   * Example: "Avoid gossip for 40 consecutive days"
+
+3. **Seasonal/Special Challenges**
+
+   * Fixed dates linked to the Islamic calendar (e.g., Ramadan, first 10 days of Dhul-Hijjah)
+   * Example: "Complete 10 acts of kindness during Ramadan"
+
+---
+
+### 2.2 Challenge Selection and Setup
+
+* All challenges are **user-selected** from a **curated pool**, grouped by sin category.
+* Users may join **any number** of challenges concurrently.
+* Future updates may introduce **auto-suggestions** for daily micro-challenges.
+
+---
+
+### 2.3 Challenge Completion Logic
+
+* If a challenge requires daily registration (e.g., daily success or journaling), the user may only register progress once per calendar day. This is based on the device's local date, not a 24-hour timer.
+
+* Late night users may optionally register for the previous day instead of the current one.
+
+* Users may register challenge progress for the current day or up to two days prior. Backdating beyond two days is not permitted.
+
+* Each challenge defines its own completion conditions:
+
+  * **Streak-based**: e.g., log 10 consecutive success days with no infractions.
+  * **Count-based**: e.g., submit 7 journal entries in 7 days.
+  * **Time-locked**: must be completed within a set duration.
+
+* Logging is handled through:
+
+  * Daily success/infraction buttons
+  * Journal submission detection
+  * Optional: time-of-day check-ins
+
+---
+
+## 3. Challenge Categories and Difficulty
+
+### 3.1 Categories
+
+* Every challenge is **linked to a sin category**.
+* Example categories: Backbiting, Gossip, Anger, Pretentiousness, etc.
+* Future categories may include higher-level groupings such as "Tongue Sins" or "Heart Sins."
+
+### 3.2 Difficulty
+
+* No explicit user-facing difficulty setting
+* Duration and structure imply difficulty level:
+
+  * 1-day = Beginner
+  * 7-day = Intermediate
+  * 40-day = Mastery
+
+---
+
+## 4. Rewards and Motivation
+
+### 4.1 Completion Rewards
+
+* Confetti animation or visual celebration
+* Motivational quote or dua
+* Badge (e.g., "Silent for 7 Days", "Anger Mastery")
+* Stored in user profile and visible under achievements
+
+### 4.2 Milestone Rewards
+
+* Complete 3 challenges: "Disciplined" badge
+* First 40-day challenge completed: "Mastery" badge
+* 7 micro-challenges in a row: "Consistency" badge
+* Future support for reflection unlocks or content rewards
+
+---
+
+## 5. UI Integration
+
+### 5.3 Daily Logging Prompts
+
+* When a user taps "Log Progress" or "Log Success" on a challenge:
+
+  * If no log has been submitted for the current day, prompt:
+
+    > **"Which day are you recording this for?"**
+    >
+    > * ☐ Today (e.g., Monday, May 27)
+    > * ☐ Yesterday (e.g., Sunday, May 26)
+    > * ☐ Two days ago (e.g., Saturday, May 25)
+    >   *(Dates are based on the device's local calendar)*
+    >   ⚠️ Only today or the two previous days can be selected. Earlier dates are disabled.
+
+* If a log already exists for the selected day:
+
+  * Show prompt:
+
+    > **"You've already submitted progress for \[Day, Date]. Would you like to edit or cancel?"**
+    >
+    > * \[Edit Entry]
+    > * \[Cancel Logging]
+
+### 5.1 Profile Page
+
+* A dedicated section: "Active Challenges"
+* Each active challenge shown in its own card with:
+
+  * Title, icon, sin category
+  * Current progress (e.g., "Day 9 of 40")
+  * Buttons: Log success, Log infraction, Open journal, View content
+
+### 5.2 Challenge Card States
+
+* States: Not Started, Active, Failed (resets), Completed
+* Progress is tracked via daily interaction and system logs
+* Upon failure (e.g., user logs infraction in a 40-day challenge), challenge resets or is marked incomplete
+
+---
+
+## 6. Example Challenges
+
+| Challenge Title          | Type              | Sin Category | Duration | Completion Logic             |
+| ------------------------ | ----------------- | ------------ | -------- | ---------------------------- |
+| Mindful Speech (1 Day)   | Micro-Challenge   | Backbiting   | 1 Day    | Log 1 success, no infraction |
+| 7 Days Without Gossip    | Timed Habit       | Gossip       | 7 Days   | 7-day streak                 |
+| 40 Days of Patience      | Mastery Challenge | Anger        | 40 Days  | No infraction for 40 days    |
+| Gratitude in Dhul-Hijjah | Seasonal          | Heart Sins   | 10 Days  | Submit 1 journal each day    |

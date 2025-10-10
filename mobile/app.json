@@ -1,0 +1,21 @@
+{
+  "name": "KeysToParadise",
+  "displayName": "Keys to Paradise",
+  "version": "0.1.1",
+  "description": "Islamic spiritual guidance application helping users identify and improve areas of spiritual weakness",
+  "orientation": "portrait",
+  "platforms": ["ios", "android"],
+  "ios": {
+    "bundleIdentifier": "com.rutab.keystoparadise",
+    "buildNumber": "1",
+    "supportsTablet": true
+  },
+  "android": {
+    "package": "com.rutab.keystoparadise",
+    "versionCode": 1,
+    "adaptiveIcon": {
+      "foregroundImage": "./assets/adaptive-icon.png",
+      "backgroundColor": "#FFFFFF"
+    }
+  }
+}

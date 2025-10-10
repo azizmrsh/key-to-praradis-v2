@@ -1,0 +1,164 @@
+Screen Definitions – Keys to Paradise App
+
+This document outlines each screen in the Keys to Paradise mobile application. Each screen is described by its name, purpose, core elements, and any dynamic behaviours. These definitions help designers, developers, and testers align around the app’s functionality and flow.
+
+1. Welcome / Language Selection Screen
+
+Purpose: Greet the user and allow them to choose their preferred language (English or Arabic).
+
+Core Elements:
+
+App name/logo
+
+Language toggle (LTR/RTL preview)
+
+Proceed button
+
+Behaviour:
+
+Stores selected language in local preferences
+
+Transitions to the onboarding flow
+
+2. Onboarding Introduction
+
+Purpose: Briefly explain the app's purpose and privacy-first approach.
+
+Core Elements:
+
+Welcome message
+
+Bullet points or icons summarising features (privacy, daily reflection, spiritual support)
+
+Option to continue to self-assessment or skip
+
+3. Self-Assessment Questionnaire
+
+Purpose: Guide user through structured questions to identify primary spiritual struggle.
+
+Core Elements:
+
+Single-question view with 1–5 scale
+
+Progress indicator (e.g. 3 of 10)
+
+Next/back buttons
+
+Behaviour:
+
+Responses scored locally
+
+Option to skip assessment
+
+4. Sin Focus Selection Confirmation
+
+Purpose: Show top recommended sins based on assessment, and allow user to confirm or choose another.
+
+Core Elements:
+
+Ranked suggestions with brief explanations
+
+Manual selection list
+
+Continue button
+
+Behaviour:
+
+Stores user’s selected sin
+
+5. Daily Check-in Screen
+
+Purpose: Prompt user for a daily reflection and track progress.
+
+Core Elements:
+
+Main question (Yes/No or Success/Slip toggle)
+
+Optional journaling input
+
+Submit button
+
+Streak counter
+
+6. Spiritual Journal
+
+Purpose: Allow user to write and reflect privately.
+
+Core Elements:
+
+Text input field
+
+Save button
+
+Optional tag (e.g. linked sin)
+
+List of past entries by date
+
+7. Content Viewer
+
+Purpose: Deliver educational content relevant to user’s focus sin.
+
+Core Elements:
+
+Title of content
+
+Body (text, audio, or embedded video)
+
+Complete/viewed button
+
+8. Badge & Achievement Wall
+
+Purpose: Motivate and reward progress with visual badges.
+
+Core Elements:
+
+Grid of earned/unearned badges
+
+Tooltip or modal with badge descriptions
+
+Badge celebration animation (optional)
+
+9. Emergency SOS Screen
+
+Purpose: Help user quickly access spiritual support in moments of difficulty.
+
+Core Elements:
+
+Calm background and header
+
+Dhikr button (audio loop)
+
+Hadith/ayah of encouragement
+
+Breathing or focus timer
+
+10. Profile & Progress Overview
+
+Purpose: Show summary of user’s current streak, selected sin, badges, and allow resets.
+
+Core Elements:
+
+Active sin and change option
+
+Streak display
+
+Badge summary
+
+Daily log chart or heatmap
+
+Reset profile button
+
+11. Settings & Language
+
+Purpose: Let user configure app preferences.
+
+Core Elements:
+
+Language selector
+
+Notification preferences
+
+Data export/import (if implemented)
+
+This structure enables a modular and coherent experience, where screens can be loaded based on the user’s current sin and progress state.
+

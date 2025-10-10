@@ -1,0 +1,485 @@
+[
+  {
+    "id": "challenge-stomach-overeating-01",
+    "category": "stomach",
+    "subcategory": "overeating",
+    "title": "Stop at Two-Thirds",
+    "description": "Today, stop eating when you feel satisfied — not full. Leave room for breath and barakah.",
+    "duration_days": 1,
+    "translations": {
+      "en": {
+        "title": "Stop at Two-Thirds",
+        "description": "Today, stop eating when you feel satisfied — not full. Leave room for breath and barakah."
+      },
+      "fr": {
+        "title": "Arrêtez-vous aux deux tiers",
+        "description": "Aujourd'hui, arrêtez de manger quand vous vous sentez satisfait — pas rassasié. Laissez de la place pour le souffle et la barakah."
+      },
+      "ar": {
+        "title": "توقف عند الثلثين",
+        "description": "اليوم، توقف عن الأكل عندما تشعر بالشبع — وليس الامتلاء. اترك مجالاً للنفس والبركة."
+      }
+    },
+    "difficulty": "easy"
+  },
+  {
+    "id": "challenge-stomach-overeating-02",
+    "category": "stomach",
+    "subcategory": "overeating",
+    "title": "Portion Mindfulness – 3 Days",
+    "description": "Use smaller plates or take half your usual portion for the next three days.",
+    "duration_days": 3,
+    "translations": {
+      "en": {
+        "title": "Portion Mindfulness – 3 Days",
+        "description": "Use smaller plates or take half your usual portion for the next three days."
+      },
+      "fr": {
+        "title": "Conscience des portions – 3 jours",
+        "description": "Utilisez des assiettes plus petites ou prenez la moitié de votre portion habituelle pendant les trois prochains jours."
+      },
+      "ar": {
+        "title": "وعي الحصص – 3 أيام",
+        "description": "استخدم أطباقاً أصغر أو خذ نصف حصتك المعتادة للأيام الثلاثة القادمة."
+      }
+    },
+    "difficulty": "medium"
+  },
+  {
+    "id": "challenge-stomach-overeating-03",
+    "category": "stomach",
+    "subcategory": "overeating",
+    "title": "7-Day Moderation Reset",
+    "description": "Eat moderately and avoid second helpings for an entire week. Reflect daily.",
+    "duration_days": 7,
+    "translations": {
+      "en": {
+        "title": "7-Day Moderation Reset",
+        "description": "Eat moderately and avoid second helpings for an entire week. Reflect daily."
+      },
+      "ar": {
+        "title": "إعادة تعيين الاعتدال لمدة 7 أيام",
+        "description": "لمدة أسبوع، تدرب على الأكل المعتدل والمتوازن."
+      },
+      "fr": {
+        "title": "Réinitialisation de modération de 7 jours",
+        "description": "Pendant une semaine, pratiquez une alimentation modérée et équilibrée."
+      }
+    },
+    "difficulty": "medium"
+  },
+  {
+    "id": "challenge-stomach-distracted-01",
+    "category": "stomach",
+    "subcategory": "eating_while_distracted",
+    "title": "No Screens at Mealtime",
+    "description": "Today, eat one full meal without your phone, TV, or any distraction.",
+    "duration_days": 1,
+    "translations": {
+      "en": {
+        "title": "No Screens at Mealtime",
+        "description": "Today, eat one full meal without your phone, TV, or any distraction."
+      },
+      "fr": {
+        "title": "Pas d'écrans à l'heure du repas",
+        "description": "Aujourd'hui, prenez un repas complet sans votre téléphone, TV ou toute distraction."
+      },
+      "ar": {
+        "title": "لا شاشات عند وقت الطعام",
+        "description": "اليوم، تناول وجبة كاملة بدون هاتفك أو التلفزيون أو أي إلهاء."
+      }
+    },
+    "difficulty": "easy"
+  },
+  {
+    "id": "challenge-stomach-distracted-02",
+    "category": "stomach",
+    "subcategory": "eating_while_distracted",
+    "title": "Mindful Meals – 3 Days",
+    "description": "Eat with full attention for 3 days. Chew slowly. Reflect on where your food came from.",
+    "duration_days": 3,
+    "translations": {
+      "en": {
+        "title": "Mindful Meals – 3 Days",
+        "description": "Eat with full attention for 3 days. Chew slowly. Reflect on where your food came from."
+      },
+      "ar": {
+        "title": "وجبات بوعي - 3 أيام",
+        "description": "لمدة 3 أيام، كل كل وجبة بوعي وتركيز كامل."
+      },
+      "fr": {
+        "title": "Repas conscients - 3 jours",
+        "description": "Pendant 3 jours, mangez chaque repas avec conscience et concentration complète."
+      }
+    },
+    "difficulty": "medium"
+  },
+  {
+    "id": "challenge-stomach-distracted-03",
+    "category": "stomach",
+    "subcategory": "eating_while_distracted",
+    "title": "7 Days of Presence",
+    "description": "Avoid all multitasking while eating for 7 days. Practise gratitude and mindfulness.",
+    "duration_days": 7,
+    "translations": {
+      "en": {
+        "title": "7 Days of Presence",
+        "description": "Avoid all multitasking while eating for 7 days. Practise gratitude and mindfulness."
+      },
+      "ar": {
+        "title": "7 أيام من الحضور",
+        "description": "لمدة أسبوع، كن حاضراً بالكامل أثناء الأكل."
+      },
+      "fr": {
+        "title": "7 jours de présence",
+        "description": "Pendant une semaine, soyez complètement présent pendant les repas."
+      }
+    },
+    "difficulty": "medium"
+  },
+  {
+    "id": "challenge-stomach-halal-income-01",
+    "category": "stomach",
+    "subcategory": "halal_income_neglect",
+    "title": "Ask Before You Eat",
+    "description": "Before buying food today, reflect on where your income came from.",
+    "duration_days": 1,
+    "translations": {
+      "en": {
+        "title": "Ask Before You Eat",
+        "description": "Before buying food today, reflect on where your income came from."
+      },
+      "fr": {
+        "title": "Demandez avant de manger",
+        "description": "Avant d'acheter de la nourriture aujourd'hui, réfléchissez à l'origine de vos revenus."
+      },
+      "ar": {
+        "title": "اسأل قبل أن تأكل",
+        "description": "قبل شراء الطعام اليوم، تأمل في مصدر دخلك."
+      }
+    },
+    "difficulty": "easy"
+  },
+  {
+    "id": "challenge-stomach-halal-income-02",
+    "category": "stomach",
+    "subcategory": "halal_income_neglect",
+    "title": "3-Day Halal Reflection",
+    "description": "Track your meals for 3 days. Reflect on the earnings that provided them.",
+    "duration_days": 3,
+    "translations": {
+      "en": {
+        "title": "3-Day Halal Reflection",
+        "description": "Track your meals for 3 days. Reflect on the earnings that provided them."
+      },
+      "ar": {
+        "title": "تأمل الحلال لمدة 3 أيام",
+        "description": "لمدة 3 أيام، تأمل في مصدر رزقك وتأكد من حلاله."
+      },
+      "fr": {
+        "title": "Réflexion halal de 3 jours",
+        "description": "Pendant 3 jours, réfléchissez à la source de votre subsistance et assurez-vous qu'elle est halal."
+      }
+    },
+    "difficulty": "medium"
+  },
+  {
+    "id": "challenge-stomach-halal-income-03",
+    "category": "stomach",
+    "subcategory": "halal_income_neglect",
+    "title": "7-Day Rizq Purity Challenge",
+    "description": "For 7 days, ask Allah to purify your provision and reflect on earning halal before every meal.",
+    "duration_days": 7,
+    "translations": {
+      "en": {
+        "title": "7-Day Rizq Purity Challenge",
+        "description": "For 7 days, ask Allah to purify your provision and reflect on earning halal before every meal."
+      },
+      "ar": {
+        "title": "تحدي طهارة الرزق لمدة 7 أيام",
+        "description": "لمدة أسبوع، تأكد من أن رزقك طاهر وحلال."
+      },
+      "fr": {
+        "title": "Défi de pureté de subsistance de 7 jours",
+        "description": "Pendant une semaine, assurez-vous que votre subsistance est pure et halal."
+      }
+    },
+    "difficulty": "medium"
+  },
+  {
+    "id": "challenge-stomach-doubtful-01",
+    "category": "stomach",
+    "subcategory": "doubtful_ingredients",
+    "title": "Check the Label",
+    "description": "Today, read every label before you buy. Avoid anything doubtful.",
+    "duration_days": 1,
+    "translations": {
+      "en": {
+        "title": "Check the Label",
+        "description": "Today, read every label before you buy. Avoid anything doubtful."
+      },
+      "ar": {
+        "title": "تحقق من التسمية",
+        "description": "اليوم، اقرأ كل تسمية قبل أن تشتري. تجنب أي شيء مشكوك فيه."
+      },
+      "fr": {
+        "title": "Vérifiez l'étiquette",
+        "description": "Aujourd'hui, lisez chaque étiquette avant d'acheter. Évitez tout ce qui est douteux."
+      }
+    },
+    "difficulty": "easy"
+  },
+  {
+    "id": "challenge-stomach-doubtful-02",
+    "category": "stomach",
+    "subcategory": "doubtful_ingredients",
+    "title": "Doubt-Free Eating – 3 Days",
+    "description": "Eat only from sources you are fully confident are halal for the next 3 days.",
+    "duration_days": 3,
+    "translations": {
+      "en": {
+        "title": "Doubt-Free Eating – 3 Days",
+        "description": "Eat only from sources you are fully confident are halal for the next 3 days."
+      },
+      "ar": {
+        "title": "أكل خالي من الشك - 3 أيام",
+        "description": "لمدة 3 أيام، تجنب كل طعام مشكوك في حلاله."
+      },
+      "fr": {
+        "title": "Alimentation sans doute - 3 jours",
+        "description": "Pendant 3 jours, évitez tout aliment douteux quant à sa licéité."
+      }
+    },
+    "difficulty": "medium"
+  },
+  {
+    "id": "challenge-stomach-doubtful-03",
+    "category": "stomach",
+    "subcategory": "doubtful_ingredients",
+    "title": "7 Days of Zahid Eating",
+    "description": "Simplicity over risk. Eat plainly and avoid any product you're unsure about.",
+    "duration_days": 7,
+    "translations": {
+      "en": {
+        "title": "7 Days of Zahid Eating",
+        "description": "Simplicity over risk. Eat plainly and avoid any product you're unsure about."
+      },
+      "ar": {
+        "title": "7 أيام من الأكل الزاهد",
+        "description": "لمدة أسبوع، كل فقط ما تتيقن من حلاله."
+      },
+      "fr": {
+        "title": "7 jours d'alimentation ascétique",
+        "description": "Pendant une semaine, mangez seulement ce dont vous êtes certain de la licéité."
+      }
+    },
+    "difficulty": "medium"
+  },
+  {
+    "id": "challenge-stomach-waste-01",
+    "category": "stomach",
+    "subcategory": "food_waste",
+    "title": "Clear Your Plate",
+    "description": "Today, waste no food. Take what you can eat and finish it all.",
+    "duration_days": 1,
+    "translations": {
+      "en": {
+        "title": "Clear Your Plate",
+        "description": "Today, waste no food. Take what you can eat and finish it all."
+      },
+      "ar": {
+        "title": "نظف طبقك",
+        "description": "اليوم، لا تهدر أي طعام. خذ ما يمكنك أكله وأنهِ كل شيء."
+      },
+      "fr": {
+        "title": "Videz votre assiette",
+        "description": "Aujourd'hui, ne gaspillez aucune nourriture. Prenez ce que vous pouvez manger et finissez tout."
+      }
+    },
+    "difficulty": "easy"
+  },
+  {
+    "id": "challenge-stomach-waste-02",
+    "category": "stomach",
+    "subcategory": "food_waste",
+    "title": "3-Day Food Honour",
+    "description": "For 3 days, save all leftovers and reuse them. Do not throw away edible food.",
+    "duration_days": 3,
+    "translations": {
+      "en": {
+        "title": "3-Day Food Honour",
+        "description": "For 3 days, save all leftovers and reuse them. Do not throw away edible food."
+      },
+      "ar": {
+        "title": "تكريم الطعام لمدة 3 أيام",
+        "description": "لمدة 3 أيام، أكرم كل قطعة طعام ولا تضيع شيئاً."
+      },
+      "fr": {
+        "title": "Honneur alimentaire de 3 jours",
+        "description": "Pendant 3 jours, honorez chaque morceau de nourriture et ne gaspillez rien."
+      }
+    },
+    "difficulty": "medium"
+  },
+  {
+    "id": "challenge-stomach-waste-03",
+    "category": "stomach",
+    "subcategory": "food_waste",
+    "title": "7-Day Anti-Waste Audit",
+    "description": "Track and reduce food waste for a week. Compost or donate when you can.",
+    "duration_days": 7,
+    "translations": {
+      "en": {
+        "title": "7-Day Anti-Waste Audit",
+        "description": "Track and reduce food waste for a week. Compost or donate when you can."
+      },
+      "ar": {
+        "title": "مراجعة مكافحة الإسراف لمدة 7 أيام",
+        "description": "لمدة أسبوع، راجع عاداتك الغذائية وتجنب الإسراف."
+      },
+      "fr": {
+        "title": "Audit anti-gaspillage de 7 jours",
+        "description": "Pendant une semaine, examinez vos habitudes alimentaires et évitez le gaspillage."
+      }
+    },
+    "difficulty": "medium"
+  },
+  {
+    "id": "challenge-stomach-emotional-01",
+    "category": "stomach",
+    "subcategory": "emotional_eating",
+    "title": "Ask Before You Snack",
+    "description": "Before eating, ask: Am I hungry or just restless? Answer honestly today.",
+    "duration_days": 1,
+    "translations": {
+      "en": {
+        "title": "Ask Before You Snack",
+        "description": "Before eating, ask: Am I hungry or just restless? Answer honestly today."
+      },
+      "ar": {
+        "title": "اسأل قبل أن تتناول وجبة خفيفة",
+        "description": "اليوم، اسأل نفسك 'هل أنا جائع حقاً؟' قبل كل وجبة خفيفة."
+      },
+      "fr": {
+        "title": "Demandez avant de grignoter",
+        "description": "Aujourd'hui, demandez-vous 'Ai-je vraiment faim?' avant chaque collation."
+      }
+    },
+    "difficulty": "easy"
+  },
+  {
+    "id": "challenge-stomach-emotional-02",
+    "category": "stomach",
+    "subcategory": "emotional_eating",
+    "title": "3-Day Intent Tracker",
+    "description": "Write down every time you eat emotionally over the next 3 days. Reflect honestly.",
+    "duration_days": 3,
+    "translations": {
+      "en": {
+        "title": "3-Day Intent Tracker",
+        "description": "Write down every time you eat emotionally over the next 3 days. Reflect honestly."
+      },
+      "ar": {
+        "title": "متتبع النية لمدة 3 أيام",
+        "description": "لمدة 3 أيام، تتبع نيتك وراء كل وجبة."
+      },
+      "fr": {
+        "title": "Traceur d'intention de 3 jours",
+        "description": "Pendant 3 jours, suivez votre intention derrière chaque repas."
+      }
+    },
+    "difficulty": "medium"
+  },
+  {
+    "id": "challenge-stomach-emotional-03",
+    "category": "stomach",
+    "subcategory": "emotional_eating",
+    "title": "7 Days of Soul Nourishment",
+    "description": "Turn emotional hunger into spiritual practice. Pray, journal, or breathe before snacking.",
+    "duration_days": 7,
+    "translations": {
+      "en": {
+        "title": "7 Days of Soul Nourishment",
+        "description": "Turn emotional hunger into spiritual practice. Pray, journal, or breathe before snacking."
+      },
+      "ar": {
+        "title": "7 أيام من تغذية الروح",
+        "description": "لمدة أسبوع، اطعم روحك بالذكر والقرآن أكثر من طعام الجسد."
+      },
+      "fr": {
+        "title": "7 jours de nourriture de l'âme",
+        "description": "Pendant une semaine, nourrissez votre âme avec le dhikr et le Coran plus que la nourriture du corps."
+      }
+    },
+    "difficulty": "medium"
+  },
+  {
+    "id": "challenge-stomach-intention-01",
+    "category": "stomach",
+    "subcategory": "neglecting_intention",
+    "title": "Say Bismillah",
+    "description": "Before every meal today, say 'Bismillah' and intend to strengthen yourself for good deeds.",
+    "duration_days": 1,
+    "translations": {
+      "en": {
+        "title": "Say Bismillah",
+        "description": "Before every meal today, say 'Bismillah' and intend to strengthen yourself for good deeds."
+      },
+      "ar": {
+        "title": "قل بسم الله",
+        "description": "قل بسم الله قبل كل وجبة وشراب اليوم."
+      },
+      "fr": {
+        "title": "Dites Bismillah",
+        "description": "Dites Bismillah avant chaque repas et boisson aujourd'hui."
+      }
+    },
+    "difficulty": "easy"
+  },
+  {
+    "id": "challenge-stomach-intention-02",
+    "category": "stomach",
+    "subcategory": "neglecting_intention",
+    "title": "3-Day Du'a Habit",
+    "description": "Make du'a before and after meals for 3 days. Let eating be worship.",
+    "duration_days": 3,
+    "translations": {
+      "en": {
+        "title": "3-Day Du'a Habit",
+        "description": "Make du'a before and after meals for 3 days. Let eating be worship."
+      },
+      "ar": {
+        "title": "عادة الدعاء لمدة 3 أيام",
+        "description": "لمدة 3 أيام، اجعل الدعاء قبل وبعد الأكل عادة."
+      },
+      "fr": {
+        "title": "Habitude de du'a de 3 jours",
+        "description": "Pendant 3 jours, faites de la du'a avant et après les repas une habitude."
+      }
+    },
+    "difficulty": "medium"
+  },
+  {
+    "id": "challenge-stomach-intention-03",
+    "category": "stomach",
+    "subcategory": "neglecting_intention",
+    "title": "7-Day Sacred Eating",
+    "description": "Eat with full presence and gratitude. Remember Allah at the start and end of every meal.",
+    "duration_days": 7,
+    "translations": {
+      "en": {
+        "title": "7-Day Sacred Eating",
+        "description": "Eat with full presence and gratitude. Remember Allah at the start and end of every meal."
+      },
+      "ar": {
+        "title": "7 أيام من الأكل المقدس",
+        "description": "لمدة أسبوع، اجعل كل وجبة عبادة بالنية والدعاء."
+      },
+      "fr": {
+        "title": "7 jours d'alimentation sacrée",
+        "description": "Pendant une semaine, faites de chaque repas un acte d'adoration avec intention et du'a."
+      }
+    },
+    "difficulty": "medium"
+  }
+]

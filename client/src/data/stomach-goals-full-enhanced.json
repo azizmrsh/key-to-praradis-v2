@@ -1,0 +1,1094 @@
+[
+  {
+    "goal_id": "stomach-eat-moderation",
+    "category": "stomach",
+    "translations": {
+      "en": {
+        "title": "Eat in Moderation",
+        "description": "Stop eating before feeling completely full.",
+        "islamic_guidance": "The Prophet (ﷺ) said: 'The son of Adam does not fill any vessel worse than his stomach. It is sufficient for the son of Adam to eat a few mouthfuls to keep his back straight. But if he must (fill it), then one third of food, one third for drink and one third for air.' (Tirmidhi)",
+        "benefits": [
+          "Improves physical health and energy",
+          "Develops self-control and discipline",
+          "Follows prophetic guidance for eating"
+        ],
+        "daily_actions": [
+          "Stop eating when you feel 80% full",
+          "Put your utensil down between bites",
+          "Listen to your body's hunger signals"
+        ]
+      },
+      "ar": {
+        "title": "كل باعتدال",
+        "description": "توقف عن الأكل قبل أن تشعر بالشبع الكامل.",
+        "islamic_guidance": "قال النبي ﷺ: 'ما ملأ آدمي وعاء شراً من بطن، بحسب ابن آدم أكلات يقمن صلبه، فإن كان لا محالة فثلث لطعامه وثلث لشرابه وثلث لنفسه' (الترمذي)",
+        "benefits": [
+          "يحسن الصحة الجسدية والطاقة",
+          "ينمي ضبط النفس والانضباط",
+          "يتبع الهدي النبوي في الأكل"
+        ],
+        "daily_actions": [
+          "توقف عن الأكل عند الشعور بالشبع بنسبة 80%",
+          "ضع أداة الطعام بين اللقمات",
+          "استمع لإشارات الجوع في جسدك"
+        ]
+      },
+      "fr": {
+        "title": "Mangez avec modération",
+        "description": "Arrêtez de manger avant d'être complètement rassasié.",
+        "islamic_guidance": "Le Prophète (ﷺ) a dit: 'Le fils d'Adam ne remplit aucun récipient pire que son estomac. Il suffit au fils d'Adam de manger quelques bouchées pour garder le dos droit. Mais s'il le faut, alors un tiers pour la nourriture, un tiers pour la boisson et un tiers pour l'air.' (Tirmidhi)",
+        "benefits": [
+          "Améliore la santé physique et l'énergie",
+          "Développe la maîtrise de soi et la discipline",
+          "Suit la guidance prophétique pour manger"
+        ],
+        "daily_actions": [
+          "Arrêtez de manger quand vous vous sentez rassasié à 80%",
+          "Posez vos couverts entre les bouchées",
+          "Écoutez les signaux de faim de votre corps"
+        ]
+      }
+    },
+    "duration_options": [7, 14, 21, 40]
+  },
+  {
+    "goal_id": "stomach-smaller-portions",
+    "category": "stomach",
+    "translations": {
+      "en": {
+        "title": "Smaller Portions",
+        "description": "Serve yourself smaller portions to avoid excess.",
+        "islamic_guidance": "Allah says: 'And eat and drink, but be not excessive. Indeed, He likes not those who commit excess.' (7:31)",
+        "benefits": [
+          "Prevents overeating and waste",
+          "Develops mindfulness about food",
+          "Maintains healthy body weight"
+        ],
+        "daily_actions": [
+          "Use smaller plates and bowls",
+          "Serve yourself half your usual portion initially",
+          "Wait before getting seconds"
+        ]
+      },
+      "ar": {
+        "title": "حصص أصغر",
+        "description": "ضع لنفسك حصصاً أصغر لتجنب الإفراط.",
+        "islamic_guidance": "يقول الله: 'وَكُلُوا وَاشْرَبُوا وَلَا تُسْرِفُوا إِنَّهُ لَا يُحِبُّ الْمُسْرِفِينَ' (7:31)",
+        "benefits": [
+          "يمنع الإفراط في الأكل والهدر",
+          "ينمي الوعي حول الطعام",
+          "يحافظ على وزن صحي"
+        ],
+        "daily_actions": [
+          "استخدم أطباق وأوعية أصغر",
+          "ضع لنفسك نصف الحصة المعتادة أولاً",
+          "انتظر قبل أخذ حصة ثانية"
+        ]
+      },
+      "fr": {
+        "title": "Portions plus petites",
+        "description": "Servez-vous de plus petites portions pour éviter les excès.",
+        "islamic_guidance": "Allah dit: 'Et mangez et buvez; et ne commettez pas d'excès, car Il n'aime pas ceux qui commettent des excès.' (7:31)",
+        "benefits": [
+          "Prévient la suralimentation et le gaspillage",
+          "Développe la conscience alimentaire",
+          "Maintient un poids corporel sain"
+        ],
+        "daily_actions": [
+          "Utilisez des assiettes et bols plus petits",
+          "Servez-vous initialement la moitié de votre portion habituelle",
+          "Attendez avant de reprendre"
+        ]
+      }
+    },
+    "duration_options": [7, 14, 21, 40]
+  },
+  {
+    "goal_id": "stomach-listen-body",
+    "category": "stomach",
+    "translations": {
+      "en": {
+        "title": "Listen to Your Body",
+        "description": "Eat only when hungry, not out of habit.",
+        "islamic_guidance": "The Prophet (ﷺ) said: 'We are a people who do not eat until we are hungry, and when we eat, we do not eat to our fill.' (Bukhari)",
+        "benefits": [
+          "Develops body awareness and intuition",
+          "Prevents mindless eating",
+          "Honors natural hunger cycles"
+        ],
+        "daily_actions": [
+          "Check if you're truly hungry before eating",
+          "Distinguish between hunger and thirst",
+          "Notice emotional eating triggers"
+        ]
+      },
+      "ar": {
+        "title": "استمع إلى جسدك",
+        "description": "كل فقط عندما تكون جائعاً، وليس بدافع العادة.",
+        "islamic_guidance": "قال النبي ﷺ: 'نحن قوم لا نأكل حتى نجوع، وإذا أكلنا لا نشبع' (البخاري)",
+        "benefits": [
+          "ينمي الوعي بالجسد والحدس",
+          "يمنع الأكل بلا تفكير",
+          "يحترم دورات الجوع الطبيعية"
+        ],
+        "daily_actions": [
+          "تأكد من جوعك الحقيقي قبل الأكل",
+          "ميز بين الجوع والعطش",
+          "لاحظ محفزات الأكل العاطفي"
+        ]
+      },
+      "fr": {
+        "title": "Écoutez votre corps",
+        "description": "Mangez seulement quand vous avez faim, pas par habitude.",
+        "islamic_guidance": "Le Prophète (ﷺ) a dit: 'Nous sommes un peuple qui ne mange pas jusqu'à avoir faim, et quand nous mangeons, nous ne mangeons pas à satiété.' (Bukhari)",
+        "benefits": [
+          "Développe la conscience corporelle et l'intuition",
+          "Prévient l'alimentation machinale",
+          "Honore les cycles naturels de faim"
+        ],
+        "daily_actions": [
+          "Vérifiez si vous avez vraiment faim avant de manger",
+          "Distinguez entre faim et soif",
+          "Remarquez les déclencheurs d'alimentation émotionnelle"
+        ]
+      }
+    },
+    "duration_options": [7, 14, 21, 40]
+  },
+  {
+    "goal_id": "stomach-screen-free-meals",
+    "category": "stomach",
+    "translations": {
+      "en": {
+        "title": "Screen-Free Meals",
+        "description": "Avoid devices during meals to eat mindfully.",
+        "islamic_guidance": "The Prophet (ﷺ) emphasized the importance of being present and mindful during meals, eating with intention and awareness of Allah's blessings.",
+        "benefits": [
+          "Increases mindfulness and presence",
+          "Improves digestion and satisfaction",
+          "Allows proper gratitude to Allah"
+        ],
+        "daily_actions": [
+          "Put away phones and screens during meals",
+          "Focus on the taste and texture of food",
+          "Have conversations with family if eating together"
+        ]
+      },
+      "ar": {
+        "title": "تناول الطعام بدون شاشات",
+        "description": "تجنب استخدام الأجهزة أثناء تناول الطعام لتأكل بتركيز.",
+        "islamic_guidance": "أكد النبي ﷺ على أهمية الحضور والوعي أثناء تناول الطعام، والأكل بنية ووعي لنعم الله.",
+        "benefits": [
+          "يزيد الوعي والحضور",
+          "يحسن الهضم والرضا",
+          "يسمح بالشكر المناسب لله"
+        ],
+        "daily_actions": [
+          "اتركي الهواتف والشاشات أثناء الطعام",
+          "ركز على طعم وملمس الطعام",
+          "تحدث مع العائلة إذا كنت تأكل معهم"
+        ]
+      },
+      "fr": {
+        "title": "Repas sans écran",
+        "description": "Évitez les appareils pendant les repas afin de manger en pleine conscience.",
+        "islamic_guidance": "Le Prophète (ﷺ) a souligné l'importance d'être présent et conscient pendant les repas, mangeant avec intention et conscience des bienfaits d'Allah.",
+        "benefits": [
+          "Augmente la pleine conscience et la présence",
+          "Améliore la digestion et la satisfaction",
+          "Permet une gratitude appropriée envers Allah"
+        ],
+        "daily_actions": [
+          "Rangez téléphones et écrans pendant les repas",
+          "Concentrez-vous sur le goût et la texture des aliments",
+          "Conversez avec la famille si vous mangez ensemble"
+        ]
+      }
+    },
+    "duration_options": [7, 14, 21, 40]
+  },
+  {
+    "goal_id": "stomach-gratitude-before-eating",
+    "category": "stomach",
+    "translations": {
+      "en": {
+        "title": "Gratitude Before Eating",
+        "description": "Pause and give thanks before your first bite.",
+        "islamic_guidance": "The Prophet (ﷺ) said: 'When one of you eats, let him mention the name of Allah. If he forgets to mention the name of Allah at the beginning, let him say: In the name of Allah, at the beginning and at the end.' (Abu Dawud)",
+        "benefits": [
+          "Connects eating to spiritual awareness",
+          "Increases appreciation for food",
+          "Brings barakah to the meal"
+        ],
+        "daily_actions": [
+          "Say 'Bismillah' before eating",
+          "Reflect on the journey of food to your plate",
+          "Thank Allah for the blessing of sustenance"
+        ]
+      },
+      "ar": {
+        "title": "الشكر قبل الأكل",
+        "description": "توقف واشكر الله قبل أول لقمة.",
+        "islamic_guidance": "قال النبي ﷺ: 'إذا أكل أحدكم فليذكر اسم الله، فإن نسي أن يذكر اسم الله في أوله فليقل: بسم الله أوله وآخره' (أبو داود)",
+        "benefits": [
+          "يربط الأكل بالوعي الروحي",
+          "يزيد التقدير للطعام",
+          "يجلب البركة للوجبة"
+        ],
+        "daily_actions": [
+          "قل 'بسم الله' قبل الأكل",
+          "تأمل في رحلة الطعام إلى طبقك",
+          "اشكر الله على نعمة الرزق"
+        ]
+      },
+      "fr": {
+        "title": "La gratitude avant de manger",
+        "description": "Faites une pause et remerciez avant la première bouchée.",
+        "islamic_guidance": "Le Prophète (ﷺ) a dit: 'Quand l'un de vous mange, qu'il mentionne le nom d'Allah. S'il oublie de mentionner le nom d'Allah au début, qu'il dise: Au nom d'Allah, au début et à la fin.' (Abu Dawud)",
+        "benefits": [
+          "Relie l'alimentation à la conscience spirituelle",
+          "Augmente l'appréciation pour la nourriture",
+          "Apporte la barakah au repas"
+        ],
+        "daily_actions": [
+          "Dites 'Bismillah' avant de manger",
+          "Réfléchissez au parcours de la nourriture jusqu'à votre assiette",
+          "Remerciez Allah pour la bénédiction de la subsistance"
+        ]
+      }
+    },
+    "duration_options": [7, 14, 21, 40]
+  },
+  {
+    "goal_id": "stomach-focus-each-bite",
+    "category": "stomach",
+    "translations": {
+      "en": {
+        "title": "Focus on Each Bite",
+        "description": "Chew slowly and appreciate flavours.",
+        "islamic_guidance": "The Prophet (ﷺ) ate slowly and chewed his food well, demonstrating mindfulness and gratitude for Allah's blessings.",
+        "benefits": [
+          "Improves digestion and nutrient absorption",
+          "Increases satisfaction with less food",
+          "Develops mindfulness practice"
+        ],
+        "daily_actions": [
+          "Chew each bite thoroughly",
+          "Put utensils down between bites",
+          "Notice the flavors and textures"
+        ]
+      },
+      "ar": {
+        "title": "التركيز في كل لقمة",
+        "description": "امضغ ببطء واستمتع بالنكهات.",
+        "islamic_guidance": "كان النبي ﷺ يأكل ببطء ويمضغ طعامه جيداً، مظهراً الوعي والشكر لنعم الله.",
+        "benefits": [
+          "يحسن الهضم وامتصاص المغذيات",
+          "يزيد الرضا بطعام أقل",
+          "ينمي ممارسة الوعي"
+        ],
+        "daily_actions": [
+          "امضغ كل لقمة جيداً",
+          "ضع الأدوات بين اللقمات",
+          "لاحظ النكهات والملمس"
+        ]
+      },
+      "fr": {
+        "title": "Concentrez-vous sur chaque bouchée",
+        "description": "Mastiquez lentement et appréciez les saveurs.",
+        "islamic_guidance": "Le Prophète (ﷺ) mangeait lentement et mâchait bien sa nourriture, démontrant la pleine conscience et la gratitude pour les bienfaits d'Allah.",
+        "benefits": [
+          "Améliore la digestion et l'absorption des nutriments",
+          "Augmente la satisfaction avec moins de nourriture",
+          "Développe la pratique de la pleine conscience"
+        ],
+        "daily_actions": [
+          "Mâchez chaque bouchée soigneusement",
+          "Posez les ustensiles entre les bouchées",
+          "Remarquez les saveurs et les textures"
+        ]
+      }
+    },
+    "duration_options": [7, 14, 21, 40]
+  },
+  {
+    "goal_id": "stomach-reflect-income",
+    "category": "stomach",
+    "translations": {
+      "en": {
+        "title": "Reflect on Your Income",
+        "description": "Think about whether your earnings are halal before buying food.",
+        "islamic_guidance": "The Prophet (ﷺ) said: 'Allah is Pure and accepts only that which is pure. Allah has commanded the believers to do that which He commanded the Messengers.' (Muslim)",
+        "benefits": [
+          "Ensures consumption of halal sustenance",
+          "Increases consciousness about income sources",
+          "Purifies the soul from doubtful earnings"
+        ],
+        "daily_actions": [
+          "Review your income sources regularly",
+          "Avoid purchasing food with doubtful earnings",
+          "Make du'a for halal rizq"
+        ]
+      },
+      "ar": {
+        "title": "تأمل في مصدر دخلك",
+        "description": "تأمل إذا كان دخلك حلالاً قبل شراء الطعام.",
+        "islamic_guidance": "قال النبي ﷺ: 'إن الله طيب لا يقبل إلا طيباً، وإن الله أمر المؤمنين بما أمر به المرسلين' (مسلم)",
+        "benefits": [
+          "يضمن استهلاك الرزق الحلال",
+          "يزيد الوعي حول مصادر الدخل",
+          "يطهر النفس من الكسب المشكوك"
+        ],
+        "daily_actions": [
+          "راجع مصادر دخلك بانتظام",
+          "تجنب شراء الطعام بالكسب المشكوك",
+          "ادع للرزق الحلال"
+        ]
+      },
+      "fr": {
+        "title": "Réfléchissez à vos revenus",
+        "description": "Réfléchissez à la licéité de vos revenus avant d'acheter de la nourriture.",
+        "islamic_guidance": "Le Prophète (ﷺ) a dit: 'Allah est Pur et n'accepte que ce qui est pur. Allah a ordonné aux croyants ce qu'Il a ordonné aux Messagers.' (Muslim)",
+        "benefits": [
+          "Assure la consommation d'une subsistance halal",
+          "Augmente la conscience des sources de revenus",
+          "Purifie l'âme des gains douteux"
+        ],
+        "daily_actions": [
+          "Révisez régulièrement vos sources de revenus",
+          "Évitez d'acheter de la nourriture avec des gains douteux",
+          "Faites du'a pour un rizq halal"
+        ]
+      }
+    },
+    "duration_options": [7, 14, 21, 40]
+  },
+  {
+    "goal_id": "stomach-purify-rizq",
+    "category": "stomach",
+    "translations": {
+      "en": {
+        "title": "Purify Your Rizq",
+        "description": "Pray for purification of your income before meals.",
+        "islamic_guidance": "The Prophet (ﷺ) said: 'O people, Allah is Pure and accepts only that which is pure. Verily, Allah has commanded the believers with that which He commanded the Messengers.' (Muslim)",
+        "benefits": [
+          "Seeks Allah's blessing on sustenance",
+          "Increases spiritual awareness of consumption",
+          "Purifies the heart from materialism"
+        ],
+        "daily_actions": [
+          "Make du'a for pure sustenance",
+          "Ask Allah to purify your income sources",
+          "Seek forgiveness for any doubtful earnings"
+        ]
+      },
+      "ar": {
+        "title": "طهر رزقك",
+        "description": "ادعُ الله لتطهير رزقك قبل تناول الطعام.",
+        "islamic_guidance": "قال النبي ﷺ: 'أيها الناس، إن الله طيب لا يقبل إلا طيباً، وإن الله أمر المؤمنين بما أمر به المرسلين' (مسلم)",
+        "benefits": [
+          "يطلب بركة الله على الرزق",
+          "يزيد الوعي الروحي للاستهلاك",
+          "يطهر القلب من المادية"
+        ],
+        "daily_actions": [
+          "ادع للرزق الطيب",
+          "اطلب من الله تطهير مصادر دخلك",
+          "استغفر لأي كسب مشكوك"
+        ]
+      },
+      "fr": {
+        "title": "Purifiez votre subsistance",
+        "description": "Priez pour la purification de vos revenus avant de manger.",
+        "islamic_guidance": "Le Prophète (ﷺ) a dit: 'Ô gens, Allah est Pur et n'accepte que ce qui est pur. En vérité, Allah a ordonné aux croyants ce qu'Il a ordonné aux Messagers.' (Muslim)",
+        "benefits": [
+          "Demande la bénédiction d'Allah sur la subsistance",
+          "Augmente la conscience spirituelle de la consommation",
+          "Purifie le cœur du matérialisme"
+        ],
+        "daily_actions": [
+          "Faites du'a pour une subsistance pure",
+          "Demandez à Allah de purifier vos sources de revenus",
+          "Cherchez le pardon pour tout gain douteux"
+        ]
+      }
+    },
+    "duration_options": [7, 14, 21, 40]
+  },
+  {
+    "goal_id": "stomach-seek-lawful-provision",
+    "category": "stomach",
+    "translations": {
+      "en": {
+        "title": "Seek Lawful Provision",
+        "description": "Strive to ensure your income sources are permissible.",
+        "islamic_guidance": "Allah says: 'O you who believe! Eat of the good things which We have provided for you, and be grateful to Allah if it is Him you worship.' (2:172)",
+        "benefits": [
+          "Ensures Allah's blessings on sustenance",
+          "Protects from spiritual corruption",
+          "Brings peace of mind and barakah"
+        ],
+        "daily_actions": [
+          "Research halal income opportunities",
+          "Avoid business dealings with interest",
+          "Seek Allah's guidance in career choices"
+        ]
+      },
+      "ar": {
+        "title": "اطلب رزقاً حلالاً",
+        "description": "اسعَ لضمان أن تكون مصادر دخلك حلالاً.",
+        "islamic_guidance": "يقول الله: 'يَا أَيُّهَا الَّذِينَ آمَنُوا كُلُوا مِن طَيِّبَاتِ مَا رَزَقْنَاكُمْ وَاشْكُرُوا لِلَّهِ إِن كُنتُمْ إِيَّاهُ تَعْبُدُونَ' (2:172)",
+        "benefits": [
+          "يضمن بركة الله على الرزق",
+          "يحمي من الفساد الروحي",
+          "يجلب راحة البال والبركة"
+        ],
+        "daily_actions": [
+          "ابحث عن فرص دخل حلال",
+          "تجنب المعاملات التجارية بالربا",
+          "اطلب هداية الله في اختيارات المهنة"
+        ]
+      },
+      "fr": {
+        "title": "Cherchez une subsistance licite",
+        "description": "Efforcez-vous de vous assurer que vos sources de revenus sont licites.",
+        "islamic_guidance": "Allah dit: 'Ô vous qui croyez! Mangez des bonnes choses que Nous vous avons attribuées, et remerciez Allah, si c'est Lui que vous adorez.' (2:172)",
+        "benefits": [
+          "Assure les bénédictions d'Allah sur la subsistance",
+          "Protège de la corruption spirituelle",
+          "Apporte la paix d'esprit et la barakah"
+        ],
+        "daily_actions": [
+          "Recherchez des opportunités de revenus halal",
+          "Évitez les transactions commerciales avec intérêts",
+          "Demandez la guidance d'Allah dans les choix de carrière"
+        ]
+      }
+    },
+    "duration_options": [7, 14, 21, 40]
+  },
+  {
+    "goal_id": "stomach-check-label",
+    "category": "stomach",
+    "translations": {
+      "en": {
+        "title": "Check the Label",
+        "description": "Read ingredients carefully before buying.",
+        "islamic_guidance": "The Prophet (ﷺ) said: 'Leave that which makes you doubt for that which does not make you doubt.' (Tirmidhi)",
+        "benefits": [
+          "Ensures consumption of halal food",
+          "Develops awareness of food contents",
+          "Protects from doubtful substances"
+        ],
+        "daily_actions": [
+          "Read ingredient lists on packaged foods",
+          "Learn about common haram additives",
+          "Choose products with clear halal certification"
+        ]
+      },
+      "ar": {
+        "title": "افحص المكونات",
+        "description": "اقرأ المكونات بعناية قبل الشراء.",
+        "islamic_guidance": "قال النبي ﷺ: 'دع ما يريبك إلى ما لا يريبك' (الترمذي)",
+        "benefits": [
+          "يضمن استهلاك الطعام الحلال",
+          "ينمي الوعي بمحتويات الطعام",
+          "يحمي من المواد المشكوكة"
+        ],
+        "daily_actions": [
+          "اقرأ قوائم المكونات على الأطعمة المعبأة",
+          "تعلم عن المضافات الحرام الشائعة",
+          "اختر منتجات بشهادة حلال واضحة"
+        ]
+      },
+      "fr": {
+        "title": "Vérifiez les ingrédients",
+        "description": "Lisez attentivement les ingrédients avant d'acheter.",
+        "islamic_guidance": "Le Prophète (ﷺ) a dit: 'Laisse ce qui te fait douter pour ce qui ne te fait pas douter.' (Tirmidhi)",
+        "benefits": [
+          "Assure la consommation d'aliments halal",
+          "Développe la conscience du contenu alimentaire",
+          "Protège des substances douteuses"
+        ],
+        "daily_actions": [
+          "Lisez les listes d'ingrédients sur les aliments emballés",
+          "Apprenez sur les additifs haram courants",
+          "Choisissez des produits avec certification halal claire"
+        ]
+      }
+    },
+    "duration_options": [7, 14, 21, 40]
+  },
+  {
+    "goal_id": "stomach-simplify-diet",
+    "category": "stomach",
+    "translations": {
+      "en": {
+        "title": "Simplify Your Diet",
+        "description": "Eat simple foods to avoid doubtful ingredients.",
+        "islamic_guidance": "The Prophet (ﷺ) lived simply and ate simple foods, focusing on natural, wholesome ingredients without complicated processing.",
+        "benefits": [
+          "Reduces exposure to doubtful substances",
+          "Promotes healthier eating habits",
+          "Follows prophetic simplicity"
+        ],
+        "daily_actions": [
+          "Choose whole, unprocessed foods",
+          "Cook meals from basic ingredients",
+          "Avoid foods with long ingredient lists"
+        ]
+      },
+      "ar": {
+        "title": "بسّط غذاءك",
+        "description": "تناول أطعمة بسيطة لتتجنب المكونات المشكوك فيها.",
+        "islamic_guidance": "عاش النبي ﷺ ببساطة وأكل أطعمة بسيطة، مركزاً على المكونات الطبيعية والصحية دون معالجة معقدة.",
+        "benefits": [
+          "يقلل التعرض للمواد المشكوكة",
+          "يعزز عادات الأكل الصحية",
+          "يتبع البساطة النبوية"
+        ],
+        "daily_actions": [
+          "اختر الأطعمة الكاملة غير المعالجة",
+          "اطبخ الوجبات من مكونات أساسية",
+          "تجنب الأطعمة بقوائم مكونات طويلة"
+        ]
+      },
+      "fr": {
+        "title": "Simplifiez votre alimentation",
+        "description": "Mangez des aliments simples pour éviter les ingrédients douteux.",
+        "islamic_guidance": "Le Prophète (ﷺ) vivait simplement et mangeait des aliments simples, se concentrant sur des ingrédients naturels et sains sans traitement compliqué.",
+        "benefits": [
+          "Réduit l'exposition aux substances douteuses",
+          "Favorise des habitudes alimentaires plus saines",
+          "Suit la simplicité prophétique"
+        ],
+        "daily_actions": [
+          "Choisissez des aliments entiers non transformés",
+          "Cuisinez des repas à partir d'ingrédients de base",
+          "Évitez les aliments avec de longues listes d'ingrédients"
+        ]
+      }
+    },
+    "duration_options": [7, 14, 21, 40]
+  },
+  {
+    "goal_id": "stomach-seek-knowledge",
+    "category": "stomach",
+    "translations": {
+      "en": {
+        "title": "Seek Knowledge",
+        "description": "Learn about common doubtful additives.",
+        "islamic_guidance": "The Prophet (ﷺ) said: 'The seeking of knowledge is obligatory upon every Muslim.' This includes knowledge about what is halal and haram in food.",
+        "benefits": [
+          "Enables informed food choices",
+          "Protects from unknowingly consuming haram",
+          "Fulfills obligation to seek knowledge"
+        ],
+        "daily_actions": [
+          "Study common food additives and their sources",
+          "Consult reliable halal certification bodies",
+          "Share knowledge with family and friends"
+        ]
+      },
+      "ar": {
+        "title": "اطلب العلم",
+        "description": "تعلّم عن المضافات المشكوك فيها الشائعة.",
+        "islamic_guidance": "قال النبي ﷺ: 'طلب العلم فريضة على كل مسلم' وهذا يشمل العلم بما هو حلال وحرام في الطعام.",
+        "benefits": [
+          "يمكن من اتخاذ قرارات غذائية مدروسة",
+          "يحمي من استهلاك الحرام دون علم",
+          "يحقق واجب طلب العلم"
+        ],
+        "daily_actions": [
+          "ادرس المضافات الغذائية الشائعة ومصادرها",
+          "استشر هيئات الشهادة الحلال الموثوقة",
+          "شارك المعرفة مع الأهل والأصدقاء"
+        ]
+      },
+      "fr": {
+        "title": "Cherchez la connaissance",
+        "description": "Renseignez-vous sur les additifs douteux courants.",
+        "islamic_guidance": "Le Prophète (ﷺ) a dit: 'La recherche de la connaissance est obligatoire pour tout musulman.' Cela inclut la connaissance de ce qui est halal et haram dans l'alimentation.",
+        "benefits": [
+          "Permet des choix alimentaires éclairés",
+          "Protège de la consommation inconsciente de haram",
+          "Remplit l'obligation de chercher la connaissance"
+        ],
+        "daily_actions": [
+          "Étudiez les additifs alimentaires courants et leurs sources",
+          "Consultez des organismes de certification halal fiables",
+          "Partagez la connaissance avec famille et amis"
+        ]
+      }
+    },
+    "duration_options": [7, 14, 21, 40]
+  },
+  {
+    "goal_id": "stomach-take-only-needed",
+    "category": "stomach",
+    "translations": {
+      "en": {
+        "title": "Take Only What You'll Eat",
+        "description": "Avoid loading plates with more than needed.",
+        "islamic_guidance": "The Prophet (ﷺ) said: 'The world is green and beautiful, and Allah has appointed you as His stewards over it.' This includes being responsible with food.",
+        "benefits": [
+          "Prevents food waste and overconsumption",
+          "Develops mindful eating habits",
+          "Shows respect for Allah's blessings"
+        ],
+        "daily_actions": [
+          "Estimate your appetite before serving",
+          "Start with smaller portions",
+          "You can always take more if needed"
+        ]
+      },
+      "ar": {
+        "title": "خذ ما تحتاجه فقط",
+        "description": "تجنب ملء طبقك بما يفوق حاجتك.",
+        "islamic_guidance": "قال النبي ﷺ: 'إن الدنيا خضرة حلوة، وإن الله مستخلفكم فيها' وهذا يشمل المسؤولية تجاه الطعام.",
+        "benefits": [
+          "يمنع هدر الطعام والاستهلاك المفرط",
+          "ينمي عادات الأكل الواعية",
+          "يظهر احترام نعم الله"
+        ],
+        "daily_actions": [
+          "قدر شهيتك قبل التقديم",
+          "ابدأ بحصص أصغر",
+          "يمكنك دائماً أخذ المزيد إذا احتجت"
+        ]
+      },
+      "fr": {
+        "title": "Prenez seulement ce que vous mangerez",
+        "description": "Évitez de remplir votre assiette au-delà de vos besoins.",
+        "islamic_guidance": "Le Prophète (ﷺ) a dit: 'Le monde est vert et beau, et Allah vous a nommés Ses intendants sur lui.' Cela inclut être responsable avec la nourriture.",
+        "benefits": [
+          "Prévient le gaspillage alimentaire et la surconsommation",
+          "Développe des habitudes alimentaires conscientes",
+          "Montre le respect pour les bienfaits d'Allah"
+        ],
+        "daily_actions": [
+          "Estimez votre appétit avant de servir",
+          "Commencez par des portions plus petites",
+          "Vous pouvez toujours reprendre si nécessaire"
+        ]
+      }
+    },
+    "duration_options": [7, 14, 21, 40]
+  },
+  {
+    "goal_id": "stomach-reuse-leftovers",
+    "category": "stomach",
+    "translations": {
+      "en": {
+        "title": "Reuse Leftovers",
+        "description": "Find creative ways to use leftovers instead of discarding them.",
+        "islamic_guidance": "The Prophet (ﷺ) said: 'When food falls on the ground, pick it up, wipe it clean, and eat it. Do not leave it for Satan.' This shows the importance of not wasting food.",
+        "benefits": [
+          "Reduces food waste and saves money",
+          "Develops creativity in cooking",
+          "Shows gratitude for Allah's provisions"
+        ],
+        "daily_actions": [
+          "Plan meals to use leftover ingredients",
+          "Store leftovers properly for later use",
+          "Transform leftovers into new dishes"
+        ]
+      },
+      "ar": {
+        "title": "استخدم البقايا مجدداً",
+        "description": "ابتكر طرقاً لاستخدام البقايا بدلاً من رميها.",
+        "islamic_guidance": "قال النبي ﷺ: 'إذا سقطت لقمة أحدكم فليأخذها وليمط عنها الأذى وليأكلها ولا يدعها للشيطان' وهذا يظهر أهمية عدم إهدار الطعام.",
+        "benefits": [
+          "يقلل هدر الطعام ويوفر المال",
+          "ينمي الإبداع في الطبخ",
+          "يظهر الشكر لرزق الله"
+        ],
+        "daily_actions": [
+          "خطط للوجبات لاستخدام المكونات المتبقية",
+          "احفظ البقايا بطريقة صحيحة للاستخدام لاحقاً",
+          "حول البقايا إلى أطباق جديدة"
+        ]
+      },
+      "fr": {
+        "title": "Réutilisez les restes",
+        "description": "Trouvez des moyens créatifs d'utiliser les restes plutôt que de les jeter.",
+        "islamic_guidance": "Le Prophète (ﷺ) a dit: 'Quand la nourriture tombe par terre, ramassez-la, nettoyez-la et mangez-la. Ne la laissez pas pour Satan.' Cela montre l'importance de ne pas gaspiller la nourriture.",
+        "benefits": [
+          "Réduit le gaspillage alimentaire et économise de l'argent",
+          "Développe la créativité en cuisine",
+          "Montre la gratitude pour les provisions d'Allah"
+        ],
+        "daily_actions": [
+          "Planifiez des repas pour utiliser les ingrédients restants",
+          "Conservez les restes correctement pour un usage ultérieur",
+          "Transformez les restes en nouveaux plats"
+        ]
+      }
+    },
+    "duration_options": [7, 14, 21, 40]
+  },
+  {
+    "goal_id": "stomach-respect-blessings",
+    "category": "stomach",
+    "translations": {
+      "en": {
+        "title": "Respect Allah's Blessings",
+        "description": "Treat food as a divine blessing not to be wasted.",
+        "islamic_guidance": "Allah says: 'And it is He who sends down rain from the sky, and We produce thereby the vegetation of every kind.' (6:99) Every morsel of food is a blessing from Allah.",
+        "benefits": [
+          "Develops gratitude and spiritual awareness",
+          "Reduces wasteful consumption",
+          "Increases barakah in sustenance"
+        ],
+        "daily_actions": [
+          "Reflect on the divine origin of food",
+          "Avoid throwing away edible food",
+          "Share excess food with those in need"
+        ]
+      },
+      "ar": {
+        "title": "احترم نعم الله",
+        "description": "اعتبر الطعام نعمة إلهية لا يجب إهدارها.",
+        "islamic_guidance": "يقول الله: 'وَهُوَ الَّذِي أَنزَلَ مِنَ السَّمَاءِ مَاءً فَأَخْرَجْنَا بِهِ نَبَاتَ كُلِّ شَيْءٍ' (6:99) كل لقمة طعام هي نعمة من الله.",
+        "benefits": [
+          "ينمي الشكر والوعي الروحي",
+          "يقلل الاستهلاك المبذر",
+          "يزيد البركة في الرزق"
+        ],
+        "daily_actions": [
+          "تأمل في المصدر الإلهي للطعام",
+          "تجنب رمي الطعام الصالح للأكل",
+          "شارك الطعام الزائد مع المحتاجين"
+        ]
+      },
+      "fr": {
+        "title": "Respectez les bienfaits d'Allah",
+        "description": "Considérez la nourriture comme une bénédiction divine à ne pas gaspiller.",
+        "islamic_guidance": "Allah dit: 'Et c'est Lui qui fait descendre l'eau du ciel; puis Nous en faisons sortir toute plante.' (6:99) Chaque bouchée de nourriture est une bénédiction d'Allah.",
+        "benefits": [
+          "Développe la gratitude et la conscience spirituelle",
+          "Réduit la consommation gaspilleuse",
+          "Augmente la barakah dans la subsistance"
+        ],
+        "daily_actions": [
+          "Réfléchissez à l'origine divine de la nourriture",
+          "Évitez de jeter la nourriture comestible",
+          "Partagez l'excès de nourriture avec ceux qui en ont besoin"
+        ]
+      }
+    },
+    "duration_options": [7, 14, 21, 40]
+  },
+  {
+    "goal_id": "stomach-identify-emotional-eating",
+    "category": "stomach",
+    "translations": {
+      "en": {
+        "title": "Identify Emotional Eating",
+        "description": "Recognise triggers that cause you to eat emotionally.",
+        "islamic_guidance": "The Prophet (ﷺ) taught us to seek refuge in Allah from anxiety and grief. Understanding our emotional triggers helps us turn to Allah instead of food for comfort.",
+        "benefits": [
+          "Develops emotional self-awareness",
+          "Breaks unhealthy eating patterns",
+          "Encourages spiritual coping mechanisms"
+        ],
+        "daily_actions": [
+          "Notice when you eat without physical hunger",
+          "Identify emotions that trigger eating",
+          "Keep a food and mood journal"
+        ]
+      },
+      "ar": {
+        "title": "تمييز الأكل العاطفي",
+        "description": "تعرف على المحفزات التي تدفعك للأكل العاطفي.",
+        "islamic_guidance": "علمنا النبي ﷺ أن نستعيذ بالله من الهم والغم. فهم محفزاتنا العاطفية يساعدنا على التوجه إلى الله بدلاً من الطعام للراحة.",
+        "benefits": [
+          "ينمي الوعي العاطفي الذاتي",
+          "يكسر أنماط الأكل غير الصحية",
+          "يشجع آليات المواجهة الروحية"
+        ],
+        "daily_actions": [
+          "لاحظ عندما تأكل بدون جوع جسدي",
+          "حدد المشاعر التي تحفز الأكل",
+          "احتفظ بمذكرة طعام ومزاج"
+        ]
+      },
+      "fr": {
+        "title": "Identifier la nourriture émotionnelle",
+        "description": "Identifiez les déclencheurs qui vous poussent à manger par émotion.",
+        "islamic_guidance": "Le Prophète (ﷺ) nous a enseigné à chercher refuge auprès d'Allah contre l'anxiété et le chagrin. Comprendre nos déclencheurs émotionnels nous aide à nous tourner vers Allah plutôt que vers la nourriture pour le réconfort.",
+        "benefits": [
+          "Développe la conscience émotionnelle de soi",
+          "Brise les schémas alimentaires malsains",
+          "Encourage les mécanismes d'adaptation spirituels"
+        ],
+        "daily_actions": [
+          "Remarquez quand vous mangez sans faim physique",
+          "Identifiez les émotions qui déclenchent l'alimentation",
+          "Tenez un journal alimentaire et d'humeur"
+        ]
+      }
+    },
+    "duration_options": [7, 14, 21, 40]
+  },
+  {
+    "goal_id": "stomach-find-alternatives",
+    "category": "stomach",
+    "translations": {
+      "en": {
+        "title": "Find Alternatives",
+        "description": "Replace eating with prayer, dhikr, or a walk when stressed.",
+        "islamic_guidance": "Allah says: 'And whoever relies upon Allah - then He is sufficient for him. Indeed, Allah will accomplish His purpose.' (65:3) Turn to Allah in times of stress instead of food.",
+        "benefits": [
+          "Develops healthier coping mechanisms",
+          "Strengthens spiritual connection",
+          "Reduces stress eating patterns"
+        ],
+        "daily_actions": [
+          "Practice deep breathing when stressed",
+          "Go for a walk or do light exercise",
+          "Engage in dhikr or prayer instead of eating"
+        ]
+      },
+      "ar": {
+        "title": "ابحث عن بدائل",
+        "description": "استبدل الأكل بالصلاة أو الذكر أو المشي عند التوتر.",
+        "islamic_guidance": "يقول الله: 'وَمَن يَتَوَكَّلْ عَلَى اللَّهِ فَهُوَ حَسْبُهُ إِنَّ اللَّهَ بَالِغُ أَمْرِهِ' (65:3) توجه إلى الله في أوقات التوتر بدلاً من الطعام.",
+        "benefits": [
+          "ينمي آليات مواجهة أكثر صحة",
+          "يقوي الاتصال الروحي",
+          "يقلل أنماط الأكل بسبب التوتر"
+        ],
+        "daily_actions": [
+          "مارس التنفس العميق عند التوتر",
+          "اذهب للمشي أو مارس تمريناً خفيفاً",
+          "اشتغل بالذكر أو الصلاة بدلاً من الأكل"
+        ]
+      },
+      "fr": {
+        "title": "Trouvez des alternatives",
+        "description": "Remplacez la nourriture par la prière, le dhikr ou une marche en cas de stress.",
+        "islamic_guidance": "Allah dit: 'Et quiconque place sa confiance en Allah, Il lui suffit. Allah atteint ce qu'Il Se propose.' (65:3) Tournez-vous vers Allah en temps de stress au lieu de vers la nourriture.",
+        "benefits": [
+          "Développe des mécanismes d'adaptation plus sains",
+          "Renforce la connexion spirituelle",
+          "Réduit les schémas d'alimentation de stress"
+        ],
+        "daily_actions": [
+          "Pratiquez la respiration profonde en cas de stress",
+          "Allez marcher ou faites de l'exercice léger",
+          "Engagez-vous dans le dhikr ou la prière au lieu de manger"
+        ]
+      }
+    },
+    "duration_options": [7, 14, 21, 40]
+  },
+  {
+    "goal_id": "stomach-journal-feelings",
+    "category": "stomach",
+    "translations": {
+      "en": {
+        "title": "Journal Your Feelings",
+        "description": "Record your emotions instead of numbing them with food.",
+        "islamic_guidance": "The Prophet (ﷺ) encouraged self-reflection and accountability. Writing down our feelings helps us process emotions in a healthy way.",
+        "benefits": [
+          "Increases emotional awareness",
+          "Provides healthy outlet for emotions",
+          "Helps identify patterns and triggers"
+        ],
+        "daily_actions": [
+          "Write down emotions before eating",
+          "Reflect on what triggered the feeling",
+          "Make du'a about your emotional state"
+        ]
+      },
+      "ar": {
+        "title": "دوّن مشاعرك",
+        "description": "دوّن مشاعرك بدلاً من إخفائها بالطعام.",
+        "islamic_guidance": "شجع النبي ﷺ على التأمل الذاتي والمساءلة. كتابة مشاعرنا تساعدنا على معالجة المشاعر بطريقة صحية.",
+        "benefits": [
+          "يزيد الوعي العاطفي",
+          "يوفر منفذاً صحياً للمشاعر",
+          "يساعد في تحديد الأنماط والمحفزات"
+        ],
+        "daily_actions": [
+          "اكتب مشاعرك قبل الأكل",
+          "تأمل في ما أثار هذا الشعور",
+          "ادع الله بخصوص حالتك العاطفية"
+        ]
+      },
+      "fr": {
+        "title": "Tenez un journal de vos émotions",
+        "description": "Notez vos émotions au lieu de les anesthésier avec la nourriture.",
+        "islamic_guidance": "Le Prophète (ﷺ) encourageait l'auto-réflexion et la responsabilité. Écrire nos sentiments nous aide à traiter les émotions de manière saine.",
+        "benefits": [
+          "Augmente la conscience émotionnelle",
+          "Fournit un exutoire sain pour les émotions",
+          "Aide à identifier les schémas et déclencheurs"
+        ],
+        "daily_actions": [
+          "Écrivez vos émotions avant de manger",
+          "Réfléchissez à ce qui a déclenché le sentiment",
+          "Faites du'a concernant votre état émotionnel"
+        ]
+      }
+    },
+    "duration_options": [7, 14, 21, 40]
+  },
+  {
+    "goal_id": "stomach-start-bismillah",
+    "category": "stomach",
+    "translations": {
+      "en": {
+        "title": "Start With Bismillah",
+        "description": "Always say Bismillah before eating.",
+        "islamic_guidance": "The Prophet (ﷺ) said: 'When one of you eats, let him mention the name of Allah. If he forgets to mention the name of Allah at the beginning, let him say: In the name of Allah, at the beginning and at the end.' (Abu Dawud)",
+        "benefits": [
+          "Brings barakah to the meal",
+          "Increases mindfulness during eating",
+          "Follows prophetic sunnah"
+        ],
+        "daily_actions": [
+          "Say 'Bismillah' before every meal and snack",
+          "Teach family members this practice",
+          "Remind yourself if you forget at the beginning"
+        ]
+      },
+      "ar": {
+        "title": "ابدأ ببسم الله",
+        "description": "قل دائماً بسم الله قبل الأكل.",
+        "islamic_guidance": "قال النبي ﷺ: 'إذا أكل أحدكم فليذكر اسم الله، فإن نسي أن يذكر اسم الله في أوله فليقل: بسم الله أوله وآخره' (أبو داود)",
+        "benefits": [
+          "يجلب البركة للوجبة",
+          "يزيد الوعي أثناء الأكل",
+          "يتبع السنة النبوية"
+        ],
+        "daily_actions": [
+          "قل 'بسم الله' قبل كل وجبة ووجبة خفيفة",
+          "علم أفراد الأسرة هذه الممارسة",
+          "ذكر نفسك إذا نسيت في البداية"
+        ]
+      },
+      "fr": {
+        "title": "Commencez par Bismillah",
+        "description": "Dites toujours Bismillah avant de manger.",
+        "islamic_guidance": "Le Prophète (ﷺ) a dit: 'Quand l'un de vous mange, qu'il mentionne le nom d'Allah. S'il oublie de mentionner le nom d'Allah au début, qu'il dise: Au nom d'Allah, au début et à la fin.' (Abu Dawud)",
+        "benefits": [
+          "Apporte la barakah au repas",
+          "Augmente la pleine conscience pendant l'alimentation",
+          "Suit la sunnah prophétique"
+        ],
+        "daily_actions": [
+          "Dites 'Bismillah' avant chaque repas et collation",
+          "Enseignez cette pratique aux membres de la famille",
+          "Rappelez-vous si vous oubliez au début"
+        ]
+      }
+    },
+    "duration_options": [7, 14, 21, 40]
+  },
+  {
+    "goal_id": "stomach-remember-purpose",
+    "category": "stomach",
+    "translations": {
+      "en": {
+        "title": "Remember the Purpose",
+        "description": "Eat to gain strength for worship and good deeds.",
+        "islamic_guidance": "The Prophet (ﷺ) said: 'The believer eats in one intestine (is satisfied with a little food), and the kafir (disbeliever) eats in seven intestines (eats much).' (Bukhari)",
+        "benefits": [
+          "Connects eating to spiritual purpose",
+          "Prevents overeating and gluttony",
+          "Increases consciousness of Allah"
+        ],
+        "daily_actions": [
+          "Before eating, remind yourself why you need food",
+          "Eat with the intention to worship Allah better",
+          "Avoid eating for pleasure alone"
+        ]
+      },
+      "ar": {
+        "title": "تذكر الهدف من الأكل",
+        "description": "كل لتقوى على العبادة وفعل الخير.",
+        "islamic_guidance": "قال النبي ﷺ: 'المؤمن يأكل في معي واحد، والكافر يأكل في سبعة أمعاء' (البخاري)",
+        "benefits": [
+          "يربط الأكل بالهدف الروحي",
+          "يمنع الإفراط في الأكل والشره",
+          "يزيد الوعي بالله"
+        ],
+        "daily_actions": [
+          "قبل الأكل، ذكر نفسك لماذا تحتاج الطعام",
+          "كل بنية عبادة الله بشكل أفضل",
+          "تجنب الأكل للمتعة وحدها"
+        ]
+      },
+      "fr": {
+        "title": "Rappelez-vous l'objectif",
+        "description": "Mangez pour gagner des forces afin d'adorer et de faire le bien.",
+        "islamic_guidance": "Le Prophète (ﷺ) a dit: 'Le croyant mange dans un intestin (est satisfait avec peu de nourriture), et le mécréant mange dans sept intestins (mange beaucoup).' (Bukhari)",
+        "benefits": [
+          "Relie l'alimentation à l'objectif spirituel",
+          "Prévient la suralimentation et la gourmandise",
+          "Augmente la conscience d'Allah"
+        ],
+        "daily_actions": [
+          "Avant de manger, rappelez-vous pourquoi vous avez besoin de nourriture",
+          "Mangez avec l'intention de mieux adorer Allah",
+          "Évitez de manger pour le plaisir seul"
+        ]
+      }
+    },
+    "duration_options": [7, 14, 21, 40]
+  },
+  {
+    "goal_id": "stomach-close-alhamdulillah",
+    "category": "stomach",
+    "translations": {
+      "en": {
+        "title": "Close With Alhamdulillah",
+        "description": "Thank Allah after finishing your meal.",
+        "islamic_guidance": "The Prophet (ﷺ) said: 'Whoever eats food and then says: Alhamdulillahil-ladhi at'amani hadha wa razaqanih bi ghairi hawlin minni wa la quwwatin (All praise is for Allah who has fed me this and provided it for me without any might or power on my part), his past sins will be forgiven.' (Abu Dawud)",
+        "benefits": [
+          "Expresses gratitude to Allah",
+          "Completes the spiritual cycle of eating",
+          "Brings forgiveness for past sins"
+        ],
+        "daily_actions": [
+          "Say 'Alhamdulillah' after every meal",
+          "Reflect on Allah's generosity",
+          "Make du'a for those who lack food"
+        ]
+      },
+      "ar": {
+        "title": "اختم بالحمد لله",
+        "description": "احمد الله بعد الانتهاء من طعامك.",
+        "islamic_guidance": "قال النبي ﷺ: 'من أكل طعاماً فقال: الحمد لله الذي أطعمني هذا ورزقنيه من غير حول مني ولا قوة، غفر له ما تقدم من ذنبه' (أبو داود)",
+        "benefits": [
+          "يعبر عن الشكر لله",
+          "يكمل دورة الأكل الروحية",
+          "يجلب المغفرة للذنوب السابقة"
+        ],
+        "daily_actions": [
+          "قل 'الحمد لله' بعد كل وجبة",
+          "تأمل في كرم الله",
+          "ادع لمن يفتقرون للطعام"
+        ]
+      },
+      "fr": {
+        "title": "Terminez par Alhamdulillah",
+        "description": "Remerciez Allah après avoir terminé votre repas.",
+        "islamic_guidance": "Le Prophète (ﷺ) a dit: 'Quiconque mange et dit ensuite: Alhamdulillahil-ladhi at'amani hadha wa razaqanih bi ghairi hawlin minni wa la quwwatin (Toute louange est à Allah qui m'a nourri de ceci et me l'a fourni sans aucun pouvoir ni force de ma part), ses péchés passés seront pardonnés.' (Abu Dawud)",
+        "benefits": [
+          "Exprime la gratitude envers Allah",
+          "Complète le cycle spirituel de l'alimentation",
+          "Apporte le pardon pour les péchés passés"
+        ],
+        "daily_actions": [
+          "Dites 'Alhamdulillah' après chaque repas",
+          "Réfléchissez à la générosité d'Allah",
+          "Faites du'a pour ceux qui manquent de nourriture"
+        ]
+      }
+    },
+    "duration_options": [7, 14, 21, 40]
+  }
+]

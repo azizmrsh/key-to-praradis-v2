@@ -1,0 +1,233 @@
+[
+  {
+    "id": "goal-heart-pride-01",
+    "category": "heart",
+    "subcategory": "pride",
+    "title": "Remember Allah’s Favour",
+    "title_ar": "تذكر فضل الله عليك",
+    "title_fr": "Souvenez-vous des faveurs d’Allah",
+    "description": "Remind yourself that all virtues and blessings are from Allah. Islamic guidance: 'Allah does not love anyone who is proud and boastful.' (Qur’an 57:23).",
+    "description_ar": "ذكر نفسك أن جميع النعم من عند الله. التوجيه الإسلامي: «إِنَّ اللَّهَ لَا يُحِبُّ كُلَّ مُخْتَالٍ فَخُورٍ» (الحديد:٢٣).",
+    "description_fr": "Rappelez-vous que toutes les vertus viennent d’Allah. Guidance islamique : « Allah n’aime pas quiconque est plein d’orgueil et de vantardise. » (Coran 57:23)."
+  },
+  {
+    "id": "goal-heart-pride-02",
+    "category": "heart",
+    "subcategory": "pride",
+    "title": "Speak Humbly",
+    "title_ar": "تكلم بتواضع",
+    "title_fr": "Parlez humblement",
+    "description": "Avoid boasting and speak with humility.",
+    "description_ar": "تجنب التفاخر وتكلم بتواضع.",
+    "description_fr": "Évitez de vous vanter et parlez avec humilité."
+  },
+  {
+    "id": "goal-heart-pride-03",
+    "category": "heart",
+    "subcategory": "pride",
+    "title": "See Others as Better",
+    "title_ar": "اعتبر الآخرين أفضل منك",
+    "title_fr": "Considérez les autres comme meilleurs que vous",
+    "description": "Assume others may be closer to Allah than you. Islamic guidance: 'No one who has an atom’s weight of arrogance in his heart will enter Paradise.' (Muslim).",
+    "description_ar": "افترض أن الآخرين قد يكونون أقرب إلى الله منك. التوجيه الإسلامي: «لَا يَدْخُلُ الْجَنَّةَ مَنْ كَانَ فِي قَلْبِهِ مِثْقَالُ ذَرَّةٍ مِنْ كِبْرٍ» (مسلم).",
+    "description_fr": "Considérez que les autres peuvent être plus proches d’Allah que vous. Guidance islamique : « N’entrera pas au Paradis celui qui a dans son cœur le poids d’un atome d’orgueil. » (Muslim)."
+  },
+  {
+    "id": "goal-heart-hatred-01",
+    "category": "heart",
+    "subcategory": "hatred_lack_empathy",
+    "title": "Pray for Others",
+    "title_ar": "ادعُ للآخرين",
+    "title_fr": "Priez pour les autres",
+    "description": "Make dua even for people you dislike. Islamic guidance: 'None of you truly believes until he loves for his brother what he loves for himself.' (Bukhari, Muslim).",
+    "description_ar": "ادعُ حتى لمن لا تحبهم. التوجيه الإسلامي: «لَا يُؤْمِنُ أَحَدُكُمْ حَتَّى يُحِبَّ لأَخِيهِ مَا يُحِبُّ لِنَفْسِهِ» (البخاري، مسلم).",
+    "description_fr": "Faites des dou’as même pour ceux que vous n’aimez pas. Guidance islamique : « Aucun de vous ne croit vraiment tant qu’il n’aime pas pour son frère ce qu’il aime pour lui-même. » (Boukhari, Muslim)."
+  },
+  {
+    "id": "goal-heart-hatred-02",
+    "category": "heart",
+    "subcategory": "hatred_lack_empathy",
+    "title": "Assume Good Intentions",
+    "title_ar": "احسن الظن",
+    "title_fr": "Ayez de bonnes intentions envers autrui",
+    "description": "Give people the benefit of the doubt.",
+    "description_ar": "أحسن الظن بالناس.",
+    "description_fr": "Accordez le bénéfice du doute aux autres."
+  },
+  {
+    "id": "goal-heart-hatred-03",
+    "category": "heart",
+    "subcategory": "hatred_lack_empathy",
+    "title": "Practise Active Kindness",
+    "title_ar": "مارس اللطف الفعّال",
+    "title_fr": "Pratiquez la bienveillance active",
+    "description": "Show compassion through small acts of help.",
+    "description_ar": "أظهر التعاطف من خلال أعمال مساعدة بسيطة.",
+    "description_fr": "Montrez de la compassion par de petits actes d’aide."
+  },
+  {
+    "id": "goal-heart-envy-01",
+    "category": "heart",
+    "subcategory": "envy",
+    "title": "Say Masha’Allah",
+    "title_ar": "قل ما شاء الله",
+    "title_fr": "Dites Masha’Allah",
+    "description": "When seeing blessings in others’ lives, say “Masha’Allah.” Islamic guidance: 'If you see something you admire, say Masha’Allah.' (Ahmad).",
+    "description_ar": "عندما ترى نعم الآخرين قل: ما شاء الله. التوجيه الإسلامي: «إذا رأى أحدكم من نفسه أو ماله أو أخيه ما يعجبه فليدع بالبركة» (أحمد).",
+    "description_fr": "Lorsque vous voyez les bienfaits chez autrui, dites « Masha’Allah ». Guidance islamique : « Lorsque l’un de vous voit quelque chose qui lui plaît, qu’il invoque la bénédiction. » (Ahmad)."
+  },
+  {
+    "id": "goal-heart-envy-02",
+    "category": "heart",
+    "subcategory": "envy",
+    "title": "Focus on Your Own Path",
+    "title_ar": "ركز على طريقك",
+    "title_fr": "Concentrez-vous sur votre propre chemin",
+    "description": "Avoid comparing your life to others’.",
+    "description_ar": "لا تقارن حياتك بحياة الآخرين.",
+    "description_fr": "Évitez de comparer votre vie à celle des autres."
+  },
+  {
+    "id": "goal-heart-envy-03",
+    "category": "heart",
+    "subcategory": "envy",
+    "title": "Thank Allah Daily",
+    "title_ar": "احمد الله يومياً",
+    "title_fr": "Remerciez Allah chaque jour",
+    "description": "Write three things you’re grateful for each day.",
+    "description_ar": "اكتب ثلاثة أشياء تشكر الله عليها كل يوم.",
+    "description_fr": "Notez trois choses pour lesquelles vous êtes reconnaissant chaque jour."
+  },
+  {
+    "id": "goal-heart-riya-01",
+    "category": "heart",
+    "subcategory": "ostentation",
+    "title": "Hide Good Deeds",
+    "title_ar": "أخفِ أعمالك الصالحة",
+    "title_fr": "Cachez vos bonnes actions",
+    "description": "Keep acts of worship private whenever possible. Islamic guidance: 'The thing I fear most for my nation is minor shirk: showing off.' (Ahmad).",
+    "description_ar": "اجعل عبادتك سرية ما استطعت. التوجيه الإسلامي: «أخوف ما أخاف على أمتي الشرك الأصغر، الرياء» (أحمد).",
+    "description_fr": "Faites vos adorations discrètement. Guidance islamique : « Ce que je crains le plus pour ma communauté, c’est le polythéisme mineur : l’ostentation. » (Ahmad)."
+  },
+  {
+    "id": "goal-heart-riya-02",
+    "category": "heart",
+    "subcategory": "ostentation",
+    "title": "Purify Intentions",
+    "title_ar": "طهر نيتك",
+    "title_fr": "Purifiez vos intentions",
+    "description": "Regularly check your heart before doing good deeds.",
+    "description_ar": "افحص نيتك دائماً قبل الأعمال الصالحة.",
+    "description_fr": "Vérifiez régulièrement vos intentions avant de faire de bonnes actions."
+  },
+  {
+    "id": "goal-heart-riya-03",
+    "category": "heart",
+    "subcategory": "ostentation",
+    "title": "Seek Allah’s Pleasure Alone",
+    "title_ar": "ابتغِ رضا الله وحده",
+    "title_fr": "Cherchez uniquement l’agrément d’Allah",
+    "description": "Do acts of worship to please Allah, not people.",
+    "description_ar": "قم بالعبادة ابتغاء وجه الله، وليس من أجل الناس.",
+    "description_fr": "Faites vos adorations pour plaire à Allah seul, non pour les gens."
+  },
+  {
+    "id": "goal-heart-dunya-01",
+    "category": "heart",
+    "subcategory": "love_of_world",
+    "title": "Simplify Your Lifestyle",
+    "title_ar": "بسّط حياتك",
+    "title_fr": "Simplifiez votre mode de vie",
+    "description": "Live simply and avoid excess. Islamic guidance: 'Be in this world as if you were a stranger or a traveller.' (Bukhari).",
+    "description_ar": "عش ببساطة وابتعد عن الإسراف. التوجيه الإسلامي: «كن في الدنيا كأنك غريب أو عابر سبيل» (البخاري).",
+    "description_fr": "Vivez simplement et évitez l’excès. Guidance islamique : « Sois dans ce monde comme un étranger ou un voyageur. » (Boukhari)."
+  },
+  {
+    "id": "goal-heart-dunya-02",
+    "category": "heart",
+    "subcategory": "love_of_world",
+    "title": "Give in Charity",
+    "title_ar": "تصدق",
+    "title_fr": "Donnez en charité",
+    "description": "Donate regularly to detach from materialism.",
+    "description_ar": "تصدق بانتظام لتتخلص من التعلق بالدنيا.",
+    "description_fr": "Donnez régulièrement en charité pour vous détacher du matérialisme."
+  },
+  {
+    "id": "goal-heart-dunya-03",
+    "category": "heart",
+    "subcategory": "love_of_world",
+    "title": "Reflect on the Hereafter",
+    "title_ar": "تذكر الآخرة",
+    "title_fr": "Réfléchissez à l'au-delà",
+    "description": "Spend time thinking about the realities of the next life.",
+    "description_ar": "خصص وقتاً للتفكير في حقائق الآخرة.",
+    "description_fr": "Passez du temps à réfléchir aux réalités de l’au-delà."
+  },
+  {
+    "id": "goal-heart-despair-01",
+    "category": "heart",
+    "subcategory": "despair_of_mercy",
+    "title": "Remember Allah’s Names",
+    "title_ar": "تذكر أسماء الله الحسنى",
+    "title_fr": "Souvenez-vous des Noms d’Allah",
+    "description": "Reflect on Allah’s names of mercy and forgiveness. Islamic guidance: 'Do not despair of the mercy of Allah.' (Qur’an 39:53).",
+    "description_ar": "تأمل في أسماء الله التي تدل على رحمته ومغفرته. التوجيه الإسلامي: «قل يا عبادي الذين أسرفوا على أنفسهم لا تقنطوا من رحمة الله» (الزمر:53).",
+    "description_fr": "Réfléchissez aux Noms d’Allah liés à Sa miséricorde. Guidance islamique : « Ô Mes serviteurs qui avez commis des excès contre vous-mêmes, ne désespérez pas de la miséricorde d’Allah. » (Coran 39:53)."
+  },
+  {
+    "id": "goal-heart-despair-02",
+    "category": "heart",
+    "subcategory": "despair_of_mercy",
+    "title": "Recall Past Blessings",
+    "title_ar": "تذكر نعم الله السابقة",
+    "title_fr": "Souvenez-vous des bienfaits passés",
+    "description": "Remember times Allah helped you before.",
+    "description_ar": "تذكر الأوقات التي أنقذك الله فيها من قبل.",
+    "description_fr": "Souvenez-vous des moments où Allah vous a aidé auparavant."
+  },
+  {
+    "id": "goal-heart-despair-03",
+    "category": "heart",
+    "subcategory": "despair_of_mercy",
+    "title": "Make Dua Constantly",
+    "title_ar": "أكثر من الدعاء",
+    "title_fr": "Faites constamment des dou’as",
+    "description": "Keep asking Allah for forgiveness and help.",
+    "description_ar": "استمر في طلب المغفرة والعون من الله.",
+    "description_fr": "Demandez constamment pardon et aide à Allah."
+  },
+  {
+    "id": "goal-heart-hardness-01",
+    "category": "heart",
+    "subcategory": "hard_heartedness",
+    "title": "Read Qur’an Reflectively",
+    "title_ar": "اقرأ القرآن بتدبر",
+    "title_fr": "Lisez le Coran avec réflexion",
+    "description": "Recite and ponder the meanings of Qur’an verses. Islamic guidance: 'Then after that your hearts were hardened…' (Qur’an 2:74).",
+    "description_ar": "اقرأ القرآن وتدبر معانيه. التوجيه الإسلامي: «ثُمَّ قَسَتْ قُلُوبُكُم مِّن بَعْدِ ذَٰلِكَ» (البقرة:74).",
+    "description_fr": "Récitez et méditez sur les versets du Coran. Guidance islamique : « Ensuite, vos cœurs se sont endurcis après cela… » (Coran 2:74)."
+  },
+  {
+    "id": "goal-heart-hardness-02",
+    "category": "heart",
+    "subcategory": "hard_heartedness",
+    "title": "Attend Gatherings of Remembrance",
+    "title_ar": "احضر مجالس الذكر",
+    "title_fr": "Assistez aux rassemblements de rappel",
+    "description": "Join classes or groups that remind you of Allah.",
+    "description_ar": "شارك في مجالس أو دروس تذكرك بالله.",
+    "description_fr": "Participez à des cours ou rassemblements qui rappellent Allah."
+  },
+  {
+    "id": "goal-heart-hardness-03",
+    "category": "heart",
+    "subcategory": "hard_heartedness",
+    "title": "Help Those in Need",
+    "title_ar": "ساعد المحتاجين",
+    "title_fr": "Aidez ceux qui sont dans le besoin",
+    "description": "Soften your heart by serving others.",
+    "description_ar": "ليّن قلبك بخدمة الآخرين.",
+    "description_fr": "Adoucissez votre cœur en servant les autres."
+  }
+]

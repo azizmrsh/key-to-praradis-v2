@@ -1,0 +1,1094 @@
+[
+  {
+    "goal_id": "ears-excuse-from-gossip",
+    "category": "ears",
+    "translations": {
+      "en": {
+        "title": "Excuse Yourself from Gossip",
+        "description": "Politely excuse yourself if someone begins backbiting in your presence.",
+        "islamic_guidance": "Allah says: 'O you who believe! Avoid much suspicion, indeed some suspicions are sins. And spy not, neither backbite one another.' (49:12)",
+        "benefits": [
+          "Protects your spiritual purity",
+          "Maintains clean relationships",
+          "Avoids becoming complicit in sin"
+        ],
+        "daily_actions": [
+          "Practice polite excuses like 'I need to step away'",
+          "Suggest changing location when gossip starts",
+          "Remember that listening to backbiting is participating in it"
+        ]
+      },
+      "ar": {
+        "title": "اعتذر عن مجلس الغيبة",
+        "description": "اعتذر بلطف إذا بدأ أحدهم في الغيبة أمامك.",
+        "islamic_guidance": "يقول الله: 'يَا أَيُّهَا الَّذِينَ آمَنُوا اجْتَنِبُوا كَثِيرًا مِّنَ الظَّنِّ إِنَّ بَعْضَ الظَّنِّ إِثْمٌ وَلَا تَجَسَّسُوا وَلَا يَغْتَب بَّعْضُكُم بَعْضًا' (49:12)",
+        "benefits": [
+          "يحفظ طهارتك الروحية",
+          "يحافظ على نظافة العلاقات",
+          "يتجنب أن تصبح شريكاً في الإثم"
+        ],
+        "daily_actions": [
+          "مارس أعذاراً مهذبة مثل 'أحتاج للانصراف'",
+          "اقترح تغيير المكان عند بداية الغيبة",
+          "تذكر أن الاستماع للغيبة مشاركة فيها"
+        ]
+      },
+      "fr": {
+        "title": "Éloignez-vous des commérages",
+        "description": "Excusez-vous poliment si quelqu'un commence à médire en votre présence.",
+        "islamic_guidance": "Allah dit: 'Ô vous qui croyez! Évitez de trop conjecturer car une partie des conjectures est péché. Et n'espionnez pas; et ne médisez pas les uns des autres.' (49:12)",
+        "benefits": [
+          "Protège votre pureté spirituelle",
+          "Maintient des relations saines",
+          "Évite de devenir complice du péché"
+        ],
+        "daily_actions": [
+          "Pratiquez des excuses polies comme 'Je dois m'éloigner'",
+          "Suggérez de changer d'endroit quand la médisance commence",
+          "Rappelez-vous qu'écouter la médisance c'est y participer"
+        ]
+      }
+    },
+    "duration_options": [7, 14, 21, 40]
+  },
+  {
+    "goal_id": "ears-change-subject",
+    "category": "ears",
+    "translations": {
+      "en": {
+        "title": "Change the Subject",
+        "description": "Redirect conversations away from speaking about others' faults.",
+        "islamic_guidance": "The Prophet (ﷺ) said: 'Whoever believes in Allah and the Last Day should speak good or keep silent.' (Bukhari)",
+        "benefits": [
+          "Actively promotes positive conversation",
+          "Protects others' honor and reputation",
+          "Creates beneficial social environments"
+        ],
+        "daily_actions": [
+          "Prepare positive topics to redirect conversations",
+          "Ask about beneficial subjects when gossip starts",
+          "Practice phrases like 'Let's talk about something else'"
+        ]
+      },
+      "ar": {
+        "title": "غيّر موضوع الحديث",
+        "description": "وجه الحديث بعيداً عن ذكر عيوب الآخرين.",
+        "islamic_guidance": "قال النبي ﷺ: 'من كان يؤمن بالله واليوم الآخر فليقل خيراً أو ليصمت' (البخاري)",
+        "benefits": [
+          "يروج بنشاط للحديث الإيجابي",
+          "يحفظ كرامة وسمعة الآخرين",
+          "يخلق بيئات اجتماعية مفيدة"
+        ],
+        "daily_actions": [
+          "احضر مواضيع إيجابية لتوجيه المحادثات",
+          "اسأل عن مواضيع مفيدة عند بداية الغيبة",
+          "مارس عبارات مثل 'دعنا نتحدث عن شيء آخر'"
+        ]
+      },
+      "fr": {
+        "title": "Changez de sujet",
+        "description": "Orientez la conversation loin des défauts des autres.",
+        "islamic_guidance": "Le Prophète (ﷺ) a dit: 'Que celui qui croit en Allah et au Jour dernier dise du bien ou qu'il se taise.' (Bukhari)",
+        "benefits": [
+          "Promeut activement la conversation positive",
+          "Protège l'honneur et la réputation d'autrui",
+          "Crée des environnements sociaux bénéfiques"
+        ],
+        "daily_actions": [
+          "Préparez des sujets positifs pour rediriger les conversations",
+          "Posez des questions sur des sujets bénéfiques quand la médisance commence",
+          "Pratiquez des phrases comme 'Parlons d'autre chose'"
+        ]
+      }
+    },
+    "duration_options": [7, 14, 21, 40]
+  },
+  {
+    "goal_id": "ears-protect-heart",
+    "category": "ears",
+    "translations": {
+      "en": {
+        "title": "Protect Your Ears and Heart",
+        "description": "Train your ears to dislike listening to any negative talk about others.",
+        "islamic_guidance": "Allah says: 'And follow not that of which you have not the knowledge. Lo! the hearing and the sight and the heart - of each of these it will be asked.' (17:36)",
+        "benefits": [
+          "Develops spiritual sensitivity",
+          "Purifies the heart from negative thoughts",
+          "Strengthens moral character"
+        ],
+        "daily_actions": [
+          "Practice immediate discomfort when hearing gossip",
+          "Recite 'A'udhu billahi min ash-shaytani'r-rajim' when exposed to backbiting",
+          "Train yourself to feel protective of others' honor"
+        ]
+      },
+      "ar": {
+        "title": "احم أذنك وقلبك",
+        "description": "درب أذنك على كراهية الاستماع للكلام السلبي عن الآخرين.",
+        "islamic_guidance": "يقول الله: 'وَلاَ تَقْفُ مَا لَيْسَ لَكَ بِهِ عِلْمٌ إِنَّ السَّمْعَ وَالْبَصَرَ وَالْفُؤَادَ كُلُّ أُولـئِكَ كَانَ عَنْهُ مَسْئُولاً' (17:36)",
+        "benefits": [
+          "ينمي الحساسية الروحية",
+          "يطهر القلب من الأفكار السلبية",
+          "يقوي الشخصية الأخلاقية"
+        ],
+        "daily_actions": [
+          "مارس الانزعاج الفوري عند سماع الغيبة",
+          "اتل 'أعوذ بالله من الشيطان الرجيم' عند التعرض للغيبة",
+          "درب نفسك على الشعور بالحماية لكرامة الآخرين"
+        ]
+      },
+      "fr": {
+        "title": "Protégez vos oreilles et votre cœur",
+        "description": "Habituez vos oreilles à ne pas aimer entendre des propos négatifs sur autrui.",
+        "islamic_guidance": "Allah dit: 'Et ne poursuis pas ce dont tu n'as aucune connaissance. L'ouïe, la vue et le cœur: sur tout cela, en vérité, on sera interrogé.' (17:36)",
+        "benefits": [
+          "Développe la sensibilité spirituelle",
+          "Purifie le cœur des pensées négatives",
+          "Renforce le caractère moral"
+        ],
+        "daily_actions": [
+          "Pratiquez l'inconfort immédiat en entendant des commérages",
+          "Récitez 'A'udhu billahi min ash-shaytani'r-rajim' quand exposé à la médisance",
+          "Entraînez-vous à ressentir la protection de l'honneur d'autrui"
+        ]
+      }
+    },
+    "duration_options": [7, 14, 21, 40]
+  },
+  {
+    "goal_id": "ears-seek-clean-entertainment",
+    "category": "ears",
+    "translations": {
+      "en": {
+        "title": "Seek Clean Entertainment",
+        "description": "Avoid media that revolves around scandals, drama, or personal lives.",
+        "islamic_guidance": "The Prophet (ﷺ) said: 'A believer is not one who eats his fill while his neighbor goes hungry.' This principle extends to consuming clean content.",
+        "benefits": [
+          "Protects from negative influences",
+          "Maintains pure thoughts",
+          "Supports spiritual growth"
+        ],
+        "daily_actions": [
+          "Choose educational or Islamic content over gossip shows",
+          "Avoid celebrity scandal news and drama",
+          "Select documentaries and beneficial programs"
+        ]
+      },
+      "ar": {
+        "title": "ابحث عن ترفيه نظيف",
+        "description": "تجنب وسائل الإعلام التي تدور حول الفضائح أو الدراما أو حياة الناس الشخصية.",
+        "islamic_guidance": "قال النبي ﷺ: 'ليس المؤمن الذي يشبع وجاره جائع' وهذا المبدأ يشمل استهلاك المحتوى النظيف.",
+        "benefits": [
+          "يحمي من التأثيرات السلبية",
+          "يحافظ على نقاء الأفكار",
+          "يدعم النمو الروحي"
+        ],
+        "daily_actions": [
+          "اختر المحتوى التعليمي أو الإسلامي بدلاً من برامج الغيبة",
+          "تجنب أخبار فضائح المشاهير والدراما",
+          "اختر الأفلام الوثائقية والبرامج المفيدة"
+        ]
+      },
+      "fr": {
+        "title": "Cherchez un divertissement sain",
+        "description": "Évitez les médias qui tournent autour des scandales, des drames ou de la vie privée des gens.",
+        "islamic_guidance": "Le Prophète (ﷺ) a dit: 'N'est pas croyant celui qui mange à sa faim tandis que son voisin a faim.' Ce principe s'étend à la consommation de contenu pur.",
+        "benefits": [
+          "Protège des influences négatives",
+          "Maintient des pensées pures",
+          "Soutient la croissance spirituelle"
+        ],
+        "daily_actions": [
+          "Choisissez du contenu éducatif ou islamique plutôt que des émissions de commérages",
+          "Évitez les nouvelles de scandales de célébrités et les drames",
+          "Sélectionnez des documentaires et des programmes bénéfiques"
+        ]
+      }
+    },
+    "duration_options": [7, 14, 21, 40]
+  },
+  {
+    "goal_id": "ears-purify-ear",
+    "category": "ears",
+    "translations": {
+      "en": {
+        "title": "Purify the Ear",
+        "description": "Be mindful not to find joy in hearing embarrassing stories about others.",
+        "islamic_guidance": "Allah says: 'Those who love to see scandal spread among the believers will have a painful punishment in this world and the next.' (24:19)",
+        "benefits": [
+          "Develops compassion for others",
+          "Purifies the heart from malice",
+          "Strengthens brotherly bonds"
+        ],
+        "daily_actions": [
+          "Feel discomfort when hearing embarrassing stories",
+          "Redirect your attention to beneficial matters",
+          "Make du'a for those being talked about"
+        ]
+      },
+      "ar": {
+        "title": "طهر سمعك",
+        "description": "انتبه ألا تجد متعة في سماع قصص محرجة عن الآخرين.",
+        "islamic_guidance": "يقول الله: 'إِنَّ الَّذِينَ يُحِبُّونَ أَن تَشِيعَ الْفَاحِشَةُ فِي الَّذِينَ آمَنُوا لَهُمْ عَذَابٌ أَلِيمٌ فِي الدُّنْيَا وَالْآخِرَةِ' (24:19)",
+        "benefits": [
+          "ينمي الشفقة على الآخرين",
+          "يطهر القلب من الحقد",
+          "يقوي الروابط الأخوية"
+        ],
+        "daily_actions": [
+          "اشعر بالانزعاج عند سماع قصص محرجة",
+          "وجه انتباهك إلى أمور مفيدة",
+          "ادع للذين يتحدث عنهم"
+        ]
+      },
+      "fr": {
+        "title": "Purifiez votre oreille",
+        "description": "Veillez à ne pas trouver de plaisir à entendre des histoires embarrassantes sur les autres.",
+        "islamic_guidance": "Allah dit: 'Ceux qui aiment que se répande la turpitude parmi les croyants auront un châtiment douloureux, ici-bas comme dans l'au-delà.' (24:19)",
+        "benefits": [
+          "Développe la compassion pour les autres",
+          "Purifie le cœur de la malice",
+          "Renforce les liens fraternels"
+        ],
+        "daily_actions": [
+          "Ressentez de l'inconfort en entendant des histoires embarrassantes",
+          "Dirigez votre attention vers des sujets bénéfiques",
+          "Faites du'a pour ceux dont on parle"
+        ]
+      }
+    },
+    "duration_options": [7, 14, 21, 40]
+  },
+  {
+    "goal_id": "ears-silence-over-scandal",
+    "category": "ears",
+    "translations": {
+      "en": {
+        "title": "Silence Over Scandal",
+        "description": "Choose silence instead of indulging in gossip stories.",
+        "islamic_guidance": "The Prophet (ﷺ) said: 'Whoever believes in Allah and the Last Day should speak good or keep silent.' (Bukhari)",
+        "benefits": [
+          "Protects your tongue from sin",
+          "Maintains dignity and respect",
+          "Earns divine reward for restraint"
+        ],
+        "daily_actions": [
+          "Practice staying quiet when gossip starts",
+          "Count to 10 before responding to scandalous news",
+          "Find beneficial topics to think about instead"
+        ]
+      },
+      "ar": {
+        "title": "الصمت أفضل من الفضائح",
+        "description": "اختر الصمت بدلاً من الانغماس في قصص الغيبة والفضائح.",
+        "islamic_guidance": "قال النبي ﷺ: 'من كان يؤمن بالله واليوم الآخر فليقل خيراً أو ليصمت' (البخاري)",
+        "benefits": [
+          "يحمي لسانك من الإثم",
+          "يحافظ على الكرامة والاحترام",
+          "يكسب ثواباً إلهياً على ضبط النفس"
+        ],
+        "daily_actions": [
+          "مارس الصمت عند بداية الغيبة",
+          "اعدد إلى 10 قبل الرد على أخبار الفضائح",
+          "ابحث عن مواضيع مفيدة للتفكير بها بدلاً من ذلك"
+        ]
+      },
+      "fr": {
+        "title": "Le silence vaut mieux que le scandale",
+        "description": "Choisissez le silence plutôt que de vous adonner aux ragots et aux scandales.",
+        "islamic_guidance": "Le Prophète (ﷺ) a dit: 'Que celui qui croit en Allah et au Jour dernier dise du bien ou qu'il se taise.' (Bukhari)",
+        "benefits": [
+          "Protège votre langue du péché",
+          "Maintient la dignité et le respect",
+          "Mérite une récompense divine pour la retenue"
+        ],
+        "daily_actions": [
+          "Pratiquez le silence quand les commérages commencent",
+          "Comptez jusqu'à 10 avant de répondre aux nouvelles scandaleuses",
+          "Trouvez des sujets bénéfiques auxquels penser à la place"
+        ]
+      }
+    },
+    "duration_options": [7, 14, 21, 40]
+  },
+  {
+    "goal_id": "ears-speak-against-harmful-talk",
+    "category": "ears",
+    "translations": {
+      "en": {
+        "title": "Speak Against Harmful Talk",
+        "description": "Kindly intervene when someone uses foul or harmful speech.",
+        "islamic_guidance": "The Prophet (ﷺ) said: 'Whoever among you sees a wrong deed, let him change it with his hand; if he cannot, then with his tongue; if he cannot, then with his heart - and that is the weakest of faith.' (Muslim)",
+        "benefits": [
+          "Fulfills obligation to enjoin good",
+          "Creates positive social change",
+          "Strengthens community values"
+        ],
+        "daily_actions": [
+          "Politely ask others to avoid foul language",
+          "Suggest better ways to express frustration",
+          "Model respectful speech in your interactions"
+        ]
+      },
+      "ar": {
+        "title": "تكلم ضد الكلام الضار",
+        "description": "تدخّل بلطف عندما يستخدم أحدهم كلاماً بذيئاً أو ضاراً.",
+        "islamic_guidance": "قال النبي ﷺ: 'من رأى منكم منكراً فليغيره بيده، فإن لم يستطع فبلسانه، فإن لم يستطع فبقلبه وذلك أضعف الإيمان' (مسلم)",
+        "benefits": [
+          "يحقق واجب الأمر بالمعروف",
+          "يحدث تغييراً اجتماعياً إيجابياً",
+          "يقوي قيم المجتمع"
+        ],
+        "daily_actions": [
+          "اطلب بلطف من الآخرين تجنب الكلام البذيء",
+          "اقترح طرقاً أفضل للتعبير عن الإحباط",
+          "كن قدوة في الكلام المحترم في تفاعلاتك"
+        ]
+      },
+      "fr": {
+        "title": "Parlez contre les propos nuisibles",
+        "description": "Intervenez gentiment lorsque quelqu'un tient des propos grossiers ou nuisibles.",
+        "islamic_guidance": "Le Prophète (ﷺ) a dit: 'Que celui d'entre vous qui voit une chose répréhensible la change de sa main; s'il ne peut pas, qu'il la change avec sa langue; s'il ne peut pas, qu'il la change avec son cœur, et c'est là le plus faible degré de la foi.' (Muslim)",
+        "benefits": [
+          "Accomplit l'obligation d'ordonner le bien",
+          "Crée un changement social positif",
+          "Renforce les valeurs communautaires"
+        ],
+        "daily_actions": [
+          "Demandez poliment aux autres d'éviter le langage grossier",
+          "Suggérez de meilleures façons d'exprimer la frustration",
+          "Modelez un langage respectueux dans vos interactions"
+        ]
+      }
+    },
+    "duration_options": [7, 14, 21, 40]
+  },
+  {
+    "goal_id": "ears-create-safe-spaces",
+    "category": "ears",
+    "translations": {
+      "en": {
+        "title": "Create Safe Spaces",
+        "description": "Foster gatherings where only good, clean speech is spoken.",
+        "islamic_guidance": "The Prophet (ﷺ) said: 'The best of people are those who benefit others.' Creating environments of pure speech benefits everyone.",
+        "benefits": [
+          "Builds positive community atmosphere",
+          "Encourages others to speak well",
+          "Creates refuge from negative influences"
+        ],
+        "daily_actions": [
+          "Set ground rules for respectful communication",
+          "Redirect conversations to beneficial topics",
+          "Appreciate and encourage good speech from others"
+        ]
+      },
+      "ar": {
+        "title": "اصنع بيئة آمنة",
+        "description": "شجع على جلسات لا يُقال فيها إلا الكلام الطيب والنظيف.",
+        "islamic_guidance": "قال النبي ﷺ: 'خير الناس أنفعهم للناس' وإنشاء بيئات الكلام الطيب ينفع الجميع.",
+        "benefits": [
+          "يبني جواً مجتمعياً إيجابياً",
+          "يشجع الآخرين على حسن الكلام",
+          "يخلق ملاذاً من التأثيرات السلبية"
+        ],
+        "daily_actions": [
+          "ضع قواعد أساسية للتواصل المحترم",
+          "وجه المحادثات نحو مواضيع مفيدة",
+          "قدر وشجع الكلام الطيب من الآخرين"
+        ]
+      },
+      "fr": {
+        "title": "Créez des espaces sûrs",
+        "description": "Favorisez des réunions où seuls des propos bons et purs sont tenus.",
+        "islamic_guidance": "Le Prophète (ﷺ) a dit: 'Les meilleurs des gens sont ceux qui profitent aux autres.' Créer des environnements de parole pure profite à tous.",
+        "benefits": [
+          "Construit une atmosphère communautaire positive",
+          "Encourage les autres à bien parler",
+          "Crée un refuge contre les influences négatives"
+        ],
+        "daily_actions": [
+          "Établissez des règles de base pour une communication respectueuse",
+          "Dirigez les conversations vers des sujets bénéfiques",
+          "Appréciez et encouragez les bonnes paroles des autres"
+        ]
+      }
+    },
+    "duration_options": [7, 14, 21, 40]
+  },
+  {
+    "goal_id": "ears-be-example",
+    "category": "ears",
+    "translations": {
+      "en": {
+        "title": "Be an Example",
+        "description": "Demonstrate respectful speech so others follow your lead.",
+        "islamic_guidance": "The Prophet (ﷺ) said: 'The believer is not one who curses, nor one who is indecent, nor one who is foul.' (Tirmidhi)",
+        "benefits": [
+          "Inspires others to improve their speech",
+          "Builds your reputation as a person of character",
+          "Creates ripple effect of positive change"
+        ],
+        "daily_actions": [
+          "Choose your words carefully in all conversations",
+          "Avoid sarcasm, mockery, or harsh criticism",
+          "Speak with kindness and wisdom consistently"
+        ]
+      },
+      "ar": {
+        "title": "كن قدوة",
+        "description": "أظهر كلاماً محترماً ليقتدي بك الآخرون.",
+        "islamic_guidance": "قال النبي ﷺ: 'ليس المؤمن بالطعان ولا باللعان ولا بالفاحش البذيء' (الترمذي)",
+        "benefits": [
+          "يلهم الآخرين لتحسين كلامهم",
+          "يبني سمعتك كصاحب خلق",
+          "يخلق تأثيراً متتالياً من التغيير الإيجابي"
+        ],
+        "daily_actions": [
+          "اختر كلماتك بعناية في جميع المحادثات",
+          "تجنب السخرية والاستهزاء والنقد القاسي",
+          "تكلم بلطف وحكمة بثبات"
+        ]
+      },
+      "fr": {
+        "title": "Soyez un exemple",
+        "description": "Montrez un langage respectueux pour que les autres suivent votre exemple.",
+        "islamic_guidance": "Le Prophète (ﷺ) a dit: 'Le croyant n'est pas celui qui insulte, ni celui qui est indécent, ni celui qui est grossier.' (Tirmidhi)",
+        "benefits": [
+          "Inspire les autres à améliorer leur discours",
+          "Construit votre réputation en tant que personne de caractère",
+          "Crée un effet d'entraînement de changement positif"
+        ],
+        "daily_actions": [
+          "Choisissez vos mots avec soin dans toutes les conversations",
+          "Évitez le sarcasme, la moquerie ou la critique dure",
+          "Parlez avec gentillesse et sagesse de manière constante"
+        ]
+      }
+    },
+    "duration_options": [7, 14, 21, 40]
+  },
+  {
+    "goal_id": "ears-purify-playlist",
+    "category": "ears",
+    "translations": {
+      "en": {
+        "title": "Purify Your Playlist",
+        "description": "Remove music or media containing foul language or indecency.",
+        "islamic_guidance": "The Prophet (ﷺ) said: 'Among my followers there will be some people who will consider illegal sexual intercourse, the wearing of silk, the drinking of alcoholic drinks and the use of musical instruments as lawful.' (Bukhari)",
+        "benefits": [
+          "Protects your heart from corruption",
+          "Improves spiritual consciousness",
+          "Creates peaceful mental environment"
+        ],
+        "daily_actions": [
+          "Review and clean your music library",
+          "Replace inappropriate content with beneficial alternatives",
+          "Choose instrumental or Islamic audio content"
+        ]
+      },
+      "ar": {
+        "title": "طهر قائمتك الصوتية",
+        "description": "احذف الموسيقى أو الوسائط التي تحتوي على ألفاظ بذيئة أو محتوى غير لائق.",
+        "islamic_guidance": "قال النبي ﷺ: 'ليكونن من أمتي أقوام يستحلون الحر والحرير والخمر والمعازف' (البخاري)",
+        "benefits": [
+          "يحمي قلبك من الفساد",
+          "يحسن الوعي الروحي",
+          "يخلق بيئة ذهنية هادئة"
+        ],
+        "daily_actions": [
+          "راجع ونظف مكتبتك الموسيقية",
+          "استبدل المحتوى غير المناسب ببدائل مفيدة",
+          "اختر محتوى صوتي آلي أو إسلامي"
+        ]
+      },
+      "fr": {
+        "title": "Purifiez votre playlist",
+        "description": "Supprimez la musique ou les médias contenant des propos grossiers ou indécents.",
+        "islamic_guidance": "Le Prophète (ﷺ) a dit: 'Parmi mes disciples, il y aura des gens qui considéreront comme licites l'adultère, la soie, le vin et les instruments de musique.' (Bukhari)",
+        "benefits": [
+          "Protège votre cœur de la corruption",
+          "Améliore la conscience spirituelle",
+          "Crée un environnement mental paisible"
+        ],
+        "daily_actions": [
+          "Examinez et nettoyez votre bibliothèque musicale",
+          "Remplacez le contenu inapproprié par des alternatives bénéfiques",
+          "Choisissez du contenu audio instrumental ou islamique"
+        ]
+      }
+    },
+    "duration_options": [7, 14, 21, 40]
+  },
+  {
+    "goal_id": "ears-choose-beneficial-audio",
+    "category": "ears",
+    "translations": {
+      "en": {
+        "title": "Choose Beneficial Audio",
+        "description": "Replace harmful entertainment with lectures, Qur'an, or positive content.",
+        "islamic_guidance": "The Prophet (ﷺ) said: 'Whoever follows a path in the pursuit of knowledge, Allah will make a path to Paradise easy for him.' (Muslim)",
+        "benefits": [
+          "Nourishes the soul with beneficial content",
+          "Increases beneficial knowledge",
+          "Strengthens faith and understanding"
+        ],
+        "daily_actions": [
+          "Listen to Quranic recitations daily",
+          "Choose Islamic lectures over entertainment",
+          "Select educational podcasts and content"
+        ]
+      },
+      "ar": {
+        "title": "اختر صوتاً نافعاً",
+        "description": "استبدل الترفيه الضار بمحاضرات أو قرآن أو محتوى إيجابي.",
+        "islamic_guidance": "قال النبي ﷺ: 'من سلك طريقاً يلتمس فيه علماً سهل الله له طريقاً إلى الجنة' (مسلم)",
+        "benefits": [
+          "يغذي الروح بالمحتوى المفيد",
+          "يزيد العلم النافع",
+          "يقوي الإيمان والفهم"
+        ],
+        "daily_actions": [
+          "استمع لتلاوات القرآن يومياً",
+          "اختر المحاضرات الإسلامية بدلاً من الترفيه",
+          "اختر البودكاست والمحتوى التعليمي"
+        ]
+      },
+      "fr": {
+        "title": "Choisissez un contenu audio bénéfique",
+        "description": "Remplacez le divertissement nocif par des conférences, le Coran ou un contenu positif.",
+        "islamic_guidance": "Le Prophète (ﷺ) a dit: 'Quiconque suit un chemin pour chercher la connaissance, Allah lui facilitera un chemin vers le Paradis.' (Muslim)",
+        "benefits": [
+          "Nourrit l'âme avec du contenu bénéfique",
+          "Augmente la connaissance bénéfique",
+          "Renforce la foi et la compréhension"
+        ],
+        "daily_actions": [
+          "Écoutez des récitations coraniques quotidiennement",
+          "Choisissez des conférences islamiques plutôt que du divertissement",
+          "Sélectionnez des podcasts et contenus éducatifs"
+        ]
+      }
+    },
+    "duration_options": [7, 14, 21, 40]
+  },
+  {
+    "goal_id": "ears-close-ears-harm",
+    "category": "ears",
+    "translations": {
+      "en": {
+        "title": "Close the Ears to Harm",
+        "description": "Lower your volume or skip any inappropriate content.",
+        "islamic_guidance": "Allah says: 'And when they hear vain talk, they turn away from it and say: To us our deeds, and to you yours; peace be to you: we seek not the ignorant.' (28:55)",
+        "benefits": [
+          "Protects from harmful influences",
+          "Maintains spiritual purity",
+          "Demonstrates self-control"
+        ],
+        "daily_actions": [
+          "Immediately mute or skip inappropriate content",
+          "Use content filters on devices",
+          "Train yourself to quickly recognize harmful audio"
+        ]
+      },
+      "ar": {
+        "title": "أغلق أذنك عن الأذى",
+        "description": "اخفض الصوت أو تجاوز أي محتوى غير لائق.",
+        "islamic_guidance": "يقول الله: 'وَإِذَا سَمِعُوا اللَّغْوَ أَعْرَضُوا عَنْهُ وَقَالُوا لَنَا أَعْمَالُنَا وَلَكُمْ أَعْمَالُكُمْ سَلَامٌ عَلَيْكُمْ لَا نَبْتَغِي الْجَاهِلِينَ' (28:55)",
+        "benefits": [
+          "يحمي من التأثيرات الضارة",
+          "يحافظ على الطهارة الروحية",
+          "يظهر ضبط النفس"
+        ],
+        "daily_actions": [
+          "اكتم أو تجاوز المحتوى غير المناسب فوراً",
+          "استخدم مرشحات المحتوى على الأجهزة",
+          "درب نفسك على التعرف السريع على الصوت الضار"
+        ]
+      },
+      "fr": {
+        "title": "Fermez vos oreilles au mal",
+        "description": "Baissez le volume ou passez tout contenu inapproprié.",
+        "islamic_guidance": "Allah dit: 'Et quand ils entendent des futilités, ils s'en détournent et disent: À nous nos actions, et à vous les vôtres; paix sur vous: nous ne recherchons pas les ignorants.' (28:55)",
+        "benefits": [
+          "Protège des influences nuisibles",
+          "Maintient la pureté spirituelle",
+          "Démontre la maîtrise de soi"
+        ],
+        "daily_actions": [
+          "Coupez immédiatement ou passez le contenu inapproprié",
+          "Utilisez des filtres de contenu sur les appareils",
+          "Entraînez-vous à reconnaître rapidement l'audio nuisible"
+        ]
+      }
+    },
+    "duration_options": [7, 14, 21, 40]
+  },
+  {
+    "goal_id": "ears-respect-privacy",
+    "category": "ears",
+    "translations": {
+      "en": {
+        "title": "Respect Privacy",
+        "description": "Refrain from listening to conversations not meant for you.",
+        "islamic_guidance": "Allah says: 'O you who believe! Avoid much suspicion, indeed some suspicions are sins. And spy not, neither backbite one another.' (49:12)",
+        "benefits": [
+          "Maintains trust in relationships",
+          "Protects others' privacy and dignity",
+          "Develops personal integrity"
+        ],
+        "daily_actions": [
+          "Move away from private conversations",
+          "Avoid straining to hear what others are saying",
+          "Respect closed doors and private spaces"
+        ]
+      },
+      "ar": {
+        "title": "احترم الخصوصية",
+        "description": "امتنع عن الاستماع إلى محادثات لا تخصك.",
+        "islamic_guidance": "يقول الله: 'يَا أَيُّهَا الَّذِينَ آمَنُوا اجْتَنِبُوا كَثِيرًا مِّنَ الظَّنِّ إِنَّ بَعْضَ الظَّنِّ إِثْمٌ وَلَا تَجَسَّسُوا وَلَا يَغْتَب بَّعْضُكُم بَعْضًا' (49:12)",
+        "benefits": [
+          "يحافظ على الثقة في العلاقات",
+          "يحفظ خصوصية وكرامة الآخرين",
+          "ينمي النزاهة الشخصية"
+        ],
+        "daily_actions": [
+          "ابتعد عن المحادثات الخاصة",
+          "تجنب الإجهاد لسماع ما يقوله الآخرون",
+          "احترم الأبواب المغلقة والمساحات الخاصة"
+        ]
+      },
+      "fr": {
+        "title": "Respectez la vie privée",
+        "description": "Abstenez-vous d'écouter des conversations qui ne vous sont pas destinées.",
+        "islamic_guidance": "Allah dit: 'Ô vous qui croyez! Évitez de trop conjecturer car une partie des conjectures est péché. Et n'espionnez pas; et ne médisez pas les uns des autres.' (49:12)",
+        "benefits": [
+          "Maintient la confiance dans les relations",
+          "Protège la vie privée et la dignité d'autrui",
+          "Développe l'intégrité personnelle"
+        ],
+        "daily_actions": [
+          "Éloignez-vous des conversations privées",
+          "Évitez de vous efforcer d'entendre ce que disent les autres",
+          "Respectez les portes fermées et les espaces privés"
+        ]
+      }
+    },
+    "duration_options": [7, 14, 21, 40]
+  },
+  {
+    "goal_id": "ears-walk-away-secrets",
+    "category": "ears",
+    "translations": {
+      "en": {
+        "title": "Walk Away from Secrets",
+        "description": "Leave situations where you might overhear private matters.",
+        "islamic_guidance": "The Prophet (ﷺ) said: 'Whoever conceals the secrets of a Muslim, Allah will conceal his secrets in this world and the Hereafter.' (Muslim)",
+        "benefits": [
+          "Protects others' trust and confidence",
+          "Earns Allah's protection of your secrets",
+          "Maintains clean conscience"
+        ],
+        "daily_actions": [
+          "Physically remove yourself from private conversations",
+          "Announce your departure if necessary",
+          "Find beneficial activities to occupy your time"
+        ]
+      },
+      "ar": {
+        "title": "ابتعد عن أسرار الآخرين",
+        "description": "غادر المواقف التي قد تسمع فيها أموراً خاصة.",
+        "islamic_guidance": "قال النبي ﷺ: 'من ستر مسلماً ستره الله في الدنيا والآخرة' (مسلم)",
+        "benefits": [
+          "يحفظ ثقة الآخرين وسرهم",
+          "يكسب حماية الله لأسرارك",
+          "يحافظ على الضمير النظيف"
+        ],
+        "daily_actions": [
+          "اترك المكان فعلياً عند المحادثات الخاصة",
+          "أعلن عن مغادرتك إذا لزم الأمر",
+          "ابحث عن أنشطة مفيدة لشغل وقتك"
+        ]
+      },
+      "fr": {
+        "title": "Éloignez-vous des secrets des autres",
+        "description": "Quittez les situations où vous pourriez entendre des choses privées.",
+        "islamic_guidance": "Le Prophète (ﷺ) a dit: 'Quiconque cache les secrets d'un musulman, Allah cachera ses secrets dans ce monde et dans l'au-delà.' (Muslim)",
+        "benefits": [
+          "Protège la confiance et la confidence des autres",
+          "Mérite la protection d'Allah pour vos secrets",
+          "Maintient une conscience pure"
+        ],
+        "daily_actions": [
+          "Retirez-vous physiquement des conversations privées",
+          "Annoncez votre départ si nécessaire",
+          "Trouvez des activités bénéfiques pour occuper votre temps"
+        ]
+      }
+    },
+    "duration_options": [7, 14, 21, 40]
+  },
+  {
+    "goal_id": "ears-guard-trust",
+    "category": "ears",
+    "translations": {
+      "en": {
+        "title": "Guard the Trust of Others",
+        "description": "Keep private conversations confidential, even if accidentally overheard.",
+        "islamic_guidance": "The Prophet (ﷺ) said: 'The believer is not one who eats his fill while his neighbor goes hungry.' This extends to protecting others' privacy.",
+        "benefits": [
+          "Builds reputation as trustworthy person",
+          "Protects relationships and community harmony",
+          "Earns divine reward for keeping secrets"
+        ],
+        "daily_actions": [
+          "Never repeat what you accidentally overheard",
+          "Remind yourself that secrets are amanah (trust)",
+          "Make du'a for those whose privacy you've protected"
+        ]
+      },
+      "ar": {
+        "title": "احفظ أمانة الآخرين",
+        "description": "احفظ سرية الأحاديث الخاصة حتى لو سمعتها بالخطأ.",
+        "islamic_guidance": "قال النبي ﷺ: 'ليس المؤمن الذي يشبع وجاره جائع' وهذا يشمل حماية خصوصية الآخرين.",
+        "benefits": [
+          "يبني سمعة كشخص جدير بالثقة",
+          "يحمي العلاقات والانسجام المجتمعي",
+          "يكسب ثواباً إلهياً لحفظ الأسرار"
+        ],
+        "daily_actions": [
+          "لا تكرر أبداً ما سمعته بالخطأ",
+          "ذكر نفسك أن الأسرار أمانة",
+          "ادع لمن حفظت خصوصيتهم"
+        ]
+      },
+      "fr": {
+        "title": "Protégez la confiance des autres",
+        "description": "Gardez confidentielles les conversations privées, même si vous les avez entendues par hasard.",
+        "islamic_guidance": "Le Prophète (ﷺ) a dit: 'N'est pas croyant celui qui mange à sa faim tandis que son voisin a faim.' Cela s'étend à la protection de la vie privée d'autrui.",
+        "benefits": [
+          "Construit une réputation de personne digne de confiance",
+          "Protège les relations et l'harmonie communautaire",
+          "Mérite une récompense divine pour garder les secrets"
+        ],
+        "daily_actions": [
+          "Ne répétez jamais ce que vous avez entendu par accident",
+          "Rappelez-vous que les secrets sont amanah (confiance)",
+          "Faites du'a pour ceux dont vous avez protégé la vie privée"
+        ]
+      }
+    },
+    "duration_options": [7, 14, 21, 40]
+  },
+  {
+    "goal_id": "ears-say-good-word",
+    "category": "ears",
+    "translations": {
+      "en": {
+        "title": "Say a Good Word",
+        "description": "Defend someone's honour when you hear them criticised.",
+        "islamic_guidance": "The Prophet (ﷺ) said: 'Whoever defends the honor of his brother in his absence, Allah will defend his honor in this world and the Hereafter.' (Ahmad)",
+        "benefits": [
+          "Earns Allah's protection for your own honor",
+          "Strengthens bonds of brotherhood",
+          "Creates culture of mutual respect"
+        ],
+        "daily_actions": [
+          "Speak positively about others when they're mentioned",
+          "Highlight good qualities when someone is criticized",
+          "Politely correct false information about others"
+        ]
+      },
+      "ar": {
+        "title": "قل كلمة طيبة",
+        "description": "دافع عن شرف شخص عندما تسمع من ينتقده.",
+        "islamic_guidance": "قال النبي ﷺ: 'من دافع عن عرض أخيه بالغيب كان حقاً على الله أن يدافع عنه في الدنيا والآخرة' (أحمد)",
+        "benefits": [
+          "يكسب حماية الله لشرفك",
+          "يقوي روابط الأخوة",
+          "يخلق ثقافة الاحترام المتبادل"
+        ],
+        "daily_actions": [
+          "تكلم بإيجابية عن الآخرين عند ذكرهم",
+          "أبرز الصفات الجيدة عند انتقاد شخص",
+          "صحح بلطف المعلومات الخاطئة عن الآخرين"
+        ]
+      },
+      "fr": {
+        "title": "Dites une bonne parole",
+        "description": "Défendez l'honneur de quelqu'un lorsque vous l'entendez critiqué.",
+        "islamic_guidance": "Le Prophète (ﷺ) a dit: 'Quiconque défend l'honneur de son frère en son absence, Allah défendra son honneur dans ce monde et dans l'au-delà.' (Ahmad)",
+        "benefits": [
+          "Mérite la protection d'Allah pour votre propre honneur",
+          "Renforce les liens de fraternité",
+          "Crée une culture de respect mutuel"
+        ],
+        "daily_actions": [
+          "Parlez positivement des autres quand ils sont mentionnés",
+          "Mettez en avant les bonnes qualités quand quelqu'un est critiqué",
+          "Corrigez poliment les fausses informations sur les autres"
+        ]
+      }
+    },
+    "duration_options": [7, 14, 21, 40]
+  },
+  {
+    "goal_id": "ears-speak-justice",
+    "category": "ears",
+    "translations": {
+      "en": {
+        "title": "Speak Up for Justice",
+        "description": "Stand up for those who can't defend themselves.",
+        "islamic_guidance": "Allah says: 'O you who believe! Stand out firmly for justice, as witnesses to Allah, even if it be against yourselves, your parents, and your relatives.' (4:135)",
+        "benefits": [
+          "Fulfills obligation to stand for justice",
+          "Protects the vulnerable and oppressed",
+          "Earns Allah's support in your own struggles"
+        ],
+        "daily_actions": [
+          "Speak up when witnessing unfair treatment",
+          "Support those who cannot defend themselves",
+          "Be a voice for the voiceless in your community"
+        ]
+      },
+      "ar": {
+        "title": "تكلم نصرة للحق",
+        "description": "قف مع من لا يستطيع الدفاع عن نفسه.",
+        "islamic_guidance": "يقول الله: 'يَا أَيُّهَا الَّذِينَ آمَنُوا كُونُوا قَوَّامِينَ بِالْقِسْطِ شُهَدَاءَ لِلَّهِ وَلَوْ عَلَىٰ أَنفُسِكُمْ وَالْوَالِدَيْنِ وَالْأَقْرَبِينَ' (4:135)",
+        "benefits": [
+          "يحقق واجب القيام بالعدل",
+          "يحمي الضعفاء والمظلومين",
+          "يكسب دعم الله في صراعاتك"
+        ],
+        "daily_actions": [
+          "تكلم عند مشاهدة معاملة غير عادلة",
+          "ادعم من لا يستطيع الدفاع عن نفسه",
+          "كن صوتاً لمن لا صوت له في مجتمعك"
+        ]
+      },
+      "fr": {
+        "title": "Parlez pour la justice",
+        "description": "Prenez la défense de ceux qui ne peuvent pas se défendre eux-mêmes.",
+        "islamic_guidance": "Allah dit: 'Ô les croyants! Observez strictement la justice et soyez des témoins (véridiques) comme Allah l'ordonne, fût-ce contre vous-mêmes, vos pères et mères et vos proches.' (4:135)",
+        "benefits": [
+          "Accomplit l'obligation de défendre la justice",
+          "Protège les vulnérables et les opprimés",
+          "Mérite le soutien d'Allah dans vos propres luttes"
+        ],
+        "daily_actions": [
+          "Parlez quand vous êtes témoin d'un traitement injuste",
+          "Soutenez ceux qui ne peuvent se défendre eux-mêmes",
+          "Soyez une voix pour ceux qui n'en ont pas dans votre communauté"
+        ]
+      }
+    },
+    "duration_options": [7, 14, 21, 40]
+  },
+  {
+    "goal_id": "ears-honour-absent",
+    "category": "ears",
+    "translations": {
+      "en": {
+        "title": "Honour the Absent",
+        "description": "Ensure you protect the reputation of others in their absence.",
+        "islamic_guidance": "The Prophet (ﷺ) said: 'The believer is not one who eats his fill while his neighbor goes hungry.' Protecting others' honor is like feeding them spiritually.",
+        "benefits": [
+          "Builds culture of loyalty and trust",
+          "Earns protection for your own reputation",
+          "Strengthens community bonds"
+        ],
+        "daily_actions": [
+          "Refuse to participate in conversations about others' faults",
+          "Speak well of people when they're not present",
+          "Remind others to speak respectfully about the absent"
+        ]
+      },
+      "ar": {
+        "title": "احفظ حرمة الغائب",
+        "description": "احرص على حماية سمعة الآخرين في غيابهم.",
+        "islamic_guidance": "قال النبي ﷺ: 'ليس المؤمن الذي يشبع وجاره جائع' وحماية عرض الآخرين مثل إطعامهم روحياً.",
+        "benefits": [
+          "يبني ثقافة الولاء والثقة",
+          "يكسب حماية لسمعتك الخاصة",
+          "يقوي الروابط المجتمعية"
+        ],
+        "daily_actions": [
+          "ارفض المشاركة في أحاديث عن عيوب الآخرين",
+          "تكلم بخير عن الناس في غيابهم",
+          "ذكر الآخرين بالتحدث باحترام عن الغائبين"
+        ]
+      },
+      "fr": {
+        "title": "Préservez l'honneur des absents",
+        "description": "Veillez à protéger la réputation des autres en leur absence.",
+        "islamic_guidance": "Le Prophète (ﷺ) a dit: 'N'est pas croyant celui qui mange à sa faim tandis que son voisin a faim.' Protéger l'honneur des autres, c'est comme les nourrir spirituellement.",
+        "benefits": [
+          "Construit une culture de loyauté et de confiance",
+          "Mérite la protection pour votre propre réputation",
+          "Renforce les liens communautaires"
+        ],
+        "daily_actions": [
+          "Refusez de participer aux conversations sur les défauts des autres",
+          "Parlez en bien des gens quand ils ne sont pas présents",
+          "Rappelez aux autres de parler respectueusement des absents"
+        ]
+      }
+    },
+    "duration_options": [7, 14, 21, 40]
+  },
+  {
+    "goal_id": "ears-listen-wisdom",
+    "category": "ears",
+    "translations": {
+      "en": {
+        "title": "Listen to Wisdom",
+        "description": "Spend time each day listening to beneficial Islamic reminders.",
+        "islamic_guidance": "The Prophet (ﷺ) said: 'Whoever follows a path in the pursuit of knowledge, Allah will make a path to Paradise easy for him.' (Muslim)",
+        "benefits": [
+          "Increases beneficial knowledge",
+          "Strengthens faith and understanding",
+          "Provides spiritual nourishment"
+        ],
+        "daily_actions": [
+          "Listen to Islamic lectures or podcasts daily",
+          "Attend beneficial gatherings and study circles",
+          "Set aside time for Quranic recitation listening"
+        ]
+      },
+      "ar": {
+        "title": "استمع إلى الحكمة",
+        "description": "خصص وقتاً يومياً للاستماع إلى تذكير إسلامي مفيد.",
+        "islamic_guidance": "قال النبي ﷺ: 'من سلك طريقاً يلتمس فيه علماً سهل الله له طريقاً إلى الجنة' (مسلم)",
+        "benefits": [
+          "يزيد العلم النافع",
+          "يقوي الإيمان والفهم",
+          "يوفر الغذاء الروحي"
+        ],
+        "daily_actions": [
+          "استمع لمحاضرات أو بودكاست إسلامية يومياً",
+          "احضر مجالس العلم ودروس مفيدة",
+          "خصص وقتاً للاستماع لتلاوة القرآن"
+        ]
+      },
+      "fr": {
+        "title": "Écoutez la sagesse",
+        "description": "Consacrez chaque jour un moment à écouter des rappels islamiques bénéfiques.",
+        "islamic_guidance": "Le Prophète (ﷺ) a dit: 'Quiconque suit un chemin pour chercher la connaissance, Allah lui facilitera un chemin vers le Paradis.' (Muslim)",
+        "benefits": [
+          "Augmente la connaissance bénéfique",
+          "Renforce la foi et la compréhension",
+          "Fournit une nourriture spirituelle"
+        ],
+        "daily_actions": [
+          "Écoutez des conférences ou podcasts islamiques quotidiennement",
+          "Assistez à des rassemblements bénéfiques et cercles d'étude",
+          "Réservez du temps pour écouter la récitation coranique"
+        ]
+      }
+    },
+    "duration_options": [7, 14, 21, 40]
+  },
+  {
+    "goal_id": "ears-replace-idle-talk",
+    "category": "ears",
+    "translations": {
+      "en": {
+        "title": "Replace Idle Talk",
+        "description": "Replace idle audio with Qur'an or knowledge.",
+        "islamic_guidance": "Allah says: 'And of mankind is he who purchases idle talks to mislead from the path of Allah without knowledge.' (31:6)",
+        "benefits": [
+          "Purifies the mind from worthless content",
+          "Increases spiritual awareness",
+          "Makes better use of time"
+        ],
+        "daily_actions": [
+          "Replace background music with Quranic recitation",
+          "Choose educational content over idle entertainment",
+          "Listen to beneficial Islamic content during travel"
+        ]
+      },
+      "ar": {
+        "title": "استبدل الكلام الفارغ",
+        "description": "استبدل الأصوات الفارغة بالقرآن أو العلم النافع.",
+        "islamic_guidance": "يقول الله: 'وَمِنَ النَّاسِ مَن يَشْتَرِي لَهْوَ الْحَدِيثِ لِيُضِلَّ عَن سَبِيلِ اللَّهِ بِغَيْرِ عِلْمٍ' (31:6)",
+        "benefits": [
+          "يطهر العقل من المحتوى التافه",
+          "يزيد الوعي الروحي",
+          "يحسن استخدام الوقت"
+        ],
+        "daily_actions": [
+          "استبدل موسيقى الخلفية بتلاوة القرآن",
+          "اختر المحتوى التعليمي بدلاً من الترفيه الفارغ",
+          "استمع لمحتوى إسلامي مفيد أثناء السفر"
+        ]
+      },
+      "fr": {
+        "title": "Remplacez les paroles vaines",
+        "description": "Remplacez les paroles vaines par le Coran ou la science bénéfique.",
+        "islamic_guidance": "Allah dit: 'Et, parmi les hommes, il en est qui, dénués de science, achètent de plaisants discours pour égarer hors du sentier d'Allah.' (31:6)",
+        "benefits": [
+          "Purifie l'esprit du contenu futile",
+          "Augmente la conscience spirituelle",
+          "Fait un meilleur usage du temps"
+        ],
+        "daily_actions": [
+          "Remplacez la musique de fond par la récitation coranique",
+          "Choisissez du contenu éducatif plutôt que du divertissement vide",
+          "Écoutez du contenu islamique bénéfique pendant les voyages"
+        ]
+      }
+    },
+    "duration_options": [7, 14, 21, 40]
+  },
+  {
+    "goal_id": "ears-feed-soul",
+    "category": "ears",
+    "translations": {
+      "en": {
+        "title": "Feed Your Soul",
+        "description": "Choose content that uplifts your faith and heart.",
+        "islamic_guidance": "The Prophet (ﷺ) said: 'The example of guidance and knowledge with which Allah has sent me is like abundant rain falling on the earth.' (Bukhari)",
+        "benefits": [
+          "Nourishes spiritual growth",
+          "Strengthens connection with Allah",
+          "Provides comfort and peace"
+        ],
+        "daily_actions": [
+          "Select uplifting Islamic content daily",
+          "Choose material that increases your love for Allah",
+          "Prioritize content that brings you closer to righteousness"
+        ]
+      },
+      "ar": {
+        "title": "غذّ روحك",
+        "description": "اختر محتوى يرفع إيمانك ويغذي قلبك.",
+        "islamic_guidance": "قال النبي ﷺ: 'مثل ما بعثني الله به من الهدى والعلم كمثل غيث كثير أصاب أرضاً' (البخاري)",
+        "benefits": [
+          "يغذي النمو الروحي",
+          "يقوي الصلة بالله",
+          "يوفر الراحة والسلام"
+        ],
+        "daily_actions": [
+          "اختر محتوى إسلامي مرفع يومياً",
+          "اختر مادة تزيد حبك لله",
+          "أولوية للمحتوى الذي يقربك إلى الصلاح"
+        ]
+      },
+      "fr": {
+        "title": "Nourrissez votre âme",
+        "description": "Choisissez du contenu qui élève votre foi et nourrit votre cœur.",
+        "islamic_guidance": "Le Prophète (ﷺ) a dit: 'L'exemple de la guidance et de la science qu'Allah m'a confiées est comme une pluie abondante tombant sur la terre.' (Bukhari)",
+        "benefits": [
+          "Nourrit la croissance spirituelle",
+          "Renforce la connexion avec Allah",
+          "Procure réconfort et paix"
+        ],
+        "daily_actions": [
+          "Sélectionnez du contenu islamique édifiant quotidiennement",
+          "Choisissez du matériel qui augmente votre amour pour Allah",
+          "Priorisez le contenu qui vous rapproche de la droiture"
+        ]
+      }
+    },
+    "duration_options": [7, 14, 21, 40]
+  }
+]

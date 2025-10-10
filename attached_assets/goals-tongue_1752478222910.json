@@ -1,0 +1,128 @@
+[
+  {
+    "id": "goal-tongue-lying-01",
+    "category": "tongue",
+    "subcategory": "lying",
+    "title": "40 Days of Radical Honesty",
+    "description": "Commit to speaking truthfully in all situations. No lies, exaggeration, or omissions — even to protect yourself."
+  },
+  {
+    "id": "goal-tongue-lying-02",
+    "category": "tongue",
+    "subcategory": "lying",
+    "title": "Clean Your Record – 21 Days",
+    "description": "For 3 weeks, actively correct misstatements when you notice them, and log them in your journal."
+  },
+  {
+    "id": "goal-tongue-lying-03",
+    "category": "tongue",
+    "subcategory": "lying",
+    "title": "Speak With Integrity",
+    "description": "Pause before you speak. Reflect on truth vs convenience. Practice this for 14 days."
+  },
+  {
+    "id": "goal-tongue-backbiting-01",
+    "category": "tongue",
+    "subcategory": "backbiting",
+    "title": "Avoid Backbiting for 40 Days",
+    "description": "Commit to 40 days of avoiding all talk about others in their absence — even if it’s true."
+  },
+  {
+    "id": "goal-tongue-backbiting-02",
+    "category": "tongue",
+    "subcategory": "backbiting",
+    "title": "Cover the Faults of Others",
+    "description": "For 21 days, every time you hear backbiting, counter it with a positive remark or silence."
+  },
+  {
+    "id": "goal-tongue-backbiting-03",
+    "category": "tongue",
+    "subcategory": "backbiting",
+    "title": "Guard the Honour of Believers",
+    "description": "Make a habit of defending the reputation of others when absent. Track your efforts for 14 days."
+  },
+  {
+    "id": "goal-tongue-slander-01",
+    "category": "tongue",
+    "subcategory": "slander",
+    "title": "Verify Before You Speak – 21 Days",
+    "description": "Commit to verifying any negative news or rumours before repeating them. Err on the side of silence."
+  },
+  {
+    "id": "goal-tongue-slander-02",
+    "category": "tongue",
+    "subcategory": "slander",
+    "title": "Speak No Harm",
+    "description": "Avoid all speech that could harm someone’s honour — directly or indirectly — for 40 days."
+  },
+  {
+    "id": "goal-tongue-mockery-01",
+    "category": "tongue",
+    "subcategory": "mockery",
+    "title": "No Mockery for 21 Days",
+    "description": "Refrain from mocking, sarcastic remarks, or jokes at others’ expense for 3 weeks."
+  },
+  {
+    "id": "goal-tongue-mockery-02",
+    "category": "tongue",
+    "subcategory": "mockery",
+    "title": "Speak With Dignity",
+    "description": "Use your tongue to uplift, not shame. Practise restraint and kindness for 14 days."
+  },
+  {
+    "id": "goal-tongue-idle-01",
+    "category": "tongue",
+    "subcategory": "idle",
+    "title": "Speak Only When Beneficial",
+    "description": "For 40 days, aim to reduce all idle talk. Speak only when it adds value to your day or others’ hearts."
+  },
+  {
+    "id": "goal-tongue-idle-02",
+    "category": "tongue",
+    "subcategory": "idle",
+    "title": "Silent Reflection Habit",
+    "description": "Introduce 10 minutes of daily silence and inward reflection for 21 days. Guard your tongue."
+  },
+  {
+    "id": "goal-tongue-flattery-01",
+    "category": "tongue",
+    "subcategory": "false_praise",
+    "title": "Sincere Praise Only",
+    "description": "Spend 14 days offering praise only when genuine and purposeful — never manipulative or false."
+  },
+  {
+    "id": "goal-tongue-flattery-02",
+    "category": "tongue",
+    "subcategory": "false_praise",
+    "title": "Intention Check Before Praise",
+    "description": "Pause before praising others. Reflect on intention. Track this habit for 21 days."
+  },
+  {
+    "id": "goal-tongue-secrets-01",
+    "category": "tongue",
+    "subcategory": "exposing_secrets",
+    "title": "Protect What’s Private",
+    "description": "For 40 days, do not share anything personal or private that was entrusted to you — even vaguely."
+  },
+  {
+    "id": "goal-tongue-secrets-02",
+    "category": "tongue",
+    "subcategory": "exposing_secrets",
+    "title": "Become a Vault of Trust",
+    "description": "Commit to protecting others’ trust as your own honour. Practise this daily for 21 days."
+  },
+  {
+    "id": "goal-tongue-vulgar-01",
+    "category": "tongue",
+    "subcategory": "vulgarity",
+    "title": "Clean Speech for 21 Days",
+    "description": "Eliminate all foul, crass, or aggressive language. Speak with prophetic dignity and self-control."
+  },
+  {
+    "id": "goal-tongue-arguing-01",
+    "category": "tongue",
+    "subcategory": "arguing",
+    "title": "Choose Peace Over Victory",
+    "description": "Avoid unnecessary arguments, debates, and ego-driven exchanges for 40 days. Record your success daily."
+  }
+]

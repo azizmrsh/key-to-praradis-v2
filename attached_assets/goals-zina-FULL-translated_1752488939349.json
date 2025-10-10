@@ -1,0 +1,233 @@
+[
+  {
+    "id": "goal-zina-chatting-01",
+    "category": "zina",
+    "subcategory": "private_chatting_flirting",
+    "title": "Keep Conversations Public",
+    "title_ar": "اجعل المحادثات علنية",
+    "title_fr": "Gardez les conversations publiques",
+    "description": "Avoid private messages with the opposite sex without a valid reason. Islamic guidance: 'Do not be alone with a woman except with a mahram.' (Bukhari)",
+    "description_ar": "تجنب المراسلات الخاصة مع الجنس الآخر دون سبب مشروع. التوجيه الإسلامي: «لا يخلون رجل بامرأة إلا مع ذي محرم» (البخاري).",
+    "description_fr": "Évitez les messages privés avec le sexe opposé sans raison valable. Guidance islamique : « Aucun homme n'est seul avec une femme sans qu'un mahram ne soit présent. » (Boukhari)."
+  },
+  {
+    "id": "goal-zina-chatting-02",
+    "category": "zina",
+    "subcategory": "private_chatting_flirting",
+    "title": "Respect Boundaries",
+    "title_ar": "احترم الحدود",
+    "title_fr": "Respectez les limites",
+    "description": "Keep all speech respectful, avoid flirtation.",
+    "description_ar": "اجعل كلامك محترماً وابتعد عن المغازلة.",
+    "description_fr": "Gardez des paroles respectueuses, évitez la séduction."
+  },
+  {
+    "id": "goal-zina-chatting-03",
+    "category": "zina",
+    "subcategory": "private_chatting_flirting",
+    "title": "Limit Unnecessary Contact",
+    "title_ar": "قلل التواصل غير الضروري",
+    "title_fr": "Limitez les contacts inutiles",
+    "description": "Speak only when needed, with modesty.",
+    "description_ar": "تحدث فقط عند الحاجة وبأدب.",
+    "description_fr": "Parlez seulement lorsque c'est nécessaire, avec pudeur."
+  },
+  {
+    "id": "goal-zina-images-01",
+    "category": "zina",
+    "subcategory": "looking_at_forbidden_images",
+    "title": "Filter Your Feed",
+    "title_ar": "نظف محتوى متابعتك",
+    "title_fr": "Filtrez votre fil d'actualité",
+    "description": "Unfollow accounts posting inappropriate images.",
+    "description_ar": "ألغ متابعة الحسابات التي تنشر صوراً غير لائقة.",
+    "description_fr": "Ne suivez plus les comptes qui publient des images inappropriées."
+  },
+  {
+    "id": "goal-zina-images-02",
+    "category": "zina",
+    "subcategory": "looking_at_forbidden_images",
+    "title": "Lower Your Gaze",
+    "title_ar": "غض بصرك",
+    "title_fr": "Baissez le regard",
+    "description": "Redirect eyes immediately from immodest scenes. Islamic guidance: 'Tell the believing men to lower their gaze.' (Qur’an 24:30)",
+    "description_ar": "حول نظرك فوراً عن المشاهد غير المحتشمة. التوجيه الإسلامي: «قُل لِّلْمُؤْمِنِينَ يَغُضُّوا مِنْ أَبْصَارِهِمْ» (النور:30).",
+    "description_fr": "Détournez le regard immédiatement des scènes impudiques. Guidance islamique : « Dis aux croyants de baisser leurs regards. » (Coran 24:30)."
+  },
+  {
+    "id": "goal-zina-images-03",
+    "category": "zina",
+    "subcategory": "looking_at_forbidden_images",
+    "title": "Choose Clean Entertainment",
+    "title_ar": "اختر ترفيهاً نقياً",
+    "title_fr": "Choisissez un divertissement pur",
+    "description": "Replace sexualised media with halal content.",
+    "description_ar": "استبدل المحتوى المثير بمحتوى حلال.",
+    "description_fr": "Remplacez les médias sexualisés par du contenu halal."
+  },
+  {
+    "id": "goal-zina-meetings-01",
+    "category": "zina",
+    "subcategory": "secret_meetings",
+    "title": "Avoid Seclusion",
+    "title_ar": "تجنب الخلوة",
+    "title_fr": "Évitez la solitude avec l'autre sexe",
+    "description": "Never meet the opposite sex alone without necessity. Islamic guidance: 'No man is alone with a woman but the third of them is the Shaytan.' (Tirmidhi)",
+    "description_ar": "لا تلتقِ بالجنس الآخر بمفردك إلا لضرورة. التوجيه الإسلامي: «ما خلا رجل بامرأة إلا كان الشيطان ثالثهما» (الترمذي).",
+    "description_fr": "Ne rencontrez jamais le sexe opposé seul sans nécessité. Guidance islamique : « Aucun homme n'est seul avec une femme sans que le troisième ne soit le diable. » (Tirmidhi)."
+  },
+  {
+    "id": "goal-zina-meetings-02",
+    "category": "zina",
+    "subcategory": "secret_meetings",
+    "title": "Choose Safe Spaces",
+    "title_ar": "اختر أماكن آمنة",
+    "title_fr": "Choisissez des lieux sûrs",
+    "description": "Be in public places if you must meet.",
+    "description_ar": "إذا اضطررت للقاء، فاجعله في مكان عام.",
+    "description_fr": "Si vous devez vous rencontrer, faites-le dans un lieu public."
+  },
+  {
+    "id": "goal-zina-meetings-03",
+    "category": "zina",
+    "subcategory": "secret_meetings",
+    "title": "Inform Someone Trusted",
+    "title_ar": "أخبر شخصاً موثوقاً",
+    "title_fr": "Informez une personne de confiance",
+    "description": "Let a family member know about any meeting.",
+    "description_ar": "أخبر أحد أفراد عائلتك بأي لقاء.",
+    "description_fr": "Informez un membre de la famille de toute rencontre."
+  },
+  {
+    "id": "goal-zina-contact-01",
+    "category": "zina",
+    "subcategory": "inappropriate_physical_contact",
+    "title": "Keep a Safe Distance",
+    "title_ar": "حافظ على مسافة آمنة",
+    "title_fr": "Gardez une distance sûre",
+    "description": "Maintain personal space with the opposite sex.",
+    "description_ar": "حافظ على مسافة شخصية مع الجنس الآخر.",
+    "description_fr": "Maintenez une distance personnelle avec le sexe opposé."
+  },
+  {
+    "id": "goal-zina-contact-02",
+    "category": "zina",
+    "subcategory": "inappropriate_physical_contact",
+    "title": "Avoid Handshakes",
+    "title_ar": "تجنب المصافحة",
+    "title_fr": "Évitez les poignées de main",
+    "description": "Politely refuse physical greetings.",
+    "description_ar": "اعتذر بلطف عن التحيات الجسدية.",
+    "description_fr": "Refusez poliment les salutations physiques."
+  },
+  {
+    "id": "goal-zina-contact-03",
+    "category": "zina",
+    "subcategory": "inappropriate_physical_contact",
+    "title": "Practice Lowering the Gaze",
+    "title_ar": "درب نفسك على غض البصر",
+    "title_fr": "Pratiquez la baisse du regard",
+    "description": "Look away to avoid physical attraction.",
+    "description_ar": "حول نظرك لتجنب الانجذاب الجسدي.",
+    "description_fr": "Détournez le regard pour éviter l'attirance physique."
+  },
+  {
+    "id": "goal-zina-modesty-01",
+    "category": "zina",
+    "subcategory": "immodest_dress_behaviour",
+    "title": "Dress Modestly",
+    "title_ar": "ارتدِ لباساً محتشماً",
+    "title_fr": "Habillez-vous modestement",
+    "description": "Wear clothes that cover properly and avoid attracting attention. Islamic guidance: 'O Prophet, tell your wives and your daughters and the women of the believers to bring down over themselves [part] of their outer garments.' (Qur’an 33:59)",
+    "description_ar": "ارتدِ ملابس تغطي الجسم ولا تلفت الأنظار. التوجيه الإسلامي: «يا أيها النبي قل لأزواجك وبناتك ونساء المؤمنين يدنين عليهن من جلابيبهن» (الأحزاب:59).",
+    "description_fr": "Portez des vêtements couvrants et discrets. Guidance islamique : « Ô Prophète ! Dis à tes épouses, à tes filles et aux femmes des croyants de rabattre sur elles leurs grands voiles. » (Coran 33:59)."
+  },
+  {
+    "id": "goal-zina-modesty-02",
+    "category": "zina",
+    "subcategory": "immodest_dress_behaviour",
+    "title": "Lower Your Voice",
+    "title_ar": "اخفض صوتك",
+    "title_fr": "Baissez la voix",
+    "description": "Speak softly and modestly.",
+    "description_ar": "تحدث بصوت هادئ وباحتشام.",
+    "description_fr": "Parlez doucement et modestement."
+  },
+  {
+    "id": "goal-zina-modesty-03",
+    "category": "zina",
+    "subcategory": "immodest_dress_behaviour",
+    "title": "Avoid Flirtatious Gestures",
+    "title_ar": "تجنب الحركات المغازلة",
+    "title_fr": "Évitez les gestes séducteurs",
+    "description": "Keep body language modest and reserved.",
+    "description_ar": "اجعل لغة جسدك محتشمة ومحافظة.",
+    "description_fr": "Gardez un langage corporel pudique et réservé."
+  },
+  {
+    "id": "goal-zina-daydreaming-01",
+    "category": "zina",
+    "subcategory": "romantic_fantasies",
+    "title": "Redirect Thoughts",
+    "title_ar": "حول أفكارك",
+    "title_fr": "Redirigez vos pensées",
+    "description": "Turn fantasies into dua for halal marriage.",
+    "description_ar": "حول خيالاتك إلى دعاء للزواج الحلال.",
+    "description_fr": "Transformez vos fantasmes en dou’a pour un mariage halal."
+  },
+  {
+    "id": "goal-zina-daydreaming-02",
+    "category": "zina",
+    "subcategory": "romantic_fantasies",
+    "title": "Occupy Yourself",
+    "title_ar": "اشغل نفسك",
+    "title_fr": "Occupez-vous",
+    "description": "Fill time with beneficial activities.",
+    "description_ar": "املأ وقتك بأعمال نافعة.",
+    "description_fr": "Occupez votre temps avec des activités bénéfiques."
+  },
+  {
+    "id": "goal-zina-daydreaming-03",
+    "category": "zina",
+    "subcategory": "romantic_fantasies",
+    "title": "Control Imagination",
+    "title_ar": "تحكم في خيالك",
+    "title_fr": "Contrôlez votre imagination",
+    "description": "Resist replaying romantic scenes in your mind.",
+    "description_ar": "قاوم تكرار المشاهد الرومانسية في ذهنك.",
+    "description_fr": "Résistez à rejouer des scènes romantiques dans votre esprit."
+  },
+  {
+    "id": "goal-zina-porn-01",
+    "category": "zina",
+    "subcategory": "consuming_sexual_content",
+    "title": "Cut Off the Source",
+    "title_ar": "اقطع المصدر",
+    "title_fr": "Coupez la source",
+    "description": "Block websites or apps with sexual content.",
+    "description_ar": "احجب المواقع أو التطبيقات التي تحتوي على محتوى جنسي.",
+    "description_fr": "Bloquez les sites ou applications à contenu sexuel."
+  },
+  {
+    "id": "goal-zina-porn-02",
+    "category": "zina",
+    "subcategory": "consuming_sexual_content",
+    "title": "Replace With Dhikr",
+    "title_ar": "استبدل بالذكر",
+    "title_fr": "Remplacez par le dhikr",
+    "description": "Listen to Qur’an instead of harmful media.",
+    "description_ar": "استمع إلى القرآن بدلاً من الوسائط الضارة.",
+    "description_fr": "Écoutez le Coran plutôt que des contenus nuisibles."
+  },
+  {
+    "id": "goal-zina-porn-03",
+    "category": "zina",
+    "subcategory": "consuming_sexual_content",
+    "title": "Seek Help if Needed",
+    "title_ar": "اطلب المساعدة عند الحاجة",
+    "title_fr": "Demandez de l'aide si nécessaire",
+    "description": "Talk to a trusted person if struggling with addiction.",
+    "description_ar": "تحدث مع شخص موثوق إذا كنت تعاني من إدمان.",
+    "description_fr": "Parlez à une personne de confiance si vous luttez contre une addiction."
+  }
+]

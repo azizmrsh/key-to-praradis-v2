@@ -1,0 +1,170 @@
+[
+  {
+    "id": "challenge-pride-religious-01",
+    "category": "nose",
+    "subcategory": "religious_arrogance",
+    "title": "Worship Without Comparison",
+    "description": "Today, do not compare your worship or knowledge to anyone else’s. Focus inward only.",
+    "duration_days": 1
+  },
+  {
+    "id": "challenge-pride-religious-02",
+    "category": "nose",
+    "subcategory": "religious_arrogance",
+    "title": "Hidden Deeds – 3 Days",
+    "description": "Do one good deed each day in complete secrecy. Tell no one. Not even in hint.",
+    "duration_days": 3
+  },
+  {
+    "id": "challenge-pride-religious-03",
+    "category": "nose",
+    "subcategory": "religious_arrogance",
+    "title": "7 Days of Sincere Humility",
+    "description": "For one week, focus on your flaws during worship. Reflect on how far you are from Allah.",
+    "duration_days": 7
+  },
+  {
+    "id": "challenge-pride-social-01",
+    "category": "nose",
+    "subcategory": "social_superiority",
+    "title": "Greet Everyone First",
+    "description": "Greet people today regardless of status — from cleaner to executive — equally and sincerely.",
+    "duration_days": 1
+  },
+  {
+    "id": "challenge-pride-social-02",
+    "category": "nose",
+    "subcategory": "social_superiority",
+    "title": "Eat with the 'Lowly'",
+    "description": "Sit or eat with someone you might subconsciously look down on. Do it with joy and love.",
+    "duration_days": 1
+  },
+  {
+    "id": "challenge-pride-social-03",
+    "category": "nose",
+    "subcategory": "social_superiority",
+    "title": "14-Day Superiority Cleanse",
+    "description": "Avoid all thoughts or speech that imply you're better than anyone — for two full weeks.",
+    "duration_days": 14
+  },
+  {
+    "id": "challenge-pride-appearance-01",
+    "category": "nose",
+    "subcategory": "appearance_pride",
+    "title": "No Mirror Praise",
+    "description": "Do not admire yourself in a mirror or selfie today. Say 'Allahumma kama hassanta khalqi…'",
+    "duration_days": 1
+  },
+  {
+    "id": "challenge-pride-appearance-02",
+    "category": "nose",
+    "subcategory": "appearance_pride",
+    "title": "Dress Simply – 3 Days",
+    "description": "Wear something modest and simple — not for others, but to purify your intent.",
+    "duration_days": 3
+  },
+  {
+    "id": "challenge-pride-appearance-03",
+    "category": "nose",
+    "subcategory": "appearance_pride",
+    "title": "7-Day Vanity Cleanse",
+    "description": "Avoid all vanity-related actions or thoughts — beauty, clothes, or strength — for 7 days.",
+    "duration_days": 7
+  },
+  {
+    "id": "challenge-pride-advice-01",
+    "category": "nose",
+    "subcategory": "refusing_advice",
+    "title": "Accept One Correction",
+    "description": "Today, if someone corrects you — even if harsh — take it gently. Say thank you.",
+    "duration_days": 1
+  },
+  {
+    "id": "challenge-pride-advice-02",
+    "category": "nose",
+    "subcategory": "refusing_advice",
+    "title": "Ask for Feedback – 3 Days",
+    "description": "Ask someone you trust for sincere advice, and receive it silently. Reflect deeply.",
+    "duration_days": 3
+  },
+  {
+    "id": "challenge-pride-advice-03",
+    "category": "nose",
+    "subcategory": "refusing_advice",
+    "title": "7-Day Openness to Correction",
+    "description": "Each day, welcome advice. Keep a journal of what you hear without justifying yourself.",
+    "duration_days": 7
+  },
+  {
+    "id": "challenge-pride-apologise-01",
+    "category": "nose",
+    "subcategory": "refusing_to_apologise",
+    "title": "One Sincere Apology",
+    "description": "Find someone you’ve wronged — however small — and apologise with sincerity.",
+    "duration_days": 1
+  },
+  {
+    "id": "challenge-pride-apologise-02",
+    "category": "nose",
+    "subcategory": "refusing_to_apologise",
+    "title": "3 Days of Softness",
+    "description": "If you're confronted, respond without ego. Apologise even when it stings.",
+    "duration_days": 3
+  },
+  {
+    "id": "challenge-pride-apologise-03",
+    "category": "nose",
+    "subcategory": "refusing_to_apologise",
+    "title": "7-Day Pride Detox",
+    "description": "For 7 days, actively look for moments to say: 'I was wrong' or 'I'm sorry.' Let your heart soften.",
+    "duration_days": 7
+  },
+  {
+    "id": "challenge-pride-praise-01",
+    "category": "nose",
+    "subcategory": "seeking_praise",
+    "title": "Do It in Secret",
+    "description": "Today, do one good deed and actively hide it. No sharing. No reward but Allah.",
+    "duration_days": 1
+  },
+  {
+    "id": "challenge-pride-praise-02",
+    "category": "nose",
+    "subcategory": "seeking_praise",
+    "title": "No Praise Check – 3 Days",
+    "description": "Don’t check social media or ask how people responded to your words or efforts.",
+    "duration_days": 3
+  },
+  {
+    "id": "challenge-pride-praise-03",
+    "category": "nose",
+    "subcategory": "seeking_praise",
+    "title": "14-Day Fame Cleanse",
+    "description": "For two weeks, detach from the need for recognition. Be silent and unseen, for Allah alone.",
+    "duration_days": 14
+  },
+  {
+    "id": "challenge-pride-condescension-01",
+    "category": "nose",
+    "subcategory": "condescension",
+    "title": "One Gesture of Equality",
+    "description": "Today, sit, eat, or walk with someone whom others usually overlook.",
+    "duration_days": 1
+  },
+  {
+    "id": "challenge-pride-condescension-02",
+    "category": "nose",
+    "subcategory": "condescension",
+    "title": "3-Day Language Watch",
+    "description": "Avoid all belittling words — even in tone or implication — for 3 days.",
+    "duration_days": 3
+  },
+  {
+    "id": "challenge-pride-condescension-03",
+    "category": "nose",
+    "subcategory": "condescension",
+    "title": "7-Day Respect Practice",
+    "description": "Speak to everyone as if they were spiritually higher than you. Let it reshape your manner.",
+    "duration_days": 7
+  }
+]

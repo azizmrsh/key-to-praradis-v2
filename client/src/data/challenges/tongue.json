@@ -1,0 +1,623 @@
+[
+  {
+    "id": "challenge-tongue-lying-01",
+    "category": "tongue",
+    "subcategory": "lying",
+    "title": "No Lies for 24 Hours",
+    "description": "Make it through one full day without a single lie — not even a small one.",
+    "duration_days": 1,
+    "translations": {
+      "en": {
+        "title": "No Lies for 24 Hours",
+        "description": "Make it through one full day without a single lie — not even a small one."
+      },
+      "fr": {
+        "title": "Pas de mensonges pendant 24 heures",
+        "description": "Passez une journée complète sans un seul mensonge — pas même un petit."
+      },
+      "ar": {
+        "title": "لا كذب لمدة 24 ساعة",
+        "description": "اجتز يوماً كاملاً دون كذبة واحدة — ولا حتى صغيرة."
+      }
+    },
+    "difficulty": "easy"
+  },
+  {
+    "id": "challenge-tongue-lying-02",
+    "category": "tongue",
+    "subcategory": "lying",
+    "title": "Truth Audit",
+    "description": "Before sleeping, review your conversations. Were you fully honest? Reflect and write in your journal.",
+    "duration_days": 1,
+    "translations": {
+      "en": {
+        "title": "Truth Audit",
+        "description": "Before sleeping, review your conversations. Were you fully honest? Reflect and write in your journal."
+      },
+      "fr": {
+        "title": "Audit de vérité",
+        "description": "Avant de dormir, passez en revue vos conversations. Avez-vous été entièrement honnête? Réfléchissez et écrivez dans votre journal."
+      },
+      "ar": {
+        "title": "مراجعة الصدق",
+        "description": "قبل النوم، راجع محادثاتك. هل كنت صادقاً تماماً؟ تأمل واكتب في يومياتك."
+      }
+    },
+    "difficulty": "easy"
+  },
+  {
+    "id": "challenge-tongue-lying-03",
+    "category": "tongue",
+    "subcategory": "lying",
+    "title": "Correct a Past Lie",
+    "description": "Reach out to someone and correct something dishonest you've said before. Seek Allah's forgiveness.",
+    "duration_days": 1,
+    "translations": {
+      "en": {
+        "title": "Correct a Past Lie",
+        "description": "Reach out to someone and correct something dishonest you've said before. Seek Allah's forgiveness."
+      },
+      "fr": {
+        "title": "Corrigez un mensonge passé",
+        "description": "Contactez quelqu'un et corrigez quelque chose de malhonnête que vous avez dit auparavant. Demandez le pardon d'Allah."
+      },
+      "ar": {
+        "title": "صحح كذبة سابقة",
+        "description": "تواصل مع شخص وصحح شيئاً غير صادق قلته من قبل. اطلب مغفرة الله."
+      }
+    },
+    "difficulty": "easy"
+  },
+  {
+    "id": "challenge-tongue-backbiting-01",
+    "category": "tongue",
+    "subcategory": "backbiting",
+    "title": "Leave the Room (Literally or Virtually)",
+    "description": "If someone starts backbiting, remove yourself — respectfully. One-time challenge.",
+    "duration_days": 1,
+    "translations": {
+      "en": {
+        "title": "Leave the Room (Literally or Virtually)",
+        "description": "If someone starts backbiting, remove yourself — respectfully. One-time challenge."
+      },
+      "fr": {
+        "title": "Quittez la pièce (littéralement ou virtuellement)",
+        "description": "Si quelqu'un commence à médire, retirez-vous — respectueusement. Défi unique."
+      },
+      "ar": {
+        "title": "اترك الغرفة (حرفياً أو افتراضياً)",
+        "description": "إذا بدأ أحد بالغيبة، اخرج من المكان — باحترام. تحدي لمرة واحدة."
+      }
+    },
+    "difficulty": "easy"
+  },
+  {
+    "id": "challenge-tongue-backbiting-02",
+    "category": "tongue",
+    "subcategory": "backbiting",
+    "title": "Defend Their Honour",
+    "description": "Say one good thing about someone being backbitten. Flip the tone of the conversation.",
+    "duration_days": 1,
+    "translations": {
+      "en": {
+        "title": "Defend Their Honour",
+        "description": "Say one good thing about someone being backbitten. Flip the tone of the conversation."
+      },
+      "fr": {
+        "title": "Défendez leur honneur",
+        "description": "Dites quelque chose de bien sur quelqu'un qui est médisant. Changez le ton de la conversation."
+      },
+      "ar": {
+        "title": "ادافع عن شرفهم",
+        "description": "قل شيئاً جيداً عن شخص يُغتاب. اعكس نبرة المحادثة."
+      }
+    },
+    "difficulty": "easy"
+  },
+  {
+    "id": "challenge-tongue-backbiting-03",
+    "category": "tongue",
+    "subcategory": "backbiting",
+    "title": "Fast From Gossip",
+    "description": "For the next 3 hours, no gossip. No stories about anyone else. See how long you can last.",
+    "duration_days": 1,
+    "translations": {
+      "en": {
+        "title": "Fast From Gossip",
+        "description": "For the next 3 hours, no gossip. No stories about anyone else. See how long you can last."
+      },
+      "fr": {
+        "title": "Jeûne des commérages",
+        "description": "Pour les 3 prochaines heures, pas de ragots. Pas d'histoires sur qui que ce soit d'autre. Voyez combien de temps vous pouvez tenir."
+      },
+      "ar": {
+        "title": "صيام من النميمة",
+        "description": "للثلاث ساعات القادمة، لا نميمة. لا قصص عن أي شخص آخر. انظر كم من الوقت يمكنك الصمود."
+      }
+    },
+    "difficulty": "easy"
+  },
+  {
+    "id": "challenge-tongue-slander-01",
+    "category": "tongue",
+    "subcategory": "slander",
+    "title": "Pause Before You Speak",
+    "description": "Any time you speak today, pause for 3 seconds before repeating something about someone else.",
+    "duration_days": 1,
+    "translations": {
+      "en": {
+        "title": "Pause Before You Speak",
+        "description": "Any time you speak today, pause for 3 seconds before repeating something about someone else."
+      },
+      "ar": {
+        "title": "توقف قبل أن تتكلم",
+        "description": "اليوم، توقف وفكر قبل أن تقول أي شيء قد يضر بسمعة شخص."
+      },
+      "fr": {
+        "title": "Pause avant de parler",
+        "description": "Aujourd'hui, arrêtez-vous et réfléchissez avant de dire quoi que ce soit qui pourrait nuire à la réputation de quelqu'un."
+      }
+    },
+    "difficulty": "easy"
+  },
+  {
+    "id": "challenge-tongue-slander-02",
+    "category": "tongue",
+    "subcategory": "slander",
+    "title": "Delete the Message",
+    "description": "Delete a message or post that could misrepresent someone, even slightly. Don't spread doubt.",
+    "duration_days": 1,
+    "translations": {
+      "en": {
+        "title": "Delete the Message",
+        "description": "Delete a message or post that could misrepresent someone, even slightly. Don't spread doubt."
+      },
+      "ar": {
+        "title": "احذف الرسالة",
+        "description": "إذا كتبت رسالة غاضبة أو قاسية اليوم، احذفها بدلاً من إرسالها."
+      },
+      "fr": {
+        "title": "Supprimez le message",
+        "description": "Si vous écrivez un message en colère ou dur aujourd'hui, supprimez-le au lieu de l'envoyer."
+      }
+    },
+    "difficulty": "easy"
+  },
+  {
+    "id": "challenge-tongue-slander-03",
+    "category": "tongue",
+    "subcategory": "slander",
+    "title": "Say 'I Don't Know'",
+    "description": "When unsure, say 'I don't know' today. Resist the urge to fill gaps with assumptions.",
+    "duration_days": 1,
+    "translations": {
+      "en": {
+        "title": "Say 'I Don't Know'",
+        "description": "When unsure, say 'I don't know' today. Resist the urge to fill gaps with assumptions."
+      },
+      "ar": {
+        "title": "قل 'لا أعرف'",
+        "description": "اليوم، إذا سئلت عن شيء لا تعرفه، قل 'لا أعرف' بدلاً من التخمين."
+      },
+      "fr": {
+        "title": "Dites 'Je ne sais pas'",
+        "description": "Aujourd'hui, si on vous demande quelque chose que vous ne savez pas, dites 'Je ne sais pas' au lieu de deviner."
+      }
+    },
+    "difficulty": "easy"
+  },
+  {
+    "id": "challenge-tongue-mockery-01",
+    "category": "tongue",
+    "subcategory": "mockery",
+    "title": "Be the Gentle One",
+    "description": "Speak kindly today. Avoid all sarcasm, imitations, and subtle mocking.",
+    "duration_days": 1,
+    "translations": {
+      "en": {
+        "title": "Be the Gentle One",
+        "description": "Speak kindly today. Avoid all sarcasm, imitations, and subtle mocking."
+      },
+      "ar": {
+        "title": "كن الشخص اللطيف",
+        "description": "اليوم، كن الشخص الذي يهدئ الموقف بدلاً من السخرية."
+      },
+      "fr": {
+        "title": "Soyez la personne douce",
+        "description": "Aujourd'hui, soyez la personne qui calme la situation au lieu de se moquer."
+      }
+    },
+    "difficulty": "easy"
+  },
+  {
+    "id": "challenge-tongue-mockery-02",
+    "category": "tongue",
+    "subcategory": "mockery",
+    "title": "Silent Smile",
+    "description": "Today, when tempted to joke at someone's expense — smile instead. Let it pass.",
+    "duration_days": 1,
+    "translations": {
+      "en": {
+        "title": "Silent Smile",
+        "description": "Today, when tempted to joke at someone's expense — smile instead. Let it pass."
+      },
+      "ar": {
+        "title": "ابتسامة صامتة",
+        "description": "اليوم، رد على الإهانة بابتسامة صامتة وادع للشخص في قلبك."
+      },
+      "fr": {
+        "title": "Sourire silencieux",
+        "description": "Aujourd'hui, répondez à l'insulte par un sourire silencieux et priez pour la personne dans votre cœur."
+      }
+    },
+    "difficulty": "easy"
+  },
+  {
+    "id": "challenge-tongue-mockery-03",
+    "category": "tongue",
+    "subcategory": "mockery",
+    "title": "Compliment the One You Mock",
+    "description": "Think of someone you've mocked. Privately make dua for them. Optionally, offer praise to their face.",
+    "duration_days": 1,
+    "translations": {
+      "en": {
+        "title": "Compliment the One You Mock",
+        "description": "Think of someone you've mocked. Privately make dua for them. Optionally, offer praise to their face."
+      },
+      "ar": {
+        "title": "امدح من تسخر منه",
+        "description": "لمدة أسبوعين، امدح شخصاً بدلاً من السخرية منه."
+      },
+      "fr": {
+        "title": "Complimentez celui dont vous vous moquez",
+        "description": "Pendant deux semaines, complimentez quelqu'un au lieu de vous moquer de lui."
+      }
+    },
+    "difficulty": "easy"
+  },
+  {
+    "id": "challenge-tongue-idle-01",
+    "category": "tongue",
+    "subcategory": "idle",
+    "title": "Three Sacred Silences",
+    "description": "For today, find 3 moments to consciously be silent when you would normally speak unnecessarily.",
+    "duration_days": 1,
+    "translations": {
+      "en": {
+        "title": "Three Sacred Silences",
+        "description": "For today, find 3 moments to consciously be silent when you would normally speak unnecessarily."
+      },
+      "ar": {
+        "title": "ثلاثة صمت مقدسة",
+        "description": "اليوم، التزم الصمت في ثلاث مناسبات حيث كنت ستتكلم بلا فائدة."
+      },
+      "fr": {
+        "title": "Trois silences sacrés",
+        "description": "Aujourd'hui, gardez le silence dans trois occasions où vous auriez parlé sans utilité."
+      }
+    },
+    "difficulty": "easy"
+  },
+  {
+    "id": "challenge-tongue-idle-02",
+    "category": "tongue",
+    "subcategory": "idle",
+    "title": "Intentional Speech Week",
+    "description": "For 7 days, try to speak only when you have clear purpose or benefit. Reflect at day's end.",
+    "duration_days": 7,
+    "translations": {
+      "en": {
+        "title": "Intentional Speech Week",
+        "description": "For 7 days, try to speak only when you have clear purpose or benefit. Reflect at day's end."
+      },
+      "ar": {
+        "title": "أسبوع الكلام المقصود",
+        "description": "لمدة أسبوع، تكلم فقط عندما يكون لكلامك فائدة واضحة."
+      },
+      "fr": {
+        "title": "Semaine de parole intentionnelle",
+        "description": "Pendant une semaine, parlez seulement quand vos paroles ont un bénéfice clair."
+      }
+    },
+    "difficulty": "medium"
+  },
+  {
+    "id": "challenge-tongue-idle-03",
+    "category": "tongue",
+    "subcategory": "idle",
+    "title": "Silent Mornings",
+    "description": "For the next 3 days, remain silent after Fajr until breakfast unless necessary.",
+    "duration_days": 3,
+    "translations": {
+      "en": {
+        "title": "Silent Mornings",
+        "description": "For the next 3 days, remain silent after Fajr until breakfast unless necessary."
+      },
+      "ar": {
+        "title": "صباح صامت",
+        "description": "اليوم، ابدأ صباحك بساعة من الصمت والتأمل."
+      },
+      "fr": {
+        "title": "Matins silencieux",
+        "description": "Aujourd'hui, commencez votre matinée par une heure de silence et de réflexion."
+      }
+    },
+    "difficulty": "medium"
+  },
+  {
+    "id": "challenge-tongue-flattery-01",
+    "category": "tongue",
+    "subcategory": "false_praise",
+    "title": "Truthful Compliments Only",
+    "description": "Today, only give compliments you mean. No flattery. No exaggeration.",
+    "duration_days": 1,
+    "translations": {
+      "en": {
+        "title": "Truthful Compliments Only",
+        "description": "Today, only give compliments you mean. No flattery. No exaggeration."
+      },
+      "ar": {
+        "title": "مجاملات صادقة فقط",
+        "description": "اليوم، قل فقط المجاملات الصادقة والصحيحة."
+      },
+      "fr": {
+        "title": "Compliments véridiques seulement",
+        "description": "Aujourd'hui, ne dites que des compliments sincères et vrais."
+      }
+    },
+    "difficulty": "easy"
+  },
+  {
+    "id": "challenge-tongue-flattery-02",
+    "category": "tongue",
+    "subcategory": "false_praise",
+    "title": "Authenticity Practice – 7 Days",
+    "description": "Avoid insincere compliments or strategic praise for 7 days. Honour truth in every word.",
+    "duration_days": 7,
+    "translations": {
+      "en": {
+        "title": "Authenticity Practice – 7 Days",
+        "description": "Avoid insincere compliments or strategic praise for 7 days. Honour truth in every word."
+      },
+      "ar": {
+        "title": "ممارسة الأصالة - 7 أيام",
+        "description": "لمدة 7 أيام، كن صادقاً في مدحك وتجنب المجاملات المفرطة."
+      },
+      "fr": {
+        "title": "Pratique d'authenticité - 7 jours",
+        "description": "Pendant 7 jours, soyez sincère dans vos éloges et évitez les flatteries excessives."
+      }
+    },
+    "difficulty": "medium"
+  },
+  {
+    "id": "challenge-tongue-flattery-03",
+    "category": "tongue",
+    "subcategory": "false_praise",
+    "title": "14-Day Praise Cleanse",
+    "description": "For 14 days, be mindful of any praise you offer. Let it be genuine and spiritually safe.",
+    "duration_days": 14,
+    "translations": {
+      "en": {
+        "title": "14-Day Praise Cleanse",
+        "description": "For 14 days, be mindful of any praise you offer. Let it be genuine and spiritually safe."
+      },
+      "ar": {
+        "title": "تطهير المدح لمدة 14 يوماً",
+        "description": "لمدة أسبوعين، طهر مدحك من المجاملات الفارغة."
+      },
+      "fr": {
+        "title": "Nettoyage d'éloge de 14 jours",
+        "description": "Pendant deux semaines, purifiez vos éloges des compliments vides."
+      }
+    },
+    "difficulty": "hard"
+  },
+  {
+    "id": "challenge-tongue-secrets-01",
+    "category": "tongue",
+    "subcategory": "exposing_secrets",
+    "title": "Zip the Lips",
+    "description": "Do not reveal anything personal you know about others for 24 hours. Not even hints.",
+    "duration_days": 1,
+    "translations": {
+      "en": {
+        "title": "Zip the Lips",
+        "description": "Do not reveal anything personal you know about others for 24 hours. Not even hints."
+      },
+      "ar": {
+        "title": "اقفل شفتيك",
+        "description": "اليوم، التزم الصمت عندما تشعر بالرغبة في قول شيء سلبي."
+      },
+      "fr": {
+        "title": "Fermez les lèvres",
+        "description": "Aujourd'hui, restez silencieux quand vous ressentez l'envie de dire quelque chose de négatif."
+      }
+    },
+    "difficulty": "easy"
+  },
+  {
+    "id": "challenge-tongue-secrets-02",
+    "category": "tongue",
+    "subcategory": "exposing_secrets",
+    "title": "Safeguard the Trust",
+    "description": "For 7 days, reflect on whether you speak from trust. Record slips and ask Allah for restraint.",
+    "duration_days": 7,
+    "translations": {
+      "en": {
+        "title": "Safeguard the Trust",
+        "description": "For 7 days, reflect on whether you speak from trust. Record slips and ask Allah for restraint."
+      },
+      "ar": {
+        "title": "احفظ الأمانة",
+        "description": "اليوم، احفظ كل أمانة وسر أوكل إليك."
+      },
+      "fr": {
+        "title": "Protégez la confiance",
+        "description": "Aujourd'hui, protégez chaque confiance et secret qui vous est confié."
+      }
+    },
+    "difficulty": "medium"
+  },
+  {
+    "id": "challenge-tongue-secrets-03",
+    "category": "tongue",
+    "subcategory": "exposing_secrets",
+    "title": "Honour the Private",
+    "description": "If you've recently shared something private, contact that person to affirm your trust.",
+    "duration_days": 3,
+    "translations": {
+      "en": {
+        "title": "Honour the Private",
+        "description": "If you've recently shared something private, contact that person to affirm your trust."
+      },
+      "ar": {
+        "title": "أكرم الخاص",
+        "description": "اليوم، احترم خصوصية الآخرين ولا تفشِ أسرارهم."
+      },
+      "fr": {
+        "title": "Honorez le privé",
+        "description": "Aujourd'hui, respectez la vie privée des autres et ne révélez pas leurs secrets."
+      }
+    },
+    "difficulty": "medium"
+  },
+  {
+    "id": "challenge-tongue-vulgar-01",
+    "category": "tongue",
+    "subcategory": "vulgarity",
+    "title": "Refined Language Day",
+    "description": "No swearing, rough words, or aggressive tone for 24 hours. Use words of mercy and dignity.",
+    "duration_days": 1,
+    "translations": {
+      "en": {
+        "title": "Refined Language Day",
+        "description": "No swearing, rough words, or aggressive tone for 24 hours. Use words of mercy and dignity."
+      },
+      "ar": {
+        "title": "يوم اللغة المهذبة",
+        "description": "اليوم، استخدم لغة مهذبة ونظيفة في كل محادثاتك."
+      },
+      "fr": {
+        "title": "Jour de langage raffiné",
+        "description": "Aujourd'hui, utilisez un langage raffiné et propre dans toutes vos conversations."
+      }
+    },
+    "difficulty": "easy"
+  },
+  {
+    "id": "challenge-tongue-vulgar-02",
+    "category": "tongue",
+    "subcategory": "vulgarity",
+    "title": "Speak Like a Believer – 7 Days",
+    "description": "For a full week, monitor your speech tone and purity. Use reminders and daily du'a for control.",
+    "duration_days": 7,
+    "translations": {
+      "en": {
+        "title": "Speak Like a Believer – 7 Days",
+        "description": "For a full week, monitor your speech tone and purity. Use reminders and daily du'a for control."
+      },
+      "ar": {
+        "title": "تكلم كالمؤمن - 7 أيام",
+        "description": "لمدة 7 أيام، اجعل كلامك يليق بالمؤمن."
+      },
+      "fr": {
+        "title": "Parlez comme un croyant - 7 jours",
+        "description": "Pendant 7 jours, faites que votre discours convienne à un croyant."
+      }
+    },
+    "difficulty": "medium"
+  },
+  {
+    "id": "challenge-tongue-vulgar-03",
+    "category": "tongue",
+    "subcategory": "vulgarity",
+    "title": "14-Day Clean Speech Reset",
+    "description": "Avoid all profanity, innuendo, or hostile tone for 14 days. Let your words carry the fragrance of mercy.",
+    "duration_days": 14,
+    "translations": {
+      "en": {
+        "title": "14-Day Clean Speech Reset",
+        "description": "Avoid all profanity, innuendo, or hostile tone for 14 days. Let your words carry the fragrance of mercy."
+      },
+      "ar": {
+        "title": "إعادة تعيين الكلام النظيف لمدة 14 يوماً",
+        "description": "لمدة أسبوعين، اعيد تعيين لغتك إلى الكلام النظيف والطاهر."
+      },
+      "fr": {
+        "title": "Réinitialisation du discours propre de 14 jours",
+        "description": "Pendant deux semaines, réinitialisez votre langage vers un discours propre et pur."
+      }
+    },
+    "difficulty": "hard"
+  },
+  {
+    "id": "challenge-tongue-arguing-01",
+    "category": "tongue",
+    "subcategory": "arguing",
+    "title": "Let It Go (Once)",
+    "description": "Walk away from one argument today — even if you're right. Choose peace over ego.",
+    "duration_days": 1,
+    "translations": {
+      "en": {
+        "title": "Let It Go (Once)",
+        "description": "Walk away from one argument today — even if you're right. Choose peace over ego."
+      },
+      "ar": {
+        "title": "اتركها (مرة واحدة)",
+        "description": "اليوم، اترك شيئاً واحداً كان يؤذيك واعف عنه."
+      },
+      "fr": {
+        "title": "Laissez tomber (une fois)",
+        "description": "Aujourd'hui, laissez tomber une chose qui vous blessait et pardonnez-la."
+      }
+    },
+    "difficulty": "easy"
+  },
+  {
+    "id": "challenge-tongue-arguing-02",
+    "category": "tongue",
+    "subcategory": "arguing",
+    "title": "7 Days of Calm Speech",
+    "description": "Refrain from raising your voice or arguing for 7 days. Choose stillness over combativeness.",
+    "duration_days": 7,
+    "translations": {
+      "en": {
+        "title": "7 Days of Calm Speech",
+        "description": "Refrain from raising your voice or arguing for 7 days. Choose stillness over combativeness."
+      },
+      "ar": {
+        "title": "7 أيام من الكلام الهادئ",
+        "description": "لمدة أسبوع، تكلم بهدوء وتجنب الجدال."
+      },
+      "fr": {
+        "title": "7 jours de parole calme",
+        "description": "Pendant une semaine, parlez calmement et évitez les disputes."
+      }
+    },
+    "difficulty": "medium"
+  },
+  {
+    "id": "challenge-tongue-arguing-03",
+    "category": "tongue",
+    "subcategory": "arguing",
+    "title": "14-Day Dispute Detox",
+    "description": "Avoid all disputes — verbal, online, or passive-aggressive — for 14 days. Replace with du'a.",
+    "duration_days": 14,
+    "translations": {
+      "en": {
+        "title": "14-Day Dispute Detox",
+        "description": "Avoid all disputes — verbal, online, or passive-aggressive — for 14 days. Replace with du'a."
+      },
+      "ar": {
+        "title": "تخلص من الجدال لمدة 14 يوماً",
+        "description": "لمدة أسبوعين، تجنب الجدال والمناقشات العقيمة."
+      },
+      "fr": {
+        "title": "Détox de dispute de 14 jours",
+        "description": "Pendant deux semaines, évitez les disputes et les discussions stériles."
+      }
+    },
+    "difficulty": "hard"
+  }
+]

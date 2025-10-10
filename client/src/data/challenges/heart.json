@@ -1,0 +1,485 @@
+[
+  {
+    "id": "challenge-heart-envy-01",
+    "category": "heart",
+    "subcategory": "envy",
+    "title": "Make Du'a for the Blessed",
+    "description": "Today, make a heartfelt du'a for someone who has what you desire. Ask Allah to bless them more.",
+    "duration_days": 1,
+    "translations": {
+      "en": {
+        "title": "Make Du'a for the Blessed",
+        "description": "Today, make a heartfelt du'a for someone who has what you desire. Ask Allah to bless them more."
+      },
+      "fr": {
+        "title": "Faire du'a pour les bénis",
+        "description": "Aujourd'hui, faites une du'a sincère pour quelqu'un qui a ce que vous désirez. Demandez à Allah de les bénir davantage."
+      },
+      "ar": {
+        "title": "ادع للمبارك",
+        "description": "اليوم، ادع دعاء صادق لشخص يملك ما ترغب فيه. اطلب من الله أن يبارك له أكثر."
+      }
+    },
+    "difficulty": "easy"
+  },
+  {
+    "id": "challenge-heart-envy-02",
+    "category": "heart",
+    "subcategory": "envy",
+    "title": "Gratitude Over Comparison – 3 Days",
+    "description": "Each day, list 3 things you have that you would never trade. Say Alhamdulillah sincerely.",
+    "duration_days": 3,
+    "translations": {
+      "en": {
+        "title": "Gratitude Over Comparison – 3 Days",
+        "description": "Each day, list 3 things you have that you would never trade. Say Alhamdulillah sincerely."
+      },
+      "fr": {
+        "title": "Gratitude plutôt que comparaison – 3 jours",
+        "description": "Chaque jour, listez 3 choses que vous avez et que vous n'échangeriez jamais. Dites Alhamdulillah sincèrement."
+      },
+      "ar": {
+        "title": "الشكر بدلاً من المقارنة – 3 أيام",
+        "description": "كل يوم، اذكر 3 أشياء تملكها ولن تتاجر بها أبداً. قل الحمد لله بصدق."
+      }
+    },
+    "difficulty": "medium"
+  },
+  {
+    "id": "challenge-heart-envy-03",
+    "category": "heart",
+    "subcategory": "envy",
+    "title": "7-Day Envy Cleanse",
+    "description": "For one week, replace every jealous thought with a praise of Allah or positive prayer.",
+    "duration_days": 7,
+    "translations": {
+      "en": {
+        "title": "7-Day Envy Cleanse",
+        "description": "For one week, replace every jealous thought with a praise of Allah or positive prayer."
+      },
+      "fr": {
+        "title": "Nettoyage de l'envie de 7 jours",
+        "description": "Pendant une semaine, remplacez chaque pensée jalouse par une louange d'Allah ou une prière positive."
+      },
+      "ar": {
+        "title": "تطهير الحسد لمدة 7 أيام",
+        "description": "لمدة أسبوع، استبدل كل فكرة حسد بحمد الله أو دعاء إيجابي."
+      }
+    },
+    "difficulty": "medium"
+  },
+  {
+    "id": "challenge-heart-pride-01",
+    "category": "heart",
+    "subcategory": "pride",
+    "title": "Recall Your Origin",
+    "description": "Today, reflect on your creation and ultimate return. Remember your place before Allah.",
+    "duration_days": 1,
+    "translations": {
+      "en": {
+        "title": "Recall Your Origin",
+        "description": "Today, reflect on your creation and ultimate return. Remember your place before Allah."
+      },
+      "fr": {
+        "title": "Rappelez-vous votre origine",
+        "description": "Aujourd'hui, réfléchissez à votre création et à votre retour ultime. Souvenez-vous de votre place devant Allah."
+      },
+      "ar": {
+        "title": "تذكر أصلك",
+        "description": "اليوم، تأمل في خلقك وعودتك الأخيرة. تذكر مكانتك أمام الله."
+      }
+    },
+    "difficulty": "easy"
+  },
+  {
+    "id": "challenge-heart-pride-02",
+    "category": "heart",
+    "subcategory": "pride",
+    "title": "Serve Someone Silently – 3 Days",
+    "description": "Do something humble and unnoticed each day. Let it break your ego softly.",
+    "duration_days": 3,
+    "translations": {
+      "en": {
+        "title": "Serve Someone Silently – 3 Days",
+        "description": "Do something humble and unnoticed each day. Let it break your ego softly."
+      },
+      "fr": {
+        "title": "Servir quelqu'un en silence – 3 jours",
+        "description": "Faites quelque chose d'humble et d'inaperçu chaque jour. Laissez cela briser votre ego doucement."
+      },
+      "ar": {
+        "title": "خدمة شخص بصمت – 3 أيام",
+        "description": "افعل شيئاً متواضعاً وغير ملحوظ كل يوم. دعه يكسر غرورك برفق."
+      }
+    },
+    "difficulty": "medium"
+  },
+  {
+    "id": "challenge-heart-pride-03",
+    "category": "heart",
+    "subcategory": "pride",
+    "title": "7 Days of Sincere Equality",
+    "description": "For 7 days, treat everyone as better than yourself — inwardly and outwardly.",
+    "duration_days": 7,
+    "translations": {
+      "en": {
+        "title": "7 Days of Sincere Equality",
+        "description": "For 7 days, treat everyone as better than yourself — inwardly and outwardly."
+      },
+      "ar": {
+        "title": "7 أيام من المساواة الصادقة",
+        "description": "لمدة 7 أيام، تعامل مع الجميع كأنهم أفضل منك — داخلياً وخارجياً."
+      },
+      "fr": {
+        "title": "7 jours d'égalité sincère",
+        "description": "Pendant 7 jours, traitez tout le monde comme s'il était meilleur que vous — intérieurement et extérieurement."
+      }
+    },
+    "difficulty": "medium"
+  },
+  {
+    "id": "challenge-heart-rancour-01",
+    "category": "heart",
+    "subcategory": "rancour",
+    "title": "Let One Grudge Go",
+    "description": "Think of someone who hurt you. Say 'I forgive them' for Allah's sake, even silently.",
+    "duration_days": 1,
+    "translations": {
+      "en": {
+        "title": "Let One Grudge Go",
+        "description": "Think of someone who hurt you. Say 'I forgive them' for Allah's sake, even silently."
+      },
+      "ar": {
+        "title": "اتركوا ضغينة واحدة",
+        "description": "فكر في شخص آذاك. قل 'أسامحهم' لله، حتى لو كان في صمت."
+      },
+      "fr": {
+        "title": "Laissez partir une rancune",
+        "description": "Pensez à quelqu'un qui vous a fait du mal. Dites 'Je lui pardonne' pour Allah, même silencieusement."
+      }
+    },
+    "difficulty": "easy"
+  },
+  {
+    "id": "challenge-heart-rancour-02",
+    "category": "heart",
+    "subcategory": "rancour",
+    "title": "Du'a for the Difficult One – 3 Days",
+    "description": "Each day, make a short du'a for someone you dislike or avoid. Ask for their good.",
+    "duration_days": 3,
+    "translations": {
+      "en": {
+        "title": "Du'a for the Difficult One – 3 Days",
+        "description": "Each day, make a short du'a for someone you dislike or avoid. Ask for their good."
+      },
+      "ar": {
+        "title": "دعاء للشخص الصعب - 3 أيام",
+        "description": "كل يوم، ادع دعاء قصير لشخص لا تحبه أو تتجنبه. اطلب الخير له."
+      },
+      "fr": {
+        "title": "Du'a pour la personne difficile - 3 jours",
+        "description": "Chaque jour, faites une courte du'a pour quelqu'un que vous n'aimez pas ou évitez. Demandez leur bien."
+      }
+    },
+    "difficulty": "medium"
+  },
+  {
+    "id": "challenge-heart-rancour-03",
+    "category": "heart",
+    "subcategory": "rancour",
+    "title": "7-Day Grudge Cleanse",
+    "description": "Let go of resentment. For a week, avoid rethinking past pain. Forgive. Move forward.",
+    "duration_days": 7,
+    "translations": {
+      "en": {
+        "title": "7-Day Grudge Cleanse",
+        "description": "Let go of resentment. For a week, avoid rethinking past pain. Forgive. Move forward."
+      },
+      "ar": {
+        "title": "تطهير الضغينة لمدة 7 أيام",
+        "description": "لمدة أسبوع، تدرب على التسامح وتطهير قلبك من الضغائن."
+      },
+      "fr": {
+        "title": "Nettoyage de rancune de 7 jours",
+        "description": "Pendant une semaine, pratiquez le pardon et purifiez votre cœur des rancunes."
+      }
+    },
+    "difficulty": "hard"
+  },
+  {
+    "id": "challenge-heart-empathy-01",
+    "category": "heart",
+    "subcategory": "lack_of_empathy",
+    "title": "Call or Check on One Person",
+    "description": "Today, reach out to someone who may be lonely, sick, or struggling.",
+    "duration_days": 1,
+    "translations": {
+      "en": {
+        "title": "Call or Check on One Person",
+        "description": "Today, reach out to someone who may be lonely, sick, or struggling."
+      },
+      "ar": {
+        "title": "اتصل أو اطمئن على شخص واحد",
+        "description": "تواصل مع شخص لم تتحدث معه منذ فترة واطمئن عليه."
+      },
+      "fr": {
+        "title": "Appelez ou prenez des nouvelles d'une personne",
+        "description": "Contactez quelqu'un avec qui vous n'avez pas parlé depuis longtemps et prenez de ses nouvelles."
+      }
+    },
+    "difficulty": "easy"
+  },
+  {
+    "id": "challenge-heart-empathy-02",
+    "category": "heart",
+    "subcategory": "lack_of_empathy",
+    "title": "3-Day Mercy Lens",
+    "description": "For 3 days, try to see everyone through the lens of mercy. Assume they're fighting battles.",
+    "duration_days": 3,
+    "translations": {
+      "en": {
+        "title": "3-Day Mercy Lens",
+        "description": "For 3 days, try to see everyone through the lens of mercy. Assume they're fighting battles."
+      },
+      "ar": {
+        "title": "عدسة الرحمة - 3 أيام",
+        "description": "لمدة 3 أيام، انظر إلى كل شخص بعين الرحمة والتفهم."
+      },
+      "fr": {
+        "title": "Lentille de miséricorde - 3 jours",
+        "description": "Pendant 3 jours, regardez chaque personne avec miséricorde et compréhension."
+      }
+    },
+    "difficulty": "medium"
+  },
+  {
+    "id": "challenge-heart-empathy-03",
+    "category": "heart",
+    "subcategory": "lack_of_empathy",
+    "title": "7-Day Compassion Practice",
+    "description": "Actively help or show empathy to someone new each day. Journal what you felt.",
+    "duration_days": 7,
+    "translations": {
+      "en": {
+        "title": "7-Day Compassion Practice",
+        "description": "Actively help or show empathy to someone new each day. Journal what you felt."
+      },
+      "ar": {
+        "title": "ممارسة الرحمة لمدة 7 أيام",
+        "description": "ساعد أو أظهر التعاطف مع شخص جديد كل يوم. اكتب ما شعرت به."
+      },
+      "fr": {
+        "title": "Pratique de compassion de 7 jours",
+        "description": "Aidez activement ou montrez de l'empathie envers quelqu'un de nouveau chaque jour. Notez ce que vous avez ressenti."
+      }
+    },
+    "difficulty": "medium"
+  },
+  {
+    "id": "challenge-heart-riya-01",
+    "category": "heart",
+    "subcategory": "insincerity",
+    "title": "Hide a Good Deed",
+    "description": "Today, do something purely for Allah that no one knows about. Keep it secret.",
+    "duration_days": 1,
+    "translations": {
+      "en": {
+        "title": "Hide a Good Deed",
+        "description": "Today, do something purely for Allah that no one knows about. Keep it secret."
+      },
+      "ar": {
+        "title": "اخف عملاً صالحاً",
+        "description": "اليوم، افعل شيئاً خالصاً لله لا يعرفه أحد. احتفظ بسريته."
+      },
+      "fr": {
+        "title": "Cacher une bonne action",
+        "description": "Aujourd'hui, faites quelque chose purement pour Allah que personne ne connaît. Gardez-le secret."
+      }
+    },
+    "difficulty": "easy"
+  },
+  {
+    "id": "challenge-heart-riya-02",
+    "category": "heart",
+    "subcategory": "insincerity",
+    "title": "Du'a Before Deeds – 3 Days",
+    "description": "Make intention and du'a for sincerity before each act of worship for 3 days.",
+    "duration_days": 3,
+    "translations": {
+      "en": {
+        "title": "Du'a Before Deeds – 3 Days",
+        "description": "Make intention and du'a for sincerity before each act of worship for 3 days."
+      },
+      "ar": {
+        "title": "دعاء قبل الأعمال - 3 أيام",
+        "description": "اجعل النية والدعاء للإخلاص قبل كل عمل عبادة لمدة 3 أيام."
+      },
+      "fr": {
+        "title": "Du'a avant les actes - 3 jours",
+        "description": "Faites l'intention et la du'a pour la sincérité avant chaque acte d'adoration pendant 3 jours."
+      }
+    },
+    "difficulty": "medium"
+  },
+  {
+    "id": "challenge-heart-riya-03",
+    "category": "heart",
+    "subcategory": "insincerity",
+    "title": "7 Days of Purified Intention",
+    "description": "Say 'This is for You, O Allah' before every public or visible action for one week.",
+    "duration_days": 7,
+    "translations": {
+      "en": {
+        "title": "7 Days of Purified Intention",
+        "description": "Say 'This is for You, O Allah' before every public or visible action for one week."
+      },
+      "ar": {
+        "title": "7 أيام من النية المطهرة",
+        "description": "قل 'هذا لك يا الله' قبل كل عمل عام أو مرئي لمدة أسبوع."
+      },
+      "fr": {
+        "title": "7 jours d'intention purifiée",
+        "description": "Dites 'C'est pour Vous, ô Allah' avant chaque action publique ou visible pendant une semaine."
+      }
+    },
+    "difficulty": "medium"
+  },
+  {
+    "id": "challenge-heart-despair-01",
+    "category": "heart",
+    "subcategory": "despair",
+    "title": "Read One Ayah of Mercy",
+    "description": "Today, read and reflect on an ayah that promises Allah's forgiveness. Let it enter your heart.",
+    "duration_days": 1,
+    "translations": {
+      "en": {
+        "title": "Read One Ayah of Mercy",
+        "description": "Today, read and reflect on an ayah that promises Allah's forgiveness. Let it enter your heart."
+      },
+      "ar": {
+        "title": "اقرأ آية رحمة واحدة",
+        "description": "اقرأ آية واحدة عن رحمة الله. تأمل في معناها وتذكر أن الله غفور رحيم."
+      },
+      "fr": {
+        "title": "Lire un verset de miséricorde",
+        "description": "Lisez un verset sur la miséricorde d'Allah. Réfléchissez à sa signification et rappelez-vous qu'Allah est Pardonneur et Miséricordieux."
+      }
+    },
+    "difficulty": "easy"
+  },
+  {
+    "id": "challenge-heart-despair-02",
+    "category": "heart",
+    "subcategory": "despair",
+    "title": "Du'a of Hope – 3 Days",
+    "description": "Each day, say: 'Ya Allah, I believe You love to forgive, so forgive me.' Say it with hope.",
+    "duration_days": 3,
+    "translations": {
+      "en": {
+        "title": "Du'a of Hope – 3 Days",
+        "description": "Each day, say: 'Ya Allah, I believe You love to forgive, so forgive me.' Say it with hope."
+      },
+      "ar": {
+        "title": "دعاء الأمل - 3 أيام",
+        "description": "لمدة 3 أيام، ادع دعاء الأمل والتوبة كل صباح."
+      },
+      "fr": {
+        "title": "Du'a d'espoir - 3 jours",
+        "description": "Pendant 3 jours, faites une du'a d'espoir et de repentir chaque matin."
+      }
+    },
+    "difficulty": "medium"
+  },
+  {
+    "id": "challenge-heart-despair-03",
+    "category": "heart",
+    "subcategory": "despair",
+    "title": "7 Days of Hope Practice",
+    "description": "Reject despair for one week. Anytime doubt arises, counter it with a promise of Allah.",
+    "duration_days": 7,
+    "translations": {
+      "en": {
+        "title": "7 Days of Hope Practice",
+        "description": "Reject despair for one week. Anytime doubt arises, counter it with a promise of Allah."
+      },
+      "ar": {
+        "title": "7 أيام من ممارسة الأمل",
+        "description": "لمدة أسبوع، اذكر نفسك يومياً بأن الله يحب التوابين."
+      },
+      "fr": {
+        "title": "7 jours de pratique d'espoir",
+        "description": "Pendant une semaine, rappelez-vous quotidiennement qu'Allah aime ceux qui se repentent."
+      }
+    },
+    "difficulty": "medium"
+  },
+  {
+    "id": "challenge-heart-hereafter-01",
+    "category": "heart",
+    "subcategory": "neglect_of_hereafter",
+    "title": "Reflect on Death",
+    "description": "Take 2 minutes today to imagine your grave and your meeting with Allah.",
+    "duration_days": 1,
+    "translations": {
+      "en": {
+        "title": "Reflect on Death",
+        "description": "Take 2 minutes today to imagine your grave and your meeting with Allah."
+      },
+      "ar": {
+        "title": "تأمل في الموت",
+        "description": "اقض 10 دقائق في تذكر الموت والآخرة. كيف سيؤثر ذلك على أولوياتك؟"
+      },
+      "fr": {
+        "title": "Réfléchir à la mort",
+        "description": "Passez 10 minutes à vous rappeler la mort et l'au-delà. Comment cela affectera-t-il vos priorités?"
+      }
+    },
+    "difficulty": "easy"
+  },
+  {
+    "id": "challenge-heart-hereafter-02",
+    "category": "heart",
+    "subcategory": "neglect_of_hereafter",
+    "title": "3-Day Akhirah Focus",
+    "description": "Each day, read one ayah or hadith about the Hereafter and reflect deeply.",
+    "duration_days": 3,
+    "translations": {
+      "en": {
+        "title": "3-Day Akhirah Focus",
+        "description": "Each day, read one ayah or hadith about the Hereafter and reflect deeply."
+      },
+      "ar": {
+        "title": "تركيز الآخرة لمدة 3 أيام",
+        "description": "لمدة 3 أيام، اسأل نفسك: 'هل هذا ينفعني في الآخرة؟' قبل كل قرار."
+      },
+      "fr": {
+        "title": "Focus sur l'au-delà - 3 jours",
+        "description": "Pendant 3 jours, demandez-vous: 'Est-ce que cela me profite dans l'au-delà?' avant chaque décision."
+      }
+    },
+    "difficulty": "medium"
+  },
+  {
+    "id": "challenge-heart-hereafter-03",
+    "category": "heart",
+    "subcategory": "neglect_of_hereafter",
+    "title": "7-Day Death Awareness Practice",
+    "description": "For one week, remind yourself of the Hereafter before each major decision.",
+    "duration_days": 7,
+    "translations": {
+      "en": {
+        "title": "7-Day Death Awareness Practice",
+        "description": "For one week, remind yourself of the Hereafter before each major decision."
+      },
+      "ar": {
+        "title": "7 أيام من ممارسة الوعي بالموت",
+        "description": "لمدة أسبوع، اجعل تذكر الموت جزءاً من روتينك اليومي."
+      },
+      "fr": {
+        "title": "7 jours de pratique de conscience de la mort",
+        "description": "Pendant une semaine, faites du rappel de la mort une partie de votre routine quotidienne."
+      }
+    },
+    "difficulty": "medium"
+  }
+]

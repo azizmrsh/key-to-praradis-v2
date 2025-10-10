@@ -1,0 +1,1094 @@
+[
+  {
+    "goal_id": "zina-keep-conversations-public",
+    "category": "zina",
+    "translations": {
+      "en": {
+        "title": "Keep Conversations Public",
+        "description": "Avoid private messages with the opposite sex without a valid reason.",
+        "islamic_guidance": "The Prophet (ﷺ) said: 'No man is alone with a woman but the third of them is the Shaytan.' (Tirmidhi) This applies to private communications as well.",
+        "benefits": [
+          "Protects from temptation and inappropriate relationships",
+          "Maintains proper Islamic boundaries",
+          "Preserves your reputation and honor"
+        ],
+        "daily_actions": [
+          "Use group chats instead of private messages",
+          "Keep all communications professional and brief",
+          "Inform a trusted person about necessary communications"
+        ]
+      },
+      "ar": {
+        "title": "اجعل المحادثات علنية",
+        "description": "تجنب المراسلات الخاصة مع الجنس الآخر دون سبب مشروع.",
+        "islamic_guidance": "قال النبي ﷺ: 'ما خلا رجل بامرأة إلا كان الشيطان ثالثهما' (الترمذي) وهذا ينطبق على التواصل الخاص أيضاً.",
+        "benefits": [
+          "يحمي من الفتنة والعلاقات غير المناسبة",
+          "يحافظ على الحدود الإسلامية المناسبة",
+          "يحفظ سمعتك وشرفك"
+        ],
+        "daily_actions": [
+          "استخدم المحادثات الجماعية بدلاً من الرسائل الخاصة",
+          "اجعل كل التواصل مهنياً وموجزاً",
+          "أخبر شخصاً موثوقاً عن التواصل الضروري"
+        ]
+      },
+      "fr": {
+        "title": "Gardez les conversations publiques",
+        "description": "Évitez les messages privés avec le sexe opposé sans raison valable.",
+        "islamic_guidance": "Le Prophète (ﷺ) a dit: 'Aucun homme n'est seul avec une femme sans que le troisième ne soit le diable.' (Tirmidhi) Ceci s'applique aussi aux communications privées.",
+        "benefits": [
+          "Protège de la tentation et des relations inappropriées",
+          "Maintient les limites islamiques appropriées",
+          "Préserve votre réputation et votre honneur"
+        ],
+        "daily_actions": [
+          "Utilisez les discussions de groupe au lieu des messages privés",
+          "Gardez toute communication professionnelle et brève",
+          "Informez une personne de confiance des communications nécessaires"
+        ]
+      }
+    },
+    "duration_options": [7, 14, 21, 40]
+  },
+  {
+    "goal_id": "zina-respect-boundaries",
+    "category": "zina",
+    "translations": {
+      "en": {
+        "title": "Respect Boundaries",
+        "description": "Keep all speech respectful, avoid flirtation.",
+        "islamic_guidance": "Allah says: 'So do not be soft in speech [to men], lest he in whose heart is disease should covet, but speak with appropriate speech.' (33:32)",
+        "benefits": [
+          "Maintains dignity and respect in interactions",
+          "Prevents misunderstandings and inappropriate feelings",
+          "Upholds Islamic etiquette in communication"
+        ],
+        "daily_actions": [
+          "Use formal and respectful language",
+          "Avoid compliments about appearance",
+          "Keep conversations focused on necessary topics"
+        ]
+      },
+      "ar": {
+        "title": "احترم الحدود",
+        "description": "اجعل كلامك محترماً وابتعد عن المغازلة.",
+        "islamic_guidance": "يقول الله: 'فَلَا تَخْضَعْنَ بِالْقَوْلِ فَيَطْمَعَ الَّذِي فِي قَلْبِهِ مَرَضٌ وَقُلْنَ قَوْلًا مَّعْرُوفًا' (33:32)",
+        "benefits": [
+          "يحافظ على الكرامة والاحترام في التفاعلات",
+          "يمنع سوء الفهم والمشاعر غير المناسبة",
+          "يحافظ على الآداب الإسلامية في التواصل"
+        ],
+        "daily_actions": [
+          "استخدم لغة رسمية ومحترمة",
+          "تجنب المجاملات حول المظهر",
+          "ركز المحادثات على المواضيع الضرورية"
+        ]
+      },
+      "fr": {
+        "title": "Respectez les limites",
+        "description": "Gardez des paroles respectueuses, évitez la séduction.",
+        "islamic_guidance": "Allah dit: 'Ne soyez pas trop complaisantes dans votre langage, afin que celui dont le cœur est malade [l'hypocrite] ne vous convoite pas. Et tenez un langage décent.' (33:32)",
+        "benefits": [
+          "Maintient la dignité et le respect dans les interactions",
+          "Prévient les malentendus et les sentiments inappropriés",
+          "Respecte l'étiquette islamique dans la communication"
+        ],
+        "daily_actions": [
+          "Utilisez un langage formel et respectueux",
+          "Évitez les compliments sur l'apparence",
+          "Concentrez les conversations sur les sujets nécessaires"
+        ]
+      }
+    },
+    "duration_options": [7, 14, 21, 40]
+  },
+  {
+    "goal_id": "zina-limit-unnecessary-contact",
+    "category": "zina",
+    "translations": {
+      "en": {
+        "title": "Limit Unnecessary Contact",
+        "description": "Speak only when needed, with modesty.",
+        "islamic_guidance": "The Prophet (ﷺ) demonstrated the highest standards of modesty and restraint in interactions with the opposite sex, speaking only when necessary.",
+        "benefits": [
+          "Reduces opportunities for inappropriate feelings",
+          "Maintains focus on essential matters",
+          "Demonstrates self-control and wisdom"
+        ],
+        "daily_actions": [
+          "Communicate only for work or necessity",
+          "Keep interactions brief and to the point",
+          "Avoid casual or social conversations"
+        ]
+      },
+      "ar": {
+        "title": "قلل التواصل غير الضروري",
+        "description": "تحدث فقط عند الحاجة وبأدب.",
+        "islamic_guidance": "أظهر النبي ﷺ أعلى معايير الحياء والضبط في التعامل مع الجنس الآخر، متحدثاً فقط عند الضرورة.",
+        "benefits": [
+          "يقلل فرص المشاعر غير المناسبة",
+          "يحافظ على التركيز في الأمور الأساسية",
+          "يظهر ضبط النفس والحكمة"
+        ],
+        "daily_actions": [
+          "تواصل فقط للعمل أو الضرورة",
+          "اجعل التفاعلات موجزة ومباشرة",
+          "تجنب المحادثات العادية أو الاجتماعية"
+        ]
+      },
+      "fr": {
+        "title": "Limitez les contacts inutiles",
+        "description": "Parlez seulement lorsque c'est nécessaire, avec pudeur.",
+        "islamic_guidance": "Le Prophète (ﷺ) a démontré les plus hauts standards de modestie et de retenue dans les interactions avec le sexe opposé, ne parlant que lorsque nécessaire.",
+        "benefits": [
+          "Réduit les opportunités de sentiments inappropriés",
+          "Maintient l'attention sur les affaires essentielles",
+          "Démontre la maîtrise de soi et la sagesse"
+        ],
+        "daily_actions": [
+          "Communiquez seulement pour le travail ou la nécessité",
+          "Gardez les interactions brèves et directes",
+          "Évitez les conversations occasionnelles ou sociales"
+        ]
+      }
+    },
+    "duration_options": [7, 14, 21, 40]
+  },
+  {
+    "goal_id": "zina-filter-feed",
+    "category": "zina",
+    "translations": {
+      "en": {
+        "title": "Filter Your Feed",
+        "description": "Unfollow accounts posting inappropriate images.",
+        "islamic_guidance": "The Prophet (ﷺ) said: 'The glance is a poisoned arrow of Shaytan. Whoever gives it up for fear of Allah will receive from Him a faith, the sweetness of which he will find within his heart.' (Tabarani)",
+        "benefits": [
+          "Protects your heart from corruption",
+          "Reduces temptation and inappropriate desires",
+          "Creates a cleaner digital environment"
+        ],
+        "daily_actions": [
+          "Review and unfollow inappropriate accounts",
+          "Use content filters and parental controls",
+          "Follow accounts that promote Islamic values"
+        ]
+      },
+      "ar": {
+        "title": "نظف محتوى متابعتك",
+        "description": "ألغ متابعة الحسابات التي تنشر صوراً غير لائقة.",
+        "islamic_guidance": "قال النبي ﷺ: 'النظرة سهم مسموم من سهام إبليس، من تركها من مخافة الله أثابه الله إيماناً يجد حلاوته في قلبه' (الطبراني)",
+        "benefits": [
+          "يحمي قلبك من الفساد",
+          "يقلل الفتنة والرغبات غير المناسبة",
+          "يخلق بيئة رقمية أنظف"
+        ],
+        "daily_actions": [
+          "راجع وألغ متابعة الحسابات غير المناسبة",
+          "استخدم مرشحات المحتوى والرقابة الأبوية",
+          "تابع الحسابات التي تعزز القيم الإسلامية"
+        ]
+      },
+      "fr": {
+        "title": "Filtrez votre fil d'actualité",
+        "description": "Ne suivez plus les comptes qui publient des images inappropriées.",
+        "islamic_guidance": "Le Prophète (ﷺ) a dit: 'Le regard est une flèche empoisonnée de Satan. Quiconque l'abandonne par crainte d'Allah, Il lui accordera une foi dont il trouvera la douceur dans son cœur.' (Tabarani)",
+        "benefits": [
+          "Protège votre cœur de la corruption",
+          "Réduit la tentation et les désirs inappropriés",
+          "Crée un environnement numérique plus propre"
+        ],
+        "daily_actions": [
+          "Révisez et ne suivez plus les comptes inappropriés",
+          "Utilisez des filtres de contenu et contrôles parentaux",
+          "Suivez des comptes qui promeuvent les valeurs islamiques"
+        ]
+      }
+    },
+    "duration_options": [7, 14, 21, 40]
+  },
+  {
+    "goal_id": "zina-lower-gaze",
+    "category": "zina",
+    "translations": {
+      "en": {
+        "title": "Lower Your Gaze",
+        "description": "Redirect eyes immediately from immodest scenes.",
+        "islamic_guidance": "Allah says: 'Tell the believing men to lower their gaze and guard their private parts. That is purer for them. Indeed, Allah is Acquainted with what they do.' (24:30)",
+        "benefits": [
+          "Purifies the heart and soul",
+          "Protects from sinful thoughts and desires",
+          "Develops self-control and taqwa"
+        ],
+        "daily_actions": [
+          "Look away immediately when encountering inappropriate content",
+          "Practice lowering gaze in public spaces",
+          "Make du'a for strength when facing temptation"
+        ]
+      },
+      "ar": {
+        "title": "غض بصرك",
+        "description": "حول نظرك فوراً عن المشاهد غير المحتشمة.",
+        "islamic_guidance": "يقول الله: 'قُل لِّلْمُؤْمِنِينَ يَغُضُّوا مِنْ أَبْصَارِهِمْ وَيَحْفَظُوا فُرُوجَهُمْ ذَٰلِكَ أَزْكَىٰ لَهُمْ إِنَّ اللَّهَ خَبِيرٌ بِمَا يَصْنَعُونَ' (24:30)",
+        "benefits": [
+          "يطهر القلب والروح",
+          "يحمي من الأفكار والرغبات الآثمة",
+          "ينمي ضبط النفس والتقوى"
+        ],
+        "daily_actions": [
+          "انظر بعيداً فوراً عند مواجهة محتوى غير مناسب",
+          "مارس غض البصر في الأماكن العامة",
+          "ادع الله للقوة عند مواجهة الفتنة"
+        ]
+      },
+      "fr": {
+        "title": "Baissez le regard",
+        "description": "Détournez le regard immédiatement des scènes impudiques.",
+        "islamic_guidance": "Allah dit: 'Dis aux croyants de baisser leurs regards et de garder leur chasteté. C'est plus pur pour eux. Allah est, certes, Parfaitement Connaisseur de ce qu'ils font.' (24:30)",
+        "benefits": [
+          "Purifie le cœur et l'âme",
+          "Protège des pensées et désirs pécheurs",
+          "Développe la maîtrise de soi et la taqwa"
+        ],
+        "daily_actions": [
+          "Détournez le regard immédiatement face à du contenu inapproprié",
+          "Pratiquez la baisse du regard dans les espaces publics",
+          "Faites du'a pour la force face à la tentation"
+        ]
+      }
+    },
+    "duration_options": [7, 14, 21, 40]
+  },
+  {
+    "goal_id": "zina-choose-clean-entertainment",
+    "category": "zina",
+    "translations": {
+      "en": {
+        "title": "Choose Clean Entertainment",
+        "description": "Replace sexualised media with halal content.",
+        "islamic_guidance": "The Prophet (ﷺ) said: 'Whoever believes in Allah and the Last Day should speak good or remain silent.' This extends to what we consume and support.",
+        "benefits": [
+          "Protects mind from corruption",
+          "Supports positive and beneficial content",
+          "Aligns entertainment with Islamic values"
+        ],
+        "daily_actions": [
+          "Choose family-friendly movies and shows",
+          "Listen to Islamic lectures and nasheeds",
+          "Read beneficial books and articles"
+        ]
+      },
+      "ar": {
+        "title": "اختر ترفيهاً نقياً",
+        "description": "استبدل المحتوى المثير بمحتوى حلال.",
+        "islamic_guidance": "قال النبي ﷺ: 'من كان يؤمن بالله واليوم الآخر فليقل خيراً أو ليصمت' وهذا ينطبق على ما نستهلك وندعم.",
+        "benefits": [
+          "يحمي العقل من الفساد",
+          "يدعم المحتوى الإيجابي والمفيد",
+          "يوافق الترفيه مع القيم الإسلامية"
+        ],
+        "daily_actions": [
+          "اختر أفلام ومسلسلات مناسبة للعائلة",
+          "استمع للمحاضرات الإسلامية والأناشيد",
+          "اقرأ كتب ومقالات مفيدة"
+        ]
+      },
+      "fr": {
+        "title": "Choisissez un divertissement pur",
+        "description": "Remplacez les médias sexualisés par du contenu halal.",
+        "islamic_guidance": "Le Prophète (ﷺ) a dit: 'Que celui qui croit en Allah et au Jour dernier dise du bien ou qu'il se taise.' Ceci s'étend à ce que nous consommons et soutenons.",
+        "benefits": [
+          "Protège l'esprit de la corruption",
+          "Soutient un contenu positif et bénéfique",
+          "Aligne le divertissement avec les valeurs islamiques"
+        ],
+        "daily_actions": [
+          "Choisissez des films et émissions familiaux",
+          "Écoutez des conférences islamiques et des nasheeds",
+          "Lisez des livres et articles bénéfiques"
+        ]
+      }
+    },
+    "duration_options": [7, 14, 21, 40]
+  },
+  {
+    "goal_id": "zina-avoid-seclusion",
+    "category": "zina",
+    "translations": {
+      "en": {
+        "title": "Avoid Seclusion",
+        "description": "Never meet the opposite sex alone without necessity.",
+        "islamic_guidance": "The Prophet (ﷺ) said: 'No man is alone with a woman but the third of them is the Shaytan.' (Tirmidhi)",
+        "benefits": [
+          "Prevents situations that lead to temptation",
+          "Protects reputation and honor",
+          "Follows clear prophetic guidance"
+        ],
+        "daily_actions": [
+          "Ensure a third person is present in meetings",
+          "Meet in public or visible places",
+          "Inform family or friends about meetings"
+        ]
+      },
+      "ar": {
+        "title": "تجنب الخلوة",
+        "description": "لا تلتقِ بالجنس الآخر بمفردك إلا لضرورة.",
+        "islamic_guidance": "قال النبي ﷺ: 'ما خلا رجل بامرأة إلا كان الشيطان ثالثهما' (الترمذي)",
+        "benefits": [
+          "يمنع المواقف التي تؤدي للفتنة",
+          "يحمي السمعة والشرف",
+          "يتبع التوجيه النبوي الواضح"
+        ],
+        "daily_actions": [
+          "تأكد من وجود شخص ثالث في اللقاءات",
+          "اجتمع في أماكن عامة أو مرئية",
+          "أخبر الأهل أو الأصدقاء عن اللقاءات"
+        ]
+      },
+      "fr": {
+        "title": "Évitez la solitude avec l'autre sexe",
+        "description": "Ne rencontrez jamais le sexe opposé seul sans nécessité.",
+        "islamic_guidance": "Le Prophète (ﷺ) a dit: 'Aucun homme n'est seul avec une femme sans que le troisième ne soit le diable.' (Tirmidhi)",
+        "benefits": [
+          "Prévient les situations menant à la tentation",
+          "Protège la réputation et l'honneur",
+          "Suit la guidance prophétique claire"
+        ],
+        "daily_actions": [
+          "Assurez-vous qu'une tierce personne soit présente aux réunions",
+          "Rencontrez-vous dans des lieux publics ou visibles",
+          "Informez famille ou amis des rencontres"
+        ]
+      }
+    },
+    "duration_options": [7, 14, 21, 40]
+  },
+  {
+    "goal_id": "zina-choose-safe-spaces",
+    "category": "zina",
+    "translations": {
+      "en": {
+        "title": "Choose Safe Spaces",
+        "description": "Be in public places if you must meet.",
+        "islamic_guidance": "Islam emphasizes transparency and openness in interactions between non-mahrams to prevent any opportunity for inappropriate behavior.",
+        "benefits": [
+          "Maintains proper Islamic boundaries",
+          "Provides natural accountability",
+          "Reduces temptation and inappropriate feelings"
+        ],
+        "daily_actions": [
+          "Meet in lobbies, cafes, or public areas",
+          "Avoid private offices or secluded spaces",
+          "Choose locations with natural foot traffic"
+        ]
+      },
+      "ar": {
+        "title": "اختر أماكن آمنة",
+        "description": "إذا اضطررت للقاء، فاجعله في مكان عام.",
+        "islamic_guidance": "يؤكد الإسلام على الشفافية والانفتاح في التفاعلات بين غير المحارم لمنع أي فرصة للسلوك غير المناسب.",
+        "benefits": [
+          "يحافظ على الحدود الإسلامية المناسبة",
+          "يوفر المساءلة الطبيعية",
+          "يقلل الفتنة والمشاعر غير المناسبة"
+        ],
+        "daily_actions": [
+          "اجتمع في اللوبيات أو المقاهي أو المناطق العامة",
+          "تجنب المكاتب الخاصة أو الأماكن المنعزلة",
+          "اختر أماكن بها حركة طبيعية للناس"
+        ]
+      },
+      "fr": {
+        "title": "Choisissez des lieux sûrs",
+        "description": "Si vous devez vous rencontrer, faites-le dans un lieu public.",
+        "islamic_guidance": "L'Islam met l'accent sur la transparence et l'ouverture dans les interactions entre non-mahrams pour prévenir toute opportunité de comportement inapproprié.",
+        "benefits": [
+          "Maintient les limites islamiques appropriées",
+          "Fournit une responsabilité naturelle",
+          "Réduit la tentation et les sentiments inappropriés"
+        ],
+        "daily_actions": [
+          "Rencontrez-vous dans les halls, cafés ou zones publiques",
+          "Évitez les bureaux privés ou espaces isolés",
+          "Choisissez des lieux avec passage naturel"
+        ]
+      }
+    },
+    "duration_options": [7, 14, 21, 40]
+  },
+  {
+    "goal_id": "zina-inform-trusted-person",
+    "category": "zina",
+    "translations": {
+      "en": {
+        "title": "Inform Someone Trusted",
+        "description": "Let a family member know about any meeting.",
+        "islamic_guidance": "Transparency and accountability are key principles in Islam for maintaining purity and avoiding situations that could lead to sin.",
+        "benefits": [
+          "Creates accountability and oversight",
+          "Demonstrates transparency and honesty",
+          "Provides protection through awareness"
+        ],
+        "daily_actions": [
+          "Tell a family member about work meetings",
+          "Share your schedule with trusted friends",
+          "Be open about necessary interactions"
+        ]
+      },
+      "ar": {
+        "title": "أخبر شخصاً موثوقاً",
+        "description": "أخبر أحد أفراد عائلتك بأي لقاء.",
+        "islamic_guidance": "الشفافية والمساءلة مبادئ أساسية في الإسلام للحفاظ على الطهارة وتجنب المواقف التي قد تؤدي للخطيئة.",
+        "benefits": [
+          "يخلق المساءلة والإشراف",
+          "يظهر الشفافية والصدق",
+          "يوفر الحماية من خلال الوعي"
+        ],
+        "daily_actions": [
+          "أخبر أحد أفراد الأسرة عن اجتماعات العمل",
+          "شارك جدولك مع الأصدقاء الموثوقين",
+          "كن منفتحاً حول التفاعلات الضرورية"
+        ]
+      },
+      "fr": {
+        "title": "Informez une personne de confiance",
+        "description": "Informez un membre de la famille de toute rencontre.",
+        "islamic_guidance": "La transparence et la responsabilité sont des principes clés en Islam pour maintenir la pureté et éviter les situations pouvant mener au péché.",
+        "benefits": [
+          "Crée responsabilité et supervision",
+          "Démontre transparence et honnêteté",
+          "Fournit protection par la sensibilisation"
+        ],
+        "daily_actions": [
+          "Dites à un membre de famille les réunions de travail",
+          "Partagez votre emploi du temps avec des amis de confiance",
+          "Soyez ouvert sur les interactions nécessaires"
+        ]
+      }
+    },
+    "duration_options": [7, 14, 21, 40]
+  },
+  {
+    "goal_id": "zina-keep-safe-distance",
+    "category": "zina",
+    "translations": {
+      "en": {
+        "title": "Keep a Safe Distance",
+        "description": "Maintain personal space with the opposite sex.",
+        "islamic_guidance": "Islam emphasizes physical boundaries between non-mahrams to maintain purity and prevent inappropriate contact.",
+        "benefits": [
+          "Maintains proper Islamic boundaries",
+          "Prevents inappropriate physical contact",
+          "Demonstrates respect and self-control"
+        ],
+        "daily_actions": [
+          "Maintain arm's length distance in conversations",
+          "Avoid crowded spaces where contact is unavoidable",
+          "Position yourself appropriately in meetings"
+        ]
+      },
+      "ar": {
+        "title": "حافظ على مسافة آمنة",
+        "description": "حافظ على مسافة شخصية مع الجنس الآخر.",
+        "islamic_guidance": "يؤكد الإسلام على الحدود الجسدية بين غير المحارم للحفاظ على الطهارة ومنع التواصل غير المناسب.",
+        "benefits": [
+          "يحافظ على الحدود الإسلامية المناسبة",
+          "يمنع التواصل الجسدي غير المناسب",
+          "يظهر الاحترام وضبط النفس"
+        ],
+        "daily_actions": [
+          "حافظ على مسافة ذراع في المحادثات",
+          "تجنب الأماكن المزدحمة حيث التواصل لا مفر منه",
+          "ضع نفسك بشكل مناسب في الاجتماعات"
+        ]
+      },
+      "fr": {
+        "title": "Gardez une distance sûre",
+        "description": "Maintenez une distance personnelle avec le sexe opposé.",
+        "islamic_guidance": "L'Islam met l'accent sur les limites physiques entre non-mahrams pour maintenir la pureté et prévenir le contact inapproprié.",
+        "benefits": [
+          "Maintient les limites islamiques appropriées",
+          "Prévient le contact physique inapproprié",
+          "Démontre respect et maîtrise de soi"
+        ],
+        "daily_actions": [
+          "Maintenez une distance de bras dans les conversations",
+          "Évitez les espaces bondés où le contact est inévitable",
+          "Positionnez-vous appropriément dans les réunions"
+        ]
+      }
+    },
+    "duration_options": [7, 14, 21, 40]
+  },
+  {
+    "goal_id": "zina-avoid-handshakes",
+    "category": "zina",
+    "translations": {
+      "en": {
+        "title": "Avoid Handshakes",
+        "description": "Politely refuse physical greetings.",
+        "islamic_guidance": "The Prophet (ﷺ) said: 'I do not shake hands with women.' (Nasa'i) This establishes clear boundaries for physical contact.",
+        "benefits": [
+          "Follows prophetic example and guidance",
+          "Maintains purity and spiritual cleanliness",
+          "Establishes clear and respectful boundaries"
+        ],
+        "daily_actions": [
+          "Place hand over heart when greeting",
+          "Explain politely if necessary",
+          "Offer verbal greetings instead"
+        ]
+      },
+      "ar": {
+        "title": "تجنب المصافحة",
+        "description": "اعتذر بلطف عن التحيات الجسدية.",
+        "islamic_guidance": "قال النبي ﷺ: 'إني لا أصافح النساء' (النسائي) وهذا يضع حدوداً واضحة للتواصل الجسدي.",
+        "benefits": [
+          "يتبع المثال والتوجيه النبوي",
+          "يحافظ على الطهارة والنظافة الروحية",
+          "يضع حدوداً واضحة ومحترمة"
+        ],
+        "daily_actions": [
+          "ضع يدك على قلبك عند التحية",
+          "اشرح بلطف إذا لزم الأمر",
+          "قدم تحيات شفهية بدلاً من ذلك"
+        ]
+      },
+      "fr": {
+        "title": "Évitez les poignées de main",
+        "description": "Refusez poliment les salutations physiques.",
+        "islamic_guidance": "Le Prophète (ﷺ) a dit: 'Je ne serre pas la main aux femmes.' (Nasa'i) Ceci établit des limites claires pour le contact physique.",
+        "benefits": [
+          "Suit l'exemple et la guidance prophétiques",
+          "Maintient pureté et propreté spirituelle",
+          "Établit des limites claires et respectueuses"
+        ],
+        "daily_actions": [
+          "Placez la main sur le cœur en saluant",
+          "Expliquez poliment si nécessaire",
+          "Offrez des salutations verbales à la place"
+        ]
+      }
+    },
+    "duration_options": [7, 14, 21, 40]
+  },
+  {
+    "goal_id": "zina-practice-lowering-gaze",
+    "category": "zina",
+    "translations": {
+      "en": {
+        "title": "Practice Lowering the Gaze",
+        "description": "Look away to avoid physical attraction.",
+        "islamic_guidance": "Allah says: 'Tell the believing men to lower their gaze and guard their private parts. That is purer for them.' (24:30)",
+        "benefits": [
+          "Protects heart from inappropriate desires",
+          "Develops spiritual discipline and self-control",
+          "Purifies the soul and increases taqwa"
+        ],
+        "daily_actions": [
+          "Look down or away when tempted",
+          "Focus on face only during necessary conversations",
+          "Practice this consistently in daily life"
+        ]
+      },
+      "ar": {
+        "title": "درب نفسك على غض البصر",
+        "description": "حول نظرك لتجنب الانجذاب الجسدي.",
+        "islamic_guidance": "يقول الله: 'قُل لِّلْمُؤْمِنِينَ يَغُضُّوا مِنْ أَبْصَارِهِمْ وَيَحْفَظُوا فُرُوجَهُمْ ذَٰلِكَ أَزْكَىٰ لَهُمْ' (24:30)",
+        "benefits": [
+          "يحمي القلب من الرغبات غير المناسبة",
+          "ينمي الانضباط الروحي وضبط النفس",
+          "يطهر الروح ويزيد التقوى"
+        ],
+        "daily_actions": [
+          "انظر للأسفل أو بعيداً عند الفتنة",
+          "ركز على الوجه فقط أثناء المحادثات الضرورية",
+          "مارس هذا باستمرار في الحياة اليومية"
+        ]
+      },
+      "fr": {
+        "title": "Pratiquez la baisse du regard",
+        "description": "Détournez le regard pour éviter l'attirance physique.",
+        "islamic_guidance": "Allah dit: 'Dis aux croyants de baisser leurs regards et de garder leur chasteté. C'est plus pur pour eux.' (24:30)",
+        "benefits": [
+          "Protège le cœur des désirs inappropriés",
+          "Développe la discipline spirituelle et la maîtrise de soi",
+          "Purifie l'âme et augmente la taqwa"
+        ],
+        "daily_actions": [
+          "Regardez vers le bas ou ailleurs en cas de tentation",
+          "Concentrez-vous sur le visage seulement lors de conversations nécessaires",
+          "Pratiquez ceci constamment dans la vie quotidienne"
+        ]
+      }
+    },
+    "duration_options": [7, 14, 21, 40]
+  },
+  {
+    "goal_id": "zina-dress-modestly",
+    "category": "zina",
+    "translations": {
+      "en": {
+        "title": "Dress Modestly",
+        "description": "Wear clothes that cover properly and avoid attracting attention.",
+        "islamic_guidance": "Allah says: 'O Prophet, tell your wives and your daughters and the women of the believers to bring down over themselves [part] of their outer garments.' (33:59)",
+        "benefits": [
+          "Follows divine command and prophetic guidance",
+          "Protects from unwanted attention and temptation",
+          "Demonstrates respect for Islamic values"
+        ],
+        "daily_actions": [
+          "Choose loose-fitting, non-transparent clothing",
+          "Ensure proper coverage according to Islamic guidelines",
+          "Avoid clothing that draws unnecessary attention"
+        ]
+      },
+      "ar": {
+        "title": "ارتدِ لباساً محتشماً",
+        "description": "ارتدِ ملابس تغطي الجسم ولا تلفت الأنظار.",
+        "islamic_guidance": "يقول الله: 'يَا أَيُّهَا النَّبِيُّ قُل لِّأَزْوَاجِكَ وَبَنَاتِكَ وَنِسَاءِ الْمُؤْمِنِينَ يُدْنِينَ عَلَيْهِنَّ مِن جَلَابِيبِهِنَّ' (33:59)",
+        "benefits": [
+          "يتبع الأمر الإلهي والتوجيه النبوي",
+          "يحمي من الانتباه غير المرغوب والفتنة",
+          "يظهر احترام القيم الإسلامية"
+        ],
+        "daily_actions": [
+          "اختر ملابس فضفاضة وغير شفافة",
+          "تأكد من التغطية المناسبة حسب التوجيهات الإسلامية",
+          "تجنب الملابس التي تلفت انتباهاً غير ضروري"
+        ]
+      },
+      "fr": {
+        "title": "Habillez-vous modestement",
+        "description": "Portez des vêtements couvrants et discrets.",
+        "islamic_guidance": "Allah dit: 'Ô Prophète ! Dis à tes épouses, à tes filles et aux femmes des croyants de rabattre sur elles leurs grands voiles.' (33:59)",
+        "benefits": [
+          "Suit le commandement divin et la guidance prophétique",
+          "Protège de l'attention indésirable et de la tentation",
+          "Démontre le respect des valeurs islamiques"
+        ],
+        "daily_actions": [
+          "Choisissez des vêtements amples et non transparents",
+          "Assurez-vous d'une couverture appropriée selon les directives islamiques",
+          "Évitez les vêtements qui attirent une attention inutile"
+        ]
+      }
+    },
+    "duration_options": [7, 14, 21, 40]
+  },
+  {
+    "goal_id": "zina-lower-voice",
+    "category": "zina",
+    "translations": {
+      "en": {
+        "title": "Lower Your Voice",
+        "description": "Speak softly and modestly.",
+        "islamic_guidance": "Allah says: 'So do not be soft in speech [to men], lest he in whose heart is disease should covet, but speak with appropriate speech.' (33:32)",
+        "benefits": [
+          "Prevents inappropriate attraction through voice",
+          "Demonstrates modesty and self-control",
+          "Follows Quranic guidance for speech"
+        ],
+        "daily_actions": [
+          "Speak in normal, respectful tones",
+          "Avoid overly soft or flirtatious speech",
+          "Keep voice professional in mixed gatherings"
+        ]
+      },
+      "ar": {
+        "title": "اخفض صوتك",
+        "description": "تحدث بصوت هادئ وباحتشام.",
+        "islamic_guidance": "يقول الله: 'فَلَا تَخْضَعْنَ بِالْقَوْلِ فَيَطْمَعَ الَّذِي فِي قَلْبِهِ مَرَضٌ وَقُلْنَ قَوْلًا مَّعْرُوفًا' (33:32)",
+        "benefits": [
+          "يمنع الانجذاب غير المناسب من خلال الصوت",
+          "يظهر التواضع وضبط النفس",
+          "يتبع التوجيه القرآني للكلام"
+        ],
+        "daily_actions": [
+          "تحدث بنبرة عادية ومحترمة",
+          "تجنب الكلام الناعم المفرط أو المغازل",
+          "اجعل صوتك مهنياً في التجمعات المختلطة"
+        ]
+      },
+      "fr": {
+        "title": "Baissez la voix",
+        "description": "Parlez doucement et modestement.",
+        "islamic_guidance": "Allah dit: 'Ne soyez pas trop complaisantes dans votre langage, afin que celui dont le cœur est malade ne vous convoite pas. Et tenez un langage décent.' (33:32)",
+        "benefits": [
+          "Prévient l'attraction inappropriée par la voix",
+          "Démontre modestie et maîtrise de soi",
+          "Suit la guidance coranique pour la parole"
+        ],
+        "daily_actions": [
+          "Parlez avec des tons normaux et respectueux",
+          "Évitez un discours trop doux ou séducteur",
+          "Gardez votre voix professionnelle dans les rassemblements mixtes"
+        ]
+      }
+    },
+    "duration_options": [7, 14, 21, 40]
+  },
+  {
+    "goal_id": "zina-avoid-flirtatious-gestures",
+    "category": "zina",
+    "translations": {
+      "en": {
+        "title": "Avoid Flirtatious Gestures",
+        "description": "Keep body language modest and reserved.",
+        "islamic_guidance": "Islam emphasizes modesty in all aspects, including body language and gestures, to maintain purity and prevent temptation.",
+        "benefits": [
+          "Maintains dignified and respectful presence",
+          "Prevents misunderstandings and inappropriate signals",
+          "Demonstrates Islamic character and values"
+        ],
+        "daily_actions": [
+          "Keep gestures minimal and purposeful",
+          "Avoid prolonged eye contact",
+          "Maintain respectful posture and movements"
+        ]
+      },
+      "ar": {
+        "title": "تجنب الحركات المغازلة",
+        "description": "اجعل لغة جسدك محتشمة ومحافظة.",
+        "islamic_guidance": "يؤكد الإسلام على التواضع في جميع الجوانب، بما في ذلك لغة الجسد والإيماءات، للحفاظ على الطهارة ومنع الفتنة.",
+        "benefits": [
+          "يحافظ على حضور كريم ومحترم",
+          "يمنع سوء الفهم والإشارات غير المناسبة",
+          "يظهر الأخلاق والقيم الإسلامية"
+        ],
+        "daily_actions": [
+          "اجعل الإيماءات قليلة وهادفة",
+          "تجنب النظر المطول في العينين",
+          "حافظ على وضعية وحركات محترمة"
+        ]
+      },
+      "fr": {
+        "title": "Évitez les gestes séducteurs",
+        "description": "Gardez un langage corporel pudique et réservé.",
+        "islamic_guidance": "L'Islam met l'accent sur la modestie dans tous les aspects, y compris le langage corporel et les gestes, pour maintenir la pureté et prévenir la tentation.",
+        "benefits": [
+          "Maintient une présence digne et respectueuse",
+          "Prévient les malentendus et signaux inappropriés",
+          "Démontre le caractère et les valeurs islamiques"
+        ],
+        "daily_actions": [
+          "Gardez des gestes minimaux et intentionnels",
+          "Évitez le contact visuel prolongé",
+          "Maintenez posture et mouvements respectueux"
+        ]
+      }
+    },
+    "duration_options": [7, 14, 21, 40]
+  },
+  {
+    "goal_id": "zina-redirect-thoughts",
+    "category": "zina",
+    "translations": {
+      "en": {
+        "title": "Redirect Thoughts",
+        "description": "Turn fantasies into dua for halal marriage.",
+        "islamic_guidance": "The Prophet (ﷺ) said: 'O young people! Whoever among you can marry, should marry, because it helps him lower his gaze and guard his modesty.' (Bukhari)",
+        "benefits": [
+          "Channels desires toward halal relationships",
+          "Strengthens connection with Allah through du'a",
+          "Transforms negative thoughts into positive prayers"
+        ],
+        "daily_actions": [
+          "Make du'a for righteous spouse when feeling desire",
+          "Redirect romantic thoughts to gratitude for Allah",
+          "Focus on personal development for marriage"
+        ]
+      },
+      "ar": {
+        "title": "حول أفكارك",
+        "description": "حول خيالاتك إلى دعاء للزواج الحلال.",
+        "islamic_guidance": "قال النبي ﷺ: 'يا معشر الشباب، من استطاع منكم الباءة فليتزوج، فإنه أغض للبصر وأحصن للفرج' (البخاري)",
+        "benefits": [
+          "يوجه الرغبات نحو العلاقات الحلال",
+          "يقوي الاتصال مع الله من خلال الدعاء",
+          "يحول الأفكار السلبية إلى دعوات إيجابية"
+        ],
+        "daily_actions": [
+          "ادع للزوج الصالح عند الشعور بالرغبة",
+          "حول الأفكار الرومانسية إلى شكر لله",
+          "ركز على التطوير الشخصي للزواج"
+        ]
+      },
+      "fr": {
+        "title": "Redirigez vos pensées",
+        "description": "Transformez vos fantasmes en dou'a pour un mariage halal.",
+        "islamic_guidance": "Le Prophète (ﷺ) a dit: 'Ô jeunes gens ! Que celui d'entre vous qui peut se marier le fasse, car cela l'aide à baisser son regard et à préserver sa chasteté.' (Bukhari)",
+        "benefits": [
+          "Canalise les désirs vers des relations halal",
+          "Renforce la connexion avec Allah par le du'a",
+          "Transforme les pensées négatives en prières positives"
+        ],
+        "daily_actions": [
+          "Faites du'a pour un conjoint vertueux quand vous ressentez du désir",
+          "Redirigez les pensées romantiques vers la gratitude envers Allah",
+          "Concentrez-vous sur le développement personnel pour le mariage"
+        ]
+      }
+    },
+    "duration_options": [7, 14, 21, 40]
+  },
+  {
+    "goal_id": "zina-occupy-yourself",
+    "category": "zina",
+    "translations": {
+      "en": {
+        "title": "Occupy Yourself",
+        "description": "Fill time with beneficial activities.",
+        "islamic_guidance": "The Prophet (ﷺ) said: 'Take advantage of five before five: your youth before your old age, your health before your sickness, your wealth before your poverty, your free time before you are preoccupied, and your life before your death.' (Hakim)",
+        "benefits": [
+          "Prevents idle time that leads to temptation",
+          "Develops beneficial skills and knowledge",
+          "Increases productivity and spiritual growth"
+        ],
+        "daily_actions": [
+          "Engage in sports or physical exercise",
+          "Learn new skills or study Islamic knowledge",
+          "Volunteer for community service"
+        ]
+      },
+      "ar": {
+        "title": "اشغل نفسك",
+        "description": "املأ وقتك بأعمال نافعة.",
+        "islamic_guidance": "قال النبي ﷺ: 'اغتنم خمساً قبل خمس: شبابك قبل هرمك، وصحتك قبل سقمك، وغناك قبل فقرك، وفراغك قبل شغلك، وحياتك قبل موتك' (الحاكم)",
+        "benefits": [
+          "يمنع أوقات الفراغ التي تؤدي للفتنة",
+          "ينمي المهارات والمعرفة المفيدة",
+          "يزيد الإنتاجية والنمو الروحي"
+        ],
+        "daily_actions": [
+          "مارس الرياضة أو التمارين البدنية",
+          "تعلم مهارات جديدة أو ادرس العلوم الإسلامية",
+          "تطوع في خدمة المجتمع"
+        ]
+      },
+      "fr": {
+        "title": "Occupez-vous",
+        "description": "Occupez votre temps avec des activités bénéfiques.",
+        "islamic_guidance": "Le Prophète (ﷺ) a dit: 'Profite de cinq choses avant cinq autres: ta jeunesse avant ta vieillesse, ta santé avant ta maladie, ta richesse avant ta pauvreté, ton temps libre avant tes occupations, et ta vie avant ta mort.' (Hakim)",
+        "benefits": [
+          "Prévient le temps libre qui mène à la tentation",
+          "Développe compétences et connaissances bénéfiques",
+          "Augmente productivité et croissance spirituelle"
+        ],
+        "daily_actions": [
+          "Pratiquez sport ou exercice physique",
+          "Apprenez nouvelles compétences ou étudiez la connaissance islamique",
+          "Faites du bénévolat pour le service communautaire"
+        ]
+      }
+    },
+    "duration_options": [7, 14, 21, 40]
+  },
+  {
+    "goal_id": "zina-control-imagination",
+    "category": "zina",
+    "translations": {
+      "en": {
+        "title": "Control Imagination",
+        "description": "Resist replaying romantic scenes in your mind.",
+        "islamic_guidance": "The Prophet (ﷺ) said: 'Indeed, Allah has pardoned my nation for their thoughts as long as they do not speak of them or act upon them.' (Bukhari) But we should still strive to purify our thoughts.",
+        "benefits": [
+          "Purifies the heart and mind",
+          "Develops mental discipline and focus",
+          "Protects from escalating to physical actions"
+        ],
+        "daily_actions": [
+          "Stop yourself when inappropriate thoughts arise",
+          "Replace with dhikr or Quranic recitation",
+          "Engage in physical activity to redirect energy"
+        ]
+      },
+      "ar": {
+        "title": "تحكم في خيالك",
+        "description": "قاوم تكرار المشاهد الرومانسية في ذهنك.",
+        "islamic_guidance": "قال النبي ﷺ: 'إن الله تجاوز عن أمتي ما حدثت به أنفسها، ما لم تعمل أو تتكلم' (البخاري) لكن يجب أن نسعى لتطهير أفكارنا.",
+        "benefits": [
+          "يطهر القلب والعقل",
+          "ينمي الانضباط الذهني والتركيز",
+          "يحمي من التصعيد للأفعال الجسدية"
+        ],
+        "daily_actions": [
+          "أوقف نفسك عند ظهور أفكار غير مناسبة",
+          "استبدل بالذكر أو تلاوة القرآن",
+          "مارس نشاطاً جسدياً لإعادة توجيه الطاقة"
+        ]
+      },
+      "fr": {
+        "title": "Contrôlez votre imagination",
+        "description": "Résistez à rejouer des scènes romantiques dans votre esprit.",
+        "islamic_guidance": "Le Prophète (ﷺ) a dit: 'Allah a pardonné à ma communauté leurs pensées tant qu'ils n'en parlent pas ou n'agissent pas selon elles.' (Bukhari) Mais nous devons quand même nous efforcer de purifier nos pensées.",
+        "benefits": [
+          "Purifie le cœur et l'esprit",
+          "Développe discipline mentale et concentration",
+          "Protège de l'escalade vers des actions physiques"
+        ],
+        "daily_actions": [
+          "Arrêtez-vous quand des pensées inappropriées surgissent",
+          "Remplacez par dhikr ou récitation coranique",
+          "Engagez-vous dans une activité physique pour rediriger l'énergie"
+        ]
+      }
+    },
+    "duration_options": [7, 14, 21, 40]
+  },
+  {
+    "goal_id": "zina-cut-off-source",
+    "category": "zina",
+    "translations": {
+      "en": {
+        "title": "Cut Off the Source",
+        "description": "Block websites or apps with sexual content.",
+        "islamic_guidance": "Allah says: 'And do not approach unlawful sexual intercourse. Indeed, it is ever an immorality and is evil as a way.' (17:32) This includes avoiding paths that lead to such sins.",
+        "benefits": [
+          "Removes easy access to harmful content",
+          "Breaks addiction cycles and harmful habits",
+          "Creates a cleaner digital environment"
+        ],
+        "daily_actions": [
+          "Install content blocking software",
+          "Delete problematic apps and bookmarks",
+          "Use DNS filters to block inappropriate content"
+        ]
+      },
+      "ar": {
+        "title": "اقطع المصدر",
+        "description": "احجب المواقع أو التطبيقات التي تحتوي على محتوى جنسي.",
+        "islamic_guidance": "يقول الله: 'وَلَا تَقْرَبُوا الزِّنَا إِنَّهُ كَانَ فَاحِشَةً وَسَاءَ سَبِيلًا' (17:32) وهذا يشمل تجنب الطرق التي تؤدي لهذه الذنوب.",
+        "benefits": [
+          "يزيل الوصول السهل للمحتوى الضار",
+          "يكسر دورات الإدمان والعادات الضارة",
+          "يخلق بيئة رقمية أنظف"
+        ],
+        "daily_actions": [
+          "ثبت برامج حجب المحتوى",
+          "احذف التطبيقات والعلامات المرجعية المشكوك فيها",
+          "استخدم مرشحات DNS لحجب المحتوى غير المناسب"
+        ]
+      },
+      "fr": {
+        "title": "Coupez la source",
+        "description": "Bloquez les sites ou applications à contenu sexuel.",
+        "islamic_guidance": "Allah dit: 'Et n'approchez point l'adultère. En vérité, c'est une turpitude et quel mauvais chemin !' (17:32) Ceci inclut éviter les chemins qui mènent à de tels péchés.",
+        "benefits": [
+          "Supprime l'accès facile au contenu nuisible",
+          "Brise les cycles d'addiction et habitudes nuisibles",
+          "Crée un environnement numérique plus propre"
+        ],
+        "daily_actions": [
+          "Installez un logiciel de blocage de contenu",
+          "Supprimez applications et signets problématiques",
+          "Utilisez des filtres DNS pour bloquer le contenu inapproprié"
+        ]
+      }
+    },
+    "duration_options": [7, 14, 21, 40]
+  },
+  {
+    "goal_id": "zina-replace-with-dhikr",
+    "category": "zina",
+    "translations": {
+      "en": {
+        "title": "Replace With Dhikr",
+        "description": "Listen to Qur'an instead of harmful media.",
+        "islamic_guidance": "Allah says: 'And whoever turns away from My remembrance - indeed, he will have a depressed life.' (20:124) Dhikr purifies the heart and protects from evil.",
+        "benefits": [
+          "Purifies heart and mind with divine words",
+          "Creates positive spiritual atmosphere",
+          "Protects from harmful influences"
+        ],
+        "daily_actions": [
+          "Listen to Quranic recitation during free time",
+          "Replace music playlists with Islamic content",
+          "Use dhikr apps for regular remembrance"
+        ]
+      },
+      "ar": {
+        "title": "استبدل بالذكر",
+        "description": "استمع إلى القرآن بدلاً من الوسائط الضارة.",
+        "islamic_guidance": "يقول الله: 'وَمَنْ أَعْرَضَ عَن ذِكْرِي فَإِنَّ لَهُ مَعِيشَةً ضَنكًا' (20:124) الذكر يطهر القلب ويحمي من الشر.",
+        "benefits": [
+          "يطهر القلب والعقل بالكلمات الإلهية",
+          "يخلق جواً روحانياً إيجابياً",
+          "يحمي من التأثيرات الضارة"
+        ],
+        "daily_actions": [
+          "استمع لتلاوة القرآن في أوقات الفراغ",
+          "استبدل قوائم الموسيقى بمحتوى إسلامي",
+          "استخدم تطبيقات الذكر للتذكر المنتظم"
+        ]
+      },
+      "fr": {
+        "title": "Remplacez par le dhikr",
+        "description": "Écoutez le Coran plutôt que des contenus nuisibles.",
+        "islamic_guidance": "Allah dit: 'Et quiconque se détourne de Mon Rappel, aura certes une vie pleine de gêne.' (20:124) Le dhikr purifie le cœur et protège du mal.",
+        "benefits": [
+          "Purifie cœur et esprit avec les paroles divines",
+          "Crée une atmosphère spirituelle positive",
+          "Protège des influences nuisibles"
+        ],
+        "daily_actions": [
+          "Écoutez la récitation coranique pendant le temps libre",
+          "Remplacez listes musicales par contenu islamique",
+          "Utilisez applications dhikr pour rappel régulier"
+        ]
+      }
+    },
+    "duration_options": [7, 14, 21, 40]
+  },
+  {
+    "goal_id": "zina-seek-help-if-needed",
+    "category": "zina",
+    "translations": {
+      "en": {
+        "title": "Seek Help if Needed",
+        "description": "Talk to a trusted person if struggling with addiction.",
+        "islamic_guidance": "The Prophet (ﷺ) said: 'All the sons of Adam are sinners, but the best of sinners are those who repent.' (Tirmidhi) Seeking help is a sign of strength, not weakness.",
+        "benefits": [
+          "Provides accountability and support",
+          "Breaks isolation and shame cycles",
+          "Opens path to healing and recovery"
+        ],
+        "daily_actions": [
+          "Identify a trustworthy mentor or counselor",
+          "Join support groups or Islamic circles",
+          "Seek professional help if addiction is severe"
+        ]
+      },
+      "ar": {
+        "title": "اطلب المساعدة عند الحاجة",
+        "description": "تحدث مع شخص موثوق إذا كنت تعاني من إدمان.",
+        "islamic_guidance": "قال النبي ﷺ: 'كل بني آدم خطاء، وخير الخطائين التوابون' (الترمذي) طلب المساعدة علامة قوة وليس ضعف.",
+        "benefits": [
+          "يوفر المساءلة والدعم",
+          "يكسر دورات العزلة والخجل",
+          "يفتح طريق الشفاء والتعافي"
+        ],
+        "daily_actions": [
+          "حدد موجهاً أو مستشاراً موثوقاً",
+          "انضم لمجموعات دعم أو حلقات إسلامية",
+          "اطلب مساعدة مهنية إذا كان الإدمان شديداً"
+        ]
+      },
+      "fr": {
+        "title": "Demandez de l'aide si nécessaire",
+        "description": "Parlez à une personne de confiance si vous luttez contre une addiction.",
+        "islamic_guidance": "Le Prophète (ﷺ) a dit: 'Tous les fils d'Adam sont pécheurs, mais les meilleurs des pécheurs sont ceux qui se repentent.' (Tirmidhi) Demander de l'aide est un signe de force, pas de faiblesse.",
+        "benefits": [
+          "Fournit responsabilité et soutien",
+          "Brise les cycles d'isolement et de honte",
+          "Ouvre la voie à la guérison et au rétablissement"
+        ],
+        "daily_actions": [
+          "Identifiez un mentor ou conseiller digne de confiance",
+          "Rejoignez groupes de soutien ou cercles islamiques",
+          "Cherchez aide professionnelle si l'addiction est sévère"
+        ]
+      }
+    },
+    "duration_options": [7, 14, 21, 40]
+  }
+]

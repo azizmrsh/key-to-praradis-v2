@@ -1,0 +1,170 @@
+[
+  {
+    "id": "challenge-stomach-overeating-01",
+    "category": "stomach",
+    "subcategory": "overeating",
+    "title": "Stop at Two-Thirds",
+    "description": "Today, stop eating when you feel satisfied — not full. Leave room for breath and barakah.",
+    "duration_days": 1
+  },
+  {
+    "id": "challenge-stomach-overeating-02",
+    "category": "stomach",
+    "subcategory": "overeating",
+    "title": "Portion Mindfulness – 3 Days",
+    "description": "Use smaller plates or take half your usual portion for the next three days.",
+    "duration_days": 3
+  },
+  {
+    "id": "challenge-stomach-overeating-03",
+    "category": "stomach",
+    "subcategory": "overeating",
+    "title": "7-Day Moderation Reset",
+    "description": "Eat moderately and avoid second helpings for an entire week. Reflect daily.",
+    "duration_days": 7
+  },
+  {
+    "id": "challenge-stomach-distracted-01",
+    "category": "stomach",
+    "subcategory": "eating_while_distracted",
+    "title": "No Screens at Mealtime",
+    "description": "Today, eat one full meal without your phone, TV, or any distraction.",
+    "duration_days": 1
+  },
+  {
+    "id": "challenge-stomach-distracted-02",
+    "category": "stomach",
+    "subcategory": "eating_while_distracted",
+    "title": "Mindful Meals – 3 Days",
+    "description": "Eat with full attention for 3 days. Chew slowly. Reflect on where your food came from.",
+    "duration_days": 3
+  },
+  {
+    "id": "challenge-stomach-distracted-03",
+    "category": "stomach",
+    "subcategory": "eating_while_distracted",
+    "title": "7 Days of Presence",
+    "description": "Avoid all multitasking while eating for 7 days. Practise gratitude and mindfulness.",
+    "duration_days": 7
+  },
+  {
+    "id": "challenge-stomach-halal-income-01",
+    "category": "stomach",
+    "subcategory": "halal_income_neglect",
+    "title": "Ask Before You Eat",
+    "description": "Before buying food today, reflect on where your income came from.",
+    "duration_days": 1
+  },
+  {
+    "id": "challenge-stomach-halal-income-02",
+    "category": "stomach",
+    "subcategory": "halal_income_neglect",
+    "title": "3-Day Halal Reflection",
+    "description": "Track your meals for 3 days. Reflect on the earnings that provided them.",
+    "duration_days": 3
+  },
+  {
+    "id": "challenge-stomach-halal-income-03",
+    "category": "stomach",
+    "subcategory": "halal_income_neglect",
+    "title": "7-Day Rizq Purity Challenge",
+    "description": "For 7 days, ask Allah to purify your provision and reflect on earning halal before every meal.",
+    "duration_days": 7
+  },
+  {
+    "id": "challenge-stomach-doubtful-01",
+    "category": "stomach",
+    "subcategory": "doubtful_ingredients",
+    "title": "Check the Label",
+    "description": "Today, read every label before you buy. Avoid anything doubtful.",
+    "duration_days": 1
+  },
+  {
+    "id": "challenge-stomach-doubtful-02",
+    "category": "stomach",
+    "subcategory": "doubtful_ingredients",
+    "title": "Doubt-Free Eating – 3 Days",
+    "description": "Eat only from sources you are fully confident are halal for the next 3 days.",
+    "duration_days": 3
+  },
+  {
+    "id": "challenge-stomach-doubtful-03",
+    "category": "stomach",
+    "subcategory": "doubtful_ingredients",
+    "title": "7 Days of Zahid Eating",
+    "description": "Simplicity over risk. Eat plainly and avoid any product you're unsure about.",
+    "duration_days": 7
+  },
+  {
+    "id": "challenge-stomach-waste-01",
+    "category": "stomach",
+    "subcategory": "food_waste",
+    "title": "Clear Your Plate",
+    "description": "Today, waste no food. Take what you can eat and finish it all.",
+    "duration_days": 1
+  },
+  {
+    "id": "challenge-stomach-waste-02",
+    "category": "stomach",
+    "subcategory": "food_waste",
+    "title": "3-Day Food Honour",
+    "description": "For 3 days, save all leftovers and reuse them. Do not throw away edible food.",
+    "duration_days": 3
+  },
+  {
+    "id": "challenge-stomach-waste-03",
+    "category": "stomach",
+    "subcategory": "food_waste",
+    "title": "7-Day Anti-Waste Audit",
+    "description": "Track and reduce food waste for a week. Compost or donate when you can.",
+    "duration_days": 7
+  },
+  {
+    "id": "challenge-stomach-emotional-01",
+    "category": "stomach",
+    "subcategory": "emotional_eating",
+    "title": "Ask Before You Snack",
+    "description": "Before eating, ask: Am I hungry or just restless? Answer honestly today.",
+    "duration_days": 1
+  },
+  {
+    "id": "challenge-stomach-emotional-02",
+    "category": "stomach",
+    "subcategory": "emotional_eating",
+    "title": "3-Day Intent Tracker",
+    "description": "Write down every time you eat emotionally over the next 3 days. Reflect honestly.",
+    "duration_days": 3
+  },
+  {
+    "id": "challenge-stomach-emotional-03",
+    "category": "stomach",
+    "subcategory": "emotional_eating",
+    "title": "7 Days of Soul Nourishment",
+    "description": "Turn emotional hunger into spiritual practice. Pray, journal, or breathe before snacking.",
+    "duration_days": 7
+  },
+  {
+    "id": "challenge-stomach-intention-01",
+    "category": "stomach",
+    "subcategory": "neglecting_intention",
+    "title": "Say Bismillah",
+    "description": "Before every meal today, say 'Bismillah' and intend to strengthen yourself for good deeds.",
+    "duration_days": 1
+  },
+  {
+    "id": "challenge-stomach-intention-02",
+    "category": "stomach",
+    "subcategory": "neglecting_intention",
+    "title": "3-Day Du‘a Habit",
+    "description": "Make du‘a before and after meals for 3 days. Let eating be worship.",
+    "duration_days": 3
+  },
+  {
+    "id": "challenge-stomach-intention-03",
+    "category": "stomach",
+    "subcategory": "neglecting_intention",
+    "title": "7-Day Sacred Eating",
+    "description": "Eat with full presence and gratitude. Remember Allah at the start and end of every meal.",
+    "duration_days": 7
+  }
+]
