@@ -577,7 +577,7 @@ const enTranslations = {
     "journalSettingsDescription": "Manage custom emotions for journal entries"
   },
   "aboutPGT": {
-    "title": "About PGT",
+    "title": "The Prince Ghazi Trust for Quranic Thought",
     "ourMission": "Our Mission",
     "missionSubtitle": "Guiding souls toward spiritual excellence",
     "missionDescription": "Keys to Paradise (PGT) is dedicated to providing comprehensive Islamic guidance for personal spiritual development. We believe that every soul has the potential to achieve closeness to Allah through structured self-improvement and consistent practice.",
@@ -985,7 +985,7 @@ const arTranslations = {
     "noEntriesDescription": "ابدأ في توثيق تأملاتك ونموك الروحي",
     "createEntry": "إنشاء إدخال يومية",
     "editEntry": "تحرير إدخال اليومية",
-    "entryContent": "محتوى الإدخال",
+    "entryContent": "محتوى *",
     "entryPlaceholder": "اكتب أفكارك وتأملاتك ورؤاك...",
     "mood": "المزاج (اختياري)",
     "selectMood": "اختر مزاجك",

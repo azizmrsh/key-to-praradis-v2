@@ -84,7 +84,7 @@ export function GoalsPage() {
       </div>
 
       {/* Goals Content */}
-      <div className="p-6 pt-2">
+      <div className="p-6 pt-2 pb-32">
         <GoalsEngine 
           focusSinPrimary={userFocusAreas.primary}
           focusSinSecondary={userFocusAreas.secondary}

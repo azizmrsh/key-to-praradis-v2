@@ -1,8 +1,20 @@
 {
 	"appId": "com.rutab.keystoparadise",
-	"appName": "Keys to Paradise",
+	"appName": "Keys To Paradise",
 	"webDir": "dist/public",
 	"server": {
 		"androidScheme": "https"
+	},
+	"ios": {
+		"contentInset": "automatic",
+		"scrollEnabled": true,
+		"backgroundColor": "#ffffff"
+	},
+	"plugins": {
+		"StatusBar": {
+			"style": "default",
+			"backgroundColor": "#ffffff",
+			"overlaysWebView": false
+		}
 	}
 }

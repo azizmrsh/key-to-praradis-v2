@@ -232,7 +232,7 @@ export function ChallengeSelector({ userFocusAreas }: ChallengeSelctorProps) {
   };
 
   return (
-    <div className="space-y-6">
+    <div className="space-y-6 pb-32">
       {/* Active Challenges */}
       <div>
         <div className="flex items-center gap-2 mb-4">
@@ -271,34 +271,40 @@ export function ChallengeSelector({ userFocusAreas }: ChallengeSelctorProps) {
                   <CardHeader className="pb-3">
                     <div className="flex items-center justify-between">
                       <CardTitle className={`text-base ${lang === 'ar' ? 'text-right' : 'text-left'}`}>{challengeContent.title}</CardTitle>
-                      <div className="flex items-center gap-2">
+                      <div className="flex flex-wrap items-center gap-2">
                         {(() => {
                           const journalCount = journalManager.getEntryCount(activeChallenge.challenge_id, 'Challenge');
                           return journalCount > 0 ? (
-                            <Badge variant="outline" className="bg-purple-50 text-purple-700">
+                            <Badge variant="outline" className="bg-purple-50 text-purple-700 whitespace-nowrap">
                               <BookHeart className="h-3 w-3 mr-1" />
                               {journalCount}
                             </Badge>
                           ) : null;
                         })()}
-                        <Badge variant="outline" className="capitalize">
+                        <Badge variant="outline" className="capitalize whitespace-nowrap">
                           {(() => {
                             const translationKey = `goals.categories.${challengeDetails.category}`;
                             const translated = t(translationKey);
                             return translated !== translationKey ? translated : challengeDetails.category.replace(/_/g, ' ');
                           })()}
                         </Badge>
-                        <Badge className={`${getDifficultyColor(challengeDetails.difficulty)} text-white`}>
+                        <Badge className={`${getDifficultyColor(challengeDetails.difficulty)} text-white whitespace-nowrap`}>
                           {t(`challenges.difficulty.${challengeDetails.difficulty}`) || challengeDetails.difficulty}
                         </Badge>
-                        <Badge className={`${activeChallenge.status === 'completed' ? 'bg-green-500' : 'bg-blue-500'} text-white`}>
+                        <Badge 
+                          className={`${
+                            activeChallenge.status === 'completed' ? 'bg-green-500' : 'bg-blue-500'
+                          } text-white whitespace-nowrap flex items-center gap-1`}
+                        >
                           {getStatusIcon(activeChallenge.status)}
-                          <span className="ml-1 capitalize">{t(`challenges.status.${activeChallenge.status}`) || activeChallenge.status.replace('_', ' ')}</span>
+                          <span>
+                            {t(`challenges.status.${activeChallenge.status}`) || activeChallenge.status.replace('_', ' ')}
+                          </span>
                         </Badge>
                       </div>
                     </div>
                   </CardHeader>
-                  <CardContent className="space-y-4">
+                  <CardContent>
                     <div className="space-y-2">
                       <div className="flex justify-between text-sm">
                         <span>{t('challenges.progress')}</span>
@@ -308,12 +314,12 @@ export function ChallengeSelector({ userFocusAreas }: ChallengeSelctorProps) {
                     </div>
 
                     {activeChallenge.status === 'in_progress' && (activeChallenge.current_day || 0) < activeChallenge.duration_days && (
-                      <div className="space-y-3">
+                      <div className="space-y-3 mt-4">
                         <Textarea
                           placeholder={t('goals.addProgressNote')}
                           value={dailyNotes[activeChallenge.challenge_id] || ''}
                           onChange={(e) => setDailyNotes(prev => ({ ...prev, [activeChallenge.challenge_id]: e.target.value }))}
-                          className="h-20"
+                          className="min-h-[80px] w-full"
                           disabled={challengeSelector.hasCompletedToday(activeChallenge.challenge_id)}
                         />
                         <div className="flex gap-2">
@@ -558,28 +564,7 @@ export function ChallengeSelector({ userFocusAreas }: ChallengeSelctorProps) {
           })()}
         </div>
 
-        {/* All Categories Section - Moved to bottom */}
-        <div className="mt-8 pt-6 border-t-2 border-gray-300">
-          <h3 className="text-lg font-bold text-gray-800 mb-3">{t('challenges.allCategories')}</h3>
-          <p className="text-sm text-gray-600 mb-4">
-            {t('challenges.allCategoriesDescription')}
-          </p>
-          <div className="mb-4">
-            <Select value={categoryFilter} onValueChange={setCategoryFilter}>
-              <SelectTrigger className="w-full">
-                <SelectValue placeholder={t('challenges.filterByCategory')} />
-              </SelectTrigger>
-              <SelectContent>
-                {categories.map((category) => (
-                  <SelectItem key={category} value={category}>
-                    {getCategoryLabel(category)}
-                  </SelectItem>
-                ))}
-              </SelectContent>
-            </Select>
-          </div>
         </div>
-      </div>
 
       {/* Failure Confirmation Dialog */}
       <Dialog open={failureConfirmOpen} onOpenChange={setFailureConfirmOpen}>

@@ -56,8 +56,8 @@ export function MyPathPage() {
       <div className="px-6 py-4 space-y-[15px]">
         {/* Challenges Option */}
         <Link href="/challenges">
-          <Card className="cursor-pointer hover:shadow-lg transition-shadow border-l-4 border-l-red-500 h-[calc((100vh-220px)/3)] rounded-none" style={{ backgroundColor: 'rgba(188, 204, 204, 0.3)' }}>
-            <CardContent className="p-6 h-full flex items-center">
+          <Card className="cursor-pointer hover:shadow-lg transition-shadow border-l-4 border-l-red-500 min-h-[160px] rounded-none" style={{ backgroundColor: 'rgba(188, 204, 204, 0.3)' }}>
+            <CardContent className="p-6 flex items-center">
               <div className="flex items-center justify-between w-full">
                 <div className="flex items-center space-x-6">
                   <div className="w-20 h-20 flex items-center justify-center">
@@ -78,8 +78,8 @@ export function MyPathPage() {
 
         {/* Goals Option */}
         <Link href="/goals">
-          <Card className="cursor-pointer hover:shadow-lg transition-shadow border-l-4 border-l-blue-500 h-[calc((100vh-220px)/3)] rounded-none" style={{ backgroundColor: 'rgba(188, 204, 204, 0.3)' }}>
-            <CardContent className="p-6 h-full flex items-center">
+          <Card className="cursor-pointer hover:shadow-lg transition-shadow border-l-4 border-l-blue-500 min-h-[160px] rounded-none" style={{ backgroundColor: 'rgba(188, 204, 204, 0.3)' }}>
+            <CardContent className="p-6 flex items-center">
               <div className="flex items-center justify-between w-full">
                 <div className="flex items-center space-x-6">
                   <div className="w-20 h-20 flex items-center justify-center">
@@ -100,8 +100,8 @@ export function MyPathPage() {
 
         {/* Journal Entries Option */}
         <Link href="/journal">
-          <Card className="cursor-pointer hover:shadow-lg transition-shadow border-l-4 border-l-green-500 h-[calc((100vh-220px)/6)] rounded-none" style={{ backgroundColor: 'rgba(188, 204, 204, 0.3)' }}>
-            <CardContent className="p-6 h-full flex items-center">
+          <Card className="cursor-pointer hover:shadow-lg transition-shadow border-l-4 border-l-green-500 min-h-[160px] rounded-none" style={{ backgroundColor: 'rgba(188, 204, 204, 0.3)' }}>
+            <CardContent className="p-6 flex items-center">
               <div className="flex items-center justify-between w-full">
                 <div className="flex items-center space-x-6">
                   <div className="w-20 h-20 flex items-center justify-center">

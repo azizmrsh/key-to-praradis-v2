@@ -127,14 +127,26 @@ export class EnhancedPrayerService {
   /**
    * Get current location using GPS with enhanced error handling
    */
-  static async getCurrentLocation(): Promise<LocationData> {
-    return new Promise((resolve, reject) => {
-      if (!navigator.geolocation) {
-        reject(new Error('Geolocation is not supported by this browser'));
-        return;
-      }
-
-      const options = {
+static async getCurrentLocation(): Promise<LocationData> {
+  return new Promise((resolve, reject) => {
+    if (!navigator.geolocation) {
+      reject(new Error('Geolocation is not supported by this browser'));
+      return;
+    }
+    
+    // Request permission explicitly first
+    if ('permissions' in navigator) {
+      navigator.permissions.query({ name: 'geolocation' })
+        .then((permissionStatus) => {
+          if (permissionStatus.state === 'denied') {
+            reject(new Error('Location permission denied. Please enable location access in your settings.'));
+            return;
+          }
+        })
+        .catch((error) => {
+          console.error('Error checking location permission:', error);
+        });
+    }      const options = {
         enableHighAccuracy: true,
         timeout: 15000,
         maximumAge: 300000 // 5 minutes

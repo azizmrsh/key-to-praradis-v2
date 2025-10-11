@@ -18,6 +18,10 @@
 	<string>APPL</string>
 	<key>CFBundleShortVersionString</key>
 	<string>$(MARKETING_VERSION)</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>We need your location to provide accurate prayer times based on your current position.</string>
+	<key>NSLocationAlwaysUsageDescription</key>
+	<string>We need your location to provide accurate prayer times based on your current position.</string>
 	<key>CFBundleVersion</key>
 	<string>$(CURRENT_PROJECT_VERSION)</string>
 	<key>LSRequiresIPhoneOS</key>
