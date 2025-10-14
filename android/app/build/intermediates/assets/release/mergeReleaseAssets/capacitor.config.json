@@ -1,8 +1,0 @@
-{
-	"appId": "com.rutab.keystoparadise",
-	"appName": "Keys to Paradise",
-	"webDir": "dist/public",
-	"server": {
-		"androidScheme": "https"
-	}
-}

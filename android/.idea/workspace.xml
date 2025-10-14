@@ -5,8 +5,33 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e95e596a-136e-4bf9-be1e-fc65a138b82b" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.gradle/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/config.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/capacitor.build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/capacitor.build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/assets/capacitor.config.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/assets/capacitor.config.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/assets/capacitor.plugins.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/assets/capacitor.plugins.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/assets/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/assets/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/xml/config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/xml/config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/capacitor-cordova-android-plugins/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/capacitor-cordova-android-plugins/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/capacitor-cordova-android-plugins/cordova.variables.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/capacitor-cordova-android-plugins/cordova.variables.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/capacitor-cordova-android-plugins/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/capacitor-cordova-android-plugins/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/capacitor-cordova-android-plugins/src/main/res/.gitkeep" beforeDir="false" afterPath="$PROJECT_DIR$/capacitor-cordova-android-plugins/src/main/res/.gitkeep" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/capacitor.settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/capacitor.settings.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/local.properties" beforeDir="false" afterPath="$PROJECT_DIR$/local.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/src/data/ears-goals-full-enhanced.json" beforeDir="false" afterPath="$PROJECT_DIR$/../client/src/data/ears-goals-full-enhanced.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/src/data/heart-goals-full-enhanced.json" beforeDir="false" afterPath="$PROJECT_DIR$/../client/src/data/heart-goals-full-enhanced.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/src/data/zina-goals-full-enhanced.json" beforeDir="false" afterPath="$PROJECT_DIR$/../client/src/data/zina-goals-full-enhanced.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mobile/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../mobile/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mobile/src/contexts/LanguageContext.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../mobile/src/contexts/LanguageContext.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mobile/src/navigation/AppNavigator.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../mobile/src/navigation/AppNavigator.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mobile/src/screens/AssessmentScreen.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../mobile/src/screens/AssessmentScreen.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mobile/src/screens/LanguageSelectionScreen.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../mobile/src/screens/LanguageSelectionScreen.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mobile/src/screens/PrayerSettingsScreen.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../mobile/src/screens/PrayerSettingsScreen.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mobile/src/types/navigation.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../mobile/src/types/navigation.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../replit.md" beforeDir="false" afterPath="$PROJECT_DIR$/../replit.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../server/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../server/index.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,7 +41,7 @@
   <component name="ClangdSettings">
     <option name="formatViaClangd" value="false" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[DeviceId(pluginId=LocalEmulator, isTemplate=false, identifier=path=C:\Users\Aziz\.android\avd\Medium_Phone.avd)]" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[]" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -42,6 +67,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "azizmrsh"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/azizmrsh/key-to-praradis-v2.git",
+    "accountId": "10f32cd8-387e-42e6-b343-384a75a7619c"
+  }
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 0
 }</component>
@@ -58,6 +95,7 @@
     "RunOnceActivity.cidr.known.project.marker": "true",
     "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.readMode.enableVisualFormatting": "true",
+    "android.gradle.sync.needed": "true",
     "cf.first.check.clang-format": "false",
     "cidr.known.project.marker": "true",
     "git-widget-placeholder": "main",

@@ -1,0 +1,382 @@
+{
+  "common": {
+    "loading": "Loading...",
+    "error": "Error",
+    "success": "Success",
+    "save": "Save",
+    "cancel": "Cancel",
+    "delete": "Delete",
+    "edit": "Edit",
+    "add": "Add",
+    "back": "Back",
+    "next": "Next",
+    "previous": "Previous",
+    "continue": "Continue",
+    "finish": "Finish",
+    "close": "Close",
+    "yes": "Yes",
+    "no": "No",
+    "confirm": "Confirm"
+  },
+  "onboarding": {
+    "welcome": "Welcome to your journey of self-improvement",
+    "personalGrowth": "Personal Growth",
+    "getStarted": "Get Started",
+    "chooseFocusAreas": "Choose Your Focus Areas",
+    "welcomeDescription": "The Keys to Paradise app is a privacy-focused, offline-first mobile application that helps users overcome moral and spiritual challenges based on the teachings of Imam Al-Ghazali.\n\nIt guides users through self-assessment, daily tracking, spiritual reflection, and habit development. All user data remains on-device. The app supports both English and Arabic.",
+    "personalGrowthDescription": "Track your spiritual progress, build better habits, and overcome challenges through guided assessments, daily reflections, and personalized challenges.\n\nStart your journey with a comprehensive self-assessment or choose specific areas to focus on.",
+    "continueButton": "Continue »»",
+    "getStartedButton": "Get Started »»"
+  },
+  "navigation": {
+    "dashboard": "Dashboard",
+    "assessment": "Assessment",
+    "challenges": "Challenges",
+    "content": "Content",
+    "profile": "Profile",
+    "settings": "Settings",
+    "sos": "SOS",
+    "yourPath": "Your Path",
+    "prayers": "Prayers",
+    "aboutUs": "About Us"
+  },
+  "dashboard": {
+    "title": "Spiritual Journey Dashboard",
+    "welcomeBack": "Welcome back",
+    "todaysProgress": "Today's Progress",
+    "activeChallenges": "Active Challenges",
+    "recentLessons": "Recent Lessons",
+    "spiritualGoals": "Spiritual Goals",
+    "quickActions": "Quick Actions",
+    "emergencySupport": "Emergency Support"
+  },
+  "assessment": {
+    "title": "Self Assessment",
+    "selfAssessment": "Self-Assessment",
+    "welcome": "Welcome to Your Spiritual Assessment",
+    "description": "This assessment will help identify areas for spiritual growth",
+    "startAssessment": "Start Assessment",
+    "takeFullAssessment": "Take Full Assessment",
+    "selectSpecificArea": "Select Specific Area",
+    "question": "Question {{number}} of {{total}}",
+    "questionLabel": "Question",
+    "of": "of",
+    "category": "Category",
+    "answered": "Answered",
+    "complete": "Complete",
+    "manualSelection": {
+      "title": "Choose Your Focus Areas",
+      "subtitle": "Select your spiritual focus areas manually",
+      "header": "SELECT YOUR SPIRITUAL FOCUS AREAS",
+      "description": "Choose which spiritual challenges you'd like to focus on improving.",
+      "primaryLabel": "PRIMARY FOCUS AREAS (Required)",
+      "secondaryLabel": "SECONDARY FOCUS AREAS (Optional)",
+      "selectPlaceholder": "Select Focus Area",
+      "continueButton": "Continue with Selection",
+      "takeAssessmentInstead": "Take Assessment Instead »»",
+      "selectionRequired": "Selection Required",
+      "selectionRequiredMessage": "Please select your primary focus area to continue"
+    },
+    "scale": {
+      "never": "Never",
+      "rarely": "Rarely", 
+      "sometimes": "Sometimes",
+      "often": "Often",
+      "always": "Always"
+    },
+    "results": {
+      "title": "Your Assessment Results",
+      "primaryArea": "Primary Area for Focus",
+      "secondaryArea": "Secondary Area for Focus",
+      "setGoals": "Set Your Goals",
+      "startJourney": "Start Your Journey"
+    },
+    "review": {
+      "title": "Assessment Review",
+      "noAssessmentFound": "No Assessment Found",
+      "noAssessmentMessage": "You haven't completed any self-assessment yet.",
+      "dataError": "Assessment Data Error",
+      "dataErrorMessage": "There was an error loading your assessment data. Please try starting a new assessment.",
+      "startNewAssessment": "Start New Assessment",
+      "assessmentStatus": "Assessment Status",
+      "completed": "Completed",
+      "inProgress": "In Progress",
+      "skipped": "Skipped",
+      "totalQuestions": "Total Questions",
+      "started": "Started",
+      "completedDate": "Completed",
+      "skippedQuestions": "Skipped Questions",
+      "yourAnswers": "Your Answers",
+      "answerNow": "Answer Now",
+      "changeAnswer": "Change Answer",
+      "saving": "Saving...",
+      "cancel": "Cancel",
+      "continueAssessment": "Continue Assessment",
+      "backToDashboard": "Back to Dashboard",
+      "retakeAssessment": "Retake Assessment"
+    }
+  },
+  "challenges": {
+    "title": "Challenges",
+    "active": "Active Challenges",
+    "completed": "Completed",
+    "abandoned": "Abandoned",
+    "history": "Challenge History",
+    "selectNew": "Select New Challenge",
+    "logSuccess": "Log Success",
+    "logIssue": "Log Issue",
+    "abandon": "Abandon",
+    "viewDetails": "View Details",
+    "progress": "Progress",
+    "streak": "Streak",
+    "types": {
+      "micro": "Micro Challenge (1 Day)",
+      "habit": "Habit Challenge (7-40 Days)",
+      "seasonal": "Seasonal Challenge"
+    },
+    "status": {
+      "active": "Active",
+      "completed": "Completed",
+      "abandoned": "Abandoned",
+      "failed": "Failed"
+    },
+    "messages": {
+      "successLogged": "Success recorded!",
+      "issueLogged": "Issue logged",
+      "challengeCompleted": "🎉 Challenge Completed!",
+      "oneDayCompleted": "🎉 1-Day Challenge Completed!",
+      "challengeAbandoned": "Challenge abandoned",
+      "progressMessage": "Great progress! Keep up the momentum on your spiritual journey.",
+      "growthMessage": "Remember, every challenge is a chance to grow stronger. Keep going!",
+      "completedDescription": "Alhamdulillah! \"{{title}}\" completed and archived.",
+      "abandonedDescription": "\"{{title}}\" has been archived in your history. You can always try again!"
+    }
+  },
+  "content": {
+    "title": "Spiritual Content",
+    "lessons": "Lessons",
+    "videos": "Videos",
+    "audio": "Audio",
+    "articles": "Articles",
+    "categories": "Categories",
+    "progress": "Progress",
+    "continue": "Continue Learning",
+    "startLesson": "Start Lesson",
+    "completeLesson": "Complete Lesson",
+    "reflection": "Reflection",
+    "keyPoints": "Key Points",
+    "practicalSteps": "Practical Steps"
+  },
+  "profile": {
+    "title": "Profile",
+    "userInfo": "User Information",
+    "preferences": "Preferences",
+    "language": "Language",
+    "theme": "Theme",
+    "notifications": "Notifications",
+    "progress": "Progress Overview",
+    "achievements": "Achievements",
+    "statistics": "Statistics",
+    "streak": "Current Streak",
+    "totalDays": "Total Active Days",
+    "completedLessons": "Completed Lessons",
+    "activeChallenges": "Active Challenges"
+  },
+  "sinCategories": {
+    "tongue": {
+      "name": "Tongue",
+      "description": "Speech and communication sins"
+    },
+    "eyes": {
+      "name": "Eyes", 
+      "description": "Vision and gaze related sins"
+    },
+    "ears": {
+      "name": "Ears",
+      "description": "Listening and hearing related sins"
+    },
+    "heart": {
+      "name": "Heart",
+      "description": "Internal spiritual state and intentions"
+    },
+    "pride": {
+      "name": "Pride",
+      "description": "Arrogance and ego-related sins"
+    },
+    "stomach": {
+      "name": "Stomach", 
+      "description": "Food and consumption related sins"
+    },
+    "zina": {
+      "name": "Zina",
+      "description": "Chastity and purity related matters"
+    }
+  },
+  "sos": {
+    "title": "SOS - Emergency Support",
+    "description": "When you need immediate spiritual support",
+    "dhikr": "Dhikr",
+    "prayers": "Emergency Prayers",
+    "reminders": "Spiritual Reminders",
+    "contact": "Contact Support",
+    "breathing": "Breathing Exercise",
+    "guidance": "Immediate Guidance"
+  },
+  "settings": {
+    "title": "Settings",
+    "language": "Language",
+    "theme": "Theme",
+    "notifications": "Notifications",
+    "privacy": "Privacy",
+    "about": "About",
+    "help": "Help",
+    "resetData": "Reset Data",
+    "exportData": "Export My Data",
+    "dataExported": "Data Exported Successfully",
+    "dataExportedDescription": "Your spiritual journey data has been downloaded. Keep it safe!",
+    "exportFailed": "Export Failed",
+    "exportFailedDescription": "There was an error exporting your data. Please try again.",
+    "dataPrivacy": "Data & Privacy",
+    "dataPrivacyDescription": "Manage your personal data and privacy settings",
+    "resetAllData": "Reset All Data",
+    "resetDataConfirmation": "This will permanently delete all your data including goals, challenges, journal entries, and progress. This action cannot be undone.",
+    "confirmDeleteData": "Yes, Delete Everything",
+    "cancel": "Cancel",
+    "allDataDeleted": "All Data Deleted",
+    "allDataDeletedDescription": "Your data has been cleared from this device",
+    "settingsSaved": "Settings Saved",
+    "settingsSavedDescription": "Your preferences have been updated",
+    "languageDescription": "Choose your preferred language for the app",
+    "themeDescription": "Customize the appearance of the app",
+    "notificationDescription": "Manage your notification preferences",
+    "prayerTimeNotifications": "Prayer Time Notifications",
+    "prayerTimeNotificationDescription": "Receive reminders for prayer times",
+    "challengeReminders": "Challenge Reminders",
+    "challengeReminderDescription": "Get notified about active challenges",
+    "goalReminders": "Goal Reminders",
+    "goalReminderDescription": "Receive reminders for your spiritual goals",
+    "streakReminders": "Streak Reminders",
+    "streakReminderDescription": "Get notified to maintain your streaks",
+    "sound": "Sound",
+    "soundDescription": "Enable notification sounds",
+    "vibration": "Vibration",
+    "vibrationDescription": "Enable vibration for notifications",
+    "selectTheme": "Select a theme",
+    "light": "Light",
+    "dark": "Dark",
+    "appVersion": "Version 0.1.1 (Alpha)",
+    "saveSettings": "Save Settings"
+  },
+  "goals": {
+    "title": "Spiritual Goals",
+    "set": "Set Goal",
+    "edit": "Edit Goal",
+    "delete": "Delete Goal",
+    "complete": "Complete Goal",
+    "progress": "Goal Progress",
+    "types": {
+      "content": "Content Reflection",
+      "behavioral": "Behavioral Streak", 
+      "reflection": "Reflection",
+      "spiritual": "Spiritual Growth"
+    }
+  },
+  "notifications": {
+    "prayerTime": "Prayer time reminder",
+    "challengeReminder": "Challenge reminder",
+    "goalReminder": "Goal reminder",
+    "lessonAvailable": "New lesson available",
+    "streakMaintenance": "Maintain your streak"
+  },
+  "prayers": {
+    "fajr": "Fajr",
+    "sunrise": "Sunrise",
+    "dhuhr": "Dhuhr", 
+    "asr": "Asr",
+    "maghrib": "Maghrib",
+    "isha": "Isha",
+    "nextPrayer": "Next Prayer",
+    "timeRemaining": "Time Remaining",
+    "prayedOnTime": "Prayed on Time",
+    "recordPrayer": "Record Prayer",
+    "missedPrayer": "Mark as Missed",
+    "prayerRecorded": "Prayer recorded!",
+    "todaysPrayerTimes": "Today's Prayer Times"
+  },
+  "myPath": {
+    "title": "My Path",
+    "subtitle": "Track your spiritual journey",
+    "challenges": {
+      "title": "Challenges",
+      "description": "Short-term actions to build better habits"
+    },
+    "goals": {
+      "title": "Goals",
+      "description": "Long-term objectives for spiritual growth"
+    },
+    "journal": {
+      "title": "Journal Entries",
+      "description": "Reflect on your spiritual journey"
+    }
+  },
+  "journal": {
+    "title": "My Journal",
+    "noEntries": "No Journal Entries Yet",
+    "noEntriesDescription": "Start documenting your spiritual reflections and growth",
+    "createEntry": "Create Journal Entry",
+    "editEntry": "Edit Journal Entry",
+    "addEntry": "Add Journal Entry",
+    "entryContent": "Entry Content",
+    "entryPlaceholder": "Write your thoughts, reflections, or insights...",
+    "area": "Area",
+    "selectArea": "Select area",
+    "areas": {
+      "primary": "Primary",
+      "secondary": "Secondary",
+      "misc": "Miscellaneous"
+    },
+    "emotion": "Emotion",
+    "selectEmotion": "Select your emotion",
+    "mood": "Mood (Optional)",
+    "selectMood": "Select your mood",
+    "moods": {
+      "happy": "Happy",
+      "grateful": "Grateful",
+      "peaceful": "Peaceful",
+      "hopeful": "Hopeful",
+      "reflective": "Reflective",
+      "struggling": "Struggling",
+      "determined": "Determined"
+    },
+    "origins": {
+      "goal": "Goal",
+      "challenge": "Challenge",
+      "lesson": "Lesson",
+      "checkIn": "Check-in",
+      "checkin": "Check-in",
+      "manual": "Manual"
+    },
+    "filterEntries": "Filter Entries",
+    "allAreas": "All Areas",
+    "origin": "Source",
+    "allOrigins": "All Sources",
+    "allEmotions": "All Emotions",
+    "locked": "Locked",
+    "defaultEmotions": "Default Emotions",
+    "noCustomEmotions": "No custom emotions yet. Add one below.",
+    "addCustomEmotionPlaceholder": "Add custom emotion...",
+    "deleteConfirmTitle": "Delete Journal Entry?",
+    "deleteConfirmDescription": "This action cannot be undone. Your journal entry will be permanently deleted."
+  },
+  "common": {
+    "save": "Save",
+    "cancel": "Cancel",
+    "delete": "Delete",
+    "edit": "Edit",
+    "back": "Back",
+    "next": "Next",
+    "previous": "Previous",
+    "close": "Close",
+    "confirm": "Confirm"
+  }
+}

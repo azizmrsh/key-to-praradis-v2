@@ -1,8 +1,7 @@
-import React, {useEffect, useState} from 'react';
+import React from 'react';
 import {createBottomTabNavigator} from '@react-navigation/bottom-tabs';
 import {createStackNavigator} from '@react-navigation/stack';
 import Icon from 'react-native-vector-icons/MaterialCommunityIcons';
-import AsyncStorage from '@react-native-async-storage/async-storage';
 import {useTranslation} from 'react-i18next';
 
 import {RootStackParamList} from '../types/navigation';
@@ -14,6 +13,7 @@ import ProfileScreen from '../screens/ProfileScreen';
 import SOSScreen from '../screens/SOSScreen';
 import SettingsScreen from '../screens/SettingsScreen';
 import LanguageSelectionScreen from '../screens/LanguageSelectionScreen';
+import SplashScreen from '../screens/SplashScreen';
 import OnboardingScreen from '../screens/OnboardingScreen';
 import ManualSelectionScreen from '../screens/ManualSelectionScreen';
 import GoalsChallengesScreen from '../screens/GoalsChallengesScreen';
@@ -40,16 +40,16 @@ const TabNavigator = () => {
               iconName = focused ? 'clipboard-check' : 'clipboard-check-outline';
               break;
             case 'Content':
-              iconName = focused ? 'book-open' : 'book-open-outline';
+              iconName = focused ? 'book-open-page-variant' : 'book-open-page-variant-outline';
               break;
             case 'Profile':
-              iconName = focused ? 'account' : 'account-outline';
+              iconName = focused ? 'account-circle' : 'account-circle-outline';
               break;
             case 'SOS':
-              iconName = focused ? 'alert-circle' : 'alert-circle-outline';
+              iconName = focused ? 'shield-alert' : 'shield-alert-outline';
               break;
             default:
-              iconName = 'circle';
+              iconName = 'circle-outline';
           }
 
           return <Icon name={iconName} size={size} color={color} />;
@@ -57,6 +57,27 @@ const TabNavigator = () => {
         tabBarActiveTintColor: '#10B981',
         tabBarInactiveTintColor: '#6B7280',
         headerShown: false,
+        tabBarHideOnKeyboard: true,
+        tabBarStyle: {
+          position: 'absolute',
+          bottom: 0,
+          left: 0,
+          right: 0,
+          elevation: 0,
+          backgroundColor: '#ffffff',
+          borderTopWidth: 1,
+          borderTopColor: '#e5e7eb',
+          height: 60,
+          paddingBottom: 8,
+          paddingTop: 8,
+        },
+        tabBarLabelStyle: {
+          fontSize: 12,
+          fontWeight: '500',
+        },
+        tabBarIconStyle: {
+          marginBottom: 2,
+        },
       })}>
       <Tab.Screen 
         name="Dashboard" 
@@ -83,48 +104,18 @@ const TabNavigator = () => {
         component={SOSScreen}
         options={{title: 'SOS'}}
       />
-      <Tab.Screen 
-        name="Prayers" 
-        component={PrayerSettingsScreen}
-        options={{title: t('navigation.prayers')}}
-      />
     </Tab.Navigator>
   );
 };
 
 const AppNavigator = () => {
-  const [initialRoute, setInitialRoute] = useState<string>('LanguageSelection');
-  const [isLoading, setIsLoading] = useState(true);
-
-  useEffect(() => {
-    checkLanguageSelection();
-  }, []);
-
-  const checkLanguageSelection = async () => {
-    try {
-      const selectedLanguage = await AsyncStorage.getItem('selectedLanguage');
-      if (selectedLanguage) {
-        setInitialRoute('Home');
-      } else {
-        setInitialRoute('LanguageSelection');
-      }
-    } catch (error) {
-      console.error('Error checking language selection:', error);
-      setInitialRoute('LanguageSelection');
-    } finally {
-      setIsLoading(false);
-    }
-  };
-
-  if (isLoading) {
-    return null; // or loading screen
-  }
-
+  // Start with splash screen first
   return (
     <Stack.Navigator 
       screenOptions={{headerShown: false}}
-      initialRouteName={initialRoute}
+      initialRouteName="Splash"
     >
+      <Stack.Screen name="Splash" component={SplashScreen} />
       <Stack.Screen name="LanguageSelection" component={LanguageSelectionScreen} />
       <Stack.Screen name="Home" component={TabNavigator} />
       <Stack.Screen name="Onboarding" component={OnboardingScreen} />

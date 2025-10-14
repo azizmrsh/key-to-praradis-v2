@@ -17,8 +17,11 @@ import {
   Portal,
   Dialog,
   Divider,
+  IconButton,
+  ActivityIndicator,
 } from 'react-native-paper';
 import AsyncStorage from '@react-native-async-storage/async-storage';
+import {LocationService} from '../services/LocationService';
 
 type PrayerSettingsScreenProps = {
   navigation: StackNavigationProp<RootStackParamList, 'PrayerSettings'>;
@@ -51,6 +54,7 @@ const PrayerSettingsScreen: React.FC<PrayerSettingsScreenProps> = ({
   const [showLocationDialog, setShowLocationDialog] = useState(false);
   const [showMethodDialog, setShowMethodDialog] = useState(false);
   const [editingLocation, setEditingLocation] = useState(location);
+  const [isDetectingLocation, setIsDetectingLocation] = useState(false);
 
   useEffect(() => {
     loadSettings();

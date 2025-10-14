@@ -1,4 +1,5 @@
 export type RootStackParamList = {
+  Splash: undefined;
   LanguageSelection: undefined;
   Assessment: undefined;
   Dashboard: undefined;

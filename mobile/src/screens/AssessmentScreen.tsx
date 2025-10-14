@@ -16,6 +16,8 @@ const AssessmentScreen = ({navigation, route}: any) => {
   const [selectedAnswer, setSelectedAnswer] = useState('');
   const [primaryCategory, setPrimaryCategory] = useState<SinCategory | ''>('');
   const [secondaryCategory, setSecondaryCategory] = useState<SinCategory | ''>('');
+  const [isNavigating, setIsNavigating] = useState(false);
+  const [isCompleting, setIsCompleting] = useState(false);
 
   const categoryOptions = [
     {value: 'tongue', label: 'Tongue (Speech & Communication)'},
@@ -50,71 +52,94 @@ const AssessmentScreen = ({navigation, route}: any) => {
   };
 
   const handleNext = () => {
+    if (isNavigating || isCompleting) return;
+    
+    setIsNavigating(true);
+    
     if (currentQuestionIndex < totalQuestions - 1) {
       setCurrentQuestionIndex(prev => prev + 1);
+      setTimeout(() => setIsNavigating(false), 300);
     } else {
       handleComplete();
     }
   };
 
   const handlePrevious = () => {
-    if (currentQuestionIndex > 0) {
-      setCurrentQuestionIndex(prev => prev - 1);
-    }
+    if (isNavigating || currentQuestionIndex === 0) return;
+    
+    setIsNavigating(true);
+    setCurrentQuestionIndex(prev => prev - 1);
+    setTimeout(() => setIsNavigating(false), 300);
   };
 
   const handleComplete = async () => {
-    // Calculate category scores
-    const categoryScores: Record<SinCategory, number> = {
-      tongue: 0, eyes: 0, ears: 0, pride: 0, stomach: 0, zina: 0, heart: 0
-    };
-    const categoryCounts: Record<SinCategory, number> = {
-      tongue: 0, eyes: 0, ears: 0, pride: 0, stomach: 0, zina: 0, heart: 0
-    };
-
-    Object.values(responses).forEach(response => {
-      const question = selfAssessmentQuestions.find(q => q.id === response.questionId);
-      if (question) {
-        const scoreOption = responseOptions.find(opt => opt.value === response.answer);
-        if (scoreOption) {
-          categoryScores[question.category] += scoreOption.score;
-          categoryCounts[question.category] += 1;
-        }
-      }
-    });
-
-    // Find top 2 categories
-    const avgScores = Object.entries(categoryScores).map(([category, total]) => ({
-      category: category as SinCategory,
-      avgScore: categoryCounts[category as SinCategory] > 0 ? total / categoryCounts[category as SinCategory] : 0
-    }));
-
-    avgScores.sort((a, b) => b.avgScore - a.avgScore);
+    if (isCompleting) return;
     
-    const results = {
-      primaryStruggle: avgScores[0]?.category || 'tongue',
-      secondaryStruggle: avgScores[1]?.category || 'heart',
-      responses,
-      completedAt: new Date().toISOString(),
-      isFullAssessment: true
-    };
+    setIsCompleting(true);
+    
+    try {
+      // Calculate category scores
+      const categoryScores: Record<SinCategory, number> = {
+        tongue: 0, eyes: 0, ears: 0, pride: 0, stomach: 0, zina: 0, heart: 0
+      };
+      const categoryCounts: Record<SinCategory, number> = {
+        tongue: 0, eyes: 0, ears: 0, pride: 0, stomach: 0, zina: 0, heart: 0
+      };
 
-    await AsyncStorage.setItem('assessment_results', JSON.stringify(results));
-    navigation.navigate('Dashboard');
+      Object.values(responses).forEach(response => {
+        const question = selfAssessmentQuestions.find(q => q.id === response.questionId);
+        if (question) {
+          const scoreOption = responseOptions.find(opt => opt.value === response.answer);
+          if (scoreOption) {
+            categoryScores[question.category] += scoreOption.score;
+            categoryCounts[question.category] += 1;
+          }
+        }
+      });
+
+      // Find top 2 categories
+      const avgScores = Object.entries(categoryScores).map(([category, total]) => ({
+        category: category as SinCategory,
+        avgScore: categoryCounts[category as SinCategory] > 0 ? total / categoryCounts[category as SinCategory] : 0
+      }));
+
+      avgScores.sort((a, b) => b.avgScore - a.avgScore);
+      
+      const results = {
+        primaryStruggle: avgScores[0]?.category || 'tongue',
+        secondaryStruggle: avgScores[1]?.category || 'heart',
+        responses,
+        completedAt: new Date().toISOString(),
+        isFullAssessment: true
+      };
+
+      await AsyncStorage.setItem('assessment_results', JSON.stringify(results));
+      navigation.navigate('Dashboard');
+    } catch (error) {
+      console.error('Error completing assessment:', error);
+      setIsCompleting(false);
+    }
   };
 
   const handleManualSelectionComplete = async () => {
-    if (!primaryCategory) return;
+    if (!primaryCategory || isCompleting) return;
 
-    const results = {
-      primaryStruggle: primaryCategory,
-      secondaryStruggle: secondaryCategory || primaryCategory,
-      isManualSelection: true,
-      completedAt: new Date().toISOString()
-    };
+    setIsCompleting(true);
+    
+    try {
+      const results = {
+        primaryStruggle: primaryCategory,
+        secondaryStruggle: secondaryCategory || primaryCategory,
+        isManualSelection: true,
+        completedAt: new Date().toISOString()
+      };
 
-    await AsyncStorage.setItem('assessment_results', JSON.stringify(results));
-    navigation.navigate('Dashboard');
+      await AsyncStorage.setItem('assessment_results', JSON.stringify(results));
+      navigation.navigate('Dashboard');
+    } catch (error) {
+      console.error('Error completing manual selection:', error);
+      setIsCompleting(false);
+    }
   };
 
   if (showManualSelection) {
@@ -235,7 +260,7 @@ const AssessmentScreen = ({navigation, route}: any) => {
         <Button
           mode="outlined"
           onPress={handlePrevious}
-          disabled={currentQuestionIndex === 0}
+          disabled={currentQuestionIndex === 0 || isNavigating || isCompleting}
           style={styles.navButton}
         >
           Previous
@@ -243,8 +268,9 @@ const AssessmentScreen = ({navigation, route}: any) => {
         <Button
           mode="contained"
           onPress={handleNext}
-          disabled={!selectedAnswer}
+          disabled={!selectedAnswer || isNavigating || isCompleting}
           style={styles.navButton}
+          loading={isCompleting && currentQuestionIndex === totalQuestions - 1}
         >
           {currentQuestionIndex === totalQuestions - 1 ? 'Complete' : 'Next'}
         </Button>

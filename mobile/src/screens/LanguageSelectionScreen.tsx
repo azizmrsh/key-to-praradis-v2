@@ -27,7 +27,7 @@ const LanguageSelectionScreen: React.FC<LanguageSelectionScreenProps> = ({
 
   const handleLanguageSelect = async (languageCode: string) => {
     await changeLanguage(languageCode);
-    navigation.navigate('Assessment');
+    navigation.replace('Home');
   };
 
   return (
