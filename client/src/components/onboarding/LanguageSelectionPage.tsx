@@ -49,7 +49,7 @@ const FlagIcons = {
 };
 
 export function LanguageSelectionPage() {
-  const { i18n } = useTranslation();
+  const { i18n, t } = useTranslation();
   const [, navigate] = useLocation();
 
   const languages: LanguageOption[] = [
@@ -57,6 +57,12 @@ export function LanguageSelectionPage() {
     { code: 'ar', name: 'Arabic', nativeName: 'عربي', flag: 'JO' },
     { code: 'fr', name: 'French', nativeName: 'FRANÇAIS', flag: 'FR' }
   ];
+
+  // لا نقوم بتحديد اللغة تلقائيًا، نترك للمستخدم اختيار اللغة بنفسه
+  React.useEffect(() => {
+    // نستخدم اللغة الإنجليزية فقط لواجهة صفحة اختيار اللغة
+    i18n.changeLanguage('en');
+  }, [i18n]);
 
   const handleLanguageSelect = async (languageCode: string) => {
     // Change language

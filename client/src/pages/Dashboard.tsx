@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import { Link } from 'wouter';
+import { Link, useLocation } from 'wouter';
 import { useTranslation } from 'react-i18next';
 import { UnifiedHeader } from '@/components/layout/UnifiedHeader';
 import { BottomNavigation } from '@/components/layout/BottomNavigation';
@@ -12,18 +12,33 @@ import { DailyCheckInWidget } from '@/components/dashboard/DailyCheckInWidget';
 import { RecommendedContentWidget } from '@/components/dashboard/RecommendedContentWidget';
 import { useUser } from '@/contexts/UserContext';
 import { useContentStore } from '@/store/contentStore';
+import { Button } from '@/components/ui/button';
 
 export default function Dashboard() {
   const { t } = useTranslation();
+  const [, navigate] = useLocation();
   const { userProgress, updateUserProgress } = useUser();
   const { 
     sections, 
     getSectionProgress, 
-    getDailyChallenge,
-    acceptChallenge
+    getDailyChallenge, 
+    acceptChallenge 
   } = useContentStore();
 
-  useEffect(() => {
+  // Debug function to clear all data and restart as first-time user
+  const clearAllDataAndRestart = () => {
+    // Clear all localStorage data
+    localStorage.clear();
+    
+    // Clear all sessionStorage data  
+    sessionStorage.clear();
+    
+    // Navigate back to language selection
+    navigate('/language-selection');
+    
+    // Reload the page to ensure clean state
+    window.location.reload();
+  };  useEffect(() => {
     // Update last activity date
     if (userProgress) {
       updateUserProgress({
@@ -100,6 +115,21 @@ export default function Dashboard() {
               />
             ) : null;
           })()}
+
+          {/* Debug Button - Remove in production */}
+          <div className="mt-8 p-4 bg-red-50 border border-red-200 rounded-lg">
+            <h3 className="text-red-800 font-bold mb-2">Debug Mode</h3>
+            <p className="text-red-600 text-sm mb-3">
+              اضغط هذا الزر لمسح جميع البيانات واختبار التطبيق كالمرة الأولى
+            </p>
+            <Button 
+              onClick={clearAllDataAndRestart}
+              variant="destructive"
+              size="sm"
+            >
+              مسح البيانات وإعادة التشغيل من البداية
+            </Button>
+          </div>
         </section>
       </main>
       

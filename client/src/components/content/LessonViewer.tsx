@@ -138,14 +138,14 @@ export function LessonViewer({ lesson, onComplete, onBack, isCompleted = false }
                   </div>
                 </section>
 
-                {/* Quranic Reference */}
+                {/* Qur'anic Reference */}
                 {lesson.content.quranicReference && (
                   <>
                     <Separator />
                     <section>
                       <h3 className="text-lg font-semibold mb-3 flex items-center gap-2">
                         <Quote className="w-5 h-5 text-purple-500" />
-                        Quranic Guidance
+                        Qur'anic Guidance
                       </h3>
                       <div className="bg-gradient-to-r from-purple-50 to-blue-50 p-6 rounded-lg border border-purple-200">
                         <p className="text-base italic mb-3 leading-relaxed">

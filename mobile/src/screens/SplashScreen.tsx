@@ -7,11 +7,13 @@ import {
   StatusBar,
   Dimensions,
   ActivityIndicator,
+  TouchableOpacity,
 } from 'react-native';
 import { useTranslation } from 'react-i18next';
 import { StackNavigationProp } from '@react-navigation/stack';
 import { RootStackParamList } from '../types/navigation';
 import { useLanguage } from '../contexts/LanguageContext';
+import AsyncStorage from '@react-native-async-storage/async-storage';
 
 const { width, height } = Dimensions.get('window');
 
@@ -23,26 +25,51 @@ const SplashScreen: React.FC<SplashScreenProps> = ({ navigation }) => {
   const { t } = useTranslation();
   const {isLanguageSelected, loadSavedLanguage, hasCompletedOnboarding} = useLanguage();
 
+  // Debug function to clear all data
+  const clearAllData = async () => {
+    try {
+      await AsyncStorage.clear();
+      console.log('All data cleared - restarting app flow');
+      navigation.replace('LanguageSelection');
+    } catch (error) {
+      console.error('Error clearing data:', error);
+    }
+  };
+
   useEffect(() => {
     const checkAppState = async () => {
       try {
+        // قم أولاً بتخزين معرّف فريد في التخزين المحلي (AsyncStorage) للتحقق من كونها أول مرة
+        const isFirstLaunch = await AsyncStorage.getItem('appLaunched');
         const hasLanguage = await isLanguageSelected();
         const hasOnboarding = await hasCompletedOnboarding();
         
+        // Debug logging
+        console.log('SplashScreen - isFirstLaunch:', isFirstLaunch);
+        console.log('SplashScreen - hasLanguage:', hasLanguage);
+        console.log('SplashScreen - hasOnboarding:', hasOnboarding);
+        
         setTimeout(() => {
-          if (!hasLanguage) {
+          // إذا كانت أول مرة أو لا توجد لغة، توجه إلى صفحة اختيار اللغة
+          if (isFirstLaunch === null || !hasLanguage) {
             // First launch - user needs to select language
+            console.log('SplashScreen - Going to LanguageSelection - First Launch');
+            // تعيين علامة الإطلاق بحيث لا تعتبر أول مرة في المرات القادمة
+            AsyncStorage.setItem('appLaunched', 'true');
             navigation.replace('LanguageSelection');
           } else if (hasLanguage && !hasOnboarding) {
             // User has language but not onboarding, go to onboarding
+            console.log('SplashScreen - Going to Onboarding');
             loadSavedLanguage();
             navigation.replace('Onboarding');
           } else if (hasLanguage && hasOnboarding) {
             // User has completed everything, go to home
+            console.log('SplashScreen - Going to Home');
             loadSavedLanguage();
             navigation.replace('Home');
           } else {
             // Fallback to language selection
+            console.log('SplashScreen - Fallback to LanguageSelection');
             navigation.replace('LanguageSelection');
           }
         }, 2000);
@@ -96,6 +123,14 @@ const SplashScreen: React.FC<SplashScreenProps> = ({ navigation }) => {
           <View style={styles.loadingContainer}>
             <ActivityIndicator size="large" color="#DC2626" />
             <Text style={styles.loadingText}>{t('common.loading', 'Loading...')}</Text>
+            
+            {/* Debug: Clear data button */}
+            <TouchableOpacity 
+              onPress={clearAllData}
+              style={styles.debugButton}
+            >
+              <Text style={styles.debugButtonText}>Clear Data (Debug)</Text>
+            </TouchableOpacity>
           </View>
         </View>
       </View>
@@ -178,6 +213,18 @@ const styles = StyleSheet.create({
     color: '#DC2626',
     marginTop: 16,
     fontFamily: 'Lato-Bold',
+    textAlign: 'center',
+  },
+  debugButton: {
+    marginTop: 20,
+    paddingVertical: 8,
+    paddingHorizontal: 16,
+    backgroundColor: '#DC2626',
+    borderRadius: 4,
+  },
+  debugButtonText: {
+    color: '#ffffff',
+    fontSize: 12,
     textAlign: 'center',
   },
 });

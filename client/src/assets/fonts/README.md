@@ -48,7 +48,7 @@ client/src/assets/fonts/
 Once the font files are placed, the application will automatically use the Sakkal font for:
 
 - Arabic text in the SOS/Dhikr player
-- Quranic verses and Islamic quotes
+- Qur'anic verses and Islamic quotes
 - Arabic headings and body text
 - Prayer and dhikr content
 
@@ -56,7 +56,7 @@ Once the font files are placed, the application will automatically use the Sakka
 
 - `.arabic-text` - Standard Arabic body text
 - `.arabic-heading` - Arabic headings with bold weight
-- `.arabic-verse` - Formatted Quranic verses
+- `.arabic-verse` - Formatted Qur'anic verses
 - `.arabic-dhikr` - Dhikr and prayer text styling
 
 ### Tailwind Utilities

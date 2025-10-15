@@ -393,10 +393,10 @@ export const getCategoryProgress = (category: SinCategory, completedLessons: str
   percentage: number;
 } => {
   const total = contentRepository[category].lessons.length;
-  const completed = completedLessons.filter(lessonId => 
+  const completed = completedLessons.filter(lessonId =>
     contentRepository[category].lessons.some(lesson => lesson.id === lessonId)
   ).length;
-  
+
   return {
     completed,
     total,

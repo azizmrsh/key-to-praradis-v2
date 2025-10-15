@@ -134,7 +134,7 @@ static async getCurrentLocation(): Promise<LocationData> {
       return;
     }
     
-    // Request permission explicitly first
+    // Request permission explicitly first and proceed immediately if granted
     if ('permissions' in navigator) {
       navigator.permissions.query({ name: 'geolocation' })
         .then((permissionStatus) => {
@@ -142,6 +142,8 @@ static async getCurrentLocation(): Promise<LocationData> {
             reject(new Error('Location permission denied. Please enable location access in your settings.'));
             return;
           }
+          // Automatically proceed if permission is granted or prompt
+          // No need to wait for a second click
         })
         .catch((error) => {
           console.error('Error checking location permission:', error);

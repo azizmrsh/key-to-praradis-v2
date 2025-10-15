@@ -144,7 +144,14 @@ export function EnhancedPrayerDashboard() {
     setIsLoadingLocation(true);
     
     try {
-      const newLocation = await EnhancedPrayerService.getCurrentLocation();
+      // تحسين: استخدام Promise.race لتحديد مهلة زمنية أقصر للحصول على الموقع
+      const timeoutPromise = new Promise((_, reject) => 
+        setTimeout(() => reject(new Error('Location request timed out')), 10000)
+      );
+      
+      const locationPromise = EnhancedPrayerService.getCurrentLocation();
+      const newLocation = await Promise.race([locationPromise, timeoutPromise]) as LocationData;
+      
       const saved = EnhancedPrayerService.saveLocationData(newLocation);
       
       if (saved) {
@@ -155,10 +162,10 @@ export function EnhancedPrayerDashboard() {
         localStorage.setItem('prayer_location_data', JSON.stringify(newLocation));
         
         toast({
-          title: 'Location Updated',
+          title: t('prayers.locationUpdated'),
           description: newLocation.city ? 
-            `Location set to ${newLocation.city}, ${newLocation.country}` :
-            `Location updated (${newLocation.latitude.toFixed(4)}, ${newLocation.longitude.toFixed(4)})`,
+            `${t('prayers.locationSetTo')} ${newLocation.city}, ${newLocation.country}` :
+            `${t('prayers.locationUpdated')} (${newLocation.latitude.toFixed(4)}, ${newLocation.longitude.toFixed(4)})`,
         });
         
         // Schedule notifications for today if permission is granted
@@ -170,14 +177,17 @@ export function EnhancedPrayerDashboard() {
             notificationPrefs
           );
         }
+        
+        // تحسين: تحديث واجهة المستخدم فوراً
+        updatePrayerTimes();
       } else {
         throw new Error('Failed to save location data');
       }
     } catch (error) {
       console.error('Location error:', error);
       toast({
-        title: 'Location Error',
-        description: error instanceof Error ? error.message : 'Could not get current location',
+        title: t('prayers.locationError'),
+        description: error instanceof Error ? error.message : t('prayers.couldNotGetLocation'),
         variant: 'destructive'
       });
     } finally {
