@@ -2,7 +2,8 @@ import React, { useEffect, useState } from 'react';
 import { useLocation } from 'wouter';
 import { Loader2 } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
-import manIllustration from '../assets/man-illustration.svg';
+import backgroundImage from '@assets/shutterstock_2521067645-Cropped_1752654314243.jpg';
+import logoPath from '@assets/QT_final_logo-02-01_1751283453807.png';
 
 interface SplashScreenProps {
   duration?: number; // مدة عرض الشاشة التمهيدية بالمللي ثانية
@@ -39,30 +40,71 @@ export const SplashScreen: React.FC<SplashScreenProps> = ({ duration = 3000 }) =
   }, [navigate, duration]);
 
   return (
-    <div className="fixed inset-0 flex flex-col items-center justify-center bg-gradient-to-b from-primary-100 to-primary-200 z-50">
-      <div className="flex flex-col items-center justify-center space-y-8 p-6">
-        {/* صورة الرجل */}
-        <img 
-          src={manIllustration} 
-          alt={t('appName')} 
-          className="w-48 h-48 object-contain animate-pulse"
-        />
-        
-        <h1 className="text-3xl font-bold text-primary-900 text-center">
-          {t('appName')}
-        </h1>
-        
-        {/* مؤشر التحميل الأنيق */}
-        <div className="w-64 h-2 bg-gray-200 rounded-full overflow-hidden">
-          <div 
-            className="h-full bg-primary-600 rounded-full transition-all duration-300 ease-out"
-            style={{ width: `${loadingProgress}%` }}
-          />
+    <div className="min-h-screen relative">
+      {/* Background with vertical split design */}
+      <div className="absolute inset-0 flex flex-col">
+        {/* Top white section - 30% of screen */}
+        <div className="bg-white h-[30vh] relative">
+          {/* Logo and Title - RTL aware positioning */}
+          <div className="absolute top-8 left-8 flex items-start gap-6">
+            {/* Title */}
+            <div className="pt-2">
+              <h1 className="text-7xl font-bold text-black leading-none mb-3 font-serif">
+                Keys to<br />
+                Paradise
+              </h1>
+              <p className="text-3xl font-serif" style={{ color: '#c49a6c' }}>
+                Breaking Bad Habits
+              </p>
+            </div>
+          </div>
+          
+          {/* Logo positioned at top right */}
+          <div className="absolute top-8 right-8">
+            <img 
+              src={logoPath}
+              alt="Logo"
+              className="w-24 h-24 object-contain"
+            />
+          </div>
         </div>
         
-        <div className="flex items-center justify-center text-primary-700">
-          <Loader2 className="mr-2 h-5 w-5 animate-spin" />
-          <span>{t('loading')}...</span>
+        {/* Bottom image section - 70% of screen */}
+        <div className="relative h-[70vh]">
+          <img 
+            src={backgroundImage}
+            alt="Man in contemplation"
+            className="w-full h-full object-cover object-left"
+          />
+          
+          {/* Loading content overlay on the right side */}
+          <div className="absolute inset-0 flex items-end justify-end pr-2 pb-40">
+            <div className="text-center max-w-[180px] mr-0">
+              <p className="text-black font-medium text-base leading-tight mb-6">
+                Preparing your spiritual journey...
+              </p>
+
+              {/* Loading indicator */}
+              <div className="flex flex-col items-center space-y-4">
+                <div className="w-32 h-2 bg-gray-200 rounded-full overflow-hidden">
+                  <div 
+                    className="h-full rounded-full transition-all duration-300 ease-out"
+                    style={{ 
+                      width: `${loadingProgress}%`,
+                      backgroundColor: '#be1e2d'
+                    }}
+                  />
+                </div>
+                
+                <div className="flex items-center justify-center">
+                  <Loader2 className="mr-2 h-5 w-5 animate-spin" style={{ color: '#be1e2d' }} />
+                  <span className="font-bold text-lg" style={{ color: '#be1e2d' }}>
+                    Loading...
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
