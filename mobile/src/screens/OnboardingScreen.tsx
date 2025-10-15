@@ -22,7 +22,7 @@ type OnboardingScreenProps = {
 
 const OnboardingScreen: React.FC<OnboardingScreenProps> = ({navigation}) => {
   const {t} = useTranslation();
-  const {isRTL} = useLanguage();
+  const {isRTL, setOnboardingCompleted} = useLanguage();
   const [currentStep, setCurrentStep] = useState(0);
 
   const onboardingSteps = [
@@ -43,23 +43,29 @@ const OnboardingScreen: React.FC<OnboardingScreenProps> = ({navigation}) => {
     },
   ];
 
-  const handleNext = () => {
+  const handleNext = async () => {
     if (currentStep < onboardingSteps.length - 1) {
       setCurrentStep(currentStep + 1);
     } else {
-      navigation.navigate('Assessment');
+      // Mark onboarding as completed and navigate to AssessmentChoice
+      await setOnboardingCompleted();
+      navigation.navigate('AssessmentChoice');
     }
   };
 
-  const handleSkip = () => {
+  const handleSkip = async () => {
+    // Mark onboarding as completed and skip to AssessmentChoice
+    await setOnboardingCompleted();
+    navigation.navigate('AssessmentChoice');
+  };
+
+  const handleTakeAssessment = async () => {
+    await setOnboardingCompleted();
     navigation.navigate('Assessment');
   };
 
-  const handleTakeAssessment = () => {
-    navigation.navigate('Assessment');
-  };
-
-  const handleManualSelection = () => {
+  const handleManualSelection = async () => {
+    await setOnboardingCompleted();
     navigation.navigate('ManualSelection');
   };
 

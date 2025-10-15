@@ -133,8 +133,8 @@ export const goalTemplates: GoalTemplate[] = [
   // Content Reflection Goals
   {
     id: 'content_weekly',
-    name: 'Quranic Reflection Challenge',
-    description: 'Read and reflect on Quranic verses or hadith related to your focus area',
+    name: 'Qur'anic Reflection Challenge',
+    description: 'Read and reflect on Qur'anic verses or hadith related to your focus area',
     type: 'content_reflection',
     defaultTarget: 3,
     defaultDuration: 7,

@@ -68,7 +68,7 @@ export default function FontTestPage() {
         {/* Quran Verse Example */}
         <Card>
           <CardHeader>
-            <CardTitle>Quranic Verse</CardTitle>
+            <CardTitle>Qur'anic Verse</CardTitle>
             <CardDescription>Using medium weight for verses</CardDescription>
           </CardHeader>
           <CardContent>

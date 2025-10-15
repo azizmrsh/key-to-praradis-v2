@@ -325,7 +325,7 @@ const enTranslations = {
   },
   "menu": {
     "assessmentAnalytics": "Assessment Analytics",
-    "aboutPGT": "The Prince Ghazi Trust for Quranic Thought"
+    "aboutPGT": "The Prince Ghazi Trust for Qur'anic Thought"
   },
   "achievements": {
     "title": "Achievements",
@@ -577,7 +577,7 @@ const enTranslations = {
     "journalSettingsDescription": "Manage custom emotions for journal entries"
   },
   "aboutPGT": {
-    "title": "The Prince Ghazi Trust for Quranic Thought",
+    "title": "The Prince Ghazi Trust for Qur'anic Thought",
     "ourMission": "Our Mission",
     "missionSubtitle": "Guiding souls toward spiritual excellence",
     "missionDescription": "Keys to Paradise (PGT) is dedicated to providing comprehensive Islamic guidance for personal spiritual development. We believe that every soul has the potential to achieve closeness to Allah through structured self-improvement and consistent practice.",

@@ -1,7 +1,9 @@
 export type RootStackParamList = {
   Splash: undefined;
   LanguageSelection: undefined;
-  Assessment: undefined;
+  Assessment: {skip?: boolean} | undefined;
+  AssessmentChoice: undefined;
+  AssessmentResults: {responses: any} | undefined;
   Dashboard: undefined;
   Challenges: undefined;
   Content: undefined;

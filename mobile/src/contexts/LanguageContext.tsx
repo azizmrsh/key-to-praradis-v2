@@ -10,6 +10,8 @@ interface LanguageContextType {
   availableLanguages: Array<{code: string; name: string; nativeName: string}>;
   isLanguageSelected: () => Promise<boolean>;
   loadSavedLanguage: () => Promise<void>;
+  hasCompletedOnboarding: () => Promise<boolean>;
+  setOnboardingCompleted: () => Promise<void>;
 }
 
 const LanguageContext = createContext<LanguageContextType | undefined>(undefined);
@@ -82,6 +84,26 @@ export const LanguageProvider: React.FC<{children: React.ReactNode}> = ({childre
     await changeLanguageInternal(languageCode, true);
   };
 
+  // Check if onboarding has been completed
+  const hasCompletedOnboarding = async (): Promise<boolean> => {
+    try {
+      const completed = await AsyncStorage.getItem('onboardingCompleted');
+      return completed === 'true';
+    } catch (error) {
+      console.error('Error checking onboarding status:', error);
+      return false;
+    }
+  };
+
+  // Mark onboarding as completed
+  const setOnboardingCompleted = async () => {
+    try {
+      await AsyncStorage.setItem('onboardingCompleted', 'true');
+    } catch (error) {
+      console.error('Error setting onboarding completed:', error);
+    }
+  };
+
   const value: LanguageContextType = {
     currentLanguage,
     isRTL,
@@ -89,6 +111,8 @@ export const LanguageProvider: React.FC<{children: React.ReactNode}> = ({childre
     availableLanguages,
     isLanguageSelected,
     loadSavedLanguage,
+    hasCompletedOnboarding,
+    setOnboardingCompleted,
   };
 
   return (

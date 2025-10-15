@@ -610,7 +610,13 @@ export function ChallengeSelector({ userFocusAreas }: ChallengeSelctorProps) {
           onOpenChange={setAddJournalModalOpen}
           defaultOrigin="Challenge"
           defaultOriginId={selectedChallengeForJournal.challenge_id}
-          defaultArea="Misc"
+          defaultArea={
+            userFocusAreas.primary === (challengeSelector.getChallengeDetails(selectedChallengeForJournal.challenge_id)?.category)
+              ? "Primary"
+              : userFocusAreas.secondary === (challengeSelector.getChallengeDetails(selectedChallengeForJournal.challenge_id)?.category)
+                ? "Secondary"
+                : "Primary"
+          }
           onSuccess={handleJournalSuccess}
           title="Add Journal Entry for Challenge"
         />

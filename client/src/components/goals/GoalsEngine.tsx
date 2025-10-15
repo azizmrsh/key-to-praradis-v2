@@ -813,7 +813,9 @@ export function GoalsEngine({ focusSinPrimary, focusSinSecondary }: GoalsEngineP
           defaultArea={
             focusSinPrimary === (goalsEngine.getGoalDetails(selectedGoalForJournal.goal_id)?.category)
               ? "Primary"
-              : "Secondary"
+              : focusSinSecondary === (goalsEngine.getGoalDetails(selectedGoalForJournal.goal_id)?.category)
+                ? "Secondary"
+                : "Primary"
           }
           onSuccess={handleJournalSuccess}
           title="Add Journal Entry for Goal"

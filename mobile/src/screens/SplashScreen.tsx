@@ -21,27 +21,33 @@ type SplashScreenProps = {
 
 const SplashScreen: React.FC<SplashScreenProps> = ({ navigation }) => {
   const { t } = useTranslation();
-  const { isLanguageSelected, loadSavedLanguage } = useLanguage();
+  const {isLanguageSelected, loadSavedLanguage, hasCompletedOnboarding} = useLanguage();
 
   useEffect(() => {
-    const checkLanguageAndNavigate = async () => {
+    const checkAppState = async () => {
       try {
-        const hasSelectedLanguage = await isLanguageSelected();
+        const hasLanguage = await isLanguageSelected();
+        const hasOnboarding = await hasCompletedOnboarding();
         
-        if (hasSelectedLanguage) {
-          // Load saved language and go to home
-          await loadSavedLanguage();
-          setTimeout(() => {
-            navigation.replace('Home');
-          }, 2000);
-        } else {
-          // Go to language selection
-          setTimeout(() => {
+        setTimeout(() => {
+          if (!hasLanguage) {
+            // First launch - user needs to select language
             navigation.replace('LanguageSelection');
-          }, 2000);
-        }
+          } else if (hasLanguage && !hasOnboarding) {
+            // User has language but not onboarding, go to onboarding
+            loadSavedLanguage();
+            navigation.replace('Onboarding');
+          } else if (hasLanguage && hasOnboarding) {
+            // User has completed everything, go to home
+            loadSavedLanguage();
+            navigation.replace('Home');
+          } else {
+            // Fallback to language selection
+            navigation.replace('LanguageSelection');
+          }
+        }, 2000);
       } catch (error) {
-        console.error('Error checking language:', error);
+        console.error('Error checking app state:', error);
         // Default to language selection on error
         setTimeout(() => {
           navigation.replace('LanguageSelection');
@@ -49,8 +55,8 @@ const SplashScreen: React.FC<SplashScreenProps> = ({ navigation }) => {
       }
     };
 
-    checkLanguageAndNavigate();
-  }, [navigation, isLanguageSelected, loadSavedLanguage]);
+    checkAppState();
+  }, [navigation, isLanguageSelected, loadSavedLanguage, hasCompletedOnboarding]);
 
   return (
     <View style={styles.container}>
@@ -83,13 +89,13 @@ const SplashScreen: React.FC<SplashScreenProps> = ({ navigation }) => {
         {/* Content */}
         <View style={styles.contentContainer}>
           <Text style={styles.instruction}>
-            Welcome to your spiritual journey
+            {t('languageSelection.instruction', 'Loading your spiritual journey...')}
           </Text>
 
           {/* Loading Indicator */}
           <View style={styles.loadingContainer}>
-            <ActivityIndicator size="large" color="#ffffff" />
-            <Text style={styles.loadingText}>Loading...</Text>
+            <ActivityIndicator size="large" color="#DC2626" />
+            <Text style={styles.loadingText}>{t('common.loading', 'Loading...')}</Text>
           </View>
         </View>
       </View>
@@ -107,58 +113,61 @@ const styles = StyleSheet.create({
     backgroundColor: '#ffffff',
     justifyContent: 'flex-end',
     paddingBottom: 32,
-    paddingHorizontal: 24,
+    paddingHorizontal: width * 0.1,
   },
   titleContainer: {
-    alignItems: 'center',
-    marginBottom: 24,
+    alignItems: 'flex-start',
   },
   title: {
-    fontSize: 32,
+    fontSize: width * 0.12,
     fontWeight: 'bold',
-    color: '#1a1a1a',
-    textAlign: 'center',
-    marginBottom: 8,
-    fontFamily: 'System',
+    color: '#000000',
+    lineHeight: width * 0.12,
+    marginBottom: 16,
+    fontFamily: 'PTSerif-Bold',
   },
   subtitle: {
-    fontSize: 18,
-    color: '#666666',
-    textAlign: 'center',
-    fontFamily: 'System',
+    fontSize: width * 0.06,
+    color: '#D97706',
+    fontStyle: 'italic',
+    fontFamily: 'PTSerif-Regular',
   },
   logo: {
-    width: width * 0.4,
-    height: width * 0.4,
-    alignSelf: 'center',
+    position: 'absolute',
+    top: 16,
+    right: 16,
+    width: 112,
+    height: 112,
   },
   bottomSection: {
-    flex: 1,
+    flex: 2,
+    backgroundColor: '#B8C5C5',
     position: 'relative',
+    overflow: 'hidden',
   },
   backgroundImage: {
     position: 'absolute',
-    top: 0,
     left: 0,
-    right: 0,
-    bottom: 0,
-    width: '100%',
+    top: 0,
+    width: width * 0.6,
     height: '100%',
   },
   contentContainer: {
-    flex: 1,
+    position: 'absolute',
+    right: 20,
+    top: 0,
+    bottom: 0,
+    width: width * 0.4,
     justifyContent: 'center',
     alignItems: 'center',
-    paddingHorizontal: 24,
-    backgroundColor: 'rgba(0, 0, 0, 0.3)',
   },
   instruction: {
-    fontSize: 18,
-    color: '#ffffff',
+    fontSize: 16,
+    color: '#000000',
     textAlign: 'center',
     marginBottom: 32,
-    fontFamily: 'System',
-    fontWeight: '500',
+    lineHeight: 22,
+    fontFamily: 'Lato-Regular',
   },
   loadingContainer: {
     alignItems: 'center',
@@ -166,9 +175,10 @@ const styles = StyleSheet.create({
   },
   loadingText: {
     fontSize: 16,
-    color: '#ffffff',
+    color: '#DC2626',
     marginTop: 16,
-    fontFamily: 'System',
+    fontFamily: 'Lato-Bold',
+    textAlign: 'center',
   },
 });
 

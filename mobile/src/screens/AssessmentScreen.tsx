@@ -41,7 +41,7 @@ const AssessmentScreen = ({navigation, route}: any) => {
   }, [currentQuestionIndex, responses]);
 
   const handleAnswer = (answer: string) => {
-    if (!currentQuestion) return;
+    if (!currentQuestion || isNavigating || isCompleting) return;
 
     const newResponses = {
       ...responses,
@@ -49,33 +49,51 @@ const AssessmentScreen = ({navigation, route}: any) => {
     };
     setResponses(newResponses);
     setSelectedAnswer(answer);
+    
+    // Auto-advance after a brief delay if this isn't the last question
+    if (currentQuestionIndex < totalQuestions - 1) {
+      setTimeout(() => {
+        if (!isNavigating && !isCompleting) {
+          handleNext();
+        }
+      }, 800);
+    }
   };
 
   const handleNext = () => {
     if (isNavigating || isCompleting) return;
     
+    // Ensure we have a response before proceeding
+    if (!selectedAnswer) return;
+    
     setIsNavigating(true);
     
-    if (currentQuestionIndex < totalQuestions - 1) {
-      setCurrentQuestionIndex(prev => prev + 1);
-      setTimeout(() => setIsNavigating(false), 300);
-    } else {
-      handleComplete();
-    }
+    // Add longer delay to prevent rapid clicking
+    setTimeout(() => {
+      if (currentQuestionIndex < totalQuestions - 1) {
+        setCurrentQuestionIndex(prev => prev + 1);
+        setIsNavigating(false);
+      } else {
+        setIsCompleting(true);
+        handleComplete();
+      }
+    }, 300);
   };
 
   const handlePrevious = () => {
-    if (isNavigating || currentQuestionIndex === 0) return;
+    if (isNavigating || currentQuestionIndex === 0 || isCompleting) return;
     
     setIsNavigating(true);
-    setCurrentQuestionIndex(prev => prev - 1);
-    setTimeout(() => setIsNavigating(false), 300);
+    
+    // Add longer delay to prevent rapid clicking
+    setTimeout(() => {
+      setCurrentQuestionIndex(prev => prev - 1);
+      setIsNavigating(false);
+    }, 300);
   };
 
   const handleComplete = async () => {
     if (isCompleting) return;
-    
-    setIsCompleting(true);
     
     try {
       // Calculate category scores
@@ -117,6 +135,7 @@ const AssessmentScreen = ({navigation, route}: any) => {
       navigation.navigate('Dashboard');
     } catch (error) {
       console.error('Error completing assessment:', error);
+    } finally {
       setIsCompleting(false);
     }
   };
@@ -135,9 +154,10 @@ const AssessmentScreen = ({navigation, route}: any) => {
       };
 
       await AsyncStorage.setItem('assessment_results', JSON.stringify(results));
-      navigation.navigate('Dashboard');
+      navigation.navigate('Home');
     } catch (error) {
       console.error('Error completing manual selection:', error);
+    } finally {
       setIsCompleting(false);
     }
   };

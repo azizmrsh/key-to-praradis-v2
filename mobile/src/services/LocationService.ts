@@ -36,7 +36,23 @@ export class LocationService {
 
   static async getCurrentLocation(): Promise<LocationData | null> {
     try {
-      const hasPermission = await this.requestLocationPermission();
+      // Check if we already have permission
+      let hasPermission = false;
+      
+      if (Platform.OS === 'android') {
+        const permission = await PermissionsAndroid.check(
+          PermissionsAndroid.PERMISSIONS.ACCESS_FINE_LOCATION
+        );
+        hasPermission = permission;
+      } else {
+        const result = await request(PERMISSIONS.IOS.LOCATION_WHEN_IN_USE);
+        hasPermission = result === RESULTS.GRANTED;
+      }
+      
+      // Only request permission if we don't have it
+      if (!hasPermission) {
+        hasPermission = await this.requestLocationPermission();
+      }
       
       if (!hasPermission) {
         Alert.alert(
@@ -66,17 +82,31 @@ export class LocationService {
           },
           (error) => {
             console.error('Error getting current position:', error);
+            let errorMessage = 'Unable to get your current location.';
+            
+            switch (error.code) {
+              case 1: // PERMISSION_DENIED
+                errorMessage = 'Location permission was denied. Please enable it in settings.';
+                break;
+              case 2: // POSITION_UNAVAILABLE
+                errorMessage = 'Location is currently unavailable. Please try again.';
+                break;
+              case 3: // TIMEOUT
+                errorMessage = 'Location request timed out. Please try again.';
+                break;
+            }
+            
             Alert.alert(
               'Location Error',
-              'Unable to get your current location. Please try again or enter your location manually.',
+              errorMessage,
               [{ text: 'OK' }]
             );
             reject(error);
           },
           {
             enableHighAccuracy: true,
-            timeout: 15000,
-            maximumAge: 10000,
+            timeout: 20000, // Increased timeout
+            maximumAge: 60000, // Cache for 1 minute
           }
         );
       });
