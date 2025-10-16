@@ -17,6 +17,13 @@ const config: CapacitorConfig = {
       style: 'default',
       backgroundColor: '#ffffff',
       overlaysWebView: false
+    },
+    PushNotifications: {
+      presentationOptions: ['badge', 'sound', 'alert']
+    },
+    LocalNotifications: {
+      smallIcon: 'ic_stat_icon_config_sample',
+      iconColor: '#488AFF'
     }
   }
 };

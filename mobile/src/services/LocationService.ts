@@ -1,6 +1,7 @@
 import Geolocation from '@react-native-community/geolocation';
 import { Platform, PermissionsAndroid, Alert } from 'react-native';
 import { PERMISSIONS, request, RESULTS } from 'react-native-permissions';
+import { IOSPermissionService } from './IOSPermissionService';
 
 export interface LocationData {
   latitude: number;
@@ -16,17 +17,17 @@ export class LocationService {
         const granted = await PermissionsAndroid.request(
           PermissionsAndroid.PERMISSIONS.ACCESS_FINE_LOCATION,
           {
-            title: 'Location Permission',
-            message: 'This app needs access to location to show prayer times for your area.',
-            buttonNeutral: 'Ask Me Later',
-            buttonNegative: 'Cancel',
-            buttonPositive: 'OK',
+            title: 'إذن الموقع',
+            message: 'نحتاج إلى معرفة موقعك لعرض أوقات الصلاة الصحيحة لمنطقتك.',
+            buttonNeutral: 'اسألني لاحقاً',
+            buttonNegative: 'رفض',
+            buttonPositive: 'موافق',
           }
         );
         return granted === PermissionsAndroid.RESULTS.GRANTED;
       } else {
-        const result = await request(PERMISSIONS.IOS.LOCATION_WHEN_IN_USE);
-        return result === RESULTS.GRANTED;
+        // استخدام خدمة الأذونات الخاصة بـ iOS
+        return await IOSPermissionService.requestLocationPermission();
       }
     } catch (error) {
       console.error('Error requesting location permission:', error);
@@ -36,7 +37,6 @@ export class LocationService {
 
   static async getCurrentLocation(): Promise<LocationData | null> {
     try {
-      // Check if we already have permission
       let hasPermission = false;
       
       if (Platform.OS === 'android') {
@@ -45,21 +45,37 @@ export class LocationService {
         );
         hasPermission = permission;
       } else {
-        const result = await request(PERMISSIONS.IOS.LOCATION_WHEN_IN_USE);
-        hasPermission = result === RESULTS.GRANTED;
+        // استخدام خدمة الأذونات الخاصة بـ iOS
+        const status = await IOSPermissionService.checkLocationPermission();
+        hasPermission = status === RESULTS.GRANTED;
+        
+        if (!hasPermission) {
+          hasPermission = await IOSPermissionService.requestLocationPermission();
+          if (!hasPermission) {
+            return null; // تم التعامل مع رسائل الخطأ في IOSPermissionService
+          }
+        }
       }
       
-      // Only request permission if we don't have it
+      // Request permission if needed
       if (!hasPermission) {
         hasPermission = await this.requestLocationPermission();
       }
       
       if (!hasPermission) {
-        Alert.alert(
-          'Location Permission Required',
-          'Please enable location permission in settings to use this feature.',
-          [{ text: 'OK' }]
-        );
+        if (Platform.OS === 'ios') {
+          Alert.alert(
+            'تنبيه',
+            'لن نتمكن من تحديد أوقات الصلاة بدقة بدون معرفة موقعك. يمكنك تفعيل خدمة الموقع لاحقاً من إعدادات التطبيق.',
+            [{ text: 'حسناً' }]
+          );
+        } else {
+          Alert.alert(
+            'مطلوب إذن الموقع',
+            'الرجاء تفعيل خدمة الموقع لاستخدام هذه الميزة.',
+            [{ text: 'حسناً' }]
+          );
+        }
         return null;
       }
 
