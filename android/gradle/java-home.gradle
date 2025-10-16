@@ -1,0 +1,45 @@
+def loadLocalProperties() {
+    def localProperties = new Properties()
+    def localPropertiesFile = rootProject.file('local.properties')
+    if (localPropertiesFile.exists()) {
+        localPropertiesFile.withReader('UTF-8') { reader ->
+            localProperties.load(reader)
+        }
+    }
+    return localProperties
+}
+
+def props = loadLocalProperties()
+if (props.getProperty('jdk.dir')) {
+    println "Using JDK from local.properties: ${props.getProperty('jdk.dir')}"
+    gradle.ext.set("org.gradle.java.home", props.getProperty('jdk.dir'))
+} else {
+    // Default JDK settings based on OS
+    if (System.getProperty('os.name').toLowerCase().contains('windows')) {
+        def possiblePaths = [
+            System.getenv('JAVA_HOME'),
+            "C:\\Program Files\\Microsoft\\jdk-17.0.16.8-hotspot",
+            "C:\\Program Files\\Java\\jdk-17"
+        ]
+        for (path in possiblePaths) {
+            if (path && new File(path).exists()) {
+                gradle.ext.set("org.gradle.java.home", path)
+                println "Using Windows JDK path: ${path}"
+                break
+            }
+        }
+    } else {
+        def possiblePaths = [
+            System.getenv('JAVA_HOME'),
+            "/opt/homebrew/Cellar/openjdk@17/17.0.16/libexec/openjdk.jdk/Contents/Home",
+            "/Library/Java/JavaVirtualMachines/jdk-17.jdk/Contents/Home"
+        ]
+        for (path in possiblePaths) {
+            if (path && new File(path).exists()) {
+                gradle.ext.set("org.gradle.java.home", path)
+                println "Using Unix JDK path: ${path}"
+                break
+            }
+        }
+    }
+}

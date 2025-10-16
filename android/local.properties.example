@@ -1,0 +1,10 @@
+# This is an example file. Copy this to local.properties and adjust paths for your system
+# For Windows, use double backslashes in paths, example:
+# sdk.dir=C:\\Users\\YourUsername\\AppData\\Local\\Android\\Sdk
+# jdk.dir=C:\\Program Files\\Microsoft\\jdk-17.0.16.8-hotspot
+
+# For macOS, use standard paths, example:
+# sdk.dir=/Users/YourUsername/Library/Android/sdk
+# jdk.dir=/opt/homebrew/Cellar/openjdk@17/17.0.16/libexec/openjdk.jdk/Contents/Home
+
+# Uncomment and modify the appropriate paths for your system
