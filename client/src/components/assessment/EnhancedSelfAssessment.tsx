@@ -395,16 +395,20 @@ function EnhancedSelfAssessmentInner() {
     const currentQuestion = getCurrentQuestion();
     if (!currentQuestion) return;
 
-    setAssessmentState(prev => ({
-      ...prev,
-      responses: {
-        ...prev.responses,
-        [currentQuestion.id]: {
-          questionId: currentQuestion.id,
-          answer
-        }
-      }
-    }));
+    // استخدام setTimeout لمنع التعليق عند التصفح السريع
+    setTimeout(() => {
+      setAssessmentState(prev => ({
+        ...prev,
+        responses: {
+          ...prev.responses,
+          [currentQuestion.id]: {
+            questionId: currentQuestion.id,
+            answer
+          }
+        },
+        lastSavedAt: new Date() // تحديث وقت الحفظ لمنع التعليق
+      }));
+    }, 10);
   };
 
   const handleAnswerAndNext = (answer: string) => {
@@ -441,7 +445,8 @@ function EnhancedSelfAssessmentInner() {
     if (assessmentState.currentQuestionIndex < questionsOrder.length - 1) {
       setAssessmentState(prev => ({
         ...prev,
-        currentQuestionIndex: prev.currentQuestionIndex + 1
+        currentQuestionIndex: prev.currentQuestionIndex + 1,
+        lastSavedAt: new Date() // تحديث وقت الحفظ لمنع التعليق
       }));
     } else {
       // This is the last question - complete the assessment directly
@@ -451,10 +456,14 @@ function EnhancedSelfAssessmentInner() {
 
   const handlePrevious = () => {
     if (assessmentState.currentQuestionIndex > 0) {
-      setAssessmentState(prev => ({
-        ...prev,
-        currentQuestionIndex: prev.currentQuestionIndex - 1
-      }));
+      // استخدام setTimeout لمنع التعليق عند التصفح السريع
+      setTimeout(() => {
+        setAssessmentState(prev => ({
+          ...prev,
+          currentQuestionIndex: prev.currentQuestionIndex - 1,
+          lastSavedAt: new Date() // تحديث وقت الحفظ لمنع التعليق
+        }));
+      }, 10);
     }
   };
 
@@ -655,7 +664,13 @@ function EnhancedSelfAssessmentInner() {
       description: `Your assessment has been completed successfully.`
     });
 
+    // تأكد من عرض النتائج بعد إكمال التقييم
     setShowResults(true);
+    
+    // التوجه إلى صفحة تحليل النتائج بعد فترة قصيرة
+    setTimeout(() => {
+      navigate('/assessment-analytics');
+    }, 3000);
   };
 
   const handleStartSingleCategoryAssessment = (category: SinCategory) => {

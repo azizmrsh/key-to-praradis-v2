@@ -17,7 +17,7 @@
 - Preserved required field indicator (*)
 
 ## 1. About PGT Page Updates
-- Updated page title to "The Prince Ghazi Trust for Quranic Thought"
+- Updated page title to "The Prince Ghazi Trust for Qur'anic Thought"
 - Modified content to ensure proper organization name usage
 
 ## 2. Location Permission Fixes

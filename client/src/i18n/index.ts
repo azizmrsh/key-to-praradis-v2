@@ -22,7 +22,8 @@ const enTranslations = {
     "yes": "Yes",
     "no": "No",
     "confirm": "Confirm",
-    "and": "and"
+    "and": "and",
+    "detectedLanguage": "Detected language"
   },
   "navigation": {
     "dashboard": "Dashboard",

@@ -39,6 +39,8 @@ export const LanguageProvider: React.FC<{children: React.ReactNode}> = ({childre
   const isLanguageSelected = async (): Promise<boolean> => {
     try {
       const savedLanguage = await AsyncStorage.getItem('selectedLanguage');
+      console.log('LanguageContext - savedLanguage:', savedLanguage);
+      console.log('LanguageContext - isLanguageSelected result:', savedLanguage !== null);
       return savedLanguage !== null;
     } catch (error) {
       console.error('Error checking saved language:', error);

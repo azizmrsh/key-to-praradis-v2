@@ -2,7 +2,7 @@ import React from 'react';
 import { useLocation } from 'wouter';
 import { useTranslation } from 'react-i18next';
 import { cn } from '@/lib/utils';
-import logoImage from '@assets/QT_final_logo-02-01_1751283453807.png';
+import logoImage from '@/assets/logo.svg';
 
 export function BottomNavigation() {
   const [location, navigate] = useLocation();
@@ -16,8 +16,8 @@ export function BottomNavigation() {
   ];
 
   return (
-    <nav className="bg-background/95 backdrop-blur-lg border-t border-border fixed bottom-0 left-0 right-0 z-10 shadow-lg shadow-black/5">
-      <div className="flex justify-around py-1">
+    <nav className="bg-background/95 backdrop-blur-lg border-t border-border fixed bottom-0 left-0 right-0 z-10 shadow-lg shadow-black/5" style={{ height: '80px' }}>
+      <div className="flex justify-around py-1 h-full">
         {navItems.map((item) => (
           <button
             key={item.path}

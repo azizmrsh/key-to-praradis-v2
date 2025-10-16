@@ -12,7 +12,7 @@ export interface Practice {
   name: string;
   description: string;
   category: 'daily' | 'weekly' | 'occasional';
-  source: string; // Quranic verse, hadith, etc.
+  source: string; // Qur'anic verse, hadith, etc.
   difficulty: 'easy' | 'medium' | 'hard';
   tags: string[];
 }

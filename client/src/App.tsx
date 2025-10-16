@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React, { useEffect, useState } from 'react';
 import { Switch, Route, useLocation } from 'wouter';
 import { QueryClientProvider } from '@tanstack/react-query';
 import { Toaster } from '@/components/ui/toaster';
@@ -6,6 +6,7 @@ import { TooltipProvider } from '@/components/ui/tooltip';
 import { queryClient } from '@/lib/queryClient';
 import { UserProvider } from '@/contexts/UserContext';
 import { SelfAssessmentProvider } from '@/contexts/SelfAssessmentContext';
+import SplashScreen from '@/components/SplashScreen';
 
 // Pages
 import Dashboard from '@/pages/DashboardNew';
@@ -49,24 +50,35 @@ import { MyPagePlaceholder } from '@/pages/MyPagePlaceholder';
 import JournalPage from '@/pages/JournalPage';
 
 function Router() {
+  // تعريف مسار البداية الافتراضي للتطبيق - دائماً يبدأ بصفحة اختيار اللغة
+  const initialRoute = '/language-selection';
+  const [showSplash, setShowSplash] = useState(true);
+  
+  useEffect(() => {
+    // إخفاء الشاشة التمهيدية بعد 3 ثواني
+    const timer = setTimeout(() => {
+      setShowSplash(false);
+    }, 3000);
+    
+    return () => clearTimeout(timer);
+  }, []);
+  
+  if (showSplash) {
+    return <SplashScreen />;
+  }
+  
   return (
     <div className="ios-safe-area-top min-h-screen">
-      <Switch>
+      <Switch initialRoute={initialRoute}>
       <Route path="/" component={() => {
         const [, navigate] = useLocation();
-        const selectedLanguage = localStorage.getItem('selectedLanguage');
         
+        // دائماً توجيه المستخدم إلى صفحة اختيار اللغة عند الدخول للتطبيق لأول مرة
         React.useEffect(() => {
-          if (!selectedLanguage) {
-            navigate('/language-selection');
-          }
-        }, [navigate, selectedLanguage]);
+          navigate('/language-selection');
+        }, []);
         
-        if (!selectedLanguage) {
-          return null; // Show nothing while redirecting
-        }
-        
-        return <Dashboard />;
+        return null; // عدم عرض أي شيء أثناء التوجيه
       }} />
       <Route path="/language-selection" component={LanguageSelectionPage} />
       <Route path="/section/:id" component={SectionDetail} />
