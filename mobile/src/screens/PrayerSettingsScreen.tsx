@@ -22,6 +22,7 @@ import {
 } from 'react-native-paper';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 import {LocationService} from '../services/LocationService';
+import {PermissionService} from '../services/PermissionService';
 
 type PrayerSettingsScreenProps = {
   navigation: StackNavigationProp<RootStackParamList, 'PrayerSettings'>;
@@ -55,10 +56,23 @@ const PrayerSettingsScreen: React.FC<PrayerSettingsScreenProps> = ({
   const [showMethodDialog, setShowMethodDialog] = useState(false);
   const [editingLocation, setEditingLocation] = useState(location);
   const [isDetectingLocation, setIsDetectingLocation] = useState(false);
+  const [permissionStatus, setPermissionStatus] = useState<{
+    location: boolean;
+    notification: boolean;
+  }>({
+    location: false,
+    notification: false,
+  });
 
   useEffect(() => {
     loadSettings();
+    checkPermissions();
   }, []);
+
+  const checkPermissions = async () => {
+    const status = await PermissionService.checkAllPermissions();
+    setPermissionStatus(status);
+  };
 
   const loadSettings = async () => {
     try {
@@ -102,6 +116,44 @@ const PrayerSettingsScreen: React.FC<PrayerSettingsScreenProps> = ({
   const handleLocationSave = () => {
     setLocation(editingLocation);
     setShowLocationDialog(false);
+  };
+
+  const handleLocationPermission = async () => {
+    const granted = await PermissionService.requestLocationPermission();
+    if (granted) {
+      setPermissionStatus(prev => ({...prev, location: true}));
+      setIsDetectingLocation(true);
+      try {
+        const currentLocation = await LocationService.getCurrentLocation();
+        if (currentLocation) {
+          const locationWithTimezone = {
+            ...currentLocation,
+            timezone: 'Asia/Riyadh', // Default timezone for Saudi Arabia
+          };
+          setLocation(locationWithTimezone);
+          setEditingLocation(locationWithTimezone);
+        }
+      } catch (error) {
+        console.error('Error getting location:', error);
+        Alert.alert(
+          t('common.error', 'Error'),
+          t('prayers.settings.locationError', 'Failed to get your location. Please try again.')
+        );
+      } finally {
+        setIsDetectingLocation(false);
+      }
+    } else {
+      await PermissionService.handleDeniedPermission('location');
+    }
+  };
+
+  const handleNotificationPermission = async () => {
+    const granted = await PermissionService.requestNotificationPermission();
+    if (granted) {
+      setPermissionStatus(prev => ({...prev, notification: true}));
+    } else {
+      await PermissionService.handleDeniedPermission('notification');
+    }
   };
 
   const toggleNotification = (prayerName: string) => {
@@ -155,10 +207,18 @@ const PrayerSettingsScreen: React.FC<PrayerSettingsScreenProps> = ({
             </Title>
             <List.Item
               title={t('prayers.settings.currentLocation', 'Current Location')}
-              description={`${location.city}, ${location.country}`}
+              description={isDetectingLocation ? t('common.detecting', 'Detecting location...') : `${location.city}, ${location.country}`}
               right={() => (
-                <Button mode="outlined" onPress={() => setShowLocationDialog(true)}>
-                  {t('settings.change', 'Change')}
+                <Button 
+                  mode="outlined" 
+                  onPress={permissionStatus.location ? () => setShowLocationDialog(true) : handleLocationPermission}
+                  disabled={isDetectingLocation}
+                >
+                  {isDetectingLocation 
+                    ? t('common.detecting', 'Detecting...') 
+                    : permissionStatus.location 
+                      ? t('settings.change', 'Change')
+                      : t('common.enable', 'Enable')}
                 </Button>
               )}
             />
@@ -211,19 +271,29 @@ const PrayerSettingsScreen: React.FC<PrayerSettingsScreenProps> = ({
             <Title style={isRTL && styles.rtlText}>
               {t('prayers.settings.notifications', 'Prayer Notifications')}
             </Title>
-            {prayerNames.map(prayer => (
-              <List.Item
-                key={prayer.key}
-                title={prayer.name}
-                description={t('prayers.settings.notificationDescription', 'Get notified at prayer time')}
-                right={() => (
-                  <Switch
-                    value={notifications.find(n => n.prayer === prayer.key)?.enabled || false}
-                    onValueChange={() => toggleNotification(prayer.key)}
-                  />
-                )}
-              />
-            ))}
+            {permissionStatus.notification ? (
+              prayerNames.map(prayer => (
+                <List.Item
+                  key={prayer.key}
+                  title={prayer.name}
+                  description={t('prayers.settings.notificationDescription', 'Get notified at prayer time')}
+                  right={() => (
+                    <Switch
+                      value={notifications.find(n => n.prayer === prayer.key)?.enabled || false}
+                      onValueChange={() => toggleNotification(prayer.key)}
+                    />
+                  )}
+                />
+              ))
+            ) : (
+              <Button
+                mode="contained"
+                onPress={handleNotificationPermission}
+                style={styles.enableButton}
+              >
+                {t('prayers.settings.enableNotifications', 'Enable Notifications')}
+              </Button>
+            )}
           </Card.Content>
         </Card>
 
@@ -314,6 +384,9 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     backgroundColor: '#FAFAFA',
+  },
+  enableButton: {
+    marginVertical: 12,
   },
   header: {
     flexDirection: 'row',
