@@ -50,13 +50,13 @@ export class PermissionService {
   static async checkAllPermissions(): Promise<PermissionStatus> {
     const location = await this.checkLocationPermission();
     const notification = await this.checkNotificationPermission();
-    
+
     const status = {
       location,
       notification,
       lastChecked: Date.now()
     };
-    
+
     await this.savePermissionStatus(status);
     return status;
   }
@@ -67,7 +67,7 @@ export class PermissionService {
       const permission = Platform.OS === 'ios'
         ? PERMISSIONS.IOS.LOCATION_WHEN_IN_USE
         : PERMISSIONS.ANDROID.ACCESS_FINE_LOCATION;
-      
+
       const result = await check(permission);
       return result === RESULTS.GRANTED;
     } catch (error) {
@@ -114,10 +114,10 @@ export class PermissionService {
                 const permission = Platform.OS === 'ios'
                   ? PERMISSIONS.IOS.LOCATION_WHEN_IN_USE
                   : PERMISSIONS.ANDROID.ACCESS_FINE_LOCATION;
-                
+
                 const result = await request(permission);
                 const granted = result === RESULTS.GRANTED;
-                
+
                 if (granted) {
                   await this.savePermissionStatus({ location: true });
                   if (Platform.OS === 'ios') {
@@ -125,7 +125,7 @@ export class PermissionService {
                     setTimeout(() => this.suggestAlwaysLocation(), 1000);
                   }
                 }
-                
+
                 resolve(granted);
               }
             }
@@ -212,7 +212,7 @@ export class PermissionService {
   // معالجة حالة رفض الإذن
   static async handleDeniedPermission(type: 'location' | 'notification'): Promise<void> {
     const permissionName = type === 'location' ? 'الموقع' : 'الإشعارات';
-    
+
     Alert.alert(
       `تم رفض إذن ${permissionName}`,
       `لتفعيل ${permissionName}:\n\n` +

@@ -13,7 +13,7 @@ export interface IOSPermissionStatus {
 export class IOSPermissionService {
   static async checkLocationPermission(): Promise<string> {
     if (Platform.OS !== 'ios') return 'unavailable';
-    
+
     try {
       const status = await check(PERMISSIONS.IOS.LOCATION_WHEN_IN_USE);
       return status;
@@ -29,7 +29,7 @@ export class IOSPermissionService {
     try {
       // تحقق من الإذن الحالي
       const currentStatus = await this.checkLocationPermission();
-      
+
       // إذا كان الإذن ممنوحاً مسبقاً
       if (currentStatus === RESULTS.GRANTED && !forceRequest) {
         return true;
@@ -83,15 +83,15 @@ export class IOSPermissionService {
               onPress: async () => {
                 const result = await request(PERMISSIONS.IOS.LOCATION_WHEN_IN_USE);
                 const granted = result === RESULTS.GRANTED;
-                
+
                 if (granted) {
                   // حفظ حالة الإذن
                   await this.savePermissionStatus({ location: 'granted' });
-                  
+
                   // اقتراح تفعيل "Always Allow" إذا كان مناسباً
                   setTimeout(() => this.suggestAlwaysLocation(), 1000);
                 }
-                
+
                 resolve(granted);
               }
             }
@@ -138,7 +138,7 @@ export class IOSPermissionService {
         ...update,
         lastChecked: Date.now()
       };
-      
+
       await AsyncStorage.setItem(PERMISSION_STORAGE_KEY, JSON.stringify(newStatus));
     } catch (error) {
       console.error('Error saving permission status:', error);
@@ -154,7 +154,7 @@ export class IOSPermissionService {
     } catch (error) {
       console.error('Error getting permission status:', error);
     }
-    
+
     return {
       location: 'unavailable',
       notification: 'unavailable',

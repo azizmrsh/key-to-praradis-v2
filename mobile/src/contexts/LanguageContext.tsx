@@ -1,13 +1,13 @@
-import React, {createContext, useContext, useState, useEffect} from 'react';
-import {useTranslation} from 'react-i18next';
-import {I18nManager} from 'react-native';
+import React, { createContext, useContext, useState, useEffect } from 'react';
+import { useTranslation } from 'react-i18next';
+import { I18nManager } from 'react-native';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 
 interface LanguageContextType {
   currentLanguage: string;
   isRTL: boolean;
   changeLanguage: (language: string) => Promise<void>;
-  availableLanguages: Array<{code: string; name: string; nativeName: string}>;
+  availableLanguages: Array<{ code: string; name: string; nativeName: string }>;
   isLanguageSelected: () => Promise<boolean>;
   loadSavedLanguage: () => Promise<void>;
   hasCompletedOnboarding: () => Promise<boolean>;
@@ -24,15 +24,15 @@ export const useLanguage = () => {
   return context;
 };
 
-export const LanguageProvider: React.FC<{children: React.ReactNode}> = ({children}) => {
-  const {i18n} = useTranslation();
+export const LanguageProvider: React.FC<{ children: React.ReactNode }> = ({ children }) => {
+  const { i18n } = useTranslation();
   const [currentLanguage, setCurrentLanguage] = useState('en');
   const [isRTL, setIsRTL] = useState(false);
 
   const availableLanguages = [
-    {code: 'en', name: 'English', nativeName: 'ENGLISH'},
-    {code: 'ar', name: 'Arabic', nativeName: 'عربي'},
-    {code: 'fr', name: 'French', nativeName: 'FRANÇAIS'},
+    { code: 'en', name: 'English', nativeName: 'ENGLISH' },
+    { code: 'ar', name: 'Arabic', nativeName: 'عربي' },
+    { code: 'fr', name: 'French', nativeName: 'FRANÇAIS' },
   ];
 
   // Check if language has been selected before
@@ -65,14 +65,14 @@ export const LanguageProvider: React.FC<{children: React.ReactNode}> = ({childre
     try {
       await i18n.changeLanguage(languageCode);
       setCurrentLanguage(languageCode);
-      
+
       const rtlLanguages = ['ar'];
       const isRightToLeft = rtlLanguages.includes(languageCode);
       setIsRTL(isRightToLeft);
-      
+
       // Set RTL for React Native
       I18nManager.forceRTL(isRightToLeft);
-      
+
       // Save language to storage if requested
       if (saveToStorage) {
         await AsyncStorage.setItem('selectedLanguage', languageCode);

@@ -38,7 +38,7 @@ export class LocationService {
   static async getCurrentLocation(): Promise<LocationData | null> {
     try {
       let hasPermission = false;
-      
+
       if (Platform.OS === 'android') {
         const permission = await PermissionsAndroid.check(
           PermissionsAndroid.PERMISSIONS.ACCESS_FINE_LOCATION
@@ -48,7 +48,7 @@ export class LocationService {
         // استخدام خدمة الأذونات الخاصة بـ iOS
         const status = await IOSPermissionService.checkLocationPermission();
         hasPermission = status === RESULTS.GRANTED;
-        
+
         if (!hasPermission) {
           hasPermission = await IOSPermissionService.requestLocationPermission();
           if (!hasPermission) {
@@ -56,12 +56,12 @@ export class LocationService {
           }
         }
       }
-      
+
       // Request permission if needed
       if (!hasPermission) {
         hasPermission = await this.requestLocationPermission();
       }
-      
+
       if (!hasPermission) {
         if (Platform.OS === 'ios') {
           Alert.alert(
@@ -99,7 +99,7 @@ export class LocationService {
           (error) => {
             console.error('Error getting current position:', error);
             let errorMessage = 'Unable to get your current location.';
-            
+
             switch (error.code) {
               case 1: // PERMISSION_DENIED
                 errorMessage = 'Location permission was denied. Please enable it in settings.';
@@ -111,7 +111,7 @@ export class LocationService {
                 errorMessage = 'Location request timed out. Please try again.';
                 break;
             }
-            
+
             Alert.alert(
               'Location Error',
               errorMessage,
@@ -138,13 +138,13 @@ export class LocationService {
       const response = await fetch(
         `https://api.bigdatacloud.net/data/reverse-geocode-client?latitude=${latitude}&longitude=${longitude}&localityLanguage=en`
       );
-      
+
       if (!response.ok) {
         throw new Error('Geocoding service unavailable');
       }
-      
+
       const data = await response.json();
-      
+
       return {
         latitude,
         longitude,
