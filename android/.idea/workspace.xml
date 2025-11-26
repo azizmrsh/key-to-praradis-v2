@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="512ea6d2-84ae-442c-b326-c6f50e9e78c7" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.gradle/8.13/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.13/checksums/checksums.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DATA_DISCLOSURE_IMPLEMENTATION.md" beforeDir="false" afterPath="$PROJECT_DIR$/../DATA_DISCLOSURE_IMPLEMENTATION.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/8.13/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.13/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/8.13/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.13/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/8.13/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.13/fileHashes/fileHashes.bin" afterDir="false" />
@@ -15,9 +15,7 @@
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/file-system.probe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/caches/deviceStreaming.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/deviceStreaming.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/capacitor.build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/capacitor.build.gradle" afterDir="false" />
@@ -25,44 +23,29 @@
       <change beforePath="$PROJECT_DIR$/app/src/main/assets/capacitor.config.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/assets/capacitor.config.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/assets/capacitor.plugins.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/assets/capacitor.plugins.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/assets/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/assets/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/ic_launcher.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/ic_launcher_foreground.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/ic_launcher_foreground.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/ic_launcher.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/ic_launcher_foreground.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/ic_launcher_foreground.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/ic_launcher.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/ic_launcher_foreground.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/ic_launcher_foreground.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/ic_launcher_foreground.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/ic_launcher_foreground.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/ic_launcher_foreground.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/ic_launcher_foreground.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_launcher_background.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/xml/config.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/build/reports/problems/problems-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/problems/problems-report.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/capacitor.settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/capacitor.settings.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/local.properties" beforeDir="false" afterPath="$PROJECT_DIR$/local.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../capacitor.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../capacitor.config.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../client/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../client/src/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../client/src/components/onboarding/LanguageSelectionPage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../client/src/components/onboarding/LanguageSelectionPage.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../client/src/i18n/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../client/src/i18n/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/src/components/prayer/EnhancedPrayerDashboard.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../client/src/components/prayer/EnhancedPrayerDashboard.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/src/components/settings/PrayerSettings.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../client/src/components/settings/PrayerSettings.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/src/i18n/locales/ar.json" beforeDir="false" afterPath="$PROJECT_DIR$/../client/src/i18n/locales/ar.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/src/i18n/locales/en.json" beforeDir="false" afterPath="$PROJECT_DIR$/../client/src/i18n/locales/en.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/src/i18n/locales/fr.json" beforeDir="false" afterPath="$PROJECT_DIR$/../client/src/i18n/locales/fr.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../client/src/lib/enhancedPrayerService.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../client/src/lib/enhancedPrayerService.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../client/src/main.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../client/src/main.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../client/src/pages/SettingsPage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../client/src/pages/SettingsPage.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../client/src/utils/location-service-enhanced.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../client/src/utils/location-service-multilang.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../client/src/utils/location-service.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../client/src/utils/location.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../client/src/utils/notification-service.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../client/src/utils/notifications.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../client/src/utils/permissions.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ios/App/App/Assets.xcassets/AppIcon.appiconset/AppIcon-512@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/App/App/Assets.xcassets/AppIcon.appiconset/AppIcon-512@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/src/pages/EnhancedPrayerSettingsPage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../client/src/pages/EnhancedPrayerSettingsPage.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/src/pages/PrayerTimesPage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../client/src/pages/PrayerTimesPage.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../ios/App/App/Info.plist" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/App/App/Info.plist" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../ios/App/App/capacitor.config.json" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/App/App/capacitor.config.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../ios/App/App/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/App/App/public/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../ios/App/Podfile" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/App/Podfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mobile/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../mobile/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mobile/src/screens/DashboardScreen.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../mobile/src/screens/DashboardScreen.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mobile/src/screens/PrayerSettingsScreen.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../mobile/src/screens/PrayerSettingsScreen.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mobile/src/services/LocationService.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../mobile/src/services/LocationService.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../package.json" afterDir="false" />
     </list>
@@ -140,7 +123,7 @@
     &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.17&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;jvm.logging&quot;
+    &quot;settings.editor.selected.configurable&quot;: &quot;device.screenrecording&quot;
   }
 }</component>
   <component name="RunManager" selected="Android App.app">

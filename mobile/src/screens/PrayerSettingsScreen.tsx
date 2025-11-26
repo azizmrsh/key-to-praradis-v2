@@ -10,10 +10,8 @@ import {
   Title,
   Paragraph,
   Button,
-  Switch,
   List,
   RadioButton,
-  TextInput,
   Portal,
   Dialog,
   Divider,
@@ -21,8 +19,8 @@ import {
   ActivityIndicator,
 } from 'react-native-paper';
 import AsyncStorage from '@react-native-async-storage/async-storage';
-import {LocationService} from '../services/LocationService';
-import {PermissionService} from '../services/PermissionService';
+import {LocationService, LocationData} from '../services/LocationService';
+import {LocationSearchModal} from '../components/LocationSearchModal';
 
 type PrayerSettingsScreenProps = {
   navigation: StackNavigationProp<RootStackParamList, 'PrayerSettings'>;
@@ -45,49 +43,28 @@ const PrayerSettingsScreen: React.FC<PrayerSettingsScreenProps> = ({
     madhab: 'shafi',
     highLatitudeRule: 'middle-of-the-night',
   });
-  const [notifications, setNotifications] = useState([
-    {prayer: 'fajr', enabled: true, timing: 'before15'},
-    {prayer: 'dhuhr', enabled: true, timing: 'at'},
-    {prayer: 'asr', enabled: true, timing: 'at'},
-    {prayer: 'maghrib', enabled: true, timing: 'at'},
-    {prayer: 'isha', enabled: true, timing: 'at'},
-  ]);
-  const [showLocationDialog, setShowLocationDialog] = useState(false);
   const [showMethodDialog, setShowMethodDialog] = useState(false);
-  const [editingLocation, setEditingLocation] = useState(location);
-  const [isDetectingLocation, setIsDetectingLocation] = useState(false);
+  const [showLocationSearchModal, setShowLocationSearchModal] = useState(false);
   const [permissionStatus, setPermissionStatus] = useState<{
     location: boolean;
-    notification: boolean;
   }>({
     location: false,
-    notification: false,
   });
 
   useEffect(() => {
     loadSettings();
-    checkPermissions();
   }, []);
-
-  const checkPermissions = async () => {
-    const status = await PermissionService.checkAllPermissions();
-    setPermissionStatus(status);
-  };
 
   const loadSettings = async () => {
     try {
       const savedLocation = await AsyncStorage.getItem('prayerLocation');
       const savedSettings = await AsyncStorage.getItem('prayerSettings');
-      const savedNotifications = await AsyncStorage.getItem('prayerNotifications');
 
       if (savedLocation) {
         setLocation(JSON.parse(savedLocation));
       }
       if (savedSettings) {
         setPrayerSettings(JSON.parse(savedSettings));
-      }
-      if (savedNotifications) {
-        setNotifications(JSON.parse(savedNotifications));
       }
     } catch (error) {
       console.error('Error loading prayer settings:', error);
@@ -98,7 +75,6 @@ const PrayerSettingsScreen: React.FC<PrayerSettingsScreenProps> = ({
     try {
       await AsyncStorage.setItem('prayerLocation', JSON.stringify(location));
       await AsyncStorage.setItem('prayerSettings', JSON.stringify(prayerSettings));
-      await AsyncStorage.setItem('prayerNotifications', JSON.stringify(notifications));
       
       Alert.alert(
         t('prayers.settings.saved', 'Settings Saved'),
@@ -113,57 +89,23 @@ const PrayerSettingsScreen: React.FC<PrayerSettingsScreenProps> = ({
     }
   };
 
-  const handleLocationSave = () => {
-    setLocation(editingLocation);
-    setShowLocationDialog(false);
-  };
+
 
   const handleLocationPermission = async () => {
-    const granted = await PermissionService.requestLocationPermission();
-    if (granted) {
-      setPermissionStatus(prev => ({...prev, location: true}));
-      setIsDetectingLocation(true);
-      try {
-        const currentLocation = await LocationService.getCurrentLocation();
-        if (currentLocation) {
-          const locationWithTimezone = {
-            ...currentLocation,
-            timezone: 'Asia/Riyadh', // Default timezone for Saudi Arabia
-          };
-          setLocation(locationWithTimezone);
-          setEditingLocation(locationWithTimezone);
-        }
-      } catch (error) {
-        console.error('Error getting location:', error);
-        Alert.alert(
-          t('common.error', 'Error'),
-          t('prayers.settings.locationError', 'Failed to get your location. Please try again.')
-        );
-      } finally {
-        setIsDetectingLocation(false);
-      }
-    } else {
-      await PermissionService.handleDeniedPermission('location');
-    }
+    // لم تعد هناك حاجة لطلب إذن الموقع - فتح نافذة البحث اليدوي
+    setShowLocationSearchModal(true);
   };
 
-  const handleNotificationPermission = async () => {
-    const granted = await PermissionService.requestNotificationPermission();
-    if (granted) {
-      setPermissionStatus(prev => ({...prev, notification: true}));
-    } else {
-      await PermissionService.handleDeniedPermission('notification');
-    }
-  };
-
-  const toggleNotification = (prayerName: string) => {
-    setNotifications(prev =>
-      prev.map(notification =>
-        notification.prayer === prayerName
-          ? {...notification, enabled: !notification.enabled}
-          : notification
-      )
-    );
+  const handleLocationSelected = (selectedLocation: LocationData) => {
+    const locationWithTimezone = {
+      city: selectedLocation.city,
+      country: selectedLocation.country,
+      latitude: selectedLocation.latitude,
+      longitude: selectedLocation.longitude,
+      timezone: selectedLocation.timezone,
+    };
+    setLocation(locationWithTimezone);
+    setPermissionStatus(prev => ({...prev, location: true}));
   };
 
   const calculationMethods = [
@@ -177,14 +119,6 @@ const PrayerSettingsScreen: React.FC<PrayerSettingsScreenProps> = ({
   const madhabOptions = [
     {value: 'shafi', label: t('prayers.madhab.shafi', 'Shafi')},
     {value: 'hanafi', label: t('prayers.madhab.hanafi', 'Hanafi')},
-  ];
-
-  const prayerNames = [
-    {key: 'fajr', name: t('prayers.fajr', 'Fajr')},
-    {key: 'dhuhr', name: t('prayers.dhuhr', 'Dhuhr')},
-    {key: 'asr', name: t('prayers.asr', 'Asr')},
-    {key: 'maghrib', name: t('prayers.maghrib', 'Maghrib')},
-    {key: 'isha', name: t('prayers.isha', 'Isha')},
   ];
 
   return (
@@ -206,19 +140,14 @@ const PrayerSettingsScreen: React.FC<PrayerSettingsScreenProps> = ({
               {t('prayers.settings.location', 'Location')}
             </Title>
             <List.Item
-              title={t('prayers.settings.currentLocation', 'Current Location')}
-              description={isDetectingLocation ? t('common.detecting', 'Detecting location...') : `${location.city}, ${location.country}`}
+              title={t('prayers.settings.selectedLocation', 'Selected Location')}
+              description={`${location.city}, ${location.country}`}
               right={() => (
                 <Button 
                   mode="outlined" 
-                  onPress={permissionStatus.location ? () => setShowLocationDialog(true) : handleLocationPermission}
-                  disabled={isDetectingLocation}
+                  onPress={handleLocationPermission}
                 >
-                  {isDetectingLocation 
-                    ? t('common.detecting', 'Detecting...') 
-                    : permissionStatus.location 
-                      ? t('settings.change', 'Change')
-                      : t('common.enable', 'Enable')}
+                  {t('settings.change', 'Change')}
                 </Button>
               )}
             />
@@ -265,38 +194,6 @@ const PrayerSettingsScreen: React.FC<PrayerSettingsScreenProps> = ({
           </Card.Content>
         </Card>
 
-        {/* Notification Settings */}
-        <Card style={styles.card}>
-          <Card.Content>
-            <Title style={isRTL && styles.rtlText}>
-              {t('prayers.settings.notifications', 'Prayer Notifications')}
-            </Title>
-            {permissionStatus.notification ? (
-              prayerNames.map(prayer => (
-                <List.Item
-                  key={prayer.key}
-                  title={prayer.name}
-                  description={t('prayers.settings.notificationDescription', 'Get notified at prayer time')}
-                  right={() => (
-                    <Switch
-                      value={notifications.find(n => n.prayer === prayer.key)?.enabled || false}
-                      onValueChange={() => toggleNotification(prayer.key)}
-                    />
-                  )}
-                />
-              ))
-            ) : (
-              <Button
-                mode="contained"
-                onPress={handleNotificationPermission}
-                style={styles.enableButton}
-              >
-                {t('prayers.settings.enableNotifications', 'Enable Notifications')}
-              </Button>
-            )}
-          </Card.Content>
-        </Card>
-
         {/* Save Button */}
         <Button
           mode="contained"
@@ -307,48 +204,7 @@ const PrayerSettingsScreen: React.FC<PrayerSettingsScreenProps> = ({
         </Button>
       </ScrollView>
 
-      {/* Location Dialog */}
-      <Portal>
-        <Dialog visible={showLocationDialog} onDismiss={() => setShowLocationDialog(false)}>
-          <Dialog.Title>{t('prayers.settings.editLocation', 'Edit Location')}</Dialog.Title>
-          <Dialog.Content>
-            <TextInput
-              label={t('prayers.settings.city', 'City')}
-              value={editingLocation.city}
-              onChangeText={(text) => setEditingLocation(prev => ({...prev, city: text}))}
-              style={styles.input}
-            />
-            <TextInput
-              label={t('prayers.settings.country', 'Country')}
-              value={editingLocation.country}
-              onChangeText={(text) => setEditingLocation(prev => ({...prev, country: text}))}
-              style={styles.input}
-            />
-            <TextInput
-              label={t('prayers.settings.latitude', 'Latitude')}
-              value={String(editingLocation.latitude)}
-              onChangeText={(text) => setEditingLocation(prev => ({...prev, latitude: parseFloat(text) || 0}))}
-              keyboardType="numeric"
-              style={styles.input}
-            />
-            <TextInput
-              label={t('prayers.settings.longitude', 'Longitude')}
-              value={String(editingLocation.longitude)}
-              onChangeText={(text) => setEditingLocation(prev => ({...prev, longitude: parseFloat(text) || 0}))}
-              keyboardType="numeric"
-              style={styles.input}
-            />
-          </Dialog.Content>
-          <Dialog.Actions>
-            <Button onPress={() => setShowLocationDialog(false)}>
-              {t('common.cancel', 'Cancel')}
-            </Button>
-            <Button onPress={handleLocationSave}>
-              {t('common.save', 'Save')}
-            </Button>
-          </Dialog.Actions>
-        </Dialog>
-      </Portal>
+
 
       {/* Method Dialog */}
       <Portal>
@@ -376,6 +232,13 @@ const PrayerSettingsScreen: React.FC<PrayerSettingsScreenProps> = ({
           </Dialog.Actions>
         </Dialog>
       </Portal>
+
+      <LocationSearchModal
+        visible={showLocationSearchModal}
+        onClose={() => setShowLocationSearchModal(false)}
+        onLocationSelected={handleLocationSelected}
+        currentLocation={location}
+      />
     </SafeAreaView>
   );
 };
@@ -413,9 +276,6 @@ const styles = StyleSheet.create({
   },
   radioItem: {
     paddingVertical: 4,
-  },
-  input: {
-    marginBottom: 12,
   },
   saveButton: {
     marginTop: 16,

@@ -8,6 +8,7 @@ import {useLanguage} from '../contexts/LanguageContext';
 import {categoryInfo} from '../data/selfAssessmentData';
 import {SinCategory} from '../types';
 import AsyncStorage from '@react-native-async-storage/async-storage';
+import PrayerTimesCard from '../components/PrayerTimesCard';
 
 const DashboardScreen = ({navigation}: any) => {
   const {t} = useTranslation();
@@ -59,6 +60,9 @@ const DashboardScreen = ({navigation}: any) => {
             </Paragraph>
           </Card.Content>
         </Card>
+
+        {/* Prayer Times */}
+        <PrayerTimesCard />
 
         {/* Active Focus Areas */}
         <Card style={styles.card}>

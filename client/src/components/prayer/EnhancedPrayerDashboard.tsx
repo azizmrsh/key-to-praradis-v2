@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useCallback } from 'react';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
 import { Badge } from '@/components/ui/badge';
@@ -17,8 +17,7 @@ import {
   Settings,
   Target,
   Award,
-  AlertCircle,
-  Smartphone
+  AlertCircle
 } from 'lucide-react';
 import EnhancedPrayerService, { 
   type LocationData, 
@@ -57,8 +56,27 @@ export function EnhancedPrayerDashboard() {
   const [settings, setSettings] = useState<PrayerSettings>(defaultPrayerSettings);
   const [notificationPrefs, setNotificationPrefs] = useState<NotificationPreference[]>(defaultNotificationPreferences);
   const [hasNotificationPermission, setHasNotificationPermission] = useState(false);
-  const [isLoadingLocation, setIsLoadingLocation] = useState(false);
   const [lastLocationUpdate, setLastLocationUpdate] = useState<Date | null>(null);
+
+  const updatePrayerTimes = useCallback(() => {
+    if (!location) return;
+
+    try {
+      const times = EnhancedPrayerService.getPrayerTimesWithStatus(location, settings);
+      setPrayerTimes(times);
+      
+      // Update statistics
+      const stats = EnhancedPrayerService.getPrayerStatistics();
+      setPrayerStats(stats);
+    } catch (error) {
+      console.error('Error updating prayer times:', error);
+      toast({
+        title: 'Prayer Times Error',
+        description: 'Unable to calculate prayer times. Please check your location settings.',
+        variant: 'destructive'
+      });
+    }
+  }, [location, settings, toast]);
 
   // Load initial data
   useEffect(() => {
@@ -73,14 +91,14 @@ export function EnhancedPrayerDashboard() {
     }, 60000); // Update every minute
 
     return () => clearInterval(interval);
-  }, []);
+  }, [location, updatePrayerTimes]);
 
   // Update prayer times when location or settings change
   useEffect(() => {
     if (location) {
       updatePrayerTimes();
     }
-  }, [location, settings]);
+  }, [location, settings, updatePrayerTimes]);
 
   const loadStoredData = () => {
     // Load location
@@ -120,80 +138,8 @@ export function EnhancedPrayerDashboard() {
     setHasNotificationPermission(status.granted);
   };
 
-  const updatePrayerTimes = () => {
-    if (!location) return;
-
-    try {
-      const times = EnhancedPrayerService.getPrayerTimesWithStatus(location, settings);
-      setPrayerTimes(times);
-      
-      // Update statistics
-      const stats = EnhancedPrayerService.getPrayerStatistics();
-      setPrayerStats(stats);
-    } catch (error) {
-      console.error('Error updating prayer times:', error);
-      toast({
-        title: 'Prayer Times Error',
-        description: 'Unable to calculate prayer times. Please check your location settings.',
-        variant: 'destructive'
-      });
-    }
-  };
-
-  const handleGetCurrentLocation = async () => {
-    setIsLoadingLocation(true);
-    
-    try {
-      // تحسين: استخدام Promise.race لتحديد مهلة زمنية أقصر للحصول على الموقع
-      const timeoutPromise = new Promise((_, reject) => 
-        setTimeout(() => reject(new Error('Location request timed out')), 10000)
-      );
-      
-      const locationPromise = EnhancedPrayerService.getCurrentLocation();
-      const newLocation = await Promise.race([locationPromise, timeoutPromise]) as LocationData;
-      
-      const saved = EnhancedPrayerService.saveLocationData(newLocation);
-      
-      if (saved) {
-        setLocation(newLocation);
-        setLastLocationUpdate(newLocation.lastUpdated);
-        
-        // Save to additional storage for compatibility
-        localStorage.setItem('prayer_location_data', JSON.stringify(newLocation));
-        
-        toast({
-          title: t('prayers.locationUpdated'),
-          description: newLocation.city ? 
-            `${t('prayers.locationSetTo')} ${newLocation.city}, ${newLocation.country}` :
-            `${t('prayers.locationUpdated')} (${newLocation.latitude.toFixed(4)}, ${newLocation.longitude.toFixed(4)})`,
-        });
-        
-        // Schedule notifications for today if permission is granted
-        if (hasNotificationPermission) {
-          EnhancedNotificationService.schedulePrayerNotifications(
-            new Date(), 
-            newLocation, 
-            settings, 
-            notificationPrefs
-          );
-        }
-        
-        // تحسين: تحديث واجهة المستخدم فوراً
-        updatePrayerTimes();
-      } else {
-        throw new Error('Failed to save location data');
-      }
-    } catch (error) {
-      console.error('Location error:', error);
-      toast({
-        title: t('prayers.locationError'),
-        description: error instanceof Error ? error.message : t('prayers.couldNotGetLocation'),
-        variant: 'destructive'
-      });
-    } finally {
-      setIsLoadingLocation(false);
-    }
-  };
+  // GPS location feature has been removed for privacy compliance
+  // Users must manually search for their city in settings
 
   const handleRequestNotificationPermission = async () => {
     const granted = await EnhancedNotificationService.requestNotificationPermission();
@@ -309,25 +255,15 @@ export function EnhancedPrayerDashboard() {
               <MapPin className="h-12 w-12 mx-auto mb-4 text-muted-foreground" />
               <h3 className="text-lg font-medium mb-2">Location Required</h3>
               <p className="text-muted-foreground mb-4">
-                To show accurate prayer times, we need your location. Your location data is stored locally and never shared.
+                To show accurate prayer times, please search for your city in the settings.
               </p>
               <Button 
-                onClick={handleGetCurrentLocation}
-                disabled={isLoadingLocation}
-                className="mb-2"
+                variant="default" 
+                onClick={() => navigate('/prayer-settings')}
               >
-                <MapPin className="h-4 w-4 mr-2" />
-                {isLoadingLocation ? 'Getting Location...' : 'Get Current Location'}
+                <Settings className="h-4 w-4 mr-2" />
+                Search for Your City
               </Button>
-              <div className="mt-4">
-                <Button 
-                  variant="outline" 
-                  onClick={() => navigate('/prayer-settings')}
-                >
-                  <Settings className="h-4 w-4 mr-2" />
-                  Manual Setup
-                </Button>
-              </div>
             </div>
           </CardContent>
         </Card>
@@ -362,15 +298,6 @@ export function EnhancedPrayerDashboard() {
                 Prayer Dashboard
               </div>
               <div className="flex items-center gap-2">
-                <Button 
-                  variant="ghost" 
-                  size="sm" 
-                  onClick={handleGetCurrentLocation}
-                  disabled={isLoadingLocation}
-                  title="Update Location"
-                >
-                  <Smartphone className="h-4 w-4" />
-                </Button>
                 <Button variant="outline" size="sm" onClick={() => navigate('/prayer-settings')}>
                   <Settings className="h-4 w-4" />
                 </Button>
@@ -397,59 +324,92 @@ export function EnhancedPrayerDashboard() {
           </CardContent>
         </Card>
 
-      {/* Current/Next Prayer */}
+      {/* Next Prayer Card - Beautiful Design */}
       {(currentPrayer || nextPrayer) && (
-        <Card className="bg-gradient-to-br from-blue-50 to-indigo-50 border-blue-200">
-          <CardHeader>
-            <CardTitle className="flex items-center gap-2 text-blue-800">
-              <Clock className="h-5 w-5" />
-              {currentPrayer ? 'Current Prayer Time' : 'Next Prayer'}
-            </CardTitle>
-          </CardHeader>
-          <CardContent>
-            {currentPrayer ? (
-              <div className="text-center space-y-3">
-                <div className="text-2xl font-bold text-blue-600 capitalize">
-                  {currentPrayer.name}
+        <Card className="bg-white shadow-sm border-0">
+          <CardContent className="pt-6">
+            <div className="text-center space-y-4">
+              {/* Clock Icon */}
+              <div className="flex justify-center">
+                <div className="bg-gray-100 rounded-full p-3">
+                  <Clock className="h-8 w-8 text-gray-600" />
                 </div>
-                <div className="text-lg text-blue-700">
-                  {currentPrayer.formattedTime}
-                </div>
-                <div className="text-sm text-blue-600">
-                  Prayer time is now! {currentPrayer.timeAfter}
-                </div>
-                {!currentPrayer.hasBeenPrayed && (
-                  <div className="flex gap-2 justify-center">
-                    <Button 
-                      onClick={() => handlePrayerAction(currentPrayer.name, true)}
-                      className="bg-green-600 hover:bg-green-700"
-                    >
-                      <CheckCircle className="h-4 w-4 mr-2" />
-                      Prayed On Time
-                    </Button>
-                    <Button 
-                      variant="outline"
-                      onClick={() => handlePrayerAction(currentPrayer.name, false)}
-                    >
-                      <Clock className="h-4 w-4 mr-2" />
-                      Prayed Late
-                    </Button>
+              </div>
+
+              {/* Title */}
+              <h3 className="text-lg font-medium text-gray-700">
+                {currentPrayer ? 'Current Prayer' : 'Next Prayer'}
+              </h3>
+
+              {currentPrayer ? (
+                <>
+                  {/* Prayer Name */}
+                  <div className="text-4xl font-bold text-red-600 capitalize">
+                    {currentPrayer.name}
                   </div>
-                )}
-              </div>
-            ) : nextPrayer ? (
-              <div className="text-center space-y-3">
-                <div className="text-2xl font-bold text-blue-600 capitalize">
-                  {nextPrayer.name}
-                </div>
-                <div className="text-lg text-blue-700">
-                  {nextPrayer.formattedTime}
-                </div>
-                <div className="text-sm text-blue-600">
-                  in {nextPrayer.timeUntil}
-                </div>
-              </div>
-            ) : null}
+
+                  {/* Prayer Time */}
+                  <div className="text-2xl font-medium text-gray-800">
+                    {currentPrayer.formattedTime}
+                  </div>
+
+                  {/* Time Badge */}
+                  <div className="flex justify-center">
+                    <div className="bg-gray-100 px-4 py-2 rounded-full">
+                      <span className="text-sm font-medium text-gray-700">
+                        Prayer time is now!
+                      </span>
+                    </div>
+                  </div>
+
+                  {/* Action Buttons */}
+                  {!currentPrayer.hasBeenPrayed && (
+                    <div className="flex gap-2 justify-center pt-2">
+                      <Button 
+                        onClick={() => handlePrayerAction(currentPrayer.name, true)}
+                        className="bg-green-600 hover:bg-green-700"
+                      >
+                        <CheckCircle className="h-4 w-4 mr-2" />
+                        Prayed
+                      </Button>
+                      <Button 
+                        variant="outline"
+                        onClick={() => handlePrayerAction(currentPrayer.name, false)}
+                      >
+                        <XCircle className="h-4 w-4 mr-2" />
+                        Missed
+                      </Button>
+                    </div>
+                  )}
+                </>
+              ) : nextPrayer ? (
+                <>
+                  {/* Prayer Name */}
+                  <div className="text-4xl font-bold text-red-600 capitalize">
+                    {nextPrayer.name}
+                  </div>
+
+                  {/* Prayer Time */}
+                  <div className="text-2xl font-medium text-gray-800">
+                    {nextPrayer.formattedTime}
+                  </div>
+
+                  {/* Time Remaining Badge */}
+                  <div className="flex justify-center">
+                    <div className="bg-gray-100 px-4 py-2 rounded-full">
+                      <span className="text-sm font-medium text-gray-700">
+                        {nextPrayer.timeUntil} remaining
+                      </span>
+                    </div>
+                  </div>
+
+                  {/* City Name */}
+                  <div className="text-base text-gray-500">
+                    {location.city || 'Location not set'}
+                  </div>
+                </>
+              ) : null}
+            </div>
           </CardContent>
         </Card>
       )}
@@ -526,7 +486,7 @@ export function EnhancedPrayerDashboard() {
                   ) : prayer.isUpcoming ? (
                     <Badge variant="outline">Upcoming</Badge>
                   ) : (
-                    <Badge variant="destructive">{t('prayers.missed')}</Badge>
+                    <Badge variant="destructive">Missed</Badge>
                   )}
                 </div>
               </div>

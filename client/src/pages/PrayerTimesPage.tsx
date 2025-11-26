@@ -3,6 +3,7 @@ import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { calculatePrayerTimes, formatPrayerTime } from '@/lib/prayerTimes';
 import { UserLocation, PrayerSettings } from '@/lib/prayerTimes';
+import EnhancedPrayerService from '@/lib/enhancedPrayerService';
 import { PrayerStreakService } from '@/lib/prayerStreakService';
 import { Coordinates } from 'adhan';
 import { useTranslation } from 'react-i18next';
@@ -11,7 +12,7 @@ import { Sun, Sunrise, Clock, Moon, Star, Settings } from 'lucide-react';
 import { BottomNavigation } from '@/components/layout/BottomNavigation';
 import kaabaImagePath from "@assets/Artboard 1@2x_1755772694767.png";
 
-const getCurrentPrayer = (prayerTimes: any, t: any): { name: string; time: string; status: string; timeRemaining: string } => {
+const getCurrentPrayer = (prayerTimes: any, t: any, timezone: string): { name: string; time: string; status: string; timeRemaining: string } => {
   const now = new Date();
   const prayers = [
     { name: t('prayers.fajr'), key: 'fajr', time: prayerTimes.fajr },
@@ -38,7 +39,7 @@ const getCurrentPrayer = (prayerTimes: any, t: any): { name: string; time: strin
       
       return {
         name: currentPrayer.name,
-        time: formatPrayerTime(currentPrayer.time, 'h:mm a', 'Asia/Riyadh'),
+        time: formatPrayerTime(currentPrayer.time, 'h:mm a', timezone),
         status: t('prayers.currentPrayer'),
         timeRemaining
       };
@@ -53,7 +54,7 @@ const getCurrentPrayer = (prayerTimes: any, t: any): { name: string; time: strin
     
     return {
       name: prayers[0].name,
-      time: formatPrayerTime(prayers[0].time, 'h:mm a', 'Asia/Riyadh'),
+      time: formatPrayerTime(prayers[0].time, 'h:mm a', timezone),
       status: t('prayers.nextPrayer'),
       timeRemaining: `${hours}${t('prayers.hrs')} ${minutes}${t('prayers.mins')} ${t('prayers.remaining')}`
     };
@@ -103,11 +104,11 @@ export default function PrayerTimesPage() {
   useEffect(() => {
     // Load settings from localStorage
     try {
-      const savedLocation = localStorage.getItem('prayerLocation');
-      const savedSettings = localStorage.getItem('prayerSettings');
-      
+      const savedLocation = EnhancedPrayerService.getLocationData();
+      const savedSettings = localStorage.getItem('prayer_settings_data');
+
       if (savedLocation) {
-        setLocation(JSON.parse(savedLocation));
+        setLocation(savedLocation);
       }
       if (savedSettings) {
         setSettings(JSON.parse(savedSettings));
@@ -125,7 +126,7 @@ export default function PrayerTimesPage() {
         setPrayerTimes(times);
         
         // Calculate current prayer
-        const timeInfo = getCurrentPrayer(times, t);
+        const timeInfo = getCurrentPrayer(times, t, location.timezone || 'UTC');
         setCurrentPrayer(timeInfo);
       } catch (error) {
         console.error('Error calculating prayer times:', error);
@@ -137,26 +138,59 @@ export default function PrayerTimesPage() {
     const timer = setInterval(() => {
       setCurrentTime(new Date());
       
-      if (prayerTimes) {
-        const timeInfo = getCurrentPrayer(prayerTimes, t);
+      if (prayerTimes && location) {
+        const timeInfo = getCurrentPrayer(prayerTimes, t, location.timezone || 'UTC');
         setCurrentPrayer(timeInfo);
       }
     }, 60000); // Update every minute
 
-    // Listen for prayer recording events to sync with dashboard
+    // Listen for prayer recording or settings changes to sync with dashboard
     const handlePrayerUpdate = () => {
-      setCurrentTime(new Date()); // Force re-render
+      // Recalculate prayerTimes/location if needed
+      try {
+        const savedLocation = EnhancedPrayerService.getLocationData();
+        const savedSettings = localStorage.getItem('prayer_settings_data');
+        
+        let needsRecalc = false;
+        
+        if (savedLocation) {
+          setLocation(savedLocation);
+          needsRecalc = true;
+        }
+        if (savedSettings) {
+          setSettings(JSON.parse(savedSettings));
+          needsRecalc = true;
+        }
+        
+        // Force recalculation of prayer times with new data
+        if (needsRecalc && savedLocation && savedSettings) {
+          const parsedSettings = JSON.parse(savedSettings);
+          const coordinates = new Coordinates(savedLocation.latitude, savedLocation.longitude);
+          const times = calculatePrayerTimes(new Date(), coordinates, parsedSettings, savedLocation.timezone);
+          setPrayerTimes(times);
+          
+          const timeInfo = getCurrentPrayer(times, t, savedLocation.timezone || 'UTC');
+          setCurrentPrayer(timeInfo);
+        }
+        
+        // Force re-render
+        setCurrentTime(new Date());
+      } catch (e) {
+        console.error('Error syncing prayer settings:', e);
+      }
     };
 
     window.addEventListener('prayerRecorded', handlePrayerUpdate);
     window.addEventListener('storage', handlePrayerUpdate);
+    window.addEventListener('prayerSettingsUpdated', handlePrayerUpdate);
 
     return () => {
       clearInterval(timer);
       window.removeEventListener('prayerRecorded', handlePrayerUpdate);
       window.removeEventListener('storage', handlePrayerUpdate);
+      window.removeEventListener('prayerSettingsUpdated', handlePrayerUpdate);
     };
-  }, [prayerTimes, t]);
+  }, [prayerTimes, t, location]);
 
   const markPrayerStatus = (prayer: string, status: 'prayed' | 'missed') => {
     // Use centralized PrayerStreakService for consistent storage

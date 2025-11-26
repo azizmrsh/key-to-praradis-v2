@@ -303,6 +303,15 @@
     "prayerRecorded": "Prayer recorded!",
     "todaysPrayerTimes": "Today's Prayer Times"
   },
+  "prayerSettings": {
+    "searchCity": {
+      "title": "Search for Your City",
+      "description": "Select your city to automatically set prayer times",
+      "placeholder": "Search city or country...",
+      "noResults": "No cities found",
+      "tryDifferent": "Try a different search term"
+    }
+  },
   "myPath": {
     "title": "My Path",
     "subtitle": "Track your spiritual journey",

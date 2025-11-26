@@ -16,6 +16,8 @@ import { Separator } from '@/components/ui/separator';
 import { Label } from '@/components/ui/label';
 import { Slider } from '@/components/ui/slider';
 import { ScrollArea } from '@/components/ui/scroll-area';
+import { CitySearchDialog } from '@/components/settings/CitySearchDialog';
+import type { CityData } from '@/lib/citiesData';
 
 import {
   getTimingName,
@@ -113,6 +115,7 @@ export function PrayerSettingsForm({
   const [previewTimes, setPreviewTimes] = useState<Record<Prayer, string> | null>(null);
   const [activeTab, setActiveTab] = useState('location');
   const [hasNotificationPermission, setHasNotificationPermission] = useState<boolean>(false);
+  const [showCitySearch, setShowCitySearch] = useState(false);
   
   // Check notification permission on mount
   useEffect(() => {
@@ -203,78 +206,31 @@ export function PrayerSettingsForm({
     }
   };
   
-  // Location detection
-  const detectLocation = () => {
-    if (navigator.geolocation) {
-      toast({
-        title: 'Detecting location',
-        description: 'Please allow location access if prompted.',
-      });
-
-      navigator.geolocation.getCurrentPosition(
-        async (position) => {
-          const { latitude, longitude } = position.coords;
-          
-          // Get timezone from browser
-          const timezone = Intl.DateTimeFormat().resolvedOptions().timeZone;
-          
-          // Attempt to get city/country via reverse geocoding API
-          try {
-            const response = await fetch(
-              `https://nominatim.openstreetmap.org/reverse?format=json&lat=${latitude}&lon=${longitude}`
-            );
-            
-            const data = await response.json();
-            const city = data.address?.city || data.address?.town || data.address?.village || '';
-            const country = data.address?.country || '';
-            
-            form.setValue('location', {
-              latitude,
-              longitude,
-              timezone,
-              city,
-              country
-            });
-            
-            toast({
-              title: 'Location detected',
-              description: `${city}, ${country}`,
-            });
-          } catch (error) {
-            // If geocoding fails, just set coordinates and timezone
-            form.setValue('location', {
-              latitude,
-              longitude,
-              timezone
-            });
-            
-            toast({
-              title: 'Location detected',
-              description: `Coordinates: ${latitude.toFixed(4)}, ${longitude.toFixed(4)}`,
-            });
-          }
-        },
-        (error) => {
-          console.error('Error getting location:', error);
-          toast({
-            title: 'Location detection failed',
-            description: 'Please enter your location manually.',
-            variant: 'destructive',
-          });
-        }
-      );
-    } else {
-      toast({
-        title: 'Geolocation not supported',
-        description: 'Your browser does not support location detection.',
-        variant: 'destructive',
-      });
-    }
+  // معالج اختيار المدينة من البحث
+  const handleCitySelect = (city: CityData) => {
+    form.setValue('location', {
+      latitude: city.latitude,
+      longitude: city.longitude,
+      timezone: city.timezone,
+      city: city.name,
+      country: city.country
+    });
+    
+    toast({
+      title: 'City Selected',
+      description: `${city.name}, ${city.country}`,
+    });
   };
 
   return (
     <Form {...form}>
       <form onSubmit={form.handleSubmit(onSubmit)} className="space-y-6">
+        <CitySearchDialog
+          open={showCitySearch}
+          onOpenChange={setShowCitySearch}
+          onCitySelect={handleCitySelect}
+        />
+        
         <Tabs value={activeTab} onValueChange={setActiveTab}>
           <TabsList className="grid grid-cols-3">
             <TabsTrigger value="location">Location</TabsTrigger>
@@ -293,11 +249,11 @@ export function PrayerSettingsForm({
                   <Button 
                     type="button" 
                     variant="outline" 
-                    onClick={detectLocation}
+                    onClick={() => setShowCitySearch(true)}
                     className="mb-4"
                   >
-                    <span className="material-icons mr-2 text-sm">my_location</span>
-                    Detect Location
+                    <span className="material-icons mr-2 text-sm">search</span>
+                    Search for City
                   </Button>
                 </div>
                 

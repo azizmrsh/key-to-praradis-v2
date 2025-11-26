@@ -125,110 +125,18 @@ export class EnhancedPrayerService {
   }
 
   /**
-   * Get current location using GPS with enhanced error handling
+   * Get current location - DISABLED for privacy compliance
+   * Users must search for their city manually
    */
-static async getCurrentLocation(): Promise<LocationData> {
-  return new Promise((resolve, reject) => {
-    if (!navigator.geolocation) {
-      reject(new Error('Geolocation is not supported by this browser'));
-      return;
-    }
-    
-    // Request permission explicitly first and proceed immediately if granted
-    if ('permissions' in navigator) {
-      navigator.permissions.query({ name: 'geolocation' })
-        .then((permissionStatus) => {
-          if (permissionStatus.state === 'denied') {
-            reject(new Error('Location permission denied. Please enable location access in your settings.'));
-            return;
-          }
-          // Automatically proceed if permission is granted or prompt
-          // No need to wait for a second click
-        })
-        .catch((error) => {
-          console.error('Error checking location permission:', error);
-        });
-    }      const options = {
-        enableHighAccuracy: true,
-        timeout: 15000,
-        maximumAge: 300000 // 5 minutes
-      };
-
-      navigator.geolocation.getCurrentPosition(
-        async (position) => {
-          try {
-            const { latitude, longitude, accuracy } = position.coords;
-            const timezone = Intl.DateTimeFormat().resolvedOptions().timeZone;
-
-            // Get city and country via reverse geocoding
-            const locationData = await this.reverseGeocode(latitude, longitude);
-
-            const result: LocationData = {
-              latitude,
-              longitude,
-              timezone,
-              city: locationData.city,
-              country: locationData.country,
-              accuracy,
-              lastUpdated: new Date()
-            };
-
-            resolve(result);
-          } catch (error) {
-            // Even if geocoding fails, return basic location data
-            resolve({
-              latitude: position.coords.latitude,
-              longitude: position.coords.longitude,
-              timezone: Intl.DateTimeFormat().resolvedOptions().timeZone,
-              accuracy: position.coords.accuracy,
-              lastUpdated: new Date()
-            });
-          }
-        },
-        (error) => {
-          let errorMessage = 'Unknown location error';
-          switch (error.code) {
-            case error.PERMISSION_DENIED:
-              errorMessage = 'Location access denied by user';
-              break;
-            case error.POSITION_UNAVAILABLE:
-              errorMessage = 'Location information is unavailable';
-              break;
-            case error.TIMEOUT:
-              errorMessage = 'Location request timed out';
-              break;
-          }
-          reject(new Error(errorMessage));
-        },
-        options
-      );
-    });
+  static async getCurrentLocation(): Promise<LocationData> {
+    throw new Error('GPS location access has been disabled for privacy. Please search for your city manually.');
   }
 
   /**
-   * Reverse geocode coordinates to get city and country
+   * Reverse geocode - DISABLED for privacy compliance
    */
   private static async reverseGeocode(lat: number, lng: number): Promise<{city?: string, country?: string}> {
-    try {
-      const response = await fetch(
-        `https://nominatim.openstreetmap.org/reverse?format=json&lat=${lat}&lon=${lng}&zoom=10&addressdetails=1`
-      );
-      
-      if (!response.ok) {
-        throw new Error('Geocoding request failed');
-      }
-
-      const data = await response.json();
-      const address = data.address || {};
-
-      return {
-        city: address.city || address.town || address.village || address.county,
-        country: address.country
-      };
-    } catch (error) {
-      console.error('Reverse geocoding failed:', error);
-      return {};
-    }
+    throw new Error('Reverse geocoding disabled for privacy.');
   }
 
   /**

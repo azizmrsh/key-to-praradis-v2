@@ -2,6 +2,4 @@
 <resources>
     <string name="app_name">Keys To Paradise</string>
     <string name="title_activity_main">Keys To Paradise</string>
-    <string name="package_name">com.rutab.keystoparadise</string>
-    <string name="custom_url_scheme">com.rutab.keystoparadise</string>
 </resources>

@@ -28,12 +28,7 @@
 	<string>نحتاج إلى الوصول إلى مكتبة الصور لحفظ ومشاركة الصور</string>
 	<key>NSPhotoLibraryUsageDescription</key>
 	<string>نحتاج إلى الوصول إلى مكتبة الصور لاختيار الصور للتحديات</string>
-	<key>NSLocationWhenInUseUsageDescription</key>
-	<string>نحتاج إلى معرفة موقعك لتحديد:\n• أوقات الصلاة الدقيقة لمنطقتك\n• اتجاه القبلة\n• التوقيت المحلي الصحيح</string>
-	<key>NSLocationAlwaysUsageDescription</key>
-	<string>نحتاج إلى معرفة موقعك لتحديث:\n• أوقات الصلاة تلقائياً\n• اتجاه القبلة باستمرار\n• التنبيهات في الوقت المناسب</string>
-	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
-	<string>نحتاج إلى معرفة موقعك لتقديم:\n• أوقات صلاة دقيقة\n• اتجاه قبلة صحيح\n• تنبيهات في وقتها</string>
+	<!-- Location permissions removed for App Store compliance -->
 	<key>NSUserNotificationUsageDescription</key>
 	<string>نحتاج إلى إرسال إشعارات لتذكيرك بالتحديات اليومية وإبقائك على اطلاع بآخر المستجدات</string>
 	<key>UILaunchStoryboardName</key>

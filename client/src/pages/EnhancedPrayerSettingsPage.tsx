@@ -19,25 +19,21 @@ import { useTranslation } from 'react-i18next';
 import {
   MapPin,
   Clock,
-  Bell,
   Settings,
-  CheckCircle,
-  AlertCircle,
   Globe,
-  Smartphone,
   Save,
-  TestTube
+  Search
 } from 'lucide-react';
 import EnhancedPrayerService, { type LocationData } from '@/lib/enhancedPrayerService';
-import EnhancedNotificationService from '@/lib/enhancedNotificationService';
 import { 
   calculatePrayerTimes,
   formatPrayerTime,
   type PrayerSettings,
-  type NotificationPreference,
   type Prayer 
 } from '@/lib/prayerTimes';
 import { Coordinates } from 'adhan';
+import { CitySearchDialog } from '@/components/settings/CitySearchDialog';
+import type { CityData } from '@/lib/citiesData';
 
 // Enhanced form schema with validation
 const enhancedFormSchema = z.object({
@@ -76,13 +72,6 @@ const enhancedFormSchema = z.object({
       isha: z.number().min(-60).max(60).optional(),
     }),
   }),
-  notifications: z.array(
-    z.object({
-      prayer: z.enum(['fajr', 'sunrise', 'dhuhr', 'asr', 'maghrib', 'isha', 'midnight', 'tahajjud']),
-      enabled: z.boolean(),
-      timing: z.enum(['at', 'before15', 'before30', 'after15', 'after30']),
-    })
-  ),
 });
 
 type EnhancedFormValues = z.infer<typeof enhancedFormSchema>;
@@ -104,17 +93,6 @@ const defaultSettings: PrayerSettings = {
   adjustments: {}
 };
 
-const defaultNotifications: NotificationPreference[] = [
-  { prayer: 'fajr', enabled: true, timing: 'at' },
-  { prayer: 'sunrise', enabled: false, timing: 'at' },
-  { prayer: 'dhuhr', enabled: true, timing: 'before15' },
-  { prayer: 'asr', enabled: true, timing: 'before15' },
-  { prayer: 'maghrib', enabled: true, timing: 'at' },
-  { prayer: 'isha', enabled: true, timing: 'before15' },
-  { prayer: 'midnight', enabled: false, timing: 'at' },
-  { prayer: 'tahajjud', enabled: false, timing: 'at' }
-];
-
 export function EnhancedPrayerSettingsPage() {
   console.log('Enhanced Prayer Settings Page loaded');
   const [, navigate] = useLocation();
@@ -123,8 +101,7 @@ export function EnhancedPrayerSettingsPage() {
   
   // State management
   const [activeTab, setActiveTab] = useState('location');
-  const [isLoadingLocation, setIsLoadingLocation] = useState(false);
-  const [hasNotificationPermission, setHasNotificationPermission] = useState(false);
+  const [showCitySearch, setShowCitySearch] = useState(false);
   const [previewTimes, setPreviewTimes] = useState<Record<Prayer, string> | null>(null);
   const [isSaving, setIsSaving] = useState(false);
   const [lastSaved, setLastSaved] = useState<Date | null>(null);
@@ -135,7 +112,6 @@ export function EnhancedPrayerSettingsPage() {
     defaultValues: {
       location: defaultLocation,
       settings: defaultSettings,
-      notifications: defaultNotifications,
     },
   });
 
@@ -146,7 +122,6 @@ export function EnhancedPrayerSettingsPage() {
   // Load saved data on mount
   useEffect(() => {
     loadSavedData();
-    checkNotificationPermission();
   }, []);
 
   // Generate preview when location or settings change
@@ -175,27 +150,11 @@ export function EnhancedPrayerSettingsPage() {
       }
     }
 
-    // Load notifications
-    const savedNotifications = localStorage.getItem('prayer_notifications_data');
-    if (savedNotifications) {
-      try {
-        const notifications = JSON.parse(savedNotifications);
-        form.setValue('notifications', notifications);
-      } catch (error) {
-        console.error('Error loading notification settings:', error);
-      }
-    }
-
     // Load last saved time
     const lastSavedTime = localStorage.getItem('prayer_settings_last_saved');
     if (lastSavedTime) {
       setLastSaved(new Date(lastSavedTime));
     }
-  };
-
-  const checkNotificationPermission = async () => {
-    const status = EnhancedNotificationService.getPermissionStatus();
-    setHasNotificationPermission(status.granted);
   };
 
   const generatePreviewTimes = () => {
@@ -236,68 +195,22 @@ export function EnhancedPrayerSettingsPage() {
     }
   };
 
-  const handleGetCurrentLocation = async () => {
-    setIsLoadingLocation(true);
+  const handleCitySelect = (city: CityData) => {
+    form.setValue('location', {
+      latitude: city.latitude,
+      longitude: city.longitude,
+      timezone: city.timezone,
+      city: city.name,
+      country: city.country,
+      lastUpdated: new Date()
+    });
     
-    try {
-      const newLocation = await EnhancedPrayerService.getCurrentLocation();
-      
-      form.setValue('location', {
-        ...newLocation,
-        lastUpdated: newLocation.lastUpdated
-      });
-      
-      toast({
-        title: t('prayers.locationUpdated'),
-        description: newLocation.city ? 
-          `${t('prayers.locationDetected')}: ${newLocation.city}, ${newLocation.country}` :
-          `${t('prayers.locationDetected')}: ${newLocation.latitude.toFixed(4)}, ${newLocation.longitude.toFixed(4)}`,
-      });
-    } catch (error) {
-      console.error('Location error:', error);
-      toast({
-        title: t('prayers.locationError'),
-        description: error instanceof Error ? error.message : t('prayers.couldNotGetLocation'),
-        variant: 'destructive'
-      });
-    } finally {
-      setIsLoadingLocation(false);
-    }
-  };
-
-  const handleRequestNotificationPermission = async () => {
-    const granted = await EnhancedNotificationService.requestNotificationPermission();
-    setHasNotificationPermission(granted);
+    setShowCitySearch(false);
     
-    if (granted) {
-      toast({
-        title: t('prayers.notificationsEnabled'),
-        description: t('prayers.willReceiveReminders'),
-      });
-    } else {
-      toast({
-        title: t('prayers.notificationsDenied'),
-        description: t('prayers.notificationsDisabled'),
-        variant: 'destructive'
-      });
-    }
-  };
-
-  const handleTestNotification = async () => {
-    const success = await EnhancedNotificationService.testNotification();
-    
-    if (success) {
-      toast({
-        title: t('prayers.testSuccessful'),
-        description: t('prayers.checkNotifications'),
-      });
-    } else {
-      toast({
-        title: t('prayers.testFailed'),
-        description: t('prayers.couldNotSendNotification'),
-        variant: 'destructive'
-      });
-    }
+    toast({
+      title: t('prayers.locationUpdated'),
+      description: `${t('prayers.locationDetected')}: ${city.name}, ${city.country}`,
+    });
   };
 
   const onSubmit = async (data: EnhancedFormValues) => {
@@ -321,23 +234,10 @@ export function EnhancedPrayerSettingsPage() {
       // Save settings
       localStorage.setItem('prayer_settings_data', JSON.stringify(data.settings));
       
-      // Save notifications
-      localStorage.setItem('prayer_notifications_data', JSON.stringify(data.notifications));
-      
       // Save timestamp
       const now = new Date();
       localStorage.setItem('prayer_settings_last_saved', now.toISOString());
       setLastSaved(now);
-
-      // Schedule notifications if permission is granted
-      if (hasNotificationPermission) {
-        await EnhancedNotificationService.schedulePrayerNotifications(
-          new Date(),
-          data.location,
-          data.settings,
-          data.notifications
-        );
-      }
 
       toast({
         title: t('prayers.settingsSaved'),
@@ -361,23 +261,6 @@ export function EnhancedPrayerSettingsPage() {
     }
   };
 
-  const getPrayerNameDisplay = (prayer: string): string => {
-    const prayerKey = prayer as 'fajr' | 'sunrise' | 'dhuhr' | 'asr' | 'maghrib' | 'isha' | 'midnight' | 'tahajjud';
-    return t(`prayers.${prayerKey}`);
-  };
-
-  const getTimingDisplay = (timing: string): string => {
-    const timingKey = timing as 'at' | 'before15' | 'before30' | 'after15' | 'after30';
-    const timingMap: Record<string, string> = {
-      at: 'atPrayerTime',
-      before15: 'before15',
-      before30: 'before30',
-      after15: 'after15',
-      after30: 'after30'
-    };
-    return t(`prayers.${timingMap[timingKey] || timing}`);
-  };
-
   return (
     <div className="container mx-auto px-4 py-6 max-w-4xl">
       <div className="mb-6">
@@ -387,7 +270,6 @@ export function EnhancedPrayerSettingsPage() {
         </p>
         {lastSaved && (
           <div className="flex items-center gap-2 mt-2">
-            <CheckCircle className="h-4 w-4 text-green-600" />
             <span className="text-sm text-muted-foreground">
               {t('prayers.lastSaved')}: {lastSaved.toLocaleString()}
             </span>
@@ -395,10 +277,16 @@ export function EnhancedPrayerSettingsPage() {
         )}
       </div>
 
+      <CitySearchDialog
+        open={showCitySearch}
+        onOpenChange={setShowCitySearch}
+        onCitySelect={handleCitySelect}
+      />
+
       <Form {...form}>
         <form onSubmit={form.handleSubmit(onSubmit)} className="space-y-6">
           <Tabs value={activeTab} onValueChange={setActiveTab}>
-            <TabsList className="grid grid-cols-4">
+            <TabsList className="grid grid-cols-3">
               <TabsTrigger value="location">
                 <MapPin className="h-4 w-4 mr-2" />
                 {t('prayers.location')}
@@ -406,10 +294,6 @@ export function EnhancedPrayerSettingsPage() {
               <TabsTrigger value="method">
                 <Settings className="h-4 w-4 mr-2" />
                 {t('prayers.method')}
-              </TabsTrigger>
-              <TabsTrigger value="notifications">
-                <Bell className="h-4 w-4 mr-2" />
-                {t('prayers.notifications')}
               </TabsTrigger>
               <TabsTrigger value="preview">
                 <Clock className="h-4 w-4 mr-2" />
@@ -434,11 +318,10 @@ export function EnhancedPrayerSettingsPage() {
                     <Button
                       type="button"
                       variant="outline"
-                      onClick={handleGetCurrentLocation}
-                      disabled={isLoadingLocation}
+                      onClick={() => setShowCitySearch(true)}
                     >
-                      <Smartphone className="h-4 w-4 mr-2" />
-                      {isLoadingLocation ? t('prayers.gettingLocation') : t('prayers.useCurrentLocation')}
+                      <Search className="h-4 w-4 mr-2" />
+                      {t('prayers.searchForCity', 'Search for City')}
                     </Button>
                   </div>
 
@@ -663,109 +546,6 @@ export function EnhancedPrayerSettingsPage() {
                       )}
                     />
                   ))}
-                </CardContent>
-              </Card>
-            </TabsContent>
-
-            {/* Notifications Tab */}
-            <TabsContent value="notifications" className="space-y-6">
-              <Card>
-                <CardHeader>
-                  <CardTitle className="flex items-center gap-2">
-                    <Bell className="h-5 w-5" />
-                    {t('prayers.notificationPreferences')}
-                  </CardTitle>
-                  <p className="text-sm text-muted-foreground">
-                    {t('prayers.enableNotifications')}
-                  </p>
-                </CardHeader>
-                <CardContent className="space-y-4">
-                  {!hasNotificationPermission ? (
-                    <div className="text-center py-6 border border-dashed rounded-lg">
-                      <AlertCircle className="h-8 w-8 mx-auto mb-2 text-amber-500" />
-                      <p className="text-muted-foreground mb-3">
-                        {t('prayers.notificationPermission')}
-                      </p>
-                      <Button onClick={handleRequestNotificationPermission} className="bg-red-600 hover:bg-red-700 text-white" style={{ backgroundColor: '#dc2626' }}>
-                        <Bell className="h-4 w-4 mr-2" />
-                        {t('prayers.requestPermission')}
-                      </Button>
-                    </div>
-                  ) : (
-                    <>
-                      <div className="flex items-center justify-between p-3 bg-green-50 rounded-lg border border-green-200">
-                        <div className="flex items-center gap-2 text-green-700">
-                          <CheckCircle className="h-4 w-4" />
-                          <span className="text-sm font-medium">{t('prayers.notificationGranted')}</span>
-                        </div>
-                        <Button 
-                          type="button"
-                          variant="outline" 
-                          size="sm"
-                          onClick={handleTestNotification}
-                        >
-                          <TestTube className="h-4 w-4 mr-2" />
-                          {t('prayers.testNotification')}
-                        </Button>
-                      </div>
-
-                      <div className="space-y-4">
-                        {form.watch('notifications').map((notification, index) => (
-                          <div key={notification.prayer} className="flex items-center justify-between p-3 border rounded-lg">
-                            <div className="flex items-center gap-3">
-                              <FormField
-                                control={form.control}
-                                name={`notifications.${index}.enabled`}
-                                render={({ field }) => (
-                                  <FormItem>
-                                    <FormControl>
-                                      <Switch
-                                        checked={field.value}
-                                        onCheckedChange={field.onChange}
-                                      />
-                                    </FormControl>
-                                  </FormItem>
-                                )}
-                              />
-                              <div>
-                                <div className="font-medium">
-                                  {getPrayerNameDisplay(notification.prayer)}
-                                </div>
-                                {previewTimes && previewTimes[notification.prayer as Prayer] && (
-                                  <div className="text-sm text-muted-foreground">
-                                    {previewTimes[notification.prayer as Prayer]}
-                                  </div>
-                                )}
-                              </div>
-                            </div>
-                            
-                            <FormField
-                              control={form.control}
-                              name={`notifications.${index}.timing`}
-                              render={({ field }) => (
-                                <FormItem>
-                                  <Select onValueChange={field.onChange} defaultValue={field.value}>
-                                    <FormControl>
-                                      <SelectTrigger className="w-[160px]">
-                                        <SelectValue />
-                                      </SelectTrigger>
-                                    </FormControl>
-                                    <SelectContent>
-                                      <SelectItem value="before30">{t('prayers.before30')}</SelectItem>
-                                      <SelectItem value="before15">{t('prayers.before15')}</SelectItem>
-                                      <SelectItem value="at">{t('prayers.atPrayerTime')}</SelectItem>
-                                      <SelectItem value="after15">{t('prayers.after15')}</SelectItem>
-                                      <SelectItem value="after30">{t('prayers.after30')}</SelectItem>
-                                    </SelectContent>
-                                  </Select>
-                                </FormItem>
-                              )}
-                            />
-                          </div>
-                        ))}
-                      </div>
-                    </>
-                  )}
                 </CardContent>
               </Card>
             </TabsContent>

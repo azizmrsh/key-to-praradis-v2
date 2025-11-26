@@ -303,6 +303,15 @@
     "prayerRecorded": "تم تسجيل الصلاة!",
     "todaysPrayerTimes": "أوقات الصلاة اليوم"
   },
+  "prayerSettings": {
+    "searchCity": {
+      "title": "ابحث عن مدينتك",
+      "description": "اختر مدينتك لضبط أوقات الصلاة تلقائياً",
+      "placeholder": "ابحث عن مدينة أو بلد...",
+      "noResults": "لم يتم العثور على مدن",
+      "tryDifferent": "جرب كلمة بحث أخرى"
+    }
+  },
   "myPath": {
     "title": "طريقي",
     "subtitle": "تتبع رحلتك الروحية",

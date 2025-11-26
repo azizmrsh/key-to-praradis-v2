@@ -303,6 +303,15 @@
     "prayerRecorded": "Prière enregistrée!",
     "todaysPrayerTimes": "Horaires de prière d'aujourd'hui"
   },
+  "prayerSettings": {
+    "searchCity": {
+      "title": "Rechercher votre ville",
+      "description": "Sélectionnez votre ville pour définir automatiquement les heures de prière",
+      "placeholder": "Rechercher une ville ou un pays...",
+      "noResults": "Aucune ville trouvée",
+      "tryDifferent": "Essayez un autre terme de recherche"
+    }
+  },
   "myPath": {
     "title": "Mon Chemin",
     "subtitle": "Suivez votre parcours spirituel",
